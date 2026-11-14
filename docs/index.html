@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Análisis de Opiniones de Clientes en Restaurantes</title>
+<meta name="description" content="Dashboard de Power BI, ETL en Python y ANOVA sobre reseñas de restaurantes de Gijón y una encuesta de satisfacción.">
+<style>
+  :root {
+    --tinta: #1f2a37;
+    --suave: #5b6675;
+    --linea: #e3e7ec;
+    --fondo: #f6f7f9;
+    --azul: #118dff;
+    --azul-osc: #0b5cad;
+    --rojo: #a4373a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    color: var(--tinta);
+    background: var(--fondo);
+    line-height: 1.55;
+  }
+  a { color: var(--azul-osc); }
+  .envoltura { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+  header { background: #fff; border-bottom: 1px solid var(--linea); }
+  header .envoltura { padding-top: 36px; padding-bottom: 28px; }
+  .etiqueta { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--suave); margin: 0 0 8px; }
+  h1 { font-size: clamp(26px, 3.4vw, 38px); line-height: 1.2; margin: 0 0 10px; }
+  .bajada { font-size: 17px; color: var(--suave); max-width: 760px; margin: 0; }
+  .equipo { font-size: 14px; color: var(--suave); margin: 14px 0 0; }
+
+  .tablero { padding: 28px 0 8px; }
+  .marco {
+    position: relative; width: 100%; padding-top: 59.4%;
+    background: #fff; border: 1px solid var(--linea); border-radius: 10px; overflow: hidden;
+    box-shadow: 0 1px 3px rgba(16, 24, 40, .06);
+  }
+  .marco iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .nota-tablero { font-size: 14px; color: var(--suave); margin: 10px 2px 0; }
+
+  section { padding: 30px 0 6px; }
+  h2 { font-size: 22px; margin: 0 0 14px; }
+  .rejilla { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+  .tarjeta { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 18px 20px; }
+  .tarjeta h3 { font-size: 16px; margin: 0 0 6px; }
+  .tarjeta p { margin: 0; font-size: 15px; color: var(--suave); }
+
+  .cifras { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-bottom: 18px; }
+  .cifra { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 14px 18px; }
+  .cifra b { display: block; font-size: 26px; line-height: 1.2; }
+  .cifra span { font-size: 14px; color: var(--suave); }
+
+  ul.hallazgos { margin: 0; padding-left: 20px; }
+  ul.hallazgos li { margin-bottom: 8px; }
+  .resalta { color: var(--rojo); font-weight: 600; }
+
+  .enlaces { display: flex; flex-wrap: wrap; gap: 10px; }
+  .boton {
+    display: inline-block; padding: 9px 16px; border-radius: 8px; text-decoration: none; font-size: 15px;
+    border: 1px solid var(--linea); background: #fff; color: var(--tinta);
+  }
+  .boton.principal { background: var(--azul-osc); border-color: var(--azul-osc); color: #fff; }
+  .boton:hover { border-color: var(--azul-osc); }
+
+  footer { margin-top: 36px; padding: 22px 0 36px; border-top: 1px solid var(--linea); font-size: 13px; color: var(--suave); }
+  footer p { margin: 4px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="envoltura">
+    <p class="etiqueta">Proyecto 7 · Ingeniería de Software · Universidad Cooperativa de Colombia</p>
+    <h1>Análisis de Opiniones de Clientes en Restaurantes</h1>
+    <p class="bajada">Procesamiento ETL de reseñas y calificaciones, análisis de tendencias y de satisfacción de los
+      clientes por región, con un dashboard interactivo en Power BI y una prueba ANOVA.</p>
+    <!-- Agregar aquí los integrantes del grupo, por ejemplo:
+    <p class="equipo">Integrantes: Nombre Apellido · Nombre Apellido · Nombre Apellido</p> -->
+  </div>
+</header>
+
+<main class="envoltura">
+
+  <div class="tablero">
+    <div class="marco">
+      <iframe title="powerbiProyecto"
+        src="https://app.powerbi.com/view?r=eyJrIjoiYzUyNTZjN2MtYzUzMy00ZTA3LWFhNTItNzg4MTFiYTQ0ZDJlIiwidCI6IjhkMzY4MzZlLTZiNzUtNGRlNi1iYWI5LTVmNGIxNzc1NDI3ZiIsImMiOjR9"
+        allowfullscreen="true"></iframe>
+    </div>
+    <p class="nota-tablero">Dashboard interactivo: usa las pestañas de abajo para cambiar de página y los botones de año y
+      precio para filtrar. <a href="https://app.powerbi.com/view?r=eyJrIjoiYzUyNTZjN2MtYzUzMy00ZTA3LWFhNTItNzg4MTFiYTQ0ZDJlIiwidCI6IjhkMzY4MzZlLTZiNzUtNGRlNi1iYWI5LTVmNGIxNzc1NDI3ZiIsImMiOjR9"
+      target="_blank" rel="noopener">Abrir en pantalla completa</a>.</p>
+  </div>
+
+  <section>
+    <h2>Los datos</h2>
+    <div class="cifras">
+      <div class="cifra"><b>53.382</b><span>reseñas en español (2017–2023)</span></div>
+      <div class="cifra"><b>779</b><span>restaurantes de Gijón, España</span></div>
+      <div class="cifra"><b>1.500</b><span>clientes encuestados</span></div>
+      <div class="cifra"><b>65/65</b><span>pruebas de calidad superadas</span></div>
+    </div>
+    <div class="rejilla">
+      <div class="tarjeta">
+        <h3>Encuesta de satisfacción</h3>
+        <p>Dataset base del curso: 1.500 clientes con calificaciones de servicio, comida y ambiente, tiempo de espera,
+          gasto, frecuencia de visita y perfil (edad, género, ingreso).</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Reseñas de TripAdvisor</h3>
+        <p>Aportan lo que la encuesta no tiene: restaurante, precio, tipo de cocina, fecha, texto de la reseña y
+          ubicación del cliente. Fuente: <a href="https://doi.org/10.5281/zenodo.14622324" target="_blank" rel="noopener">TripAdvisor
+          Restaurant Reviews v2.0.0</a> (Zenodo, licencia CC BY 4.0).</p>
+      </div>
+      <div class="tarjeta">
+        <h3>ETL en Python</h3>
+        <p>46 reglas de calidad documentadas (17 de la encuesta y 29 de las reseñas), nada imputado, cuarentena con motivo para lo inválido y una validación
+          independiente que recalcula los resultados desde los datos crudos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Qué muestra el dashboard</h2>
+    <div class="rejilla">
+      <div class="tarjeta"><h3>Reseñas – General</h3><p>Tendencia mensual de reseñas y rating, sentimiento por año y resumen anual.</p></div>
+      <div class="tarjeta"><h3>Reseñas – Restaurantes</h3><p>Top 10 y peores 10 restaurantes, rating por nivel de precio y por tipo de cocina.</p></div>
+      <div class="tarjeta"><h3>Reseñas – Origen</h3><p>Calificación según la ciudad y la región de procedencia del cliente.</p></div>
+      <div class="tarjeta"><h3>Encuesta</h3><p>Calificaciones por cocina preferida, satisfacción por frecuencia de visita, tiempo de espera y perfil.</p></div>
+      <div class="tarjeta"><h3>Comparación por cocina</h3><p>Encuesta frente a reseñas reales para las mismas cocinas, con la misma escala.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hallazgos principales</h2>
+    <div class="tarjeta">
+      <ul class="hallazgos">
+        <li>Las reseñas negativas pasan de <b>15,2 % en 2017 a 26,1 % en 2023</b>, y el rating promedio baja de 3,89 a 3,73.</li>
+        <li>El tipo de cocina sí marca diferencia: europea, japonesa, mexicana y mediterránea superan 4,1; española,
+          bares y cafeterías quedan por debajo de 3,7. Es el único efecto confirmado por el ANOVA con tamaño de efecto pequeño.</li>
+        <li><span class="resalta">Los clientes locales califican más bajo</span> que los visitantes: Asturias 3,83 frente a
+          4,00 del resto de España.</li>
+        <li>Los restaurantes caros tienen mejor rating (4,25), pero son pocos (21); entre económicos y medios no hay diferencia.</li>
+        <li>En la encuesta, las calificaciones no cambian según cocina, ocasión, horario ni frecuencia; la alta satisfacción
+          sí es más frecuente entre quienes esperan menos de 15 minutos, reservan online o son miembros del programa de lealtad.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Código y documentación</h2>
+    <div class="enlaces">
+      <a class="boton principal" href="https://github.com/JuanMR2006/Analisis_Opinion_Clientes_Restaurante" target="_blank" rel="noopener">Repositorio en GitHub</a>
+      <a class="boton" href="https://github.com/JuanMR2006/Analisis_Opinion_Clientes_Restaurante/blob/main/docs/PIPELINE.md" target="_blank" rel="noopener">Descripción del ETL</a>
+      <a class="boton" href="https://github.com/JuanMR2006/Analisis_Opinion_Clientes_Restaurante/blob/main/docs/MEDIDAS_DAX.md" target="_blank" rel="noopener">Medidas DAX</a>
+      <a class="boton" href="https://github.com/JuanMR2006/Analisis_Opinion_Clientes_Restaurante/blob/main/analisis/resultados/resultados_anova.md" target="_blank" rel="noopener">Resultados del ANOVA</a>
+      <a class="boton" href="https://github.com/JuanMR2006/Analisis_Opinion_Clientes_Restaurante/raw/main/powerbi/powerbiProyecto.pbix">Descargar el .pbix</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="envoltura">
+    <p>Reseñas: Pérez-Núñez, P., Blanco, E., Bolón-Canedo, V. y Remeseiro, B. (2025). <i>TripAdvisor Restaurant Reviews</i>
+      (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.14622324 · CC BY 4.0. Subconjunto: Gijón, reseñas en español, 2017–2023.</p>
+    <p>Encuesta: <i>Restaurant Customer Satisfaction</i> (Kaggle), dataset entregado por el profesor.</p>
+  </div>
+</footer>
+
+</body>
+</html>

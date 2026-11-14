@@ -37,12 +37,14 @@ python analisis/anova.py
 ## Salidas (se regeneran en cada corrida; están en `.gitignore`)
 
 - `datos_limpios/` — `Fact_Encuesta`, `Dim_Cocina_Preferida`, `Dim_Ocasion`, `Dim_Franja_Visita`,
-  `Dim_Frecuencia_Visita`, `Fact_Resenas`, `Dim_Restaurante`, `Dim_Fecha`, `Dim_Origen_Cliente` en CSV (utf-8-sig) y `parquet/`,
+  `Dim_Frecuencia_Visita`, `Fact_Resenas`, `Dim_Restaurante`, `Dim_Fecha`, `Dim_Origen_Cliente`, `Fact_Palabras` en CSV
+  (utf-8-sig) y `parquet/`,
   más `reporte_calidad.md`, `reporte_validacion.md` y `metricas_etl.json`.
 - `rechazados/` — filas eliminadas con `Codigo_Regla` y `Motivo`, y `resenas_a_investigar.csv` (marcadas, no eliminadas).
 - `datasets/_manifiesto.json` — tamaño y SHA-256 de cada crudo.
 
 Explicación completa de reglas y decisiones: [docs/PIPELINE.md](docs/PIPELINE.md).
+Medidas DAX del dashboard, con su explicación y valores esperados: [docs/MEDIDAS_DAX.md](docs/MEDIDAS_DAX.md).
 
 ## Análisis estadístico (`analisis/`)
 

@@ -4,8 +4,9 @@
     Dim_Restaurante     una fila por restaurante (grano: restaurant_id)
     Dim_Fecha           calendario continuo 2017-01-01 .. 2023-12-31 (una fila por día)
     Dim_Origen_Cliente  una fila por origen normalizado del autor (ciudad, región, país, tipo de origen)
+    Fact_Palabras       una fila por (reseña, palabra clave) para las palabras clave más frecuentes
 
-Reglas R01..R27. Igual que en la encuesta: lo inválido se ELIMINA a cuarentena con su motivo, nada se imputa.
+Reglas R01..R28. Igual que en la encuesta: lo inválido se ELIMINA a cuarentena con su motivo, nada se imputa.
 """
 import re
 import unicodedata
@@ -13,6 +14,7 @@ import unicodedata
 import pandas as pd
 
 import config
+import palabras_vacias
 import ubicaciones as cat
 from utilidades import (a_nulo, a_numero, exigir_columnas, fuera_de, leer_csv_texto, no_es_entero,
                         no_es_numero, perfil_nulos)
@@ -165,6 +167,7 @@ def procesar(bit, cua):
     }).sort_values(["Fecha", "Review_ID"]).reset_index(drop=True)
 
     dim_rest = construir_dim_restaurante(df, fact, bit)
+    palabras = construir_fact_palabras(fact, bit)
     dim_fecha = construir_dim_fecha()
 
     validas = len(fact)
@@ -182,8 +185,40 @@ def procesar(bit, cua):
     bit.metrica("resenas_por_tipo_origen", {k: int(v) for k, v in por_tipo.items()})
 
     tablas = {"Fact_Resenas": fact, "Dim_Restaurante": dim_rest, "Dim_Fecha": dim_fecha,
-              "Dim_Origen_Cliente": dim_origen}
+              "Dim_Origen_Cliente": dim_origen, "Fact_Palabras": palabras}
     return tablas, list(crudo.columns), a_investigar
+
+
+# ==================================================================================== PALABRAS CLAVE (R28)
+def palabras_de(texto, patron):
+    """Palabras distintas de una reseña: minúsculas, solo letras, largo mínimo, sin palabras vacías."""
+    salida = set()
+    for p in patron.findall(texto.lower()):
+        p = palabras_vacias.VARIANTES.get(p, p)
+        if len(p) >= config.MIN_LARGO_PALABRA and p not in palabras_vacias.PALABRAS_VACIAS:
+            salida.add(p)
+    return salida
+
+
+def construir_fact_palabras(fact, bit):
+    """Una fila por (Review_ID, Palabra) para las TOP_PALABRAS presentes en más reseñas.
+
+    Se cuenta cada palabra UNA vez por reseña (presencia, no repeticiones): así la medida
+    COUNTROWS(Fact_Palabras) = "número de reseñas que mencionan la palabra" y una reseña larga que repite
+    "comida" cinco veces no pesa más que otra. Como se relaciona con Fact_Resenas por Review_ID, en Power BI se
+    filtra por sentimiento, año, restaurante u origen sin hacer nada más."""
+    patron = re.compile(config.PATRON_PALABRA)
+    por_resena = fact[["Review_ID", "Texto"]].assign(Palabra=fact["Texto"].map(lambda t: sorted(palabras_de(t, patron))))
+    larga = por_resena[["Review_ID", "Palabra"]].explode("Palabra").dropna(subset=["Palabra"])
+    frecuencia = larga["Palabra"].value_counts()
+    top = frecuencia.sort_values(ascending=False, kind="stable").head(config.TOP_PALABRAS).index
+    salida = larga[larga["Palabra"].isin(top)].sort_values(["Review_ID", "Palabra"]).reset_index(drop=True)
+    salida["Palabra"] = salida["Palabra"].astype(str)
+    bit.registrar(FUENTE, "R28", "Validez",
+                  f"Palabras clave: texto en minúsculas, solo letras, >= {config.MIN_LARGO_PALABRA} letras, sin palabras "
+                  f"vacías (etl/palabras_vacias.py); se guardan las {config.TOP_PALABRAS} presentes en más reseñas de "
+                  f"{len(frecuencia):,} distintas (filas de Fact_Palabras)", "Derivar tabla", len(salida))
+    return salida[["Review_ID", "Palabra"]].astype({"Review_ID": "int64"})
 
 
 # ==================================================================================== ORIGEN DEL CLIENTE

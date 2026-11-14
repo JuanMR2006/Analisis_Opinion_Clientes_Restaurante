@@ -14,6 +14,7 @@ si alguna falla termina con código 1 (compuerta antes de cargar a Power BI).
 Uso:   python etl/validar_calidad.py
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -46,11 +47,11 @@ def leer(nombre):
 
 def main():
     nombres = ["Fact_Encuesta", "Dim_Cocina_Preferida", "Dim_Ocasion", "Dim_Franja_Visita", "Dim_Frecuencia_Visita",
-               "Fact_Resenas", "Dim_Restaurante", "Dim_Fecha", "Dim_Origen_Cliente"]
+               "Fact_Resenas", "Dim_Restaurante", "Dim_Fecha", "Dim_Origen_Cliente", "Fact_Palabras"]
     t = {n: leer(n) for n in nombres}
     m = json.loads((LIMPIOS / "metricas_etl.json").read_text("utf-8"))["metricas"]
     enc, res, rest, cal = t["Fact_Encuesta"], t["Fact_Resenas"], t["Dim_Restaurante"], t["Dim_Fecha"]
-    org = t["Dim_Origen_Cliente"]
+    org, pal = t["Dim_Origen_Cliente"], t["Fact_Palabras"]
     res["Fecha"] = pd.to_datetime(res["Fecha"])
     cal["Fecha"] = pd.to_datetime(cal["Fecha"])
     crudo_enc = pd.read_csv(CRUDO_ENC, dtype=str, keep_default_na=False)
@@ -107,6 +108,9 @@ def main():
            rest["Nivel_Precio"].dropna().isin([1, 2, 3]).all() and rest["Rating_Promedio_TripAdvisor"].between(1, 5).all())
     prueba("Validez", "Origen: Tipo_Origen dentro de las 6 categorías y Tipo_Origen_Orden coherente",
            org["Tipo_Origen"].isin(TIPOS_ORIGEN).all() and (org["Tipo_Origen"].map(TIPOS_ORIGEN) == org["Tipo_Origen_Orden"]).all())
+    prueba("Validez", "Palabras clave: solo letras en minúsculas, mínimo 3, a lo sumo 200 distintas",
+           pal["Palabra"].str.fullmatch(r"[a-záéíóúüñ]{3,}").all() and pal["Palabra"].nunique() <= 200,
+           f"{pal['Palabra'].nunique()} palabras distintas")
     ext = org["Tipo_Origen"] == "Extranjero"
     prueba("Validez", "Origen: país extranjero <-> región 'Extranjero'; España <-> tipos locales/España",
            (org.loc[ext, "Pais_Cliente"] != "España").all() and (org.loc[ext, "Region_Cliente"] == "Extranjero").all()
@@ -120,6 +124,8 @@ def main():
     for n, pk in pks.items():
         dup = int(t[n][pk].duplicated().sum())
         prueba("Unicidad", f"{n}: llave {pk} sin repetir", dup == 0, f"{dup} repetidas")
+    dup = int(pal.duplicated(["Review_ID", "Palabra"]).sum())
+    prueba("Unicidad", "Fact_Palabras: cada palabra cuenta una sola vez por reseña", dup == 0, f"{dup} repetidas")
     dup = int(org.duplicated(["Tipo_Origen", "Pais_Cliente", "Region_Cliente", "Ciudad_Cliente"]).sum())
     prueba("Unicidad", "Dim_Origen_Cliente: una fila por tipo + país + región + ciudad", dup == 0, f"{dup} repetidas")
     prueba("Unicidad", "IDs como entero (no decimal)",
@@ -129,6 +135,7 @@ def main():
     # ------------------------------------------------------------------ INTEGRIDAD REFERENCIAL
     fks = [("Fact_Resenas", "Restaurant_ID", "Dim_Restaurante", "Restaurant_ID"),
            ("Fact_Resenas", "Origen_ID", "Dim_Origen_Cliente", "Origen_ID"),
+           ("Fact_Palabras", "Review_ID", "Fact_Resenas", "Review_ID"),
            ("Fact_Resenas", "Fecha", "Dim_Fecha", "Fecha"),
            ("Fact_Encuesta", "Cocina_Preferida", "Dim_Cocina_Preferida", "Cocina_Preferida"),
            ("Fact_Encuesta", "Ocasion", "Dim_Ocasion", "Ocasion"),
@@ -184,6 +191,13 @@ def main():
            f"{enc['Calif_Comida'].mean():.4f} / {enc['Alta_Satisfaccion'].mean():.2%}")
     prueba("Exactitud", "Gasto promedio total de la encuesta = crudo",
            abs(ce["AverageSpend"].astype(float).sum() - enc["Gasto_Promedio"].sum()) < 0.01 * len(enc))
+    # La palabra más frecuente: cuántas reseñas del CRUDO la contienen como palabra suelta = filas en Fact_Palabras
+    top = pal["Palabra"].value_counts()
+    palabra, n_tabla = top.index[0], int(top.iloc[0])
+    patron = re.compile(r"[a-záéíóúüñ]+")
+    n_crudo = int(cr["text"].map(lambda x: palabra in set(patron.findall(x.lower()))).sum())
+    prueba("Exactitud", "Palabra clave más frecuente: reseñas que la contienen = recalculado desde el crudo",
+           n_tabla == n_crudo, f"'{palabra}': {n_tabla:,} vs {n_crudo:,}")
     # 'Sin dato' debe ser EXACTAMENTE las reseñas cuya ubicación cruda está vacía (no se imputó nada)
     vacias = set(crudo_ubi.loc[crudo_ubi["user_location"].str.strip() == "", "review_id"].astype("int64"))
     sin_dato = set(res.merge(org, on="Origen_ID").query("Tipo_Origen == 'Sin dato'")["Review_ID"])
