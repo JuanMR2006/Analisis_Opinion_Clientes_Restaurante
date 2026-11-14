@@ -26,6 +26,10 @@ python etl/etl_main.py
 python etl/validar_calidad.py
 ```
 
+```bash
+python analisis/anova.py
+```
+
 ## Salidas (se regeneran en cada corrida; están en `.gitignore`)
 
 - `datos_limpios/` — `Fact_Encuesta`, `Dim_Cocina_Preferida`, `Dim_Ocasion`, `Dim_Franja_Visita`,
@@ -35,3 +39,13 @@ python etl/validar_calidad.py
 - `datasets/_manifiesto.json` — tamaño y SHA-256 de cada crudo.
 
 Explicación completa de reglas y decisiones: [docs/PIPELINE.md](docs/PIPELINE.md).
+
+## Análisis estadístico (`analisis/`)
+
+`analisis/anova.py` lee `datos_limpios/` y prueba si las calificaciones cambian entre grupos
+(17 pruebas sobre la encuesta y 3 sobre las reseñas). Para cada una comprueba los supuestos
+(Shapiro-Wilk y Levene), aplica ANOVA o Kruskal-Wallis, corrige por comparaciones múltiples (Holm),
+calcula el tamaño del efecto (η² / ε²) y hace post-hoc de Tukey cuando sale significativa.
+
+Salidas en `analisis/resultados/`: `resultados_anova.md` (informe legible), `resumen_pruebas.csv`,
+`descriptivos.csv`, `posthoc.csv` y `graficos/` (media ± IC 95 % por grupo).
