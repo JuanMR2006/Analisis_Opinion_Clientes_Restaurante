@@ -1,0 +1,171 @@
+﻿codigo,metodo,grupo_1,grupo_2,diferencia_medias,p_ajustado,significativo
+E12,Tukey HSD,Daily,Monthly,-0.0416,0.9894,False
+E12,Tukey HSD,Daily,Rarely,-0.0626,0.97,False
+E12,Tukey HSD,Daily,Weekly,0.2007,0.3975,False
+E12,Tukey HSD,Monthly,Rarely,-0.0209,0.9972,False
+E12,Tukey HSD,Monthly,Weekly,0.2424,0.0341,True
+E12,Tukey HSD,Rarely,Weekly,0.2633,0.038,True
+E12,Mann-Whitney (Holm),Daily,Weekly,0.2007,0.5045721287109044,False
+E12,Mann-Whitney (Holm),Daily,Monthly,-0.0416,1.0,False
+E12,Mann-Whitney (Holm),Daily,Rarely,-0.0626,1.0,False
+E12,Mann-Whitney (Holm),Weekly,Monthly,-0.2424,0.036195197270217,True
+E12,Mann-Whitney (Holm),Weekly,Rarely,-0.2633,0.04013501575755485,True
+E12,Mann-Whitney (Holm),Monthly,Rarely,-0.0209,1.0,False
+R1,Tukey HSD,Alto,Económico,-0.4242,0.0,True
+R1,Tukey HSD,Alto,Medio,-0.4027,0.0,True
+R1,Tukey HSD,Económico,Medio,0.0215,0.5621,False
+R1,Mann-Whitney (Holm),Económico,Medio,0.0215,0.07786100170978164,False
+R1,Mann-Whitney (Holm),Económico,Alto,0.4242,4.286313044918316e-30,True
+R1,Mann-Whitney (Holm),Medio,Alto,0.4027,3.8171096299848574e-57,True
+R2,Tukey HSD,2017,2018,0.0126,0.9931,False
+R2,Tukey HSD,2017,2019,-0.0395,0.3496,False
+R2,Tukey HSD,2017,2020,0.0366,0.6539,False
+R2,Tukey HSD,2017,2021,-0.0838,0.0061,True
+R2,Tukey HSD,2017,2022,-0.0504,0.2867,False
+R2,Tukey HSD,2017,2023,-0.1653,0.0,True
+R2,Tukey HSD,2018,2019,-0.0521,0.0897,False
+R2,Tukey HSD,2018,2020,0.0239,0.9388,False
+R2,Tukey HSD,2018,2021,-0.0964,0.0009,True
+R2,Tukey HSD,2018,2022,-0.063,0.0881,False
+R2,Tukey HSD,2018,2023,-0.1779,0.0,True
+R2,Tukey HSD,2019,2020,0.076,0.0157,True
+R2,Tukey HSD,2019,2021,-0.0443,0.5145,False
+R2,Tukey HSD,2019,2022,-0.0109,0.9992,False
+R2,Tukey HSD,2019,2023,-0.1258,0.0002,True
+R2,Tukey HSD,2020,2021,-0.1203,0.0001,True
+R2,Tukey HSD,2020,2022,-0.0869,0.0162,True
+R2,Tukey HSD,2020,2023,-0.2019,0.0,True
+R2,Tukey HSD,2021,2022,0.0334,0.8835,False
+R2,Tukey HSD,2021,2023,-0.0815,0.1328,False
+R2,Tukey HSD,2022,2023,-0.1149,0.0043,True
+R2,Mann-Whitney (Holm),2017,2018,0.0126,0.012591243855669777,True
+R2,Mann-Whitney (Holm),2017,2019,-0.0395,0.23849609052841636,False
+R2,Mann-Whitney (Holm),2017,2020,0.0366,5.842224973666683e-15,True
+R2,Mann-Whitney (Holm),2017,2021,-0.0838,0.00016924541035155118,True
+R2,Mann-Whitney (Holm),2017,2022,-0.0504,4.1011292887116876e-10,True
+R2,Mann-Whitney (Holm),2017,2023,-0.1653,0.8023618791568937,False
+R2,Mann-Whitney (Holm),2018,2019,-0.0521,1.0,False
+R2,Mann-Whitney (Holm),2018,2020,0.0239,8.018654309583111e-07,True
+R2,Mann-Whitney (Holm),2018,2021,-0.0964,0.3052760071285103,False
+R2,Mann-Whitney (Holm),2018,2022,-0.063,0.0002543958261039283,True
+R2,Mann-Whitney (Holm),2018,2023,-0.1779,1.0,False
+R2,Mann-Whitney (Holm),2019,2020,0.076,7.4986916580035e-08,True
+R2,Mann-Whitney (Holm),2019,2021,-0.0443,0.10543044925512039,False
+R2,Mann-Whitney (Holm),2019,2022,-0.0109,3.209278866032538e-05,True
+R2,Mann-Whitney (Holm),2019,2023,-0.1258,1.0,False
+R2,Mann-Whitney (Holm),2020,2021,-0.1203,0.1607327870879702,False
+R2,Mann-Whitney (Holm),2020,2022,-0.0869,1.0,False
+R2,Mann-Whitney (Holm),2020,2023,-0.2019,0.0020802516575833974,True
+R2,Mann-Whitney (Holm),2021,2022,0.0334,0.5107272432806471,False
+R2,Mann-Whitney (Holm),2021,2023,-0.0815,0.6365988548222237,False
+R2,Mann-Whitney (Holm),2022,2023,-0.1149,0.018542435418596858,True
+R3,Tukey HSD,American,Bar,-0.2519,0.0004,True
+R3,Tukey HSD,American,Coffee & Tea,-0.3941,0.0,True
+R3,Tukey HSD,American,European,0.3992,0.0,True
+R3,Tukey HSD,American,Italian,0.1946,0.0024,True
+R3,Tukey HSD,American,Japanese,0.3958,0.0,True
+R3,Tukey HSD,American,Mediterranean,0.324,0.0,True
+R3,Tukey HSD,American,Mexican,0.3308,0.0,True
+R3,Tukey HSD,American,Seafood,0.1432,0.0781,False
+R3,Tukey HSD,American,Spanish,-0.1402,0.0386,True
+R3,Tukey HSD,American,Steakhouse,0.0312,0.9998,False
+R3,Tukey HSD,Bar,Coffee & Tea,-0.1422,0.1332,False
+R3,Tukey HSD,Bar,European,0.651,0.0,True
+R3,Tukey HSD,Bar,Italian,0.4465,0.0,True
+R3,Tukey HSD,Bar,Japanese,0.6477,0.0,True
+R3,Tukey HSD,Bar,Mediterranean,0.5758,0.0,True
+R3,Tukey HSD,Bar,Mexican,0.5827,0.0,True
+R3,Tukey HSD,Bar,Seafood,0.3951,0.0,True
+R3,Tukey HSD,Bar,Spanish,0.1116,0.1642,False
+R3,Tukey HSD,Bar,Steakhouse,0.2831,0.0,True
+R3,Tukey HSD,Coffee & Tea,European,0.7932,0.0,True
+R3,Tukey HSD,Coffee & Tea,Italian,0.5887,0.0,True
+R3,Tukey HSD,Coffee & Tea,Japanese,0.7899,0.0,True
+R3,Tukey HSD,Coffee & Tea,Mediterranean,0.718,0.0,True
+R3,Tukey HSD,Coffee & Tea,Mexican,0.7249,0.0,True
+R3,Tukey HSD,Coffee & Tea,Seafood,0.5373,0.0,True
+R3,Tukey HSD,Coffee & Tea,Spanish,0.2538,0.0,True
+R3,Tukey HSD,Coffee & Tea,Steakhouse,0.4253,0.0,True
+R3,Tukey HSD,European,Italian,-0.2045,0.0,True
+R3,Tukey HSD,European,Japanese,-0.0033,1.0,False
+R3,Tukey HSD,European,Mediterranean,-0.0752,0.3904,False
+R3,Tukey HSD,European,Mexican,-0.0683,0.8884,False
+R3,Tukey HSD,European,Seafood,-0.2559,0.0,True
+R3,Tukey HSD,European,Spanish,-0.5394,0.0,True
+R3,Tukey HSD,European,Steakhouse,-0.3679,0.0,True
+R3,Tukey HSD,Italian,Japanese,0.2012,0.0008,True
+R3,Tukey HSD,Italian,Mediterranean,0.1294,0.0002,True
+R3,Tukey HSD,Italian,Mexican,0.1362,0.0297,True
+R3,Tukey HSD,Italian,Seafood,-0.0514,0.9028,False
+R3,Tukey HSD,Italian,Spanish,-0.3348,0.0,True
+R3,Tukey HSD,Italian,Steakhouse,-0.1634,0.0,True
+R3,Tukey HSD,Japanese,Mediterranean,-0.0719,0.8244,False
+R3,Tukey HSD,Japanese,Mexican,-0.065,0.9724,False
+R3,Tukey HSD,Japanese,Seafood,-0.2526,0.0,True
+R3,Tukey HSD,Japanese,Spanish,-0.5361,0.0,True
+R3,Tukey HSD,Japanese,Steakhouse,-0.3646,0.0,True
+R3,Tukey HSD,Mediterranean,Mexican,0.0068,1.0,False
+R3,Tukey HSD,Mediterranean,Seafood,-0.1808,0.0,True
+R3,Tukey HSD,Mediterranean,Spanish,-0.4642,0.0,True
+R3,Tukey HSD,Mediterranean,Steakhouse,-0.2927,0.0,True
+R3,Tukey HSD,Mexican,Seafood,-0.1876,0.0001,True
+R3,Tukey HSD,Mexican,Spanish,-0.471,0.0,True
+R3,Tukey HSD,Mexican,Steakhouse,-0.2996,0.0,True
+R3,Tukey HSD,Seafood,Spanish,-0.2834,0.0,True
+R3,Tukey HSD,Seafood,Steakhouse,-0.112,0.0079,True
+R3,Tukey HSD,Spanish,Steakhouse,0.1715,0.0,True
+R3,Mann-Whitney (Holm),European,Japanese,-0.0033,1.0,False
+R3,Mann-Whitney (Holm),European,Mexican,-0.0683,1.0,False
+R3,Mann-Whitney (Holm),European,Mediterranean,-0.0752,0.0004306816022992901,True
+R3,Mann-Whitney (Holm),European,Italian,-0.2045,4.296701864979323e-08,True
+R3,Mann-Whitney (Holm),European,Seafood,-0.2559,2.417691747363824e-12,True
+R3,Mann-Whitney (Holm),European,Steakhouse,-0.3679,5.784516532062243e-30,True
+R3,Mann-Whitney (Holm),European,American,-0.3992,1.5623508733093065e-14,True
+R3,Mann-Whitney (Holm),European,Spanish,-0.5394,2.6146367986328878e-64,True
+R3,Mann-Whitney (Holm),European,Bar,-0.651,3.346217991959193e-41,True
+R3,Mann-Whitney (Holm),European,Coffee & Tea,-0.7932,2.453297080727654e-60,True
+R3,Mann-Whitney (Holm),Japanese,Mexican,-0.065,1.0,False
+R3,Mann-Whitney (Holm),Japanese,Mediterranean,-0.0719,0.013691604422003697,True
+R3,Mann-Whitney (Holm),Japanese,Italian,-0.2012,1.7179417262713445e-05,True
+R3,Mann-Whitney (Holm),Japanese,Seafood,-0.2526,4.6614835589601954e-08,True
+R3,Mann-Whitney (Holm),Japanese,Steakhouse,-0.3646,1.189797952754289e-18,True
+R3,Mann-Whitney (Holm),Japanese,American,-0.3958,3.857707362966598e-11,True
+R3,Mann-Whitney (Holm),Japanese,Spanish,-0.5361,1.892973352002196e-36,True
+R3,Mann-Whitney (Holm),Japanese,Bar,-0.6477,1.080603295537988e-30,True
+R3,Mann-Whitney (Holm),Japanese,Coffee & Tea,-0.7899,3.436670799371336e-42,True
+R3,Mann-Whitney (Holm),Mexican,Mediterranean,-0.0068,5.359533526907632e-05,True
+R3,Mann-Whitney (Holm),Mexican,Italian,-0.1362,1.2691956748301782e-08,True
+R3,Mann-Whitney (Holm),Mexican,Seafood,-0.1876,2.2190712400702865e-12,True
+R3,Mann-Whitney (Holm),Mexican,Steakhouse,-0.2996,2.0624364594520707e-27,True
+R3,Mann-Whitney (Holm),Mexican,American,-0.3308,4.7258551630019705e-14,True
+R3,Mann-Whitney (Holm),Mexican,Spanish,-0.471,3.3838378864849856e-54,True
+R3,Mann-Whitney (Holm),Mexican,Bar,-0.5827,2.873209774014965e-38,True
+R3,Mann-Whitney (Holm),Mexican,Coffee & Tea,-0.7249,5.440604551883666e-53,True
+R3,Mann-Whitney (Holm),Mediterranean,Italian,-0.1294,0.0025581569777177295,True
+R3,Mann-Whitney (Holm),Mediterranean,Seafood,-0.1808,1.1514657605481051e-07,True
+R3,Mann-Whitney (Holm),Mediterranean,Steakhouse,-0.2927,1.1763116958266885e-33,True
+R3,Mann-Whitney (Holm),Mediterranean,American,-0.324,4.098095744059912e-10,True
+R3,Mann-Whitney (Holm),Mediterranean,Spanish,-0.4642,1.6419792860025257e-137,True
+R3,Mann-Whitney (Holm),Mediterranean,Bar,-0.5758,1.4786570729152329e-40,True
+R3,Mann-Whitney (Holm),Mediterranean,Coffee & Tea,-0.718,6.219741738560967e-73,True
+R3,Mann-Whitney (Holm),Italian,Seafood,-0.0514,0.8090938770151485,False
+R3,Mann-Whitney (Holm),Italian,Steakhouse,-0.1634,1.071848250990349e-07,True
+R3,Mann-Whitney (Holm),Italian,American,-0.1946,0.0018639786081322374,True
+R3,Mann-Whitney (Holm),Italian,Spanish,-0.3348,1.2275461276394071e-30,True
+R3,Mann-Whitney (Holm),Italian,Bar,-0.4465,5.002351212344188e-20,True
+R3,Mann-Whitney (Holm),Italian,Coffee & Tea,-0.5887,1.0021468300034248e-34,True
+R3,Mann-Whitney (Holm),Seafood,Steakhouse,-0.112,6.164046729340429e-05,True
+R3,Mann-Whitney (Holm),Seafood,American,-0.1432,0.033455319089131484,True
+R3,Mann-Whitney (Holm),Seafood,Spanish,-0.2834,1.314744592509482e-26,True
+R3,Mann-Whitney (Holm),Seafood,Bar,-0.3951,6.555715855335154e-17,True
+R3,Mann-Whitney (Holm),Seafood,Coffee & Tea,-0.5373,4.964988704131259e-31,True
+R3,Mann-Whitney (Holm),Steakhouse,American,-0.0312,1.0,False
+R3,Mann-Whitney (Holm),Steakhouse,Spanish,-0.1715,7.397049999419522e-09,True
+R3,Mann-Whitney (Holm),Steakhouse,Bar,-0.2831,7.687263507708785e-08,True
+R3,Mann-Whitney (Holm),Steakhouse,Coffee & Tea,-0.4253,7.903207586061429e-18,True
+R3,Mann-Whitney (Holm),American,Spanish,-0.1402,0.010112135812959408,True
+R3,Mann-Whitney (Holm),American,Bar,-0.2519,0.0001145441918512592,True
+R3,Mann-Whitney (Holm),American,Coffee & Tea,-0.3941,5.784436182779204e-09,True
+R3,Mann-Whitney (Holm),Spanish,Bar,-0.1116,0.03965541008764149,True
+R3,Mann-Whitney (Holm),Spanish,Coffee & Tea,-0.2538,1.3155732575780208e-07,True
+R3,Mann-Whitney (Holm),Bar,Coffee & Tea,-0.1422,0.6224780586089743,False
