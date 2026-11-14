@@ -109,6 +109,11 @@ REGION_EXTRANJERO = "Extranjero"
 TIPO_ORIGEN = {"Gijón (local)": 1, "Resto de Asturias": 2, "Resto de España": 3, "Extranjero": 4,
                "No determinado": 5, "Sin dato": 6}
 
+# Palabras clave (R28). La lista de palabras vacías está en etl/palabras_vacias.py
+PATRON_PALABRA = r"[a-záéíóúüñ]+"       # sobre el texto en minúsculas: solo letras (sin números ni signos)
+MIN_LARGO_PALABRA = 3                    # "de", "la", "es"... quedan fuera por largo, además de por la lista
+TOP_PALABRAS = 200                       # se guardan las 200 palabras presentes en más reseñas
+
 # Sentimiento derivado del rating (regla de negocio, no viene de la fuente)
 SENTIMIENTO = {1: "Negativo", 2: "Negativo", 3: "Neutro", 4: "Positivo", 5: "Positivo"}
 ORDEN_SENTIMIENTO = {"Negativo": 1, "Neutro": 2, "Positivo": 3}

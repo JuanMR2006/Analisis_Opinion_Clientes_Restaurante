@@ -20,13 +20,14 @@ cada uno produce su propio modelo y en Power BI quedan como dos modelos separado
  └──────────────────────────────┘                └──────────┬───────────┘     │ datos_limpios/          │
  ┌──────────────────────────────┐                ┌──────────┴───────────┐     │   *.csv  (utf-8-sig)    │
  │ datasets/gijon_resenas_…csv  │──────────────▶ │ etl_resenas.py       │───▶ │   parquet/*.parquet     │
- │ (TripAdvisor, 53.382)        │                │ R00 … R27            │     │ Fact_Resenas, Dim_Rest.,│
- │ datasets/gijon_ubicacion_…csv│──────────────▶ │ (+ ubicaciones.py)   │     │ Dim_Fecha,              │
- │ (origen del autor, 53.382)   │                └──────────┬───────────┘     │ Dim_Origen_Cliente      │
- └──────────────────────────────┘                           ▼                 └────────────┬────────────┘
+ │ (TripAdvisor, 53.382)        │                │ R00 … R28            │     │ Fact_Resenas, Dim_Rest.,│
+ │ datasets/gijon_ubicacion_…csv│──────────────▶ │ (+ ubicaciones.py,   │     │ Dim_Fecha, Dim_Origen_  │
+ │ (origen del autor, 53.382)   │                │  palabras_vacias.py) │     │ Cliente, Fact_Palabras  │
+ └──────────────────────────────┘                └──────────┬───────────┘     └────────────┬────────────┘
+                                                            ▼                              │
                                                       rechazados/                          ▼
                                                (cuarentena + Codigo_Regla + Motivo)  validar_calidad.py
-                                                                                     (60 pruebas PASA/FALLA)
+                                                                                     (65 pruebas PASA/FALLA)
 ```
 
 | Capa | Carpeta | Regla |
@@ -50,6 +51,7 @@ python etl/validar_calidad.py   # validación independiente; código 1 si algo f
 | `etl/etl_encuesta.py` | Pipeline de la encuesta (reglas E). |
 | `etl/etl_resenas.py` | Pipeline de TripAdvisor (reglas R) y construcción del modelo estrella. |
 | `etl/ubicaciones.py` | Catálogo para normalizar la ubicación del autor: ciudad → comunidad autónoma, países, alias. |
+| `etl/palabras_vacias.py` | Palabras vacías del español y de dominio que se excluyen del análisis de palabras clave (R28). |
 | `preparacion/*.py` | Cómo se construyeron los crudos de TripAdvisor a partir de Zenodo (se corren una sola vez, ver §2.2). |
 | `etl/etl_main.py` | Ejecuta ambos, carga las tablas, escribe `reporte_calidad.md` y `metricas_etl.json`. |
 | `etl/validar_calidad.py` | Pruebas independientes (no importa nada del ETL; relee parquet y CSV crudos). |
@@ -200,6 +202,7 @@ Salida:
 | R25 | Completitud | Ubicación vacía en el perfil → `Tipo_Origen = "Sin dato"` (no se imputa) | Conservar y marcar | 17.543 |
 | R26 | Validez | Ubicación que no permite saber el país ("World", "Europe", "viajero16") → "No determinado" | Conservar y marcar | 130 |
 | R27 | Consistencia | Lugar de España fuera del catálogo `etl/ubicaciones.py` (o solo "Spain") → región "No identificada" | Conservar y marcar | 1.900 |
+| R28 | Validez | Palabras clave: minúsculas, solo letras, ≥ 3 letras, sin palabras vacías; se guardan las 200 presentes en más reseñas (de 50.082 distintas) | Derivar tabla | 448.687 filas |
 
 **Resultado:** 53.382 leídas · **53.382 válidas** · 0 rechazadas · 26 marcadas a investigar.
 
@@ -234,6 +237,15 @@ Salida:
   - `Tipo_Origen`: *Gijón (local)* (incluye Somió, Roces, La Calzada), *Resto de Asturias*, *Resto de España*,
     *Extranjero*, *No determinado*, *Sin dato*.
   - Nada se borra: una reseña sin ubicación sigue siendo válida para todos los demás análisis.
+- **Palabras clave (R28).** Cada reseña se parte en palabras (solo letras, en minúsculas), se quitan las palabras
+  vacías (`etl/palabras_vacias.py`: artículos, preposiciones, verbos auxiliares y palabras de dominio que no opinan,
+  como "restaurante", "sitio", "fuimos" o "Gijón") y se unifican variantes con y sin tilde ("menu" → "menú").
+  Se conservan a propósito las que sí describen la experiencia aunque sean frecuentes (comida, servicio, precio,
+  caro, espera) y los adjetivos de valoración (buena, mal, excelente), que permiten comparar positivas y negativas.
+  Cada palabra cuenta **una vez por reseña**, así que contar filas de `Fact_Palabras` da "reseñas que la mencionan".
+  Se guardan las 200 más frecuentes: alcanzan para cualquier top y mantienen la tabla en 8 MB.
+- **Quejas específicas.** No se calculan en el ETL sino en Power BI con `SEARCH` (requerimiento DAX 7). Los
+  términos y los conteos esperados están en [MEDIDAS_DAX.md](MEDIDAS_DAX.md).
 - **Dos promedios por restaurante.** `Rating_Promedio_TripAdvisor` es el que publica TripAdvisor (todas sus
   reseñas, todos los idiomas, redondeado a 0,5). `Rating_Promedio_Resenas` se calcula con *nuestras* reseñas en
   español 2017–2023. No tienen por qué coincidir.
@@ -247,6 +259,9 @@ Salida:
   Dim_Restaurante (779)      Fact_Resenas (53.382)              Dim_Origen_Cliente (1.515)
   Restaurant_ID ◄────────── Restaurant_ID, Origen_ID, Fecha ───► Origen_ID, Ciudad, Región,
                              Rating, Sentimiento, Texto…          País, Tipo_Origen
+                                   ▲ 1:N
+                             Fact_Palabras (448.687)
+                             Review_ID, Palabra
 ```
 
 | Tabla | Grano | Columnas clave |
@@ -254,6 +269,7 @@ Salida:
 | `Fact_Resenas` | 1 fila por reseña | `Review_ID` (PK), `Restaurant_ID` (FK), `Fecha` (FK), `Rating`, `Sentimiento`, `Titulo`, `Texto`, `Longitud_Texto`, `Texto_Repetido`, `Idioma`, `Origen_ID` (FK, última columna) |
 | `Dim_Restaurante` | 1 fila por restaurante | `Restaurant_ID` (PK), nombre, precio (original, nivel, etiqueta), cocina (original, principal, nº tipos, encuesta original/agrupada), los dos promedios, `Num_Resenas` |
 | `Dim_Origen_Cliente` | 1 fila por tipo + país + región + ciudad del autor | `Origen_ID` (PK), `Ciudad_Cliente`, `Region_Cliente` (comunidad autónoma, "Extranjero", "No identificada"…), `Pais_Cliente`, `Tipo_Origen`, `Tipo_Origen_Orden`, `Num_Resenas` |
+| `Fact_Palabras` | 1 fila por reseña y palabra clave (solo las 200 más frecuentes) | `Review_ID` (FK a `Fact_Resenas`), `Palabra` |
 | `Dim_Fecha` | 1 fila por día, 2017-01-01 a 2023-12-31 | `Fecha` (PK), `Anio`, `Semestre`, `Trimestre`, `Mes`, `Nombre_Mes`, `Anio_Mes`, `Dia`, `Dia_Semana` (1 = lunes), `Nombre_Dia`, `Es_Fin_De_Semana` |
 
 `Dim_Fecha` cubre **años completos** (aunque las reseñas acaban el 2023-09-05) porque la inteligencia de tiempo de
@@ -264,16 +280,16 @@ Power BI exige un calendario continuo.
 ## 6. VALIDACIÓN (`etl/validar_calidad.py`)
 
 Es **independiente**: no importa ningún módulo del ETL. Relee los parquet y los CSV crudos y recalcula por su
-cuenta. Resultado real: **60/60 PASA** (detalle en `datos_limpios/reporte_validacion.md`).
+cuenta. Resultado real: **65/65 PASA** (detalle en `datos_limpios/reporte_validacion.md`).
 
 | Dimensión | Qué se prueba |
 |---|---|
-| Completitud | Sin nulos en columnas obligatorias de las 9 tablas; filas del crudo = válidas + rechazadas; toda fila rechazada tiene `Motivo` y `Codigo_Regla`; los restaurantes sin precio dicen "Sin dato" |
-| Validez | Rangos de dominio y categorías permitidas en ambas fuentes; UTF-8 sin caracteres de reemplazo; `Tipo_Origen` en sus 6 categorías y coherente con país y región |
-| Unicidad | Las 9 llaves primarias sin repetir; ids enteros; una fila de `Dim_Origen_Cliente` por combinación de origen |
-| Integridad referencial | `Fact_Resenas` → `Dim_Restaurante`, `Dim_Fecha` y `Dim_Origen_Cliente`; `Fact_Encuesta` → sus 4 dimensiones; sin huérfanas; el archivo de ubicaciones tiene exactamente una fila por reseña |
+| Completitud | Sin nulos en columnas obligatorias de las 10 tablas; filas del crudo = válidas + rechazadas; toda fila rechazada tiene `Motivo` y `Codigo_Regla`; los restaurantes sin precio dicen "Sin dato" |
+| Validez | Rangos de dominio y categorías permitidas en ambas fuentes; UTF-8 sin caracteres de reemplazo; `Tipo_Origen` en sus 6 categorías y coherente con país y región; palabras clave solo con letras, ≥ 3 letras y como máximo 200 |
+| Unicidad | Las 9 llaves primarias sin repetir; ids enteros; una fila de `Dim_Origen_Cliente` por combinación de origen; cada palabra una sola vez por reseña |
+| Integridad referencial | `Fact_Resenas` → `Dim_Restaurante`, `Dim_Fecha` y `Dim_Origen_Cliente`; `Fact_Palabras` → `Fact_Resenas`; `Fact_Encuesta` → sus 4 dimensiones; sin huérfanas; el archivo de ubicaciones tiene exactamente una fila por reseña |
 | Consistencia | Sentimiento coherente con rating; calendario continuo; Trimestre/Semestre/Año-Mes coherentes; `Calif_Promedio` correcto; `Num_Resenas` = conteo real (restaurante y origen); `Nivel_Precio` coherente con el original |
-| Exactitud | Recalculado **desde el crudo**: promedio de rating por restaurante (779), reseñas por año, promedio de FoodRating y % de HighSatisfaction, gasto total; las reseñas con origen "Sin dato" son exactamente las que tienen ubicación vacía en el crudo |
+| Exactitud | Recalculado **desde el crudo**: promedio de rating por restaurante (779), reseñas por año, promedio de FoodRating y % de HighSatisfaction, gasto total; las reseñas con origen "Sin dato" son exactamente las que tienen ubicación vacía en el crudo; reseñas que contienen la palabra clave más frecuente ("comida", 18.786) |
 
 **Prueba de las reglas con datos sucios.** Como los archivos reales no tienen errores, se corrió el ETL sobre una
 copia (fuera del proyecto) con filas inyectadas: edad 150, rating 7, "Mle", ingreso "NA", grupo 2,5, reserva = 2,
