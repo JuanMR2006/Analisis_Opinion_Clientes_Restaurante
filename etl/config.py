@@ -13,6 +13,7 @@ CUARENTENA = RAIZ / "rechazados"      # filas que no pasaron las reglas, con su 
 
 ARCHIVO_ENCUESTA = CRUDOS / "dataset_raw.csv"
 ARCHIVO_RESENAS = CRUDOS / "gijon_resenas_es_2017_2023.csv"
+ARCHIVO_UBICACION = CRUDOS / "gijon_ubicacion_clientes.csv"   # ubicación del autor de cada reseña (preparacion/)
 MANIFIESTO = CRUDOS / "_manifiesto.json"
 
 # Marcas de "sin dato" que se convierten en nulo (comparación en minúsculas, después de trim).
@@ -97,6 +98,16 @@ SEPARADOR_COCINAS = ";"
 CATEGORIAS_COCINA_ENCUESTA = {"Other", "Italian", "Mexican", "American", "Italian; American", "Indian",
                               "Chinese", "Chinese; Indian"}
 MIN_RESENAS_CATEGORIA = 100              # categorías de cuisine_match_encuesta con menos reseñas -> "Otras"
+
+# Origen del cliente (ubicación que declara en su perfil de TripAdvisor). El catálogo está en etl/ubicaciones.py
+COLUMNAS_UBICACION = ["review_id", "user_location"]
+CIUDAD_LOCAL = "Gijón"
+COMUNIDAD_LOCAL = "Principado de Asturias"
+ETIQUETA_NO_IDENTIFICADA = "No identificada"      # se sabe el país, pero no la ciudad o la región
+ETIQUETA_NO_DETERMINADO = "No determinado"        # escribió algo, pero no permite saber el país ("World")
+REGION_EXTRANJERO = "Extranjero"
+TIPO_ORIGEN = {"Gijón (local)": 1, "Resto de Asturias": 2, "Resto de España": 3, "Extranjero": 4,
+               "No determinado": 5, "Sin dato": 6}
 
 # Sentimiento derivado del rating (regla de negocio, no viene de la fuente)
 SENTIMIENTO = {1: "Negativo", 2: "Negativo", 3: "Neutro", 4: "Positivo", 5: "Positivo"}

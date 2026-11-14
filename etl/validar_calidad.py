@@ -26,6 +26,9 @@ LIMPIOS = RAIZ / "datos_limpios"
 RECHAZADOS = RAIZ / "rechazados"
 CRUDO_ENC = RAIZ / "datasets" / "dataset_raw.csv"
 CRUDO_RES = RAIZ / "datasets" / "gijon_resenas_es_2017_2023.csv"
+CRUDO_UBI = RAIZ / "datasets" / "gijon_ubicacion_clientes.csv"
+TIPOS_ORIGEN = {"Gijón (local)": 1, "Resto de Asturias": 2, "Resto de España": 3, "Extranjero": 4,
+                "No determinado": 5, "Sin dato": 6}
 TOL = 1e-6
 
 resultados = []
@@ -43,14 +46,16 @@ def leer(nombre):
 
 def main():
     nombres = ["Fact_Encuesta", "Dim_Cocina_Preferida", "Dim_Ocasion", "Dim_Franja_Visita", "Dim_Frecuencia_Visita",
-               "Fact_Resenas", "Dim_Restaurante", "Dim_Fecha"]
+               "Fact_Resenas", "Dim_Restaurante", "Dim_Fecha", "Dim_Origen_Cliente"]
     t = {n: leer(n) for n in nombres}
     m = json.loads((LIMPIOS / "metricas_etl.json").read_text("utf-8"))["metricas"]
     enc, res, rest, cal = t["Fact_Encuesta"], t["Fact_Resenas"], t["Dim_Restaurante"], t["Dim_Fecha"]
+    org = t["Dim_Origen_Cliente"]
     res["Fecha"] = pd.to_datetime(res["Fecha"])
     cal["Fecha"] = pd.to_datetime(cal["Fecha"])
     crudo_enc = pd.read_csv(CRUDO_ENC, dtype=str, keep_default_na=False)
     crudo_res = pd.read_csv(CRUDO_RES, dtype=str, keep_default_na=False)
+    crudo_ubi = pd.read_csv(CRUDO_UBI, dtype=str, keep_default_na=False)
 
     # ------------------------------------------------------------------ COMPLETITUD
     # Columnas que pueden tener nulos por decisión documentada (R19/R20, título opcional)
@@ -100,20 +105,30 @@ def main():
            not res["Texto"].str.contains("�").any())
     prueba("Validez", "Restaurante: Nivel_Precio en {1,2,3} o nulo; promedio TripAdvisor 1-5",
            rest["Nivel_Precio"].dropna().isin([1, 2, 3]).all() and rest["Rating_Promedio_TripAdvisor"].between(1, 5).all())
+    prueba("Validez", "Origen: Tipo_Origen dentro de las 6 categorías y Tipo_Origen_Orden coherente",
+           org["Tipo_Origen"].isin(TIPOS_ORIGEN).all() and (org["Tipo_Origen"].map(TIPOS_ORIGEN) == org["Tipo_Origen_Orden"]).all())
+    ext = org["Tipo_Origen"] == "Extranjero"
+    prueba("Validez", "Origen: país extranjero <-> región 'Extranjero'; España <-> tipos locales/España",
+           (org.loc[ext, "Pais_Cliente"] != "España").all() and (org.loc[ext, "Region_Cliente"] == "Extranjero").all()
+           and (org.loc[org["Tipo_Origen"].isin(["Gijón (local)", "Resto de Asturias", "Resto de España"]), "Pais_Cliente"] == "España").all())
 
     # ------------------------------------------------------------------ UNICIDAD
     pks = {"Fact_Encuesta": "ID_Cliente", "Dim_Cocina_Preferida": "Cocina_Preferida", "Dim_Ocasion": "Ocasion",
            "Dim_Franja_Visita": "Franja_Visita", "Dim_Frecuencia_Visita": "Frecuencia_Visita",
-           "Fact_Resenas": "Review_ID", "Dim_Restaurante": "Restaurant_ID", "Dim_Fecha": "Fecha"}
+           "Fact_Resenas": "Review_ID", "Dim_Restaurante": "Restaurant_ID", "Dim_Fecha": "Fecha",
+           "Dim_Origen_Cliente": "Origen_ID"}
     for n, pk in pks.items():
         dup = int(t[n][pk].duplicated().sum())
         prueba("Unicidad", f"{n}: llave {pk} sin repetir", dup == 0, f"{dup} repetidas")
+    dup = int(org.duplicated(["Tipo_Origen", "Pais_Cliente", "Region_Cliente", "Ciudad_Cliente"]).sum())
+    prueba("Unicidad", "Dim_Origen_Cliente: una fila por tipo + país + región + ciudad", dup == 0, f"{dup} repetidas")
     prueba("Unicidad", "IDs como entero (no decimal)",
            all(pd.api.types.is_integer_dtype(df[c]) for df, c in
                ((enc, "ID_Cliente"), (res, "Review_ID"), (res, "Restaurant_ID"), (rest, "Restaurant_ID"))))
 
     # ------------------------------------------------------------------ INTEGRIDAD REFERENCIAL
     fks = [("Fact_Resenas", "Restaurant_ID", "Dim_Restaurante", "Restaurant_ID"),
+           ("Fact_Resenas", "Origen_ID", "Dim_Origen_Cliente", "Origen_ID"),
            ("Fact_Resenas", "Fecha", "Dim_Fecha", "Fecha"),
            ("Fact_Encuesta", "Cocina_Preferida", "Dim_Cocina_Preferida", "Cocina_Preferida"),
            ("Fact_Encuesta", "Ocasion", "Dim_Ocasion", "Ocasion"),
@@ -125,6 +140,9 @@ def main():
     sin_resenas = int((~rest["Restaurant_ID"].isin(res["Restaurant_ID"])).sum())
     prueba("Integridad ref.", "Todo restaurante de la dimensión tiene al menos una reseña", sin_resenas == 0,
            f"{sin_resenas} sin reseñas")
+    prueba("Integridad ref.", "Archivo de ubicaciones: exactamente una fila por reseña del crudo",
+           len(crudo_ubi) == len(crudo_res) and not crudo_ubi["review_id"].duplicated().any()
+           and set(crudo_ubi["review_id"]) == set(crudo_res["review_id"]), f"{len(crudo_ubi):,} filas")
 
     # ------------------------------------------------------------------ CONSISTENCIA
     esperado = res["Rating"].map({1: "Negativo", 2: "Negativo", 3: "Neutro", 4: "Positivo", 5: "Positivo"})
@@ -141,6 +159,9 @@ def main():
     cnt = res.groupby("Restaurant_ID").size()
     prueba("Consistencia", "Dim_Restaurante.Num_Resenas = conteo real en Fact_Resenas",
            (rest.set_index("Restaurant_ID")["Num_Resenas"] == cnt.reindex(rest["Restaurant_ID"]).values).all())
+    cnt_o = res.groupby("Origen_ID").size()
+    prueba("Consistencia", "Dim_Origen_Cliente.Num_Resenas = conteo real en Fact_Resenas",
+           (org.set_index("Origen_ID")["Num_Resenas"] == cnt_o.reindex(org["Origen_ID"]).values).all())
     precio_map = {"$": 1, "$$ - $$$": 2, "$$$$": 3}
     prueba("Consistencia", "Nivel_Precio coherente con price_interval original",
            (rest["Precio_Original"].map(precio_map).astype("Int64").fillna(-1) == rest["Nivel_Precio"].fillna(-1)).all())
@@ -163,6 +184,11 @@ def main():
            f"{enc['Calif_Comida'].mean():.4f} / {enc['Alta_Satisfaccion'].mean():.2%}")
     prueba("Exactitud", "Gasto promedio total de la encuesta = crudo",
            abs(ce["AverageSpend"].astype(float).sum() - enc["Gasto_Promedio"].sum()) < 0.01 * len(enc))
+    # 'Sin dato' debe ser EXACTAMENTE las reseñas cuya ubicación cruda está vacía (no se imputó nada)
+    vacias = set(crudo_ubi.loc[crudo_ubi["user_location"].str.strip() == "", "review_id"].astype("int64"))
+    sin_dato = set(res.merge(org, on="Origen_ID").query("Tipo_Origen == 'Sin dato'")["Review_ID"])
+    prueba("Exactitud", "Origen 'Sin dato' = reseñas con ubicación vacía en el crudo (nada imputado)",
+           vacias == sin_dato, f"{len(sin_dato):,} reseñas")
 
     # ------------------------------------------------------------------ RESUMEN
     fallas = [r for r in resultados if not r[2]]

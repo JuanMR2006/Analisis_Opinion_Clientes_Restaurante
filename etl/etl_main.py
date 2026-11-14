@@ -40,7 +40,7 @@ def main():
     bit, cua = Bitacora(), Cuarentena()
 
     print("################ MANIFIESTO DE CRUDOS ################")
-    man = escribir_manifiesto([config.ARCHIVO_ENCUESTA, config.ARCHIVO_RESENAS])
+    man = escribir_manifiesto([config.ARCHIVO_ENCUESTA, config.ARCHIVO_RESENAS, config.ARCHIVO_UBICACION])
     for a in man["archivos"]:
         print(f"  {a['archivo']}: {a['bytes']:,} bytes  sha256={a['sha256'][:16]}...")
 

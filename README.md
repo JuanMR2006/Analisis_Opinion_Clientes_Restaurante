@@ -1,7 +1,7 @@
 # Análisis de Opiniones de Clientes en Restaurante
 
-Proyecto de Ingeniería de Software. Fase actual: **ETL y validación de calidad** (Power BI, DAX y análisis
-estadístico vendrán después).
+Proyecto de Ingeniería de Software: ETL en Python, validación de calidad, análisis estadístico (ANOVA) y
+dashboard en Power BI (`powerbi/`).
 
 ## Fuentes (`datasets/`, no se modifican)
 
@@ -9,6 +9,10 @@ estadístico vendrán después).
 |---|---|---:|
 | `dataset_raw.csv` | Encuesta de clientes (dataset del profesor, Iznia) | 1.500 |
 | `gijon_resenas_es_2017_2023.csv` | Reseñas de TripAdvisor en español, Gijón, 2017–2023 | 53.382 |
+| `gijon_ubicacion_clientes.csv` | Ubicación que declara el autor de cada reseña (texto libre, sin limpiar) | 53.382 |
+
+Los dos archivos de TripAdvisor se generaron desde Zenodo con los scripts de `preparacion/` (ver
+[docs/PIPELINE.md §2.2](docs/PIPELINE.md)); no hace falta volver a correrlos.
 
 Se procesan como **dos pipelines independientes** (no comparten clave).
 
@@ -33,7 +37,7 @@ python analisis/anova.py
 ## Salidas (se regeneran en cada corrida; están en `.gitignore`)
 
 - `datos_limpios/` — `Fact_Encuesta`, `Dim_Cocina_Preferida`, `Dim_Ocasion`, `Dim_Franja_Visita`,
-  `Dim_Frecuencia_Visita`, `Fact_Resenas`, `Dim_Restaurante`, `Dim_Fecha` en CSV (utf-8-sig) y `parquet/`,
+  `Dim_Frecuencia_Visita`, `Fact_Resenas`, `Dim_Restaurante`, `Dim_Fecha`, `Dim_Origen_Cliente` en CSV (utf-8-sig) y `parquet/`,
   más `reporte_calidad.md`, `reporte_validacion.md` y `metricas_etl.json`.
 - `rechazados/` — filas eliminadas con `Codigo_Regla` y `Motivo`, y `resenas_a_investigar.csv` (marcadas, no eliminadas).
 - `datasets/_manifiesto.json` — tamaño y SHA-256 de cada crudo.
