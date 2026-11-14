@@ -1,0 +1,15 @@
+{
+  "generado": "2026-11-13T19:56:32",
+  "archivos": [
+    {
+      "archivo": "dataset_raw.csv",
+      "bytes": 170899,
+      "sha256": "21cb7e96070071933710821eb70dc32e58f4c1683c27d1f7222d9711cd79ed9b"
+    },
+    {
+      "archivo": "gijon_resenas_es_2017_2023.csv",
+      "bytes": 25941650,
+      "sha256": "db9b1e39f31c64340c09a5aaeac69414497cde6b6eaf2028aa82f4d7365917cb"
+    }
+  ]
+}

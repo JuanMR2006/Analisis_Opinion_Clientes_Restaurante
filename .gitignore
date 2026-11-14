@@ -1,0 +1,6 @@
+# Salidas generadas por el ETL (se regeneran con python etl/etl_main.py)
+datos_limpios/
+rechazados/
+__pycache__/
+*.pyc
+.venv/
