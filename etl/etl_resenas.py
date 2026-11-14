@@ -1,14 +1,19 @@
 """Pipeline 2: reseñas de TripAdvisor (Gijón, español, 2017-2023) -> modelo estrella.
 
-    Fact_Resenas     una fila por reseña (grano: review_id)
-    Dim_Restaurante  una fila por restaurante (grano: restaurant_id)
-    Dim_Fecha        calendario continuo 2017-01-01 .. 2023-12-31 (una fila por día)
+    Fact_Resenas        una fila por reseña (grano: review_id)
+    Dim_Restaurante     una fila por restaurante (grano: restaurant_id)
+    Dim_Fecha           calendario continuo 2017-01-01 .. 2023-12-31 (una fila por día)
+    Dim_Origen_Cliente  una fila por origen normalizado del autor (ciudad, región, país, tipo de origen)
 
-Reglas R01..R22. Igual que en la encuesta: lo inválido se ELIMINA a cuarentena con su motivo, nada se imputa.
+Reglas R01..R27. Igual que en la encuesta: lo inválido se ELIMINA a cuarentena con su motivo, nada se imputa.
 """
+import re
+import unicodedata
+
 import pandas as pd
 
 import config
+import ubicaciones as cat
 from utilidades import (a_nulo, a_numero, exigir_columnas, fuera_de, leer_csv_texto, no_es_entero,
                         no_es_numero, perfil_nulos)
 
@@ -123,6 +128,9 @@ def procesar(bit, cua):
             | df["title"].str.contains("�|Ã[\u0080-¿]", regex=True, na=False))
     rechazar(raro, "R22", "Texto con caracteres corruptos de codificación", "Validez")
 
+    # ---------------------------------------------------------------- ORIGEN DEL CLIENTE (R24-R27)
+    df = asignar_origen(df, bit)
+
     # ---------------------------------------------------------------- TRANSFORMACIÓN / DERIVADAS
     df = df.copy()
     df["Fecha"] = pd.to_datetime(df["review_date"], format=config.FORMATO_FECHA)
@@ -134,6 +142,11 @@ def procesar(bit, cua):
     a_investigar = df[df["Texto_Repetido"] == "Sí"].sort_values(["text", "review_id"])
     a_investigar = crudo.loc[a_investigar.index].assign(
         Motivo="Texto repetido en reseñas distintas (conservada en Fact_Resenas, marcada)")
+
+    dim_origen = construir_dim_origen(df)
+    claves_origen = ["Tipo_Origen", "Pais_Cliente", "Region_Cliente", "Ciudad_Cliente"]
+    origen_id = df[claves_origen].merge(dim_origen[claves_origen + ["Origen_ID"]], on=claves_origen,
+                                        how="left")["Origen_ID"].to_numpy()
 
     fact = pd.DataFrame({
         "Review_ID": a_numero(df["review_id"]).astype("int64"),
@@ -147,6 +160,8 @@ def procesar(bit, cua):
         "Longitud_Texto": df["text"].str.len().astype("int64"),
         "Texto_Repetido": df["Texto_Repetido"],
         "Idioma": df["language"].astype(str),
+        # al final a propósito: si se agregara en medio, las consultas de Power BI ya creadas se desplazarían
+        "Origen_ID": pd.Series(origen_id, index=df.index).astype("int64"),
     }).sort_values(["Fecha", "Review_ID"]).reset_index(drop=True)
 
     dim_rest = construir_dim_restaurante(df, fact, bit)
@@ -163,9 +178,122 @@ def procesar(bit, cua):
     bit.metrica("resenas_rating_promedio", float(fact["Rating"].mean()))
     bit.metrica("resenas_restaurantes", int(dim_rest.shape[0]))
     bit.metrica("resenas_periodo", [str(fact["Fecha"].min().date()), str(fact["Fecha"].max().date())])
+    por_tipo = fact.merge(dim_origen, on="Origen_ID").groupby("Tipo_Origen").size()
+    bit.metrica("resenas_por_tipo_origen", {k: int(v) for k, v in por_tipo.items()})
 
-    tablas = {"Fact_Resenas": fact, "Dim_Restaurante": dim_rest, "Dim_Fecha": dim_fecha}
+    tablas = {"Fact_Resenas": fact, "Dim_Restaurante": dim_rest, "Dim_Fecha": dim_fecha,
+              "Dim_Origen_Cliente": dim_origen}
     return tablas, list(crudo.columns), a_investigar
+
+
+# ==================================================================================== ORIGEN DEL CLIENTE
+def normalizar_lugar(texto):
+    """Minúsculas, sin tildes y espacios simples: 'Gijón ' -> 'gijon'. Solo para BUSCAR en el catálogo."""
+    texto = unicodedata.normalize("NFKD", str(texto))
+    texto = "".join(c for c in texto if not unicodedata.combining(c))
+    return re.sub(r"\s+", " ", texto.lower()).strip()
+
+
+_MINUSCULAS = {"de", "del", "la", "las", "los", "el", "y", "i", "da", "do", "dos"}
+
+
+def nombre_visible(clave):
+    """Para lugares que NO están en el catálogo: 'pola de siero' -> 'Pola de Siero' (sin tildes: no se adivinan)."""
+    palabras = clave.split(" ")
+    return " ".join(p if (i and p in _MINUSCULAS) else p[:1].upper() + p[1:] for i, p in enumerate(palabras))
+
+
+def interpretar_ubicacion(texto):
+    """Texto libre del perfil -> (ciudad, región, país, tipo_origen, regla_aplicada).
+
+    regla_aplicada es None si se identificó todo, o el código de la regla que explica por qué no (R25-R27)."""
+    sd, nd, ni = config.ETIQUETA_SIN_DATO, config.ETIQUETA_NO_DETERMINADO, config.ETIQUETA_NO_IDENTIFICADA
+    # Los paréntesis también separan: "Toledo (España)" -> "Toledo, España"
+    partes = [normalizar_lugar(p) for p in re.split(r"[,()]", str(texto))]
+    partes = [p for p in partes if p]
+    if not partes:
+        return sd, sd, sd, "Sin dato", "R25"
+
+    ultima = partes[-1]
+    if ultima in cat.ALIAS_ESPANA:
+        pais, lugares = cat.ESPANA, partes[:-1]
+    elif ultima in cat.PAISES:
+        pais, lugares = cat.PAISES[ultima], partes[:-1]
+    elif ultima in cat.SUBDIVISIONES_EXTRANJERAS:
+        pais, lugares = cat.SUBDIVISIONES_EXTRANJERAS[ultima], partes[:-1]
+    elif ultima in cat.LUGARES_ESPANA:                       # "gijon", "madrid, comunidad de madrid"
+        pais, lugares = cat.ESPANA, partes
+    else:                                                     # "World", "Europe", o algo irreconocible
+        return nd, nd, nd, "No determinado", "R26"
+
+    if pais != cat.ESPANA:
+        ciudad = nombre_visible(lugares[0]) if lugares else ni
+        return ciudad, config.REGION_EXTRANJERO, pais, "Extranjero", None
+
+    # España: primera parte que sea ciudad del catálogo; si solo hay región/provincia, ciudad "No identificada"
+    ciudad, region = None, None
+    for lugar in lugares:
+        if lugar in cat.LUGARES_ESPANA:
+            c, r = cat.LUGARES_ESPANA[lugar]
+            region = region or r
+            if c:
+                ciudad, region = c, r
+                break
+    regla = None
+    if ciudad is None and region is None:                     # ciudad española fuera del catálogo, o solo "Spain"
+        ciudad = nombre_visible(lugares[0]) if lugares else ni
+        region, regla = ni, "R27"
+    elif ciudad is None:
+        ciudad = ni
+    if ciudad == config.CIUDAD_LOCAL:
+        tipo = "Gijón (local)"
+    elif region == config.COMUNIDAD_LOCAL:
+        tipo = "Resto de Asturias"
+    else:
+        tipo = "Resto de España"
+    return ciudad, region, pais, tipo, regla
+
+
+def asignar_origen(df, bit):
+    """Une la ubicación del autor (archivo aparte) y la normaliza. Nada se borra: lo que no se puede saber se
+    etiqueta ('Sin dato', 'No determinado', 'No identificada') y se cuenta en la bitácora."""
+    ub = leer_csv_texto(config.ARCHIVO_UBICACION)
+    exigir_columnas(ub, config.COLUMNAS_UBICACION, "Ubicacion")
+    ub["review_id"] = ub["review_id"].str.strip()
+    if ub["review_id"].duplicated().any():
+        raise ValueError("[Ubicacion] review_id repetido en el archivo de ubicaciones: el cruce no sería 1 a 1")
+
+    df = df.copy()
+    ubic = df["review_id"].map(ub.set_index("review_id")["user_location"])
+    bit.registrar(FUENTE, "R24", "Completitud", "Reseña sin fila en el archivo de ubicaciones -> se conserva con "
+                  "Tipo_Origen 'Sin dato'", "Conservar y marcar", int(ubic.isna().sum()))
+
+    resultado = ubic.fillna("").map(interpretar_ubicacion)
+    df["Ciudad_Cliente"] = resultado.str[0]
+    df["Region_Cliente"] = resultado.str[1]
+    df["Pais_Cliente"] = resultado.str[2]
+    df["Tipo_Origen"] = resultado.str[3]
+    regla = resultado.str[4]
+
+    bit.registrar(FUENTE, "R25", "Completitud", "Ubicación vacía en el perfil -> Tipo_Origen 'Sin dato' "
+                  "(no se imputa)", "Conservar y marcar", int((regla == "R25").sum()))
+    bit.registrar(FUENTE, "R26", "Validez", "Ubicación que no permite saber el país ('World', 'Europe'...) -> "
+                  "'No determinado'", "Conservar y marcar", int((regla == "R26").sum()))
+    bit.registrar(FUENTE, "R27", "Consistencia", "Lugar de España fuera del catálogo de etl/ubicaciones.py -> "
+                  "Region_Cliente 'No identificada' (la ciudad se conserva como viene)", "Conservar y marcar",
+                  int((regla == "R27").sum()))
+    return df
+
+
+def construir_dim_origen(df):
+    """Una fila por combinación tipo de origen + país + región + ciudad."""
+    claves = ["Tipo_Origen", "Pais_Cliente", "Region_Cliente", "Ciudad_Cliente"]
+    dim = df.groupby(claves).size().rename("Num_Resenas").reset_index()
+    dim["Tipo_Origen_Orden"] = dim["Tipo_Origen"].map(config.TIPO_ORIGEN).astype("int64")
+    dim = dim.sort_values(["Tipo_Origen_Orden", "Pais_Cliente", "Region_Cliente", "Ciudad_Cliente"]).reset_index(drop=True)
+    dim.insert(0, "Origen_ID", range(1, len(dim) + 1))
+    return dim[["Origen_ID", "Ciudad_Cliente", "Region_Cliente", "Pais_Cliente", "Tipo_Origen",
+                "Tipo_Origen_Orden", "Num_Resenas"]].astype({"Origen_ID": "int64", "Num_Resenas": "int64"})
 
 
 def construir_dim_restaurante(df, fact, bit):

@@ -20,12 +20,13 @@ cada uno produce su propio modelo y en Power BI quedan como dos modelos separado
  └──────────────────────────────┘                └──────────┬───────────┘     │ datos_limpios/          │
  ┌──────────────────────────────┐                ┌──────────┴───────────┐     │   *.csv  (utf-8-sig)    │
  │ datasets/gijon_resenas_…csv  │──────────────▶ │ etl_resenas.py       │───▶ │   parquet/*.parquet     │
- │ (TripAdvisor, 53.382)        │                │ R00 … R23            │     │ Fact_Resenas, Dim_Rest.,│
- └──────────────────────────────┘                └──────────┬───────────┘     │ Dim_Fecha               │
-                                                            ▼                 └────────────┬────────────┘
+ │ (TripAdvisor, 53.382)        │                │ R00 … R27            │     │ Fact_Resenas, Dim_Rest.,│
+ │ datasets/gijon_ubicacion_…csv│──────────────▶ │ (+ ubicaciones.py)   │     │ Dim_Fecha,              │
+ │ (origen del autor, 53.382)   │                └──────────┬───────────┘     │ Dim_Origen_Cliente      │
+ └──────────────────────────────┘                           ▼                 └────────────┬────────────┘
                                                       rechazados/                          ▼
                                                (cuarentena + Codigo_Regla + Motivo)  validar_calidad.py
-                                                                                     (51 pruebas PASA/FALLA)
+                                                                                     (60 pruebas PASA/FALLA)
 ```
 
 | Capa | Carpeta | Regla |
@@ -48,6 +49,8 @@ python etl/validar_calidad.py   # validación independiente; código 1 si algo f
 | `etl/utilidades.py` | `Bitacora` (registra cada regla), `Cuarentena` (guarda rechazos con motivo), `a_nulo`, `exigir_columnas`, manifiesto SHA-256. |
 | `etl/etl_encuesta.py` | Pipeline de la encuesta (reglas E). |
 | `etl/etl_resenas.py` | Pipeline de TripAdvisor (reglas R) y construcción del modelo estrella. |
+| `etl/ubicaciones.py` | Catálogo para normalizar la ubicación del autor: ciudad → comunidad autónoma, países, alias. |
+| `preparacion/*.py` | Cómo se construyeron los crudos de TripAdvisor a partir de Zenodo (se corren una sola vez, ver §2.2). |
 | `etl/etl_main.py` | Ejecuta ambos, carga las tablas, escribe `reporte_calidad.md` y `metricas_etl.json`. |
 | `etl/validar_calidad.py` | Pruebas independientes (no importa nada del ETL; relee parquet y CSV crudos). |
 
@@ -83,9 +86,29 @@ Columnas reales de la encuesta: `CustomerID, Age, Gender, Income, VisitFrequency
 PreferredCuisine, TimeOfVisit, GroupSize, DiningOccasion, MealType, OnlineReservation, DeliveryOrder,
 LoyaltyProgramMember, WaitTime, ServiceRating, FoodRating, AmbianceRating, HighSatisfaction`.
 
+Tercer archivo, `gijon_ubicacion_clientes.csv` (53.382 × 2: `review_id`, `user_location`): una fila por reseña,
+`review_id` único y el mismo conjunto de ids que el archivo de reseñas. `user_location` es texto libre del
+perfil del autor: **17.543 vacíos (32,9 %)** y 1.916 valores distintos con formatos mezclados
+("Gijon, Spain", "gijon", "Gijón, Asturias, Spain", "Munich, Germany", "World").
+
 **Conclusión de la auditoría:** ambos archivos llegan limpios. Por eso las reglas de rechazo afectan **0 filas**
 en la corrida real. Las reglas se mantienen igual: son la red de seguridad si mañana llega otra versión del
 archivo. Para comprobar que funcionan se hizo una prueba con filas sucias inyectadas (ver §6).
+
+### 2.2 Cómo se construyeron los crudos de TripAdvisor (`preparacion/`)
+
+Fuente: *TripAdvisor Restaurant Reviews* v2.0.0 (Zenodo, DOI 10.5281/zenodo.14622324, CC BY 4.0), archivo
+`Gijón.zip` con tres tablas en pickle: `items` (restaurantes), `reviews` y `users`.
+
+| Script | Qué hace | Resultado |
+|---|---|---|
+| `convertir_gijon.py` | Deja solo reseñas en español, une cada reseña con su restaurante, pasa el rating de 0–50 a 1–5 y normaliza fechas | 78.790 reseñas (37,1 MB) |
+| `reducir_gijon.py` | Conserva años **completos y continuos** (2017–2023) para bajar de 30 MB sin distorsionar la tendencia mensual | `gijon_resenas_es_2017_2023.csv` (53.382, 24,7 MB) |
+| `extraer_ubicacion_clientes.py` | Cruza `reviews → users` y guarda la ubicación **tal cual** la escribió el autor. No guarda `userId` ni nombre | `gijon_ubicacion_clientes.csv` |
+
+En `users`, `userId = -1` es el marcador de "usuario desconocido" y aparece 7 veces con ubicaciones distintas;
+sus 16 reseñas quedan con ubicación vacía en vez de asignarles una al azar. La **limpieza** de la ubicación no
+se hace aquí sino en el ETL (R24–R27), para que quede documentada y validada como el resto.
 
 ---
 
@@ -173,6 +196,10 @@ Salida:
 | R21 | Unicidad | Texto repetido en reseñas distintas → `Texto_Repetido = "Sí"` | Marcar (no borrar) | 26 |
 | R22 | Validez | Caracteres corruptos de codificación (U+FFFD, mojibake `Ã©`) | Eliminar | 0 |
 | R23 | Consistencia | `cuisine_match_encuesta` con < 100 reseñas → "Otras" en columna aparte | Derivar | 49 |
+| R24 | Completitud | Reseña sin fila en el archivo de ubicaciones → origen "Sin dato" | Conservar y marcar | 0 |
+| R25 | Completitud | Ubicación vacía en el perfil → `Tipo_Origen = "Sin dato"` (no se imputa) | Conservar y marcar | 17.543 |
+| R26 | Validez | Ubicación que no permite saber el país ("World", "Europe", "viajero16") → "No determinado" | Conservar y marcar | 130 |
+| R27 | Consistencia | Lugar de España fuera del catálogo `etl/ubicaciones.py` (o solo "Spain") → región "No identificada" | Conservar y marcar | 1.900 |
 
 **Resultado:** 53.382 leídas · **53.382 válidas** · 0 rechazadas · 26 marcadas a investigar.
 
@@ -195,6 +222,18 @@ Salida:
   veces (ej. restaurante 23652638, mismo día, título, texto y rating, ids distintos); otros son textos idénticos en
   restaurantes distintos (posible spam o copia). Sin evidencia no se borran: se marcan y se listan en
   `rechazados/resenas_a_investigar.csv`.
+- **Origen del cliente (R24–R27).** Es la ubicación que el autor declara en su perfil de TripAdvisor, no la del
+  restaurante (todos están en Gijón). Responde al objetivo de "satisfacción de clientes por región". El texto se
+  normaliza (minúsculas, sin tildes, la coma y los paréntesis separan partes) y se busca en un catálogo propio:
+  - País: la última parte ("Spain", "Germany"; los estados de EE. UU. y las provincias de Canadá también cuentan).
+    Si la última parte es un lugar español conocido ("gijon", "madrid") el país es España.
+  - Ciudad y comunidad autónoma: primera parte que esté en el catálogo. Un nombre de región o provincia sin
+    ciudad ("Asturias", "Province of Leon") da la región con ciudad "No identificada".
+  - **Solo se mapea lo que no es ambiguo**: "San Lorenzo" o "Villamartín" existen en varias comunidades y quedan
+    como "No identificada". El catálogo identifica la comunidad autónoma en el **94,5 %** de las reseñas de autores españoles.
+  - `Tipo_Origen`: *Gijón (local)* (incluye Somió, Roces, La Calzada), *Resto de Asturias*, *Resto de España*,
+    *Extranjero*, *No determinado*, *Sin dato*.
+  - Nada se borra: una reseña sin ubicación sigue siendo válida para todos los demás análisis.
 - **Dos promedios por restaurante.** `Rating_Promedio_TripAdvisor` es el que publica TripAdvisor (todas sus
   reseñas, todos los idiomas, redondeado a 0,5). `Rating_Promedio_Resenas` se calcula con *nuestras* reseñas en
   español 2017–2023. No tienen por qué coincidir.
@@ -205,14 +244,16 @@ Salida:
                   Dim_Fecha (2.556 días)
                  Fecha ◄──────────┐
                                    │ N:1
-  Dim_Restaurante (779)      Fact_Resenas (53.382)
-  Restaurant_ID ◄────────── Restaurant_ID, Fecha, Rating, Sentimiento, Texto…
+  Dim_Restaurante (779)      Fact_Resenas (53.382)              Dim_Origen_Cliente (1.515)
+  Restaurant_ID ◄────────── Restaurant_ID, Origen_ID, Fecha ───► Origen_ID, Ciudad, Región,
+                             Rating, Sentimiento, Texto…          País, Tipo_Origen
 ```
 
 | Tabla | Grano | Columnas clave |
 |---|---|---|
-| `Fact_Resenas` | 1 fila por reseña | `Review_ID` (PK), `Restaurant_ID` (FK), `Fecha` (FK), `Rating`, `Sentimiento`, `Titulo`, `Texto`, `Longitud_Texto`, `Texto_Repetido` |
+| `Fact_Resenas` | 1 fila por reseña | `Review_ID` (PK), `Restaurant_ID` (FK), `Fecha` (FK), `Rating`, `Sentimiento`, `Titulo`, `Texto`, `Longitud_Texto`, `Texto_Repetido`, `Idioma`, `Origen_ID` (FK, última columna) |
 | `Dim_Restaurante` | 1 fila por restaurante | `Restaurant_ID` (PK), nombre, precio (original, nivel, etiqueta), cocina (original, principal, nº tipos, encuesta original/agrupada), los dos promedios, `Num_Resenas` |
+| `Dim_Origen_Cliente` | 1 fila por tipo + país + región + ciudad del autor | `Origen_ID` (PK), `Ciudad_Cliente`, `Region_Cliente` (comunidad autónoma, "Extranjero", "No identificada"…), `Pais_Cliente`, `Tipo_Origen`, `Tipo_Origen_Orden`, `Num_Resenas` |
 | `Dim_Fecha` | 1 fila por día, 2017-01-01 a 2023-12-31 | `Fecha` (PK), `Anio`, `Semestre`, `Trimestre`, `Mes`, `Nombre_Mes`, `Anio_Mes`, `Dia`, `Dia_Semana` (1 = lunes), `Nombre_Dia`, `Es_Fin_De_Semana` |
 
 `Dim_Fecha` cubre **años completos** (aunque las reseñas acaban el 2023-09-05) porque la inteligencia de tiempo de
@@ -223,16 +264,16 @@ Power BI exige un calendario continuo.
 ## 6. VALIDACIÓN (`etl/validar_calidad.py`)
 
 Es **independiente**: no importa ningún módulo del ETL. Relee los parquet y los CSV crudos y recalcula por su
-cuenta. Resultado real: **51/51 PASA** (detalle en `datos_limpios/reporte_validacion.md`).
+cuenta. Resultado real: **60/60 PASA** (detalle en `datos_limpios/reporte_validacion.md`).
 
 | Dimensión | Qué se prueba |
 |---|---|
-| Completitud | Sin nulos en columnas obligatorias de las 8 tablas; filas del crudo = válidas + rechazadas; toda fila rechazada tiene `Motivo` y `Codigo_Regla`; los restaurantes sin precio dicen "Sin dato" |
-| Validez | Rangos de dominio y categorías permitidas en ambas fuentes; UTF-8 sin caracteres de reemplazo |
-| Unicidad | Las 8 llaves primarias sin repetir; ids enteros |
-| Integridad referencial | `Fact_Resenas` → `Dim_Restaurante` y `Dim_Fecha`; `Fact_Encuesta` → sus 4 dimensiones; sin huérfanas |
-| Consistencia | Sentimiento coherente con rating; calendario continuo; Trimestre/Semestre/Año-Mes coherentes; `Calif_Promedio` correcto; `Num_Resenas` = conteo real; `Nivel_Precio` coherente con el original |
-| Exactitud | Recalculado **desde el crudo**: promedio de rating por restaurante (779), reseñas por año, promedio de FoodRating y % de HighSatisfaction, gasto total |
+| Completitud | Sin nulos en columnas obligatorias de las 9 tablas; filas del crudo = válidas + rechazadas; toda fila rechazada tiene `Motivo` y `Codigo_Regla`; los restaurantes sin precio dicen "Sin dato" |
+| Validez | Rangos de dominio y categorías permitidas en ambas fuentes; UTF-8 sin caracteres de reemplazo; `Tipo_Origen` en sus 6 categorías y coherente con país y región |
+| Unicidad | Las 9 llaves primarias sin repetir; ids enteros; una fila de `Dim_Origen_Cliente` por combinación de origen |
+| Integridad referencial | `Fact_Resenas` → `Dim_Restaurante`, `Dim_Fecha` y `Dim_Origen_Cliente`; `Fact_Encuesta` → sus 4 dimensiones; sin huérfanas; el archivo de ubicaciones tiene exactamente una fila por reseña |
+| Consistencia | Sentimiento coherente con rating; calendario continuo; Trimestre/Semestre/Año-Mes coherentes; `Calif_Promedio` correcto; `Num_Resenas` = conteo real (restaurante y origen); `Nivel_Precio` coherente con el original |
+| Exactitud | Recalculado **desde el crudo**: promedio de rating por restaurante (779), reseñas por año, promedio de FoodRating y % de HighSatisfaction, gasto total; las reseñas con origen "Sin dato" son exactamente las que tienen ubicación vacía en el crudo |
 
 **Prueba de las reglas con datos sucios.** Como los archivos reales no tienen errores, se corrió el ETL sobre una
 copia (fuera del proyecto) con filas inyectadas: edad 150, rating 7, "Mle", ingreso "NA", grupo 2,5, reserva = 2,
@@ -252,3 +293,6 @@ R04, R06, R08–R10, R12, R14) y el balance leídas = válidas + rechazadas se m
 - La encuesta y las reseñas **no se pueden cruzar** a nivel de registro (no comparten clave ni población).
   Solo se pueden comparar a nivel agregado (por ejemplo, por tipo de cocina), y con cuidado.
 - La encuesta no trae fecha ni moneda explícita para ingreso y gasto.
+- El **origen del cliente** es lo que el autor escribió en su perfil: puede estar desactualizado, el 32,9 % no lo
+  tiene y "Asturias" sin ciudad cuenta como *Resto de Asturias* aunque pudiera ser de Gijón. Se analiza por región
+  del **cliente**, no por ciudad del restaurante (todos los restaurantes están en Gijón).
