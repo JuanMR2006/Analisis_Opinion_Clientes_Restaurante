@@ -4,151 +4,604 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Análisis de Opiniones de Clientes en Restaurantes</title>
-<meta name="description" content="Dashboard de Power BI, ETL en Python y ANOVA sobre reseñas de restaurantes de Gijón y una encuesta de satisfacción.">
+<meta name="description" content="Dashboard de Power BI, ETL en Python y ANOVA sobre 53.382 reseñas de restaurantes de Gijón y una encuesta de satisfacción de 1.500 clientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --tinta: #1f2a37;
-    --suave: #5b6675;
-    --linea: #e3e7ec;
-    --fondo: #f6f7f9;
-    --azul: #118dff;
-    --azul-osc: #0b5cad;
-    --rojo: #a4373a;
+    --bruma: #eef2f2;
+    --papel: #ffffff;
+    --tinta: #16252c;
+    --suave: #52646c;
+    --linea: #cfd9db;
+    --mar: #12505e;
+    --mar-claro: #6f9aa4;
+    --sidra: #c79a1e;
+    --pos: #2e7d4f;
+    --neu: #a3abaf;
+    --neg: #b23a3a;
+    --titulos: "Archivo", "Arial Narrow", system-ui, sans-serif;
+    --texto: "Literata", Georgia, "Times New Roman", serif;
   }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
   body {
     margin: 0;
-    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    background: var(--bruma);
     color: var(--tinta);
-    background: var(--fondo);
-    line-height: 1.55;
+    font-family: var(--texto);
+    font-size: 17px;
+    line-height: 1.65;
   }
-  a { color: var(--azul-osc); }
-  .envoltura { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+  a { color: var(--mar); text-underline-offset: 3px; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--sidra); outline-offset: 3px; border-radius: 3px; }
+  .ancho { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+  h1, h2, h3, .cifra-clave, .num, nav, .dato b, table, figcaption, .barras, .boton {
+    font-family: var(--titulos);
+  }
 
-  header { background: #fff; border-bottom: 1px solid var(--linea); }
-  header .envoltura { padding-top: 36px; padding-bottom: 28px; }
-  .etiqueta { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--suave); margin: 0 0 8px; }
-  h1 { font-size: clamp(26px, 3.4vw, 38px); line-height: 1.2; margin: 0 0 10px; }
-  .bajada { font-size: 17px; color: var(--suave); max-width: 760px; margin: 0; }
-  .equipo { font-size: 14px; color: var(--suave); margin: 14px 0 0; }
+  /* ---------- Portada ---------- */
+  .portada { background: var(--mar); color: #fff; padding: 56px 0 120px; }
+  .portada p.contexto { margin: 0 0 22px; color: #cfe1e4; font-size: 16px; }
+  .portada h1 {
+    margin: 0;
+    font-size: clamp(40px, 7.4vw, 92px);
+    font-weight: 850;
+    font-stretch: 72%;
+    line-height: .95;
+    letter-spacing: -.01em;
+    max-width: 13ch;
+  }
+  .portada .bajada { margin: 26px 0 0; max-width: 62ch; color: #e3eef0; font-size: 18px; }
+  .portada .equipo { margin: 18px 0 0; color: #cfe1e4; font-size: 15px; }
+  nav.indice { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 16px; font-weight: 600; font-stretch: 90%; }
+  nav.indice a { color: #fff; text-decoration-color: var(--sidra); text-decoration-thickness: 2px; }
 
-  .tablero { padding: 28px 0 8px; }
+  /* ---------- Dashboard ---------- */
+  .tablero { margin-top: -84px; }
   .marco {
     position: relative; width: 100%; padding-top: 59.4%;
-    background: #fff; border: 1px solid var(--linea); border-radius: 10px; overflow: hidden;
-    box-shadow: 0 1px 3px rgba(16, 24, 40, .06);
+    background: var(--papel); border: 1px solid var(--linea); border-radius: 6px; overflow: hidden;
+    box-shadow: 0 18px 40px -24px rgba(18, 80, 94, .45);
   }
   .marco iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
-  .nota-tablero { font-size: 14px; color: var(--suave); margin: 10px 2px 0; }
+  .nota { font-size: 15px; color: var(--suave); margin: 12px 2px 0; }
 
-  section { padding: 30px 0 6px; }
-  h2 { font-size: 22px; margin: 0 0 14px; }
-  .rejilla { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-  .tarjeta { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 18px 20px; }
-  .tarjeta h3 { font-size: 16px; margin: 0 0 6px; }
-  .tarjeta p { margin: 0; font-size: 15px; color: var(--suave); }
+  /* ---------- Secciones ---------- */
+  section { padding: 64px 0 0; }
+  h2 { font-size: clamp(28px, 3.6vw, 40px); font-weight: 800; font-stretch: 80%; line-height: 1.05; margin: 0 0 10px; }
+  .intro { max-width: 68ch; color: var(--suave); margin: 0 0 28px; }
 
-  .cifras { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-bottom: 18px; }
-  .cifra { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 14px 18px; }
-  .cifra b { display: block; font-size: 26px; line-height: 1.2; }
-  .cifra span { font-size: 14px; color: var(--suave); }
+  .datos { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 3px solid var(--tinta); border-bottom: 1px solid var(--linea); margin-bottom: 28px; }
+  .dato { padding: 16px 18px 18px 0; }
+  .dato + .dato { padding-left: 18px; border-left: 1px solid var(--linea); }
+  .dato b { display: block; font-size: 38px; font-weight: 800; font-stretch: 75%; line-height: 1.1; color: var(--mar); }
+  .dato span { font-size: 15px; color: var(--suave); }
+  .fuentes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .fuentes h3 { font-size: 19px; font-weight: 700; margin: 0 0 6px; }
+  .fuentes p { margin: 0; font-size: 16px; color: var(--suave); }
 
-  ul.hallazgos { margin: 0; padding-left: 20px; }
-  ul.hallazgos li { margin-bottom: 8px; }
-  .resalta { color: var(--rojo); font-weight: 600; }
+  /* ---------- La carta: 10 requerimientos ---------- */
+  .carta { background: var(--papel); border: 1px solid var(--linea); border-radius: 6px; padding: 12px 40px 8px; }
+  .plato { padding: 30px 0 32px; border-bottom: 1px solid var(--linea); scroll-margin-top: 16px; }
+  .plato:last-child { border-bottom: 0; }
+  .plato-cab { display: flex; align-items: baseline; gap: 14px; }
+  .num { font-size: 20px; font-weight: 800; color: var(--sidra); min-width: 1.6em; }
+  .plato-cab h3 { margin: 0; font-size: clamp(20px, 2.3vw, 25px); font-weight: 700; font-stretch: 88%; line-height: 1.2; }
+  .puntos { flex: 1; border-bottom: 2px dotted var(--mar-claro); transform: translateY(-6px); min-width: 24px; }
+  .cifra-clave { font-size: clamp(24px, 3vw, 32px); font-weight: 850; font-stretch: 72%; color: var(--mar); white-space: nowrap; }
+  .plato-cuerpo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; margin-top: 14px; padding-left: calc(1.6em + 14px); }
+  .plato-cuerpo p { margin: 0 0 10px; }
+  .donde { font-size: 15px; color: var(--suave); }
+  .donde b { font-family: var(--titulos); font-weight: 600; color: var(--tinta); }
+  figure { margin: 0; }
+  figcaption { font-size: 14px; color: var(--suave); margin-bottom: 10px; }
 
+  /* barras horizontales */
+  .barras { list-style: none; margin: 0; padding: 0; font-size: 15px; }
+  .barras li { display: grid; grid-template-columns: 9.5em 1fr 4.2em; align-items: center; gap: 10px; margin: 5px 0; }
+  .barras .et { text-align: right; color: var(--tinta); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .barras .pista { height: 14px; background: var(--bruma); border-radius: 2px; }
+  .barras .pista i { display: block; height: 100%; width: calc(var(--v) * 1%); background: var(--mar); border-radius: 2px; }
+  .barras .pista i.oro { background: var(--sidra); }
+  .barras .pista i.rojo { background: var(--neg); }
+  .barras b { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+  /* barras apiladas 100 % */
+  .apiladas { list-style: none; margin: 0; padding: 0; font-family: var(--titulos); font-size: 15px; }
+  .apiladas li { display: grid; grid-template-columns: 8.5em 1fr; align-items: center; gap: 10px; margin: 6px 0; }
+  .apiladas .et { text-align: right; }
+  .pila { display: flex; height: 22px; border-radius: 2px; overflow: hidden; }
+  .pila i { width: calc(var(--v) * 1%); display: flex; align-items: center; justify-content: center; font-style: normal; font-size: 12px; font-weight: 700; color: #fff; }
+  .pila .neg { background: var(--neg); }
+  .pila .neu { background: var(--neu); color: var(--tinta); }
+  .pila .pos { background: var(--pos); }
+  .leyenda { display: flex; gap: 16px; font-family: var(--titulos); font-size: 14px; color: var(--suave); margin-top: 10px; }
+  .leyenda span::before { content: ""; display: inline-block; width: 11px; height: 11px; margin-right: 6px; border-radius: 2px; background: var(--c); vertical-align: -1px; }
+
+  /* columnas */
+  .columnas { display: flex; align-items: flex-end; gap: 8px; height: 150px; border-bottom: 1px solid var(--linea); font-family: var(--titulos); }
+  .columnas div { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+  .columnas b { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+  .columnas i { display: block; width: 100%; height: calc(var(--v) * 1%); background: var(--neg); border-radius: 2px 2px 0 0; }
+  .ejes { display: flex; gap: 8px; font-family: var(--titulos); font-size: 13px; color: var(--suave); }
+  .ejes span { flex: 1; text-align: center; padding-top: 4px; }
+
+  /* lista top 10 */
+  ol.top { margin: 0; padding: 0; list-style: none; font-family: var(--titulos); font-size: 15px; counter-reset: top; columns: 2; column-gap: 28px; }
+  ol.top li { counter-increment: top; display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px solid var(--bruma); break-inside: avoid; }
+  ol.top li::before { content: counter(top); color: var(--sidra); font-weight: 800; min-width: 1.4em; }
+  ol.top li span { flex: 1; }
+  ol.top li b { font-variant-numeric: tabular-nums; }
+
+  svg text { font-family: var(--titulos); }
+
+  /* ---------- DAX ---------- */
+  .tabla { overflow-x: auto; background: var(--papel); border: 1px solid var(--linea); border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; padding: 11px 16px; border-bottom: 1px solid var(--linea); vertical-align: top; }
+  th { font-weight: 700; background: var(--bruma); }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { color: var(--sidra); font-weight: 800; width: 2.5em; }
+  code { font-family: var(--titulos); font-weight: 600; font-size: .95em; color: var(--mar); }
+
+  /* ---------- ANOVA ---------- */
+  .anova { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 40px; }
+  .hipotesis { border-left: 4px solid var(--sidra); padding: 2px 0 2px 18px; margin: 0 0 22px; }
+  .hipotesis p { margin: 0 0 8px; }
+  .hipotesis b { font-family: var(--titulos); }
+  .anova ul { margin: 0; padding-left: 20px; }
+  .anova li { margin-bottom: 8px; }
+  .puntos-medias { list-style: none; margin: 0; padding: 0; font-family: var(--titulos); font-size: 15px; }
+  .puntos-medias li { display: grid; grid-template-columns: 8.5em 1fr 3em; align-items: center; gap: 10px; height: 28px; }
+  .puntos-medias .et { text-align: right; }
+  .riel { position: relative; height: 100%; background: linear-gradient(var(--linea), var(--linea)) center / 100% 1px no-repeat; }
+  .riel i { position: absolute; top: 50%; left: calc((var(--m) - 3.2) / 1.2 * 100%); width: 13px; height: 13px; margin: -6.5px 0 0 -6.5px; border-radius: 50%; background: var(--mar); }
+  .puntos-medias b { font-variant-numeric: tabular-nums; }
+  .escala { display: grid; grid-template-columns: 8.5em 1fr 3em; gap: 10px; font-family: var(--titulos); font-size: 13px; color: var(--suave); margin-top: 4px; }
+  .escala div { display: flex; justify-content: space-between; border-top: 1px solid var(--tinta); padding-top: 4px; }
+
+  /* ---------- Conclusiones y enlaces ---------- */
+  .conclusiones { margin: 0; padding-left: 22px; max-width: 74ch; }
+  .conclusiones li { margin-bottom: 12px; }
   .enlaces { display: flex; flex-wrap: wrap; gap: 10px; }
   .boton {
-    display: inline-block; padding: 9px 16px; border-radius: 8px; text-decoration: none; font-size: 15px;
-    border: 1px solid var(--linea); background: #fff; color: var(--tinta);
+    display: inline-block; padding: 10px 18px; border-radius: 4px; text-decoration: none; font-size: 16px; font-weight: 600;
+    border: 1.5px solid var(--mar); color: var(--mar); background: var(--papel);
   }
-  .boton.principal { background: var(--azul-osc); border-color: var(--azul-osc); color: #fff; }
-  .boton:hover { border-color: var(--azul-osc); }
+  .boton.principal { background: var(--mar); color: #fff; }
+  .boton:hover { background: var(--tinta); border-color: var(--tinta); color: #fff; }
 
-  footer { margin-top: 36px; padding: 22px 0 36px; border-top: 1px solid var(--linea); font-size: 13px; color: var(--suave); }
-  footer p { margin: 4px 0; }
+  footer { margin-top: 72px; padding: 26px 0 40px; border-top: 1px solid var(--linea); font-size: 14px; color: var(--suave); }
+  footer p { margin: 4px 0; max-width: 90ch; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px) {
+    .plato-cuerpo, .anova { grid-template-columns: 1fr; gap: 20px; }
+    .plato-cuerpo { padding-left: 0; }
+    .fuentes { grid-template-columns: 1fr; gap: 18px; }
+    .datos { grid-template-columns: repeat(2, 1fr); }
+    .dato:nth-child(3) { border-left: 0; padding-left: 0; }
+    .dato:nth-child(n+3) { border-top: 1px solid var(--linea); }
+    .carta { padding: 4px 20px; }
+  }
+  @media (max-width: 520px) {
+    .ancho { padding: 0 18px; }
+    .plato-cab { flex-wrap: wrap; }
+    .puntos { display: none; }
+    .cifra-clave { width: 100%; }
+    .barras li { grid-template-columns: 7em 1fr 3.8em; }
+    ol.top { columns: 1; }
+    .portada { padding-bottom: 100px; }
+  }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="envoltura">
-    <p class="etiqueta">Proyecto 7 · Ingeniería de Software · Universidad Cooperativa de Colombia</p>
-    <h1>Análisis de Opiniones de Clientes en Restaurantes</h1>
-    <p class="bajada">Procesamiento ETL de reseñas y calificaciones, análisis de tendencias y de satisfacción de los
-      clientes por región, con un dashboard interactivo en Power BI y una prueba ANOVA.</p>
+<header class="portada">
+  <div class="ancho">
+    <p class="contexto">Proyecto 7 de Ingeniería de Software, Universidad Cooperativa de Colombia</p>
+    <h1>¿Qué opinan los clientes de los restaurantes?</h1>
+    <p class="bajada">Procesamos 53.382 reseñas de restaurantes de Gijón y una encuesta de 1.500 clientes con un ETL en
+      Python, respondimos los 10 requerimientos con un dashboard de Power BI y validamos las diferencias entre grupos con ANOVA.</p>
     <!-- Agregar aquí los integrantes del grupo, por ejemplo:
-    <p class="equipo">Integrantes: Nombre Apellido · Nombre Apellido · Nombre Apellido</p> -->
+    <p class="equipo">Integrantes: Miguel Angel Mendoza Jaramillo, Juan Jose Montezuma Rosero y Andres David Criollo Rosero</p> -->
+    <nav class="indice" aria-label="Secciones">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#datos">Los datos</a>
+      <a href="#requerimientos">Los 10 requerimientos</a>
+      <a href="#dax">Medidas DAX</a>
+      <a href="#anova">ANOVA</a>
+      <a href="#conclusiones">Conclusiones</a>
+    </nav>
   </div>
 </header>
 
-<main class="envoltura">
+<main class="ancho">
 
-  <div class="tablero">
+  <div class="tablero" id="dashboard">
     <div class="marco">
-      <iframe title="powerbiProyecto"
+      <iframe title="Dashboard de Power BI: análisis de opiniones de clientes"
         src="https://app.powerbi.com/view?r=eyJrIjoiYzUyNTZjN2MtYzUzMy00ZTA3LWFhNTItNzg4MTFiYTQ0ZDJlIiwidCI6IjhkMzY4MzZlLTZiNzUtNGRlNi1iYWI5LTVmNGIxNzc1NDI3ZiIsImMiOjR9"
         allowfullscreen="true"></iframe>
     </div>
-    <p class="nota-tablero">Dashboard interactivo: usa las pestañas de abajo para cambiar de página y los botones de año y
-      precio para filtrar. <a href="https://app.powerbi.com/view?r=eyJrIjoiYzUyNTZjN2MtYzUzMy00ZTA3LWFhNTItNzg4MTFiYTQ0ZDJlIiwidCI6IjhkMzY4MzZlLTZiNzUtNGRlNi1iYWI5LTVmNGIxNzc1NDI3ZiIsImMiOjR9"
-      target="_blank" rel="noopener">Abrir en pantalla completa</a>.</p>
+    <p class="nota">Usa las pestañas de abajo del dashboard para cambiar de página y los filtros de año, precio,
+      ocasión y franja. Cada gráfico lleva en el título el requerimiento que responde (R1 a R10 y DAX 1 a DAX 10).
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiYzUyNTZjN2MtYzUzMy00ZTA3LWFhNTItNzg4MTFiYTQ0ZDJlIiwidCI6IjhkMzY4MzZlLTZiNzUtNGRlNi1iYWI5LTVmNGIxNzc1NDI3ZiIsImMiOjR9"
+      target="_blank" rel="noopener">Abrir en pantalla completa</a></p>
   </div>
 
-  <section>
+  <section id="datos">
     <h2>Los datos</h2>
-    <div class="cifras">
-      <div class="cifra"><b>53.382</b><span>reseñas en español (2017–2023)</span></div>
-      <div class="cifra"><b>779</b><span>restaurantes de Gijón, España</span></div>
-      <div class="cifra"><b>1.500</b><span>clientes encuestados</span></div>
-      <div class="cifra"><b>65/65</b><span>pruebas de calidad superadas</span></div>
+    <p class="intro">La encuesta del curso no trae restaurante, ciudad, fecha ni texto, así que la complementamos con
+      reseñas reales de TripAdvisor. Las dos fuentes se analizan por separado y se comparan donde comparten variables.</p>
+    <div class="datos">
+      <div class="dato"><b>53.382</b><span>reseñas en español, de enero de 2017 a septiembre de 2023</span></div>
+      <div class="dato"><b>779</b><span>restaurantes de Gijón (Asturias, España)</span></div>
+      <div class="dato"><b>1.500</b><span>clientes encuestados</span></div>
+      <div class="dato"><b>65 de 65</b><span>pruebas de calidad superadas</span></div>
     </div>
-    <div class="rejilla">
-      <div class="tarjeta">
+    <div class="fuentes">
+      <div>
         <h3>Encuesta de satisfacción</h3>
-        <p>Dataset base del curso: 1.500 clientes con calificaciones de servicio, comida y ambiente, tiempo de espera,
-          gasto, frecuencia de visita y perfil (edad, género, ingreso).</p>
+        <p>Dataset entregado por el profesor: calificaciones de servicio, comida y ambiente, tiempo de espera, gasto,
+          frecuencia de visita y perfil del cliente (edad, género, ingreso).</p>
       </div>
-      <div class="tarjeta">
+      <div>
         <h3>Reseñas de TripAdvisor</h3>
-        <p>Aportan lo que la encuesta no tiene: restaurante, precio, tipo de cocina, fecha, texto de la reseña y
-          ubicación del cliente. Fuente: <a href="https://doi.org/10.5281/zenodo.14622324" target="_blank" rel="noopener">TripAdvisor
-          Restaurant Reviews v2.0.0</a> (Zenodo, licencia CC BY 4.0).</p>
+        <p>Aportan restaurante, precio, tipo de cocina, fecha, texto y ciudad del cliente.
+          Fuente: <a href="https://doi.org/10.5281/zenodo.14622324" target="_blank" rel="noopener">TripAdvisor Restaurant
+          Reviews v2.0.0</a> (Zenodo, CC BY 4.0).</p>
       </div>
-      <div class="tarjeta">
+      <div>
         <h3>ETL en Python</h3>
-        <p>46 reglas de calidad documentadas (17 de la encuesta y 29 de las reseñas), nada imputado, cuarentena con motivo para lo inválido y una validación
-          independiente que recalcula los resultados desde los datos crudos.</p>
+        <p>46 reglas de limpieza documentadas, nada imputado, cuarentena con motivo para los registros inválidos y una
+          validación independiente que recalcula los resultados desde los datos crudos.</p>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>Qué muestra el dashboard</h2>
-    <div class="rejilla">
-      <div class="tarjeta"><h3>Reseñas – General</h3><p>Tendencia mensual de reseñas y rating, sentimiento por año y resumen anual.</p></div>
-      <div class="tarjeta"><h3>Reseñas – Restaurantes</h3><p>Top 10 y peores 10 restaurantes, rating por nivel de precio y por tipo de cocina.</p></div>
-      <div class="tarjeta"><h3>Reseñas – Origen</h3><p>Calificación según la ciudad y la región de procedencia del cliente.</p></div>
-      <div class="tarjeta"><h3>Encuesta</h3><p>Calificaciones por cocina preferida, satisfacción por frecuencia de visita, tiempo de espera y perfil.</p></div>
-      <div class="tarjeta"><h3>Comparación por cocina</h3><p>Encuesta frente a reseñas reales para las mismas cocinas, con la misma escala.</p></div>
+  <section id="requerimientos">
+    <h2>Los 10 requerimientos, respondidos</h2>
+    <p class="intro">Cada requerimiento del enunciado con su respuesta, la cifra que la resume y la página del dashboard
+      donde se puede explorar. Las reseñas son positivas con rating 4 o 5, neutras con 3 y negativas con 1 o 2.</p>
+
+    <div class="carta">
+
+      <article class="plato" id="r1">
+        <div class="plato-cab"><span class="num">1</span><h3>Promedio de calificación por restaurante</h3><span class="puntos"></span><span class="cifra-clave">3,87 de 5</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>El rating promedio de las 53.382 reseñas es 3,87. Para comparar restaurantes de forma justa solo se tienen
+              en cuenta los 367 que tienen al menos 30 reseñas. La mayoría está entre 3,5 y 4,5, pero 66 restaurantes no
+              llegan a 3.</p>
+            <p class="donde">En el dashboard: <b>Reseñas – Restaurantes</b></p>
+          </div>
+          <figure>
+            <figcaption>Restaurantes según su rating promedio (mínimo 30 reseñas)</figcaption>
+            <ul class="barras">
+              <li><span class="et">Hasta 3,0</span><span class="pista"><i class="rojo" style="--v:55.9"></i></span><b>66</b></li>
+              <li><span class="et">3,0 a 3,5</span><span class="pista"><i style="--v:46.6"></i></span><b>55</b></li>
+              <li><span class="et">3,5 a 4,0</span><span class="pista"><i style="--v:73.7"></i></span><b>87</b></li>
+              <li><span class="et">4,0 a 4,5</span><span class="pista"><i style="--v:100"></i></span><b>118</b></li>
+              <li><span class="et">4,5 a 5,0</span><span class="pista"><i class="oro" style="--v:34.7"></i></span><b>41</b></li>
+            </ul>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r2">
+        <div class="plato-cab"><span class="num">2</span><h3>Análisis de sentimiento por categoría</h3><span class="puntos"></span><span class="cifra-clave">80 % frente a 49 %</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>La categoría es el tipo de cocina. La europea tiene el 80 % de reseñas positivas y la barbacoa apenas el
+              49 %, con un 40 % negativas. La cocina española es la que más reseñas recibe (15.728), pero queda entre las de
+              menor proporción positiva (65,6 %).</p>
+            <p class="donde">En el dashboard: <b>Reseñas – Cocina</b> (las 15 cocinas con más reseñas)</p>
+          </div>
+          <figure>
+            <figcaption>Sentimiento en cinco tipos de cocina</figcaption>
+            <ul class="apiladas">
+              <li><span class="et">Europea</span><span class="pila"><i class="neg" style="--v:11.3">11</i><i class="neu" style="--v:8.5"></i><i class="pos" style="--v:80.2">80 %</i></span></li>
+              <li><span class="et">Mediterránea</span><span class="pila"><i class="neg" style="--v:11.6">12</i><i class="neu" style="--v:9.9"></i><i class="pos" style="--v:78.5">78 %</i></span></li>
+              <li><span class="et">Española</span><span class="pila"><i class="neg" style="--v:23.3">23</i><i class="neu" style="--v:11.1"></i><i class="pos" style="--v:65.6">66 %</i></span></li>
+              <li><span class="et">Café y té</span><span class="pila"><i class="neg" style="--v:32.1">32</i><i class="neu" style="--v:10.1"></i><i class="pos" style="--v:57.8">58 %</i></span></li>
+              <li><span class="et">Barbacoa</span><span class="pila"><i class="neg" style="--v:40.1">40</i><i class="neu" style="--v:10.6"></i><i class="pos" style="--v:49.3">49 %</i></span></li>
+            </ul>
+            <div class="leyenda"><span style="--c:var(--neg)">Negativas</span><span style="--c:var(--neu)">Neutras</span><span style="--c:var(--pos)">Positivas</span></div>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r3">
+        <div class="plato-cab"><span class="num">3</span><h3>Palabras clave más frecuentes</h3><span class="puntos"></span><span class="cifra-clave">“comida”: 18.786</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>Se cuentan las palabras de cada reseña sin artículos, preposiciones ni términos sin significado propio. Lo
+              que más mencionan los clientes es la comida, la calidad, el precio y el servicio. En las reseñas negativas
+              suben palabras como <i>mal</i>, <i>camarero</i>, <i>mesa</i> y <i>hora</i>, que apuntan al servicio y a la espera.</p>
+            <p class="donde">En el dashboard: <b>Reseñas – Texto</b></p>
+          </div>
+          <figure>
+            <figcaption>Palabras más frecuentes (número de menciones)</figcaption>
+            <ul class="barras">
+              <li><span class="et">comida</span><span class="pista"><i style="--v:100"></i></span><b>18.786</b></li>
+              <li><span class="et">buena</span><span class="pista"><i style="--v:65.2"></i></span><b>12.249</b></li>
+              <li><span class="et">calidad</span><span class="pista"><i style="--v:65.1"></i></span><b>12.232</b></li>
+              <li><span class="et">precio</span><span class="pista"><i style="--v:63.6"></i></span><b>11.954</b></li>
+              <li><span class="et">servicio</span><span class="pista"><i style="--v:57.1"></i></span><b>10.729</b></li>
+              <li><span class="et">trato</span><span class="pista"><i style="--v:48.5"></i></span><b>9.113</b></li>
+              <li><span class="et">atención</span><span class="pista"><i style="--v:45.5"></i></span><b>8.544</b></li>
+              <li><span class="et">menú</span><span class="pista"><i style="--v:37.6"></i></span><b>7.066</b></li>
+            </ul>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r4">
+        <div class="plato-cab"><span class="num">4</span><h3>Tendencia mensual de satisfacción</h3><span class="puntos"></span><span class="cifra-clave">3,89 → 3,73</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>La satisfacción baja con los años: el rating pasa de 3,89 en 2017 a 3,73 en 2023, y la línea de tendencia
+              mensual es descendente. Agosto es el mes con más reseñas (10.078) y uno de los de rating más bajo (3,82),
+              probablemente por la temporada alta. El domingo es el día con más reseñas y el peor rating (3,76).</p>
+            <p class="donde">En el dashboard: <b>Reseñas – General</b> e <b>Indicadores</b></p>
+          </div>
+          <figure>
+            <figcaption>Rating promedio por año</figcaption>
+            <svg viewBox="0 0 340 150" role="img" aria-label="Rating promedio por año: 2017 3,89; 2018 3,90; 2019 3,85; 2020 3,93; 2021 3,81; 2022 3,84; 2023 3,73">
+              <line x1="20" y1="120" x2="320" y2="120" stroke="#cfd9db"/>
+              <polyline fill="none" stroke="#12505e" stroke-width="3" stroke-linejoin="round"
+                points="26,43.9 74,39.9 122,56.2 170,32.3 218,70.3 266,59.7 314,95.8"/>
+              <line x1="26" y1="34.4" x2="314" y2="79.3" stroke="#c79a1e" stroke-width="2" stroke-dasharray="6 5"/>
+              <g fill="#12505e"><circle cx="26" cy="43.9" r="4"/><circle cx="74" cy="39.9" r="4"/><circle cx="122" cy="56.2" r="4"/><circle cx="170" cy="32.3" r="4"/><circle cx="218" cy="70.3" r="4"/><circle cx="266" cy="59.7" r="4"/><circle cx="314" cy="95.8" r="4"/></g>
+              <g font-size="12" font-weight="700" fill="#16252c" text-anchor="middle">
+                <text x="26" y="32">3,89</text><text x="74" y="28">3,90</text><text x="122" y="74">3,85</text><text x="170" y="21">3,93</text><text x="218" y="88">3,81</text><text x="266" y="48">3,84</text><text x="314" y="113">3,73</text>
+              </g>
+              <g font-size="12" fill="#52646c" text-anchor="middle">
+                <text x="26" y="138">2017</text><text x="74" y="138">2018</text><text x="122" y="138">2019</text><text x="170" y="138">2020</text><text x="218" y="138">2021</text><text x="266" y="138">2022</text><text x="314" y="138">2023</text>
+              </g>
+            </svg>
+            <div class="leyenda"><span style="--c:var(--mar)">Rating promedio</span><span style="--c:var(--sidra)">Tendencia</span></div>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r5">
+        <div class="plato-cab"><span class="num">5</span><h3>Calificación promedio por ciudad</h3><span class="puntos"></span><span class="cifra-clave">4,01 frente a 3,71</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>Todos los restaurantes están en Gijón, así que comparamos la ciudad de origen del cliente. Los visitantes
+              califican mejor que los locales: el resto de España da 4,00 y Asturias 3,83. Entre las ciudades con al menos
+              300 reseñas, Barcelona es la más generosa (4,01) y Oviedo la más exigente (3,71).</p>
+            <p class="donde">En el dashboard: <b>Reseñas – Origen</b> (por ciudad, región y tipo de origen)</p>
+          </div>
+          <figure>
+            <figcaption>Rating promedio según la ciudad del cliente (escala de 0 a 5)</figcaption>
+            <ul class="barras">
+              <li><span class="et">Barcelona</span><span class="pista"><i class="oro" style="--v:80.2"></i></span><b>4,01</b></li>
+              <li><span class="et">Bilbao</span><span class="pista"><i style="--v:79.8"></i></span><b>3,99</b></li>
+              <li><span class="et">Madrid</span><span class="pista"><i style="--v:79.2"></i></span><b>3,96</b></li>
+              <li><span class="et">Gijón</span><span class="pista"><i style="--v:77"></i></span><b>3,85</b></li>
+              <li><span class="et">Avilés</span><span class="pista"><i style="--v:76.6"></i></span><b>3,83</b></li>
+              <li><span class="et">Oviedo</span><span class="pista"><i class="rojo" style="--v:74.2"></i></span><b>3,71</b></li>
+            </ul>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r6">
+        <div class="plato-cab"><span class="num">6</span><h3>Relación entre precio y satisfacción</h3><span class="puntos"></span><span class="cifra-clave">4,25 los caros</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>Los restaurantes de precio alto tienen el mejor rating (4,25) y un 81 % de reseñas positivas, aunque son
+              solo 21. Entre los económicos y los de precio medio prácticamente no hay diferencia (3,83 y 3,85): pagar un
+              poco más no garantiza más satisfacción, solo el segmento alto se despega.</p>
+            <p class="donde">En el dashboard: <b>Reseñas – Restaurantes</b></p>
+          </div>
+          <figure>
+            <figcaption>Rating promedio por nivel de precio (escala de 0 a 5)</figcaption>
+            <ul class="barras">
+              <li><span class="et">Económico (125)</span><span class="pista"><i style="--v:76.5"></i></span><b>3,83</b></li>
+              <li><span class="et">Medio (423)</span><span class="pista"><i style="--v:77"></i></span><b>3,85</b></li>
+              <li><span class="et">Alto (21)</span><span class="pista"><i class="oro" style="--v:85"></i></span><b>4,25</b></li>
+            </ul>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r7">
+        <div class="plato-cab"><span class="num">7</span><h3>Top 10 restaurantes mejor calificados</h3><span class="puntos"></span><span class="cifra-clave">4,97</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>Ranking con RANKX entre los restaurantes con al menos 30 reseñas, para que uno con dos reseñas de 5
+              estrellas no quede primero. Aroma Pizza Artesana lidera con 4,97, y Farragua cierra el top con 4,76 pero
+              sobre 301 reseñas, el más consistente del grupo.</p>
+            <p class="donde">En el dashboard: <b>Reseñas – Restaurantes</b> e <b>Indicadores</b></p>
+          </div>
+          <figure>
+            <figcaption>Rating promedio (mínimo 30 reseñas)</figcaption>
+            <ol class="top">
+              <li><span>Aroma Pizza Artesana</span><b>4,97</b></li>
+              <li><span>Primero Cafe</span><b>4,88</b></li>
+              <li><span>Arti pizza</span><b>4,87</b></li>
+              <li><span>Sidreria Parrilla La Allandesa</span><b>4,83</b></li>
+              <li><span>Flow Food</span><b>4,81</b></li>
+              <li><span>La Piccola Stanza</span><b>4,79</b></li>
+              <li><span>Okaeri</span><b>4,78</b></li>
+              <li><span>Puzzle Bar Gijon</span><b>4,77</b></li>
+              <li><span>El Faisan Dorado</span><b>4,77</b></li>
+              <li><span>Farragua Restaurante</span><b>4,76</b></li>
+            </ol>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r8">
+        <div class="plato-cab"><span class="num">8</span><h3>Frecuencia de quejas específicas</h3><span class="puntos"></span><span class="cifra-clave">22 % lentitud</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>Buscamos en el texto de las 10.152 reseñas negativas palabras asociadas a ocho tipos de queja, con la
+              función SEARCH de DAX. La más común es la lentitud y la espera (2.243 reseñas), seguida del precio alto y la
+              calidad del plato. El 56 % de las negativas menciona al menos una de estas quejas.</p>
+            <p class="donde">En el dashboard: <b>Reseñas – Texto</b></p>
+          </div>
+          <figure>
+            <figcaption>Reseñas negativas que mencionan cada queja</figcaption>
+            <ul class="barras">
+              <li><span class="et">Lentitud y espera</span><span class="pista"><i class="rojo" style="--v:100"></i></span><b>2.243</b></li>
+              <li><span class="et">Precio alto</span><span class="pista"><i class="rojo" style="--v:65.6"></i></span><b>1.472</b></li>
+              <li><span class="et">Calidad del plato</span><span class="pista"><i class="rojo" style="--v:59.9"></i></span><b>1.344</b></li>
+              <li><span class="et">Mal trato</span><span class="pista"><i class="rojo" style="--v:48.8"></i></span><b>1.094</b></li>
+              <li><span class="et">Cantidad escasa</span><span class="pista"><i class="rojo" style="--v:36.7"></i></span><b>823</b></li>
+              <li><span class="et">Comida fría</span><span class="pista"><i class="rojo" style="--v:32.5"></i></span><b>729</b></li>
+              <li><span class="et">Higiene</span><span class="pista"><i class="rojo" style="--v:16"></i></span><b>360</b></li>
+              <li><span class="et">Ruido</span><span class="pista"><i class="rojo" style="--v:4.5"></i></span><b>102</b></li>
+            </ul>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r9">
+        <div class="plato-cab"><span class="num">9</span><h3>Reseñas negativas frente a positivas</h3><span class="puntos"></span><span class="cifra-clave">70,9 % positivas</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>En total, el 70,9 % de las reseñas es positivo, el 10,0 % neutro y el 19,0 % negativo. Pero la proporción
+              negativa crece casi todos los años: pasa del 15,2 % en 2017 al 26,1 % en 2023. El Índice Neto de
+              Satisfacción (positivas menos negativas) es 0,52.</p>
+            <p class="donde">En el dashboard: <b>Reseñas – General</b></p>
+          </div>
+          <figure>
+            <figcaption>Porcentaje de reseñas negativas por año</figcaption>
+            <div class="columnas" role="img" aria-label="Porcentaje de reseñas negativas: 2017 15,2; 2018 16,7; 2019 19,1; 2020 19,0; 2021 23,6; 2022 23,6; 2023 26,1">
+              <div><b>15,2</b><i style="--v:50.7"></i></div>
+              <div><b>16,7</b><i style="--v:55.7"></i></div>
+              <div><b>19,1</b><i style="--v:63.7"></i></div>
+              <div><b>19,0</b><i style="--v:63.3"></i></div>
+              <div><b>23,6</b><i style="--v:78.7"></i></div>
+              <div><b>23,6</b><i style="--v:78.7"></i></div>
+              <div><b>26,1</b><i style="--v:87"></i></div>
+            </div>
+            <div class="ejes" aria-hidden="true"><span>2017</span><span>2018</span><span>2019</span><span>2020</span><span>2021</span><span>2022</span><span>2023</span></div>
+          </figure>
+        </div>
+      </article>
+
+      <article class="plato" id="r10">
+        <div class="plato-cab"><span class="num">10</span><h3>Segmentación por perfil de cliente</h3><span class="puntos"></span><span class="cifra-clave">6,8 % frente a 16,3 %</span></div>
+        <div class="plato-cuerpo">
+          <div>
+            <p>Con la encuesta medimos qué porcentaje de cada grupo queda muy satisfecho (13,4 % en general). Los clientes
+              de ingreso bajo son los que menos lo están (6,8 %), los mayores de 45 años algo más que los jóvenes, y entre
+              hombres y mujeres casi no hay diferencia (13,6 % y 13,2 %). Los muy satisfechos son más a menudo miembros del
+              programa de lealtad (68,7 % frente a 44,8 %) y reservan online. Son diferencias descriptivas de la muestra.</p>
+            <p class="donde">En el dashboard: <b>Encuesta – Perfil del cliente</b> y <b>Encuesta</b></p>
+          </div>
+          <figure>
+            <figcaption>Clientes muy satisfechos según su ingreso anual</figcaption>
+            <ul class="barras">
+              <li><span class="et">Menos de 40 mil</span><span class="pista"><i class="rojo" style="--v:41.7"></i></span><b>6,8 %</b></li>
+              <li><span class="et">40 a 70 mil</span><span class="pista"><i style="--v:68.1"></i></span><b>11,1 %</b></li>
+              <li><span class="et">70 a 100 mil</span><span class="pista"><i class="oro" style="--v:100"></i></span><b>16,3 %</b></li>
+              <li><span class="et">100 mil o más</span><span class="pista"><i style="--v:96.3"></i></span><b>15,7 %</b></li>
+            </ul>
+          </figure>
+        </div>
+      </article>
+
     </div>
   </section>
 
-  <section>
-    <h2>Hallazgos principales</h2>
-    <div class="tarjeta">
-      <ul class="hallazgos">
-        <li>Las reseñas negativas pasan de <b>15,2 % en 2017 a 26,1 % en 2023</b>, y el rating promedio baja de 3,89 a 3,73.</li>
-        <li>El tipo de cocina sí marca diferencia: europea, japonesa, mexicana y mediterránea superan 4,1; española,
-          bares y cafeterías quedan por debajo de 3,7. Es el único efecto confirmado por el ANOVA con tamaño de efecto pequeño.</li>
-        <li><span class="resalta">Los clientes locales califican más bajo</span> que los visitantes: Asturias 3,83 frente a
-          4,00 del resto de España.</li>
-        <li>Los restaurantes caros tienen mejor rating (4,25), pero son pocos (21); entre económicos y medios no hay diferencia.</li>
-        <li>En la encuesta, las calificaciones no cambian según cocina, ocasión, horario ni frecuencia; la alta satisfacción
-          sí es más frecuente entre quienes esperan menos de 15 minutos, reservan online o son miembros del programa de lealtad.</li>
-      </ul>
+  <section id="dax">
+    <h2>Los 10 requerimientos DAX</h2>
+    <p class="intro">Todas las medidas están en la tabla <code>medidas</code> del archivo .pbix. Las fórmulas completas,
+      su explicación y el valor esperado de cada una están en el documento de
+      <a href="https://github.com/JuanMR2006/Analisis_Opinion_Clientes_Restaurante/blob/main/docs/MEDIDAS_DAX.md" target="_blank" rel="noopener">medidas DAX</a>.</p>
+    <div class="tabla">
+      <table>
+        <thead><tr><th>#</th><th>Requerimiento</th><th>Medidas</th><th>Dónde se ve</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Agregación: SUM, AVERAGE, COUNT</td><td><code>Total Reseñas</code>, <code>Rating Promedio</code>, <code>Total Caracteres</code>, <code>Gasto Total Encuesta</code></td><td>Tarjetas de Reseñas – General</td></tr>
+          <tr><td>2</td><td>Filtros con CALCULATE</td><td><code>% Positivas</code>, <code>% Negativas</code>, <code>Reseñas Negativas</code></td><td>Reseñas – General</td></tr>
+          <tr><td>3</td><td>Segmentación temporal</td><td>Visuales por año, mes, trimestre y día de la semana</td><td>Reseñas – General e Indicadores</td></tr>
+          <tr><td>4</td><td>Inteligencia de tiempo</td><td><code>Rating Año Anterior</code> (SAMEPERIODLASTYEAR), <code>Reseñas YTD</code>, <code>Reseñas MTD</code></td><td>Tabla anual de Reseñas – General e Indicadores</td></tr>
+          <tr><td>5</td><td>Clasificación con RANKX</td><td><code>Ranking Restaurante</code></td><td>Indicadores</td></tr>
+          <tr><td>6</td><td>Variables VAR … RETURN</td><td><code>Variación vs Año Anterior</code>, <code>Correlación Longitud-Rating</code>, quejas</td><td>Dentro de las fórmulas</td></tr>
+          <tr><td>7</td><td>Texto y búsqueda con SEARCH</td><td>Las 8 medidas <code>Quejas - …</code> y <code>Menciones de Queja</code></td><td>Reseñas – Texto</td></tr>
+          <tr><td>8</td><td>Relación entre dos variables</td><td><code>Correlación Longitud-Rating</code> = −0,24 y gráfico de dispersión</td><td>Indicadores</td></tr>
+          <tr><td>9</td><td>KPI personalizado</td><td><code>Índice Neto de Satisfacción</code> = 0,52, <code>% Alta Satisfacción</code> = 13,4 %</td><td>Indicadores y Encuesta</td></tr>
+          <tr><td>10</td><td>Tendencia y desviación estándar</td><td><code>Desviación Rating</code> = 1,40, <code>Coeficiente de Variación</code> = 0,36 y líneas de tendencia</td><td>Indicadores y Reseñas – General</td></tr>
+        </tbody>
+      </table>
     </div>
+  </section>
+
+  <section id="anova">
+    <h2>ANOVA: ¿el tipo de cocina cambia la calificación?</h2>
+    <p class="intro">La pregunta la elegimos nosotros a partir del ejemplo del enunciado para restaurantes: comparar
+      calificaciones promedio por categoría. La variable categórica es el tipo de cocina (las 11 con al menos 1.000
+      reseñas, 47.625 reseñas en total) y la variable numérica es el rating de cada reseña, de 1 a 5.</p>
+    <div class="anova">
+      <div>
+        <div class="hipotesis">
+          <p><b>H₀:</b> el rating promedio es igual en todos los tipos de cocina.</p>
+          <p><b>H₁:</b> al menos un tipo de cocina tiene un rating promedio distinto.</p>
+          <p><b>Nivel de significancia:</b> α = 0,05.</p>
+        </div>
+        <ul>
+          <li><b>Supuestos.</b> Normalidad con Shapiro-Wilk (p &lt; 0,001, no se cumple) y homogeneidad de varianzas con
+            Levene (p &lt; 0,001, no se cumple). Por eso se confirma con Kruskal-Wallis, la alternativa no paramétrica.</li>
+          <li><b>Resultado.</b> ANOVA F = 135,0 y Kruskal-Wallis H = 1.239,6, ambos con p &lt; 0,001 (también tras la
+            corrección de Holm).</li>
+          <li><b>Decisión.</b> Como p &lt; 0,05, se rechaza H₀: hay diferencias entre los tipos de cocina, y las dos
+            pruebas coinciden.</li>
+          <li><b>Interpretación.</b> Las diferencias son reales pero de efecto pequeño (η² = 0,028): la cocina explica
+            cerca del 3 % de la variación del rating. Tukey HSD muestra que europea, japonesa, mexicana y mediterránea
+            superan a española, bar y café y té.</li>
+          <li><b>Otras pruebas.</b> En las reseñas, el nivel de precio y el año también dan diferencias significativas,
+            aunque de efecto despreciable. En la encuesta, ninguna de las 17 pruebas fue significativa tras la corrección:
+            las calificaciones no cambian según cocina preferida, ocasión, franja ni frecuencia de visita.</li>
+        </ul>
+        <p class="hipotesis" style="margin-top:22px"><b>Conclusión:</b> el tipo de cocina sí influye en la calificación. Las cocinas europea,
+          japonesa, mexicana y mediterránea son mejor valoradas que la española, los bares y las cafeterías, aunque el
+          efecto es pequeño.</p>
+      </div>
+      <figure>
+        <figcaption>Rating promedio por tipo de cocina</figcaption>
+        <ul class="puntos-medias">
+          <li><span class="et">Europea</span><span class="riel"><i style="--m:4.210"></i></span><b>4,21</b></li>
+          <li><span class="et">Japonesa</span><span class="riel"><i style="--m:4.207"></i></span><b>4,21</b></li>
+          <li><span class="et">Mexicana</span><span class="riel"><i style="--m:4.142"></i></span><b>4,14</b></li>
+          <li><span class="et">Mediterránea</span><span class="riel"><i style="--m:4.135"></i></span><b>4,14</b></li>
+          <li><span class="et">Italiana</span><span class="riel"><i style="--m:4.006"></i></span><b>4,01</b></li>
+          <li><span class="et">Marisco</span><span class="riel"><i style="--m:3.954"></i></span><b>3,95</b></li>
+          <li><span class="et">Asador</span><span class="riel"><i style="--m:3.842"></i></span><b>3,84</b></li>
+          <li><span class="et">Americana</span><span class="riel"><i style="--m:3.811"></i></span><b>3,81</b></li>
+          <li><span class="et">Española</span><span class="riel"><i style="--m:3.671"></i></span><b>3,67</b></li>
+          <li><span class="et">Bar</span><span class="riel"><i style="--m:3.559"></i></span><b>3,56</b></li>
+          <li><span class="et">Café y té</span><span class="riel"><i style="--m:3.417"></i></span><b>3,42</b></li>
+        </ul>
+        <div class="escala" aria-hidden="true"><span></span><div><span>3,2</span><span>3,6</span><span>4,0</span><span>4,4</span></div><span></span></div>
+      </figure>
+    </div>
+  </section>
+
+  <section id="conclusiones">
+    <h2>Conclusiones</h2>
+    <ol class="conclusiones">
+      <li>La satisfacción en Gijón es buena pero va en descenso: siete de cada diez reseñas son positivas, aunque las
+        negativas pasaron del 15 % al 26 % entre 2017 y 2023.</li>
+      <li>El servicio pesa tanto como la comida. La queja más frecuente es la lentitud, y en las reseñas negativas
+        aparecen sobre todo camareros, mesas y horas de espera.</li>
+      <li>El tipo de cocina sí marca diferencias estadísticamente significativas en la calificación, aunque de efecto
+        pequeño; el precio solo influye en el segmento alto.</li>
+      <li>Los clientes locales son más exigentes que los visitantes, algo a tener en cuenta al leer el rating de un
+        restaurante con clientela mayormente asturiana.</li>
+      <li>En la encuesta, esperar menos de 15 minutos, reservar online y pertenecer al programa de lealtad acompañan a
+        una mayor proporción de clientes muy satisfechos.</li>
+    </ol>
   </section>
 
   <section>
@@ -165,10 +618,11 @@
 </main>
 
 <footer>
-  <div class="envoltura">
+  <div class="ancho">
     <p>Reseñas: Pérez-Núñez, P., Blanco, E., Bolón-Canedo, V. y Remeseiro, B. (2025). <i>TripAdvisor Restaurant Reviews</i>
-      (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.14622324 · CC BY 4.0. Subconjunto: Gijón, reseñas en español, 2017–2023.</p>
-    <p>Encuesta: <i>Restaurant Customer Satisfaction</i> (Kaggle), dataset entregado por el profesor.</p>
+      (v2.0.0). Zenodo. <a href="https://doi.org/10.5281/zenodo.14622324" target="_blank" rel="noopener">doi.org/10.5281/zenodo.14622324</a>,
+      licencia CC BY 4.0. Subconjunto usado: Gijón, reseñas en español, 2017 a 2023.</p>
+    <p>Encuesta: <a href="https://www.kaggle.com/datasets/andrewmvd/restaurant-customer-satisfaction" target="_blank" rel="noopener"><i>Restaurant Customer Satisfaction</i></a> (Kaggle), dataset entregado por el profesor.</p>
   </div>
 </footer>
 
