@@ -138,6 +138,29 @@ KPI asociado (la queja como proporción de las negativas):
 % Negativas con Queja de Lentitud = DIVIDE ( [Quejas - Lentitud], [Reseñas Negativas] )
 ```
 
+Para mostrar las 8 quejas en **un solo gráfico de barras** (página *Reseñas - Texto*) se usa una tabla
+desconectada con los nombres de las categorías y una medida que elige la medida correcta según la fila:
+
+```DAX
+Tipos_Queja =
+DATATABLE ( "Queja", STRING,
+    { { "Lentitud y espera" }, { "Precio alto" }, { "Calidad del plato" }, { "Mal trato" },
+      { "Cantidad escasa" }, { "Comida fría" }, { "Higiene" }, { "Ruido" } } )
+
+Menciones de Queja =
+SWITCH ( SELECTEDVALUE ( Tipos_Queja[Queja] ),
+    "Lentitud y espera", [Quejas - Lentitud],
+    "Precio alto", [Quejas - Precio],
+    "Calidad del plato", [Quejas - Calidad del Plato],
+    "Mal trato", [Quejas - Mal Trato],
+    "Cantidad escasa", [Quejas - Cantidad],
+    "Comida fría", [Quejas - Comida Fría],
+    "Higiene", [Quejas - Higiene],
+    "Ruido", [Quejas - Ruido] )
+
+% Negativas con la Queja = DIVIDE ( [Menciones de Queja], [Reseñas Negativas] )
+```
+
 ## 5. Palabras clave (tabla `Fact_Palabras`)
 
 | Medida | Fórmula | Esperado |
@@ -194,3 +217,62 @@ El **Índice Neto** resume el sentimiento en un número, como el NPS: de cada 10
 
 `% Alta Satisfacción` es el KPI tipo "tasa de conversión" de la encuesta: proporción de clientes que pasan a
 estar muy satisfechos. El promedio de una columna 0/1 es directamente esa proporción.
+
+## 9. Columnas calculadas
+
+No son medidas, pero se crean con DAX en el modelo para poder agrupar y ordenar los visuales.
+
+| Tabla | Columna | Fórmula | Para qué |
+|---|---|---|---|
+| `Dim_Fecha` | `Mes_Fecha` | `DATE ( Dim_Fecha[Anio], Dim_Fecha[Mes], 1 )` | Eje continuo de meses (sin barra de desplazamiento) y línea de tendencia |
+| `Fact_Encuesta` | `Rango_Espera` | `SWITCH ( TRUE (), [Tiempo_Espera_Min] < 15, "0-15 min", … )` | Alta satisfacción según tiempo de espera |
+| `Fact_Encuesta` | `Rango_Edad` / `Rango_Edad_Orden` | ver abajo | Perfil del cliente por edad |
+| `Fact_Encuesta` | `Rango_Ingreso` / `Rango_Ingreso_Orden` | ver abajo | Perfil del cliente por ingreso |
+
+```DAX
+Rango_Edad =
+SWITCH ( TRUE (),
+    Fact_Encuesta[Edad] <= 25, "18-25",
+    Fact_Encuesta[Edad] <= 35, "26-35",
+    Fact_Encuesta[Edad] <= 45, "36-45",
+    Fact_Encuesta[Edad] <= 55, "46-55",
+    "56 o más" )
+
+Rango_Ingreso =
+SWITCH ( TRUE (),
+    Fact_Encuesta[Ingreso] < 40000, "Menos de 40 mil",
+    Fact_Encuesta[Ingreso] < 70000, "40 a 70 mil",
+    Fact_Encuesta[Ingreso] < 100000, "70 a 100 mil",
+    "100 mil o más" )
+```
+
+Las columnas `_Orden` repiten la misma lógica devolviendo 1, 2, 3… y se usan en **Ordenar por columna**
+para que los rangos salgan en orden y no alfabéticos.
+
+Valores esperados de `% Alta Satisfacción` (página *Encuesta - Perfil del cliente*):
+
+| Edad | Encuestados | % Alta Satisf. | Ingreso | Encuestados | % Alta Satisf. |
+|---|---:|---:|---|---:|---:|
+| 18-25 | 233 | 11,6 % | Menos de 40 mil | 236 | 6,8 % |
+| 26-35 | 256 | 12,9 % | 40 a 70 mil | 333 | 11,1 % |
+| 36-45 | 304 | 11,5 % | 70 a 100 mil | 320 | 16,3 % |
+| 46-55 | 287 | 14,6 % | 100 mil o más | 611 | 15,7 % |
+| 56 o más | 420 | 15,2 % | | | |
+
+Por género: Femenino 759 (13,2 %), Masculino 741 (13,6 %). Son diferencias descriptivas de la muestra; no se
+aplicó prueba de hipótesis sobre ellas.
+
+## 10. Páginas del dashboard y requerimientos analíticos
+
+| # | Requerimiento analítico | Página |
+|---|---|---|
+| 1 | Calificación promedio por restaurante | Reseñas - Restaurantes |
+| 2 | Sentimiento por categoría | Reseñas - Cocina (barras 100 % por tipo de cocina, 15 con más reseñas) |
+| 3 | Palabras clave más frecuentes | Reseñas - Texto |
+| 4 | Tendencia mensual | Reseñas - General (con línea de tendencia) |
+| 5 | Calificación por ciudad | Reseñas - Origen |
+| 6 | Precio vs satisfacción | Reseñas - Restaurantes |
+| 7 | Top 10 restaurantes | Reseñas - Restaurantes e Indicadores (RANKX) |
+| 8 | Frecuencia de quejas específicas | Reseñas - Texto |
+| 9 | Negativas vs positivas | Reseñas - General |
+| 10 | Segmentación del perfil del cliente | Encuesta - Perfil del cliente (edad, ingreso, género) y Encuesta (lealtad, reserva, domicilio) |
