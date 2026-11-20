@@ -1,9 +1,8 @@
-"""Orquestador del ETL: ejecuta los DOS pipelines independientes (sin join entre ellos) y escribe reportes.
+"""Orquestador del ETL: corre los pipelines de encuesta y reseñas y escribe los reportes.
 
-    datasets/ --(Extract: pandas, todo texto)--> reglas E01.. / R01.. --(Load)--> datos_limpios/ (CSV + parquet)
-                                                         +--> rechazados/ (cuarentena con Motivo)
+    datasets/ -> reglas -> datos_limpios/ (válidas) y rechazados/ (cuarentena)
 
-Uso:   python etl/etl_main.py      y después:   python etl/validar_calidad.py
+Uso: python etl/etl_main.py  y luego  python etl/validar_calidad.py
 """
 import json
 import shutil
@@ -18,6 +17,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 
 def escribir_reporte(bit):
+    """Genera datos_limpios/reporte_calidad.md con las reglas aplicadas."""
     lineas = ["# Reporte de calidad del ETL", "",
               "Generado automáticamente por `etl/etl_main.py`. Cada fila es una regla aplicada y cuántos registros "
               "afectó. Las filas eliminadas están en `rechazados/` con las columnas `Codigo_Regla` y `Motivo`.", ""]
