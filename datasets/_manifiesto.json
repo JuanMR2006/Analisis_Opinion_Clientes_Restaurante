@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-14T16:04:22",
+  "generado": "2026-11-20T15:00:31",
   "archivos": [
     {
       "archivo": "dataset_raw.csv",
@@ -13,8 +13,8 @@
     },
     {
       "archivo": "gijon_ubicacion_clientes.csv",
-      "bytes": 1160432,
-      "sha256": "1e62f9e50ce708f99f45f31a082ad71690e57d7bb50cd20ea85fc16eb8fd8399"
+      "bytes": 1213815,
+      "sha256": "58e1c4c1feb907a8322d77a0f73e4443047ab961e114729082ec9f101765ec27"
     }
   ]
 }

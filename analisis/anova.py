@@ -1,6 +1,6 @@
 """Análisis estadístico (ANOVA de un factor y alternativa no paramétrica).
 
-Lee las tablas de datos_limpios/ (hay que ejecutar antes etl/etl_main.py) y responde:
+Lee las tablas de la base SQLite base_datos/opiniones_restaurantes.db (hay que ejecutar antes etl/etl_main.py) y responde:
 
   Encuesta
     E1-E16  ¿Calif_Promedio / Servicio / Comida / Ambiente cambian según Cocina_Preferida, Ocasion,
@@ -24,6 +24,7 @@ resultados_anova.md y graficos/*.png.
 
 Uso:  python analisis/anova.py
 """
+import sqlite3
 from pathlib import Path
 
 import matplotlib
@@ -36,7 +37,7 @@ from statsmodels.stats.multicomp import pairwise_tukeyhsd
 from statsmodels.stats.multitest import multipletests
 
 RAIZ = Path(__file__).resolve().parent.parent
-LIMPIOS = RAIZ / "datos_limpios"
+BASE_DATOS = RAIZ / "base_datos" / "opiniones_restaurantes.db"
 SALIDA = RAIZ / "analisis" / "resultados"
 GRAFICOS = SALIDA / "graficos"
 
@@ -54,16 +55,22 @@ ORDEN = {
 
 
 # ----------------------------------------------------------------------------- carga
+CONSULTA_RESENAS = """
+    SELECT r.Review_ID, r.Fecha, r.Rating, r.Sentimiento, d.Precio_Etiqueta, d.Cocina_Principal
+    FROM Fact_Resenas AS r
+    JOIN Dim_Restaurante AS d ON d.Restaurant_ID = r.Restaurant_ID
+"""
+
+
 def cargar():
-    leer = lambda n: pd.read_csv(LIMPIOS / f"{n}.csv", encoding="utf-8-sig")
-    try:
-        enc = leer("Fact_Encuesta")
-        res = leer("Fact_Resenas")
-        rest = leer("Dim_Restaurante")
-    except FileNotFoundError:
-        raise SystemExit("No encuentro datos_limpios/. Ejecuta primero: python etl/etl_main.py")
-    res = res.merge(rest[["Restaurant_ID", "Precio_Etiqueta", "Cocina_Principal"]], on="Restaurant_ID")
+    """Lee los datos desde la base SQLite que genera el ETL (base_datos/opiniones_restaurantes.db)."""
+    if not BASE_DATOS.exists():
+        raise SystemExit("No encuentro base_datos/opiniones_restaurantes.db. Ejecuta primero: python etl/etl_main.py")
+    with sqlite3.connect(BASE_DATOS) as con:
+        enc = pd.read_sql("SELECT * FROM Fact_Encuesta", con)
+        res = pd.read_sql(CONSULTA_RESENAS, con)
     res["Anio"] = res["Fecha"].str[:4]
+    print(f"Datos leídos de {BASE_DATOS.relative_to(RAIZ)}: {len(enc):,} encuestas y {len(res):,} reseñas")
     return enc, res
 
 

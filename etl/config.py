@@ -10,6 +10,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 CRUDOS = RAIZ / "datasets"            # capa bronce: NUNCA se modifica (solo se agrega _manifiesto.json)
 LIMPIOS = RAIZ / "datos_limpios"      # capa oro: modelo estrella en CSV (utf-8-sig) + parquet/
 CUARENTENA = RAIZ / "rechazados"      # filas que no pasaron las reglas, con su Motivo
+BASE_DATOS = RAIZ / "base_datos" / "opiniones_restaurantes.db"   # mismo modelo estrella en SQLite
 
 ARCHIVO_ENCUESTA = CRUDOS / "dataset_raw.csv"
 ARCHIVO_RESENAS = CRUDOS / "gijon_resenas_es_2017_2023.csv"

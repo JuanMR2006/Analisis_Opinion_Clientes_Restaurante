@@ -1,6 +1,7 @@
 """Orquestador del ETL: corre los pipelines de encuesta y reseñas y escribe los reportes.
 
-    datasets/ -> reglas -> datos_limpios/ (válidas) y rechazados/ (cuarentena)
+    datasets/ -> reglas -> datos_limpios/ (CSV + parquet), base_datos/opiniones_restaurantes.db (SQLite)
+                        y rechazados/ (cuarentena)
 
 Uso: python etl/etl_main.py  y luego  python etl/validar_calidad.py
 """
@@ -8,6 +9,7 @@ import json
 import shutil
 import sys
 
+import cargar_sqlite
 import config
 import etl_encuesta
 import etl_resenas
@@ -54,6 +56,9 @@ def main():
     (config.LIMPIOS / "parquet").mkdir(parents=True)
     for nombre, df in {**t_enc, **t_res}.items():
         bit.metrica(f"filas_{nombre}", guardar_tabla(df, nombre))
+
+    print("\n################ LOAD a base de datos SQLite ################")
+    cargar_sqlite.cargar({**t_enc, **t_res}, bit.pasos)
     cua.guardar({"Encuesta": cols_enc, "Resenas": cols_res})
     a_investigar.to_csv(config.CUARENTENA / "resenas_a_investigar.csv", index=False, encoding="utf-8-sig")
     print(f"  rechazados/resenas_a_investigar.csv -> {len(a_investigar):,} filas (NO eliminadas, solo marcadas)")

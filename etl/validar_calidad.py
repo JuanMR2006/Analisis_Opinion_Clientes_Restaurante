@@ -10,11 +10,13 @@ si alguna falla termina con código 1 (compuerta antes de cargar a Power BI).
     Integridad ref. .... toda FK existe en su dimensión (sin huérfanas)
     Consistencia ....... Sentimiento coherente con rating; calendario continuo; derivadas coherentes
     Exactitud .......... agregados recalculados DESDE EL CRUDO y comparados con el resultado
+    Base de datos ...... el .db SQLite tiene las mismas tablas y filas, sin huérfanos y sin corrupción
 
 Uso:   python etl/validar_calidad.py
 """
 import json
 import re
+import sqlite3
 import sys
 from pathlib import Path
 
@@ -25,6 +27,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 RAIZ = Path(__file__).resolve().parent.parent
 LIMPIOS = RAIZ / "datos_limpios"
 RECHAZADOS = RAIZ / "rechazados"
+BASE_DATOS = RAIZ / "base_datos" / "opiniones_restaurantes.db"
 CRUDO_ENC = RAIZ / "datasets" / "dataset_raw.csv"
 CRUDO_RES = RAIZ / "datasets" / "gijon_resenas_es_2017_2023.csv"
 CRUDO_UBI = RAIZ / "datasets" / "gijon_ubicacion_clientes.csv"
@@ -203,6 +206,30 @@ def main():
     sin_dato = set(res.merge(org, on="Origen_ID").query("Tipo_Origen == 'Sin dato'")["Review_ID"])
     prueba("Exactitud", "Origen 'Sin dato' = reseñas con ubicación vacía en el crudo (nada imputado)",
            vacias == sin_dato, f"{len(sin_dato):,} reseñas")
+
+    # ------------------------------------------------------------------ BASE DE DATOS (SQLite)
+    prueba("Base de datos", "Existe base_datos/opiniones_restaurantes.db", BASE_DATOS.exists())
+    if BASE_DATOS.exists():
+        con = sqlite3.connect(BASE_DATOS)
+        try:
+            prueba("Base de datos", "Integridad del archivo (PRAGMA integrity_check = ok)",
+                   con.execute("PRAGMA integrity_check").fetchone()[0] == "ok")
+            en_db = {r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+            prueba("Base de datos", "Tiene las 10 tablas del modelo y la bitácora de reglas",
+                   set(nombres) | {"Bitacora_Reglas"} <= en_db, f"{len(en_db)} tablas")
+            filas = {n: con.execute(f'SELECT COUNT(*) FROM "{n}"').fetchone()[0] for n in nombres if n in en_db}
+            distintas = {n: (filas.get(n), len(t[n])) for n in nombres if filas.get(n) != len(t[n])}
+            prueba("Base de datos", "Mismas filas en la base que en datos_limpios/ (tabla por tabla)",
+                   not distintas, distintas or f"{sum(filas.values()):,} filas")
+            huerfanos = con.execute("PRAGMA foreign_key_check").fetchall()
+            prueba("Base de datos", "Llaves foráneas sin huérfanos (PRAGMA foreign_key_check)", not huerfanos,
+                   f"{len(huerfanos)} huérfanos")
+            r_db = con.execute("SELECT AVG(Rating), SUM(Rating <= 2) FROM Fact_Resenas").fetchone()
+            prueba("Base de datos", "Rating promedio y reseñas negativas por SQL = datos_limpios/",
+                   abs(r_db[0] - res["Rating"].mean()) < TOL and r_db[1] == int((res["Rating"] <= 2).sum()),
+                   f"{r_db[0]:.4f} / {r_db[1]:,}")
+        finally:
+            con.close()
 
     # ------------------------------------------------------------------ RESUMEN
     fallas = [r for r in resultados if not r[2]]

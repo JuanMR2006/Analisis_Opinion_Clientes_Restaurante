@@ -34,12 +34,14 @@ python etl/validar_calidad.py
 python analisis/anova.py
 ```
 
-## Salidas (se regeneran en cada corrida; están en `.gitignore`)
+## Salidas (se regeneran en cada corrida)
 
 - `datos_limpios/` — `Fact_Encuesta`, `Dim_Cocina_Preferida`, `Dim_Ocasion`, `Dim_Franja_Visita`,
   `Dim_Frecuencia_Visita`, `Fact_Resenas`, `Dim_Restaurante`, `Dim_Fecha`, `Dim_Origen_Cliente`, `Fact_Palabras` en CSV
   (utf-8-sig) y `parquet/`,
   más `reporte_calidad.md`, `reporte_validacion.md` y `metricas_etl.json`.
+- `base_datos/opiniones_restaurantes.db` — el mismo modelo estrella en una base **SQLite**, con llaves primarias y
+  foráneas, más la tabla `Bitacora_Reglas`. Se abre con `sqlite3` o con DB Browser for SQLite.
 - `rechazados/` — filas eliminadas con `Codigo_Regla` y `Motivo`, y `resenas_a_investigar.csv` (marcadas, no eliminadas).
 - `datasets/_manifiesto.json` — tamaño y SHA-256 de cada crudo.
 
@@ -48,7 +50,7 @@ Medidas DAX del dashboard, con su explicación y valores esperados: [docs/MEDIDA
 
 ## Análisis estadístico (`analisis/`)
 
-`analisis/anova.py` lee `datos_limpios/` y prueba si las calificaciones cambian entre grupos
+`analisis/anova.py` lee los datos de la base SQLite (`base_datos/opiniones_restaurantes.db`) con SQL y prueba si las calificaciones cambian entre grupos
 (17 pruebas sobre la encuesta y 3 sobre las reseñas). Para cada una comprueba los supuestos
 (Shapiro-Wilk y Levene), aplica ANOVA o Kruskal-Wallis, corrige por comparaciones múltiples (Holm),
 calcula el tamaño del efecto (η² / ε²) y hace post-hoc de Tukey cuando sale significativa.

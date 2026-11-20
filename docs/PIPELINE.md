@@ -23,17 +23,21 @@ cada uno produce su propio modelo y en Power BI quedan como dos modelos separado
  │ (TripAdvisor, 53.382)        │                │ R00 … R28            │     │ Fact_Resenas, Dim_Rest.,│
  │ datasets/gijon_ubicacion_…csv│──────────────▶ │ (+ ubicaciones.py,   │     │ Dim_Fecha, Dim_Origen_  │
  │ (origen del autor, 53.382)   │                │  palabras_vacias.py) │     │ Cliente, Fact_Palabras  │
- └──────────────────────────────┘                └──────────┬───────────┘     └────────────┬────────────┘
+ └──────────────────────────────┘                └──────────┬───────────┘     │ base_datos/             │
+                                                            │                 │   opiniones_restaurantes│
+                                                            │                 │   .db (SQLite, PK + FK) │
+                                                            │                 └────────────┬────────────┘
                                                             ▼                              │
                                                       rechazados/                          ▼
                                                (cuarentena + Codigo_Regla + Motivo)  validar_calidad.py
-                                                                                     (65 pruebas PASA/FALLA)
+                                                                                     (71 pruebas PASA/FALLA)
 ```
 
 | Capa | Carpeta | Regla |
 |---|---|---|
 | Bronce (crudo) | `datasets/` | Se guarda exactamente lo que entregó la fuente. **Nunca se edita.** Solo se agrega `_manifiesto.json`. |
 | Oro (negocio) | `datos_limpios/` | Modelo estrella listo para Power BI, en CSV y Parquet. Se regenera completo en cada corrida. |
+| Oro (base de datos) | `base_datos/` | El mismo modelo estrella en una base SQLite (`opiniones_restaurantes.db`), con llaves primarias y foráneas. Se regenera en cada corrida. |
 | Cuarentena | `rechazados/` | Lo que no pasó las reglas, con su valor original, `Codigo_Regla` y `Motivo`. |
 
 Comandos (en este orden):
@@ -53,7 +57,8 @@ python etl/validar_calidad.py   # validación independiente; código 1 si algo f
 | `etl/ubicaciones.py` | Catálogo para normalizar la ubicación del autor: ciudad → comunidad autónoma, países, alias. |
 | `etl/palabras_vacias.py` | Palabras vacías del español y de dominio que se excluyen del análisis de palabras clave (R28). |
 | `preparacion/*.py` | Cómo se construyeron los crudos de TripAdvisor a partir de Zenodo (se corren una sola vez, ver §2.2). |
-| `etl/etl_main.py` | Ejecuta ambos, carga las tablas, escribe `reporte_calidad.md` y `metricas_etl.json`. |
+| `etl/cargar_sqlite.py` | Carga el modelo estrella en la base SQLite con DDL explícito (tipos, PRIMARY KEY, FOREIGN KEY) y la tabla `Bitacora_Reglas`. |
+| `etl/etl_main.py` | Ejecuta ambos, carga las tablas (CSV, Parquet y SQLite), escribe `reporte_calidad.md` y `metricas_etl.json`. |
 | `etl/validar_calidad.py` | Pruebas independientes (no importa nada del ETL; relee parquet y CSV crudos). |
 
 ---
@@ -275,12 +280,29 @@ Salida:
 `Dim_Fecha` cubre **años completos** (aunque las reseñas acaban el 2023-09-05) porque la inteligencia de tiempo de
 Power BI exige un calendario continuo.
 
+### Base de datos SQLite (`base_datos/opiniones_restaurantes.db`)
+
+Además de los CSV y Parquet, el LOAD escribe las 10 tablas en una base **SQLite** (un solo archivo, sin servidor).
+Cada tabla se crea con DDL explícito: tipos (`INTEGER`, `REAL`, `TEXT`), `PRIMARY KEY` y `FOREIGN KEY`
+(`Fact_Resenas` → `Dim_Restaurante`, `Dim_Fecha`, `Dim_Origen_Cliente`; `Fact_Palabras` → `Fact_Resenas`;
+`Fact_Encuesta` → sus 4 dimensiones). Las fechas se guardan como texto ISO (`AAAA-MM-DD`). Se agrega la tabla
+`Bitacora_Reglas` con cada regla aplicada y las filas que afectó. Al terminar, `PRAGMA foreign_key_check` debe dar
+cero huérfanos o el ETL se detiene. El ANOVA (`analisis/anova.py`) lee sus datos de esta base con SQL.
+
+Ejemplo de consulta (con `sqlite3` o DB Browser for SQLite):
+
+```sql
+SELECT d.Cocina_Principal, COUNT(*) AS Resenas, ROUND(AVG(r.Rating), 2) AS Rating
+FROM Fact_Resenas r JOIN Dim_Restaurante d ON d.Restaurant_ID = r.Restaurant_ID
+GROUP BY d.Cocina_Principal HAVING COUNT(*) >= 1000 ORDER BY Rating DESC;
+```
+
 ---
 
 ## 6. VALIDACIÓN (`etl/validar_calidad.py`)
 
 Es **independiente**: no importa ningún módulo del ETL. Relee los parquet y los CSV crudos y recalcula por su
-cuenta. Resultado real: **65/65 PASA** (detalle en `datos_limpios/reporte_validacion.md`).
+cuenta. Resultado real: **71/71 PASA** (detalle en `datos_limpios/reporte_validacion.md`).
 
 | Dimensión | Qué se prueba |
 |---|---|
@@ -290,6 +312,7 @@ cuenta. Resultado real: **65/65 PASA** (detalle en `datos_limpios/reporte_valida
 | Integridad referencial | `Fact_Resenas` → `Dim_Restaurante`, `Dim_Fecha` y `Dim_Origen_Cliente`; `Fact_Palabras` → `Fact_Resenas`; `Fact_Encuesta` → sus 4 dimensiones; sin huérfanas; el archivo de ubicaciones tiene exactamente una fila por reseña |
 | Consistencia | Sentimiento coherente con rating; calendario continuo; Trimestre/Semestre/Año-Mes coherentes; `Calif_Promedio` correcto; `Num_Resenas` = conteo real (restaurante y origen); `Nivel_Precio` coherente con el original |
 | Exactitud | Recalculado **desde el crudo**: promedio de rating por restaurante (779), reseñas por año, promedio de FoodRating y % de HighSatisfaction, gasto total; las reseñas con origen "Sin dato" son exactamente las que tienen ubicación vacía en el crudo; reseñas que contienen la palabra clave más frecuente ("comida", 18.786) |
+| Base de datos | El `.db` existe y pasa `PRAGMA integrity_check`; tiene las 10 tablas y `Bitacora_Reglas`; mismas filas que `datos_limpios/` tabla por tabla; `PRAGMA foreign_key_check` sin huérfanos; rating promedio y reseñas negativas por SQL = datos limpios |
 
 **Prueba de las reglas con datos sucios.** Como los archivos reales no tienen errores, se corrió el ETL sobre una
 copia (fuera del proyecto) con filas inyectadas: edad 150, rating 7, "Mle", ingreso "NA", grupo 2,5, reserva = 2,

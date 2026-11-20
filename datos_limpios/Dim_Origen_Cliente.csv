@@ -1,0 +1,1516 @@
+﻿Origen_ID,Ciudad_Cliente,Region_Cliente,Pais_Cliente,Tipo_Origen,Tipo_Origen_Orden,Num_Resenas
+1,Gijón,Principado de Asturias,España,Gijón (local),1,13902
+2,Arriondas,Principado de Asturias,España,Resto de Asturias,2,4
+3,Avilés,Principado de Asturias,España,Resto de Asturias,2,503
+4,Blimea,Principado de Asturias,España,Resto de Asturias,2,12
+5,Candás,Principado de Asturias,España,Resto de Asturias,2,54
+6,Cangas de Onís,Principado de Asturias,España,Resto de Asturias,2,25
+7,Cangas del Narcea,Principado de Asturias,España,Resto de Asturias,2,11
+8,Carreño,Principado de Asturias,España,Resto de Asturias,2,11
+9,Castrillón,Principado de Asturias,España,Resto de Asturias,2,4
+10,Colunga,Principado de Asturias,España,Resto de Asturias,2,8
+11,Corvera de Asturias,Principado de Asturias,España,Resto de Asturias,2,42
+12,Covadonga,Principado de Asturias,España,Resto de Asturias,2,5
+13,Cudillero,Principado de Asturias,España,Resto de Asturias,2,25
+14,Deva,Principado de Asturias,España,Resto de Asturias,2,23
+15,El Entrego,Principado de Asturias,España,Resto de Asturias,2,60
+16,Ferrones,Principado de Asturias,España,Resto de Asturias,2,2
+17,Gozón,Principado de Asturias,España,Resto de Asturias,2,5
+18,Grado,Principado de Asturias,España,Resto de Asturias,2,22
+19,Infiesto,Principado de Asturias,España,Resto de Asturias,2,6
+20,La Felguera,Principado de Asturias,España,Resto de Asturias,2,44
+21,Langreo,Principado de Asturias,España,Resto de Asturias,2,128
+22,Las Caldas,Principado de Asturias,España,Resto de Asturias,2,8
+23,Lastres,Principado de Asturias,España,Resto de Asturias,2,4
+24,Llanera,Principado de Asturias,España,Resto de Asturias,2,30
+25,Llanes,Principado de Asturias,España,Resto de Asturias,2,31
+26,Luanco,Principado de Asturias,España,Resto de Asturias,2,50
+27,Luarca,Principado de Asturias,España,Resto de Asturias,2,7
+28,Lugones,Principado de Asturias,España,Resto de Asturias,2,31
+29,Mieres,Principado de Asturias,España,Resto de Asturias,2,229
+30,Moreda,Principado de Asturias,España,Resto de Asturias,2,6
+31,Nava,Principado de Asturias,España,Resto de Asturias,2,13
+32,Navia,Principado de Asturias,España,Resto de Asturias,2,59
+33,No identificada,Principado de Asturias,España,Resto de Asturias,2,1206
+34,Noreña,Principado de Asturias,España,Resto de Asturias,2,35
+35,Oviedo,Principado de Asturias,España,Resto de Asturias,2,2153
+36,Perlora,Principado de Asturias,España,Resto de Asturias,2,5
+37,Piedras Blancas,Principado de Asturias,España,Resto de Asturias,2,39
+38,Pola de Laviana,Principado de Asturias,España,Resto de Asturias,2,45
+39,Pola de Lena,Principado de Asturias,España,Resto de Asturias,2,34
+40,Pola de Siero,Principado de Asturias,España,Resto de Asturias,2,63
+41,Pravia,Principado de Asturias,España,Resto de Asturias,2,11
+42,Proaza,Principado de Asturias,España,Resto de Asturias,2,5
+43,Quintueles,Principado de Asturias,España,Resto de Asturias,2,8
+44,Ribadesella,Principado de Asturias,España,Resto de Asturias,2,60
+45,Salinas,Principado de Asturias,España,Resto de Asturias,2,24
+46,Sama,Principado de Asturias,España,Resto de Asturias,2,5
+47,San Juan de la Arena,Principado de Asturias,España,Resto de Asturias,2,5
+48,San Martín del Rey Aurelio,Principado de Asturias,España,Resto de Asturias,2,6
+49,Sevares,Principado de Asturias,España,Resto de Asturias,2,5
+50,Siero,Principado de Asturias,España,Resto de Asturias,2,20
+51,Soto del Barco,Principado de Asturias,España,Resto de Asturias,2,5
+52,Tapia de Casariego,Principado de Asturias,España,Resto de Asturias,2,18
+53,Taramundi,Principado de Asturias,España,Resto de Asturias,2,11
+54,Teverga,Principado de Asturias,España,Resto de Asturias,2,18
+55,Tineo,Principado de Asturias,España,Resto de Asturias,2,8
+56,Torazo,Principado de Asturias,España,Resto de Asturias,2,4
+57,Vegadeo,Principado de Asturias,España,Resto de Asturias,2,1
+58,Villaviciosa,Principado de Asturias,España,Resto de Asturias,2,111
+59,Aguadulce,Andalucía,España,Resto de España,3,4
+60,Algeciras,Andalucía,España,Resto de España,3,16
+61,Almería,Andalucía,España,Resto de España,3,30
+62,Antequera,Andalucía,España,Resto de España,3,7
+63,Arroyo de la Miel,Andalucía,España,Resto de España,3,5
+64,Benalmádena,Andalucía,España,Resto de España,3,7
+65,Chiclana de la Frontera,Andalucía,España,Resto de España,3,25
+66,Cádiz,Andalucía,España,Resto de España,3,26
+67,Córdoba,Andalucía,España,Resto de España,3,51
+68,Dos Hermanas,Andalucía,España,Resto de España,3,14
+69,El Puerto de Santa María,Andalucía,España,Resto de España,3,15
+70,Estepona,Andalucía,España,Resto de España,3,7
+71,Fernán-Núñez,Andalucía,España,Resto de España,3,5
+72,Fuengirola,Andalucía,España,Resto de España,3,5
+73,Granada,Andalucía,España,Resto de España,3,113
+74,Huelva,Andalucía,España,Resto de España,3,42
+75,Jaén,Andalucía,España,Resto de España,3,18
+76,Jerez de la Frontera,Andalucía,España,Resto de España,3,22
+77,La Carolina,Andalucía,España,Resto de España,3,7
+78,La Línea de la Concepción,Andalucía,España,Resto de España,3,6
+79,Linares,Andalucía,España,Resto de España,3,2
+80,Mairena del Aljarafe,Andalucía,España,Resto de España,3,7
+81,Marbella,Andalucía,España,Resto de España,3,37
+82,Motril,Andalucía,España,Resto de España,3,1
+83,Málaga,Andalucía,España,Resto de España,3,138
+84,Nerja,Andalucía,España,Resto de España,3,1
+85,No identificada,Andalucía,España,Resto de España,3,43
+86,Rincón de la Victoria,Andalucía,España,Resto de España,3,9
+87,Ronda,Andalucía,España,Resto de España,3,2
+88,Roquetas de Mar,Andalucía,España,Resto de España,3,5
+89,San Fernando,Andalucía,España,Resto de España,3,10
+90,Sevilla,Andalucía,España,Resto de España,3,197
+91,Torremolinos,Andalucía,España,Resto de España,3,12
+92,Vélez-Málaga,Andalucía,España,Resto de España,3,5
+93,Úbeda,Andalucía,España,Resto de España,3,1
+94,Calatayud,Aragón,España,Resto de España,3,5
+95,Huesca,Aragón,España,Resto de España,3,15
+96,Jaca,Aragón,España,Resto de España,3,5
+97,Monzón,Aragón,España,Resto de España,3,6
+98,No identificada,Aragón,España,Resto de España,3,22
+99,Teruel,Aragón,España,Resto de España,3,5
+100,Utebo,Aragón,España,Resto de España,3,6
+101,Zaragoza,Aragón,España,Resto de España,3,284
+102,Arrecife,Canarias,España,Resto de España,3,1
+103,Las Palmas de Gran Canaria,Canarias,España,Resto de España,3,91
+104,Los Llanos de Aridane,Canarias,España,Resto de España,3,5
+105,No identificada,Canarias,España,Resto de España,3,123
+106,Puerto de la Cruz,Canarias,España,Resto de España,3,3
+107,San Cristóbal de La Laguna,Canarias,España,Resto de España,3,10
+108,Santa Cruz de Tenerife,Canarias,España,Resto de España,3,38
+109,Villa de Mazo,Canarias,España,Resto de España,3,7
+110,Camargo,Cantabria,España,Resto de España,3,3
+111,Castro Urdiales,Cantabria,España,Resto de España,3,52
+112,Comillas,Cantabria,España,Resto de España,3,5
+113,El Astillero,Cantabria,España,Resto de España,3,3
+114,Laredo,Cantabria,España,Resto de España,3,13
+115,Maliaño,Cantabria,España,Resto de España,3,4
+116,No identificada,Cantabria,España,Resto de España,3,56
+117,Noja,Cantabria,España,Resto de España,3,1
+118,Potes,Cantabria,España,Resto de España,3,6
+119,Reinosa,Cantabria,España,Resto de España,3,16
+120,San Vicente de la Barquera,Cantabria,España,Resto de España,3,2
+121,Santander,Cantabria,España,Resto de España,3,337
+122,Santoña,Cantabria,España,Resto de España,3,5
+123,Suances,Cantabria,España,Resto de España,3,12
+124,Torrelavega,Cantabria,España,Resto de España,3,43
+125,Aguilar de Campoo,Castilla y León,España,Resto de España,3,8
+126,Aranda de Duero,Castilla y León,España,Resto de España,3,24
+127,Arroyo de la Encomienda,Castilla y León,España,Resto de España,3,14
+128,Arévalo,Castilla y León,España,Resto de España,3,5
+129,Astorga,Castilla y León,España,Resto de España,3,16
+130,Bembibre,Castilla y León,España,Resto de España,3,4
+131,Benavente,Castilla y León,España,Resto de España,3,14
+132,Burgos,Castilla y León,España,Resto de España,3,185
+133,El Burgo de Osma,Castilla y León,España,Resto de España,3,5
+134,Fuensaldaña,Castilla y León,España,Resto de España,3,6
+135,La Bañeza,Castilla y León,España,Resto de España,3,3
+136,La Lastrilla,Castilla y León,España,Resto de España,3,6
+137,Laguna de Duero,Castilla y León,España,Resto de España,3,22
+138,León,Castilla y León,España,Resto de España,3,513
+139,Medina de Pomar,Castilla y León,España,Resto de España,3,7
+140,Medina del Campo,Castilla y León,España,Resto de España,3,26
+141,Miranda de Ebro,Castilla y León,España,Resto de España,3,28
+142,No identificada,Castilla y León,España,Resto de España,3,149
+143,Palencia,Castilla y León,España,Resto de España,3,168
+144,Ponferrada,Castilla y León,España,Resto de España,3,65
+145,Puente de Sanabria,Castilla y León,España,Resto de España,3,10
+146,Salamanca,Castilla y León,España,Resto de España,3,247
+147,San Esteban de Gormaz,Castilla y León,España,Resto de España,3,5
+148,Santa Marta de Tormes,Castilla y León,España,Resto de España,3,6
+149,Segovia,Castilla y León,España,Resto de España,3,59
+150,Soria,Castilla y León,España,Resto de España,3,28
+151,Trobajo del Camino,Castilla y León,España,Resto de España,3,6
+152,Valencia de Don Juan,Castilla y León,España,Resto de España,3,5
+153,Valladolid,Castilla y León,España,Resto de España,3,588
+154,Villablino,Castilla y León,España,Resto de España,3,4
+155,Villamuriel de Cerrato,Castilla y León,España,Resto de España,3,4
+156,Villaobispo de las Regueras,Castilla y León,España,Resto de España,3,12
+157,Zamora,Castilla y León,España,Resto de España,3,109
+158,Ávila,Castilla y León,España,Resto de España,3,72
+159,Albacete,Castilla-La Mancha,España,Resto de España,3,47
+160,Alcázar de San Juan,Castilla-La Mancha,España,Resto de España,3,11
+161,Almagro,Castilla-La Mancha,España,Resto de España,3,5
+162,Almonacid de Toledo,Castilla-La Mancha,España,Resto de España,3,22
+163,Azuqueca de Henares,Castilla-La Mancha,España,Resto de España,3,4
+164,Cabanillas del Campo,Castilla-La Mancha,España,Resto de España,3,5
+165,Ciudad Real,Castilla-La Mancha,España,Resto de España,3,19
+166,Cuenca,Castilla-La Mancha,España,Resto de España,3,11
+167,El Casar,Castilla-La Mancha,España,Resto de España,3,7
+168,Guadalajara,Castilla-La Mancha,España,Resto de España,3,45
+169,No identificada,Castilla-La Mancha,España,Resto de España,3,14
+170,Puertollano,Castilla-La Mancha,España,Resto de España,3,10
+171,Talavera de la Reina,Castilla-La Mancha,España,Resto de España,3,21
+172,Toledo,Castilla-La Mancha,España,Resto de España,3,86
+173,Torrijos,Castilla-La Mancha,España,Resto de España,3,5
+174,Valdepeñas,Castilla-La Mancha,España,Resto de España,3,5
+175,Badalona,Cataluña,España,Resto de España,3,13
+176,Barcelona,Cataluña,España,Resto de España,3,409
+177,Castelldefels,Cataluña,España,Resto de España,3,32
+178,Cornellà de Llobregat,Cataluña,España,Resto de España,3,3
+179,El Prat de Llobregat,Cataluña,España,Resto de España,3,4
+180,Figueres,Cataluña,España,Resto de España,3,7
+181,Girona,Cataluña,España,Resto de España,3,21
+182,Granollers,Cataluña,España,Resto de España,3,5
+183,L'Hospitalet de Llobregat,Cataluña,España,Resto de España,3,5
+184,Lleida,Cataluña,España,Resto de España,3,19
+185,Lloret de Mar,Cataluña,España,Resto de España,3,5
+186,Manresa,Cataluña,España,Resto de España,3,9
+187,Martorell,Cataluña,España,Resto de España,3,5
+188,Mataró,Cataluña,España,Resto de España,3,15
+189,No identificada,Cataluña,España,Resto de España,3,42
+190,Premià de Mar,Cataluña,España,Resto de España,3,5
+191,Reus,Cataluña,España,Resto de España,3,12
+192,Ripollet,Cataluña,España,Resto de España,3,8
+193,Rubí,Cataluña,España,Resto de España,3,6
+194,Sabadell,Cataluña,España,Resto de España,3,24
+195,Salou,Cataluña,España,Resto de España,3,9
+196,Sant Cugat del Vallès,Cataluña,España,Resto de España,3,10
+197,Sitges,Cataluña,España,Resto de España,3,3
+198,Tarragona,Cataluña,España,Resto de España,3,24
+199,Terrassa,Cataluña,España,Resto de España,3,20
+200,Vila-seca,Cataluña,España,Resto de España,3,5
+201,Viladecans,Cataluña,España,Resto de España,3,12
+202,Vilanova i la Geltrú,Cataluña,España,Resto de España,3,9
+203,Vilassar de Mar,Cataluña,España,Resto de España,3,4
+204,Ceuta,Ceuta,España,Resto de España,3,6
+205,Barañáin,Comunidad Foral de Navarra,España,Resto de España,3,5
+206,Estella,Comunidad Foral de Navarra,España,Resto de España,3,6
+207,Huarte,Comunidad Foral de Navarra,España,Resto de España,3,6
+208,Leitza,Comunidad Foral de Navarra,España,Resto de España,3,12
+209,No identificada,Comunidad Foral de Navarra,España,Resto de España,3,7
+210,Pamplona,Comunidad Foral de Navarra,España,Resto de España,3,117
+211,Tudela,Comunidad Foral de Navarra,España,Resto de España,3,14
+212,Alcalá de Henares,Comunidad de Madrid,España,Resto de España,3,61
+213,Alcobendas,Comunidad de Madrid,España,Resto de España,3,21
+214,Alcorcón,Comunidad de Madrid,España,Resto de España,3,62
+215,Alpedrete,Comunidad de Madrid,España,Resto de España,3,22
+216,Aranjuez,Comunidad de Madrid,España,Resto de España,3,7
+217,Arganda del Rey,Comunidad de Madrid,España,Resto de España,3,15
+218,Arroyomolinos,Comunidad de Madrid,España,Resto de España,3,6
+219,Boadilla del Monte,Comunidad de Madrid,España,Resto de España,3,45
+220,Collado Villalba,Comunidad de Madrid,España,Resto de España,3,16
+221,Colmenar Viejo,Comunidad de Madrid,España,Resto de España,3,9
+222,Coslada,Comunidad de Madrid,España,Resto de España,3,15
+223,Daganzo de Arriba,Comunidad de Madrid,España,Resto de España,3,11
+224,Fuenlabrada,Comunidad de Madrid,España,Resto de España,3,32
+225,Galapagar,Comunidad de Madrid,España,Resto de España,3,10
+226,Getafe,Comunidad de Madrid,España,Resto de España,3,36
+227,Guadarrama,Comunidad de Madrid,España,Resto de España,3,19
+228,Las Rozas,Comunidad de Madrid,España,Resto de España,3,44
+229,Leganés,Comunidad de Madrid,España,Resto de España,3,40
+230,Los Molinos,Comunidad de Madrid,España,Resto de España,3,5
+231,Madrid,Comunidad de Madrid,España,Resto de España,3,3385
+232,Majadahonda,Comunidad de Madrid,España,Resto de España,3,32
+233,Manzanares el Real,Comunidad de Madrid,España,Resto de España,3,4
+234,Móstoles,Comunidad de Madrid,España,Resto de España,3,40
+235,Navalcarnero,Comunidad de Madrid,España,Resto de España,3,6
+236,No identificada,Comunidad de Madrid,España,Resto de España,3,128
+237,Parla,Comunidad de Madrid,España,Resto de España,3,17
+238,Pinto,Comunidad de Madrid,España,Resto de España,3,24
+239,Pozuelo de Alarcón,Comunidad de Madrid,España,Resto de España,3,45
+240,Rivas-Vaciamadrid,Comunidad de Madrid,España,Resto de España,3,10
+241,San Fernando de Henares,Comunidad de Madrid,España,Resto de España,3,6
+242,San Lorenzo de El Escorial,Comunidad de Madrid,España,Resto de España,3,9
+243,San Martín de Valdeiglesias,Comunidad de Madrid,España,Resto de España,3,5
+244,San Sebastián de los Reyes,Comunidad de Madrid,España,Resto de España,3,18
+245,Sevilla la Nueva,Comunidad de Madrid,España,Resto de España,3,5
+246,Torrejón de Ardoz,Comunidad de Madrid,España,Resto de España,3,59
+247,Torrelodones,Comunidad de Madrid,España,Resto de España,3,7
+248,Tres Cantos,Comunidad de Madrid,España,Resto de España,3,35
+249,Valdemoro,Comunidad de Madrid,España,Resto de España,3,18
+250,Villanueva de la Cañada,Comunidad de Madrid,España,Resto de España,3,6
+251,Villaviciosa de Odón,Comunidad de Madrid,España,Resto de España,3,8
+252,Alcoy,Comunitat Valenciana,España,Resto de España,3,10
+253,Alicante,Comunitat Valenciana,España,Resto de España,3,84
+254,Benicarló,Comunitat Valenciana,España,Resto de España,3,8
+255,Benidorm,Comunitat Valenciana,España,Resto de España,3,9
+256,Castellón de la Plana,Comunitat Valenciana,España,Resto de España,3,20
+257,Catarroja,Comunitat Valenciana,España,Resto de España,3,4
+258,Dénia,Comunitat Valenciana,España,Resto de España,3,10
+259,Elche,Comunitat Valenciana,España,Resto de España,3,21
+260,Gandia,Comunitat Valenciana,España,Resto de España,3,7
+261,Jávea,Comunitat Valenciana,España,Resto de España,3,6
+262,Moraira,Comunitat Valenciana,España,Resto de España,3,5
+263,No identificada,Comunitat Valenciana,España,Resto de España,3,48
+264,Náquera,Comunitat Valenciana,España,Resto de España,3,4
+265,Orihuela,Comunitat Valenciana,España,Resto de España,3,1
+266,Paterna,Comunitat Valenciana,España,Resto de España,3,12
+267,Sagunto,Comunitat Valenciana,España,Resto de España,3,1
+268,Sant Vicent del Raspeig,Comunitat Valenciana,España,Resto de España,3,7
+269,Torrevieja,Comunitat Valenciana,España,Resto de España,3,12
+270,Valencia,Comunitat Valenciana,España,Resto de España,3,215
+271,Villajoyosa,Comunitat Valenciana,España,Resto de España,3,5
+272,Xàtiva,Comunitat Valenciana,España,Resto de España,3,5
+273,Almendralejo,Extremadura,España,Resto de España,3,5
+274,Badajoz,Extremadura,España,Resto de España,3,59
+275,Cáceres,Extremadura,España,Resto de España,3,46
+276,Don Benito,Extremadura,España,Resto de España,3,5
+277,Eljas,Extremadura,España,Resto de España,3,7
+278,Mérida,Extremadura,España,Resto de España,3,25
+279,Navalmoral de la Mata,Extremadura,España,Resto de España,3,13
+280,No identificada,Extremadura,España,Resto de España,3,1
+281,Plasencia,Extremadura,España,Resto de España,3,35
+282,Trujillo,Extremadura,España,Resto de España,3,9
+283,A Coruña,Galicia,España,Resto de España,3,303
+284,Arteixo,Galicia,España,Resto de España,3,6
+285,Baiona,Galicia,España,Resto de España,3,4
+286,Bertamiráns,Galicia,España,Resto de España,3,4
+287,Betanzos,Galicia,España,Resto de España,3,5
+288,Burela,Galicia,España,Resto de España,3,10
+289,Cambados,Galicia,España,Resto de España,3,4
+290,Culleredo,Galicia,España,Resto de España,3,12
+291,Ferrol,Galicia,España,Resto de España,3,75
+292,Foz,Galicia,España,Resto de España,3,6
+293,Lugo,Galicia,España,Resto de España,3,86
+294,Marín,Galicia,España,Resto de España,3,7
+295,Moaña,Galicia,España,Resto de España,3,7
+296,Monforte de Lemos,Galicia,España,Resto de España,3,2
+297,Narón,Galicia,España,Resto de España,3,20
+298,No identificada,Galicia,España,Resto de España,3,92
+299,Noia,Galicia,España,Resto de España,3,5
+300,Oleiros,Galicia,España,Resto de España,3,2
+301,Ourense,Galicia,España,Resto de España,3,60
+302,Ponteareas,Galicia,España,Resto de España,3,12
+303,Pontedeume,Galicia,España,Resto de España,3,7
+304,Pontevedra,Galicia,España,Resto de España,3,52
+305,Ribadeo,Galicia,España,Resto de España,3,18
+306,Ribeira,Galicia,España,Resto de España,3,14
+307,Santiago de Compostela,Galicia,España,Resto de España,3,115
+308,Sanxenxo,Galicia,España,Resto de España,3,8
+309,Tomiño,Galicia,España,Resto de España,3,7
+310,Vigo,Galicia,España,Resto de España,3,116
+311,Vilagarcía de Arousa,Galicia,España,Resto de España,3,6
+312,Viveiro,Galicia,España,Resto de España,3,24
+313,Inca,Illes Balears,España,Resto de España,3,3
+314,Manacor,Illes Balears,España,Resto de España,3,5
+315,No identificada,Illes Balears,España,Resto de España,3,65
+316,Palma,Illes Balears,España,Resto de España,3,100
+317,Santa Ponsa,Illes Balears,España,Resto de España,3,8
+318,Calahorra,La Rioja,España,Resto de España,3,12
+319,Fuenmayor,La Rioja,España,Resto de España,3,6
+320,Haro,La Rioja,España,Resto de España,3,4
+321,Logroño,La Rioja,España,Resto de España,3,132
+322,No identificada,La Rioja,España,Resto de España,3,16
+323,Melilla,Melilla,España,Resto de España,3,8
+324,A Estrada,No identificada,España,Resto de España,3,2
+325,A Guarda,No identificada,España,Resto de España,3,2
+326,A Rua,No identificada,España,Resto de España,3,1
+327,Abadin,No identificada,España,Resto de España,3,2
+328,Abaran,No identificada,España,Resto de España,3,1
+329,Abegondo,No identificada,España,Resto de España,3,1
+330,Acala del Rio,No identificada,España,Resto de España,3,2
+331,Acantilado de los Gigantes,No identificada,España,Resto de España,3,1
+332,Adeje,No identificada,España,Resto de España,3,2
+333,Adra,No identificada,España,Resto de España,3,1
+334,Agreda,No identificada,España,Resto de España,3,2
+335,Aguilas,No identificada,España,Resto de España,3,1
+336,Aguimes,No identificada,España,Resto de España,3,2
+337,Aguino,No identificada,España,Resto de España,3,1
+338,Agurain,No identificada,España,Resto de España,3,1
+339,Aiguafreda,No identificada,España,Resto de España,3,1
+340,Alacuas,No identificada,España,Resto de España,3,2
+341,Alaior,No identificada,España,Resto de España,3,1
+342,Alange,No identificada,España,Resto de España,3,1
+343,Alba de Tormes,No identificada,España,Resto de España,3,2
+344,Albal,No identificada,España,Resto de España,3,3
+345,Albarracin,No identificada,España,Resto de España,3,1
+346,Albolote,No identificada,España,Resto de España,3,1
+347,Albox,No identificada,España,Resto de España,3,4
+348,Alcala de Guadaira,No identificada,España,Resto de España,3,1
+349,Alcala del Valle,No identificada,España,Resto de España,3,1
+350,Alcala la Real,No identificada,España,Resto de España,3,1
+351,Alcaniz,No identificada,España,Resto de España,3,2
+352,Alcantarilla,No identificada,España,Resto de España,3,2
+353,Alcasser,No identificada,España,Resto de España,3,1
+354,Alcossebre,No identificada,España,Resto de España,3,2
+355,Alcover,No identificada,España,Resto de España,3,1
+356,Aldeamayor de San Martin,No identificada,España,Resto de España,3,1
+357,Alfafar,No identificada,España,Resto de España,3,1
+358,Algemesi,No identificada,España,Resto de España,3,1
+359,Algete,No identificada,España,Resto de España,3,3
+360,Alhama de Aragon,No identificada,España,Resto de España,3,4
+361,Alhaurin de la Torre,No identificada,España,Resto de España,3,3
+362,Alhaurin el Grande,No identificada,España,Resto de España,3,2
+363,Alhendin,No identificada,España,Resto de España,3,1
+364,Aljaraque,No identificada,España,Resto de España,3,2
+365,Allariz,No identificada,España,Resto de España,3,2
+366,Aller Municipality,No identificada,España,Resto de España,3,3
+367,Almassora,No identificada,España,Resto de España,3,1
+368,Almazan,No identificada,España,Resto de España,3,1
+369,Almerimar,No identificada,España,Resto de España,3,4
+370,Almoradi,No identificada,España,Resto de España,3,1
+371,Almuna,No identificada,España,Resto de España,3,3
+372,Alomartes,No identificada,España,Resto de España,3,1
+373,Alovera,No identificada,España,Resto de España,3,1
+374,Altafulla,No identificada,España,Resto de España,3,1
+375,Altea,No identificada,España,Resto de España,3,1
+376,Alzira,No identificada,España,Resto de España,3,3
+377,Amer,No identificada,España,Resto de España,3,1
+378,Ames,No identificada,España,Resto de España,3,3
+379,Amieva,No identificada,España,Resto de España,3,1
+380,Amposta,No identificada,España,Resto de España,3,1
+381,Ampuero,No identificada,España,Resto de España,3,2
+382,Amusco,No identificada,España,Resto de España,3,1
+383,Andorra,No identificada,España,Resto de España,3,4
+384,Arahal,No identificada,España,Resto de España,3,2
+385,Arbo,No identificada,España,Resto de España,3,1
+386,Arbucies,No identificada,España,Resto de España,3,1
+387,Arcos de la Frontera,No identificada,España,Resto de España,3,1
+388,Ardales,No identificada,España,Resto de España,3,1
+389,Arenas de San Pedro,No identificada,España,Resto de España,3,1
+390,Arenys de Mar,No identificada,España,Resto de España,3,1
+391,Arenys de Munt,No identificada,España,Resto de España,3,1
+392,Ares,No identificada,España,Resto de España,3,4
+393,Aretxabaleta,No identificada,España,Resto de España,3,1
+394,Arganda,No identificada,España,Resto de España,3,2
+395,Argentona,No identificada,España,Resto de España,3,1
+396,Arges,No identificada,España,Resto de España,3,1
+397,Argomaniz,No identificada,España,Resto de España,3,1
+398,Argonos,No identificada,España,Resto de España,3,1
+399,Arguero,No identificada,España,Resto de España,3,4
+400,Arguineguin,No identificada,España,Resto de España,3,1
+401,Arizgoiti,No identificada,España,Resto de España,3,2
+402,Arnedillo,No identificada,España,Resto de España,3,1
+403,Arnedo,No identificada,España,Resto de España,3,2
+404,Arona,No identificada,España,Resto de España,3,4
+405,Arrasate,No identificada,España,Resto de España,3,1
+406,Arrigorriaga,No identificada,España,Resto de España,3,4
+407,Arroyomolinos de la Vera,No identificada,España,Resto de España,3,1
+408,Artziniega,No identificada,España,Resto de España,3,1
+409,Arucas,No identificada,España,Resto de España,3,1
+410,As Pontes de Garcia Rodriguez,No identificada,España,Resto de España,3,1
+411,Astigarraga,No identificada,España,Resto de España,3,2
+412,Astureses,No identificada,España,Resto de España,3,5
+413,Atarfe,No identificada,España,Resto de España,3,1
+414,Avia,No identificada,España,Resto de España,3,1
+415,Ayamonte,No identificada,España,Resto de España,3,1
+416,Ayegui,No identificada,España,Resto de España,3,1
+417,Azcoita,No identificada,España,Resto de España,3,1
+418,Baamonde,No identificada,España,Resto de España,3,1
+419,Badia del Valles,No identificada,España,Resto de España,3,1
+420,Baeza,No identificada,España,Resto de España,3,3
+421,Bagues,No identificada,España,Resto de España,3,1
+422,Bakio,No identificada,España,Resto de España,3,1
+423,Baltanas,No identificada,España,Resto de España,3,1
+424,Baltarga,No identificada,España,Resto de España,3,2
+425,Banyeres del Penedes,No identificada,España,Resto de España,3,2
+426,Barbadas,No identificada,España,Resto de España,3,1
+427,Barbastro,No identificada,España,Resto de España,3,3
+428,Barbate,No identificada,España,Resto de España,3,1
+429,Barcia,No identificada,España,Resto de España,3,1
+430,Bargas,No identificada,España,Resto de España,3,3
+431,Barredos,No identificada,España,Resto de España,3,1
+432,Barreiros,No identificada,España,Resto de España,3,1
+433,Barrika,No identificada,España,Resto de España,3,1
+434,Barro,No identificada,España,Resto de España,3,3
+435,Bayas,No identificada,España,Resto de España,3,1
+436,Baza,No identificada,España,Resto de España,3,1
+437,Beasain,No identificada,España,Resto de España,3,3
+438,Belmonte,No identificada,España,Resto de España,3,3
+439,Benacazon,No identificada,España,Resto de España,3,1
+440,Benahavis,No identificada,España,Resto de España,3,1
+441,Benasque,No identificada,España,Resto de España,3,2
+442,Benejuzar,No identificada,España,Resto de España,3,1
+443,Benia de Onis,No identificada,España,Resto de España,3,1
+444,Benicasim,No identificada,España,Resto de España,3,3
+445,Benijofar,No identificada,España,Resto de España,3,2
+446,Berango,No identificada,España,Resto de España,3,1
+447,Bergara,No identificada,España,Resto de España,3,2
+448,Bergondo,No identificada,España,Resto de España,3,2
+449,Beriain,No identificada,España,Resto de España,3,3
+450,Berja,No identificada,España,Resto de España,3,1
+451,Berrioplano,No identificada,España,Resto de España,3,1
+452,Betera,No identificada,España,Resto de España,3,1
+453,Bielsa,No identificada,España,Resto de España,3,1
+454,Biescas,No identificada,España,Resto de España,3,1
+455,Bimenes Municipality,No identificada,España,Resto de España,3,1
+456,Binefar,No identificada,España,Resto de España,3,4
+457,Blanes,No identificada,España,Resto de España,3,2
+458,Boiro,No identificada,España,Resto de España,3,4
+459,Bollullos de la Mitacion,No identificada,España,Resto de España,3,3
+460,Boo de Pielagos,No identificada,España,Resto de España,3,3
+461,Borja,No identificada,España,Resto de España,3,3
+462,Brenes,No identificada,España,Resto de España,3,1
+463,Brion,No identificada,España,Resto de España,3,1
+464,Briviesca,No identificada,España,Resto de España,3,1
+465,Bueno,No identificada,España,Resto de España,3,1
+466,Buitrago de Lozoya,No identificada,España,Resto de España,3,2
+467,Burjassot,No identificada,España,Resto de España,3,1
+468,Burriana,No identificada,España,Resto de España,3,1
+469,Cabanas de la Sagra,No identificada,España,Resto de España,3,1
+470,Cabanillas de la Sierra,No identificada,España,Resto de España,3,1
+471,Cabarceno,No identificada,España,Resto de España,3,2
+472,Cabezon de Pisuerga,No identificada,España,Resto de España,3,1
+473,Cabezon de la Sal,No identificada,España,Resto de España,3,3
+474,Cabo de Palos,No identificada,España,Resto de España,3,1
+475,Cabranes Municipality,No identificada,España,Resto de España,3,2
+476,Cabrerizos,No identificada,España,Resto de España,3,1
+477,Cabuenes,No identificada,España,Resto de España,3,2
+478,Cacabelos,No identificada,España,Resto de España,3,1
+479,Cadavedo,No identificada,España,Resto de España,3,2
+480,Cain,No identificada,España,Resto de España,3,1
+481,Calafell,No identificada,España,Resto de España,3,1
+482,Calanda,No identificada,España,Resto de España,3,1
+483,Caldes D'estrac,No identificada,España,Resto de España,3,1
+484,Caldes de Montbui,No identificada,España,Resto de España,3,1
+485,Calles,No identificada,España,Resto de España,3,1
+486,Callosa D'en Sarria,No identificada,España,Resto de España,3,1
+487,Calonge,No identificada,España,Resto de España,3,1
+488,Calpe,No identificada,España,Resto de España,3,3
+489,Camarma de Esteruelas,No identificada,España,Resto de España,3,1
+490,Cambrils,No identificada,España,Resto de España,3,2
+491,Campanillas,No identificada,España,Resto de España,3,1
+492,Campello,No identificada,España,Resto de España,3,1
+493,Camponaraya,No identificada,España,Resto de España,3,2
+494,Campos,No identificada,España,Resto de España,3,1
+495,Candelaria,No identificada,España,Resto de España,3,3
+496,Candeleda,No identificada,España,Resto de España,3,1
+497,Canet D'en Bereguer,No identificada,España,Resto de España,3,1
+498,Canet de Berenguer,No identificada,España,Resto de España,3,1
+499,Canete de las Torres,No identificada,España,Resto de España,3,1
+500,Cangas del Narcea Municipality,No identificada,España,Resto de España,3,1
+501,Cangas do Morrazo,No identificada,España,Resto de España,3,1
+502,Cantalejo,No identificada,España,Resto de España,3,1
+503,Cantillana,No identificada,España,Resto de España,3,1
+504,Canyada,No identificada,España,Resto de España,3,1
+505,Canyelles,No identificada,España,Resto de España,3,1
+506,Capellades,No identificada,España,Resto de España,3,1
+507,Caravia Municipality,No identificada,España,Resto de España,3,2
+508,Carbajosa de la Sagrada,No identificada,España,Resto de España,3,1
+509,Carballo,No identificada,España,Resto de España,3,1
+510,Carboneras,No identificada,España,Resto de España,3,1
+511,Carcaixent,No identificada,España,Resto de España,3,2
+512,Cardena,No identificada,España,Resto de España,3,1
+513,Carmona,No identificada,España,Resto de España,3,1
+514,Carnota,No identificada,España,Resto de España,3,1
+515,Cartes,No identificada,España,Resto de España,3,1
+516,Casar de Caceres,No identificada,España,Resto de España,3,1
+517,Casares,No identificada,España,Resto de España,3,1
+518,Casarrubios del Monte,No identificada,España,Resto de España,3,1
+519,Castalla,No identificada,España,Resto de España,3,2
+520,Castaneras,No identificada,España,Resto de España,3,3
+521,Castellar del Valles,No identificada,España,Resto de España,3,2
+522,Castellbisbal,No identificada,España,Resto de España,3,1
+523,Castelloli,No identificada,España,Resto de España,3,1
+524,Cayes,No identificada,España,Resto de España,3,1
+525,Cazalegas,No identificada,España,Resto de España,3,1
+526,Cazorla,No identificada,España,Resto de España,3,1
+527,Cee,No identificada,España,Resto de España,3,1
+528,Celeiro,No identificada,España,Resto de España,3,1
+529,Centro,No identificada,España,Resto de España,3,1
+530,Cercedilla,No identificada,España,Resto de España,3,2
+531,Cerdanyola del Valles,No identificada,España,Resto de España,3,2
+532,Cervera,No identificada,España,Resto de España,3,1
+533,Cervera de Pisuerga,No identificada,España,Resto de España,3,1
+534,Chantada,No identificada,España,Resto de España,3,1
+535,Chilches,No identificada,España,Resto de España,3,2
+536,Chillaron de Cuenca,No identificada,España,Resto de España,3,1
+537,Chipiona,No identificada,España,Resto de España,3,1
+538,Chirivella,No identificada,España,Resto de España,3,3
+539,Chiva,No identificada,España,Resto de España,3,1
+540,Churra,No identificada,España,Resto de España,3,1
+541,Ciempozuelos,No identificada,España,Resto de España,3,3
+542,Cies Islands,No identificada,España,Resto de España,3,1
+543,Cieza,No identificada,España,Resto de España,3,1
+544,Cigales,No identificada,España,Resto de España,3,3
+545,Cijuela,No identificada,España,Resto de España,3,1
+546,Cimanes del Tejar,No identificada,España,Resto de España,3,2
+547,Cinera,No identificada,España,Resto de España,3,1
+548,Cintruenigo,No identificada,España,Resto de España,3,1
+549,Cistierna,No identificada,España,Resto de España,3,2
+550,Ciudad Rodrigo,No identificada,España,Resto de España,3,3
+551,Ciutadella,No identificada,España,Resto de España,3,4
+552,Coles,No identificada,España,Resto de España,3,1
+553,Colindres,No identificada,España,Resto de España,3,3
+554,Colloto,No identificada,España,Resto de España,3,2
+555,Colombres,No identificada,España,Resto de España,3,2
+556,Combarro,No identificada,España,Resto de España,3,3
+557,Conil de la Frontera,No identificada,España,Resto de España,3,2
+558,Constanti,No identificada,España,Resto de España,3,1
+559,Corbera de Llobregat,No identificada,España,Resto de España,3,2
+560,Coria,No identificada,España,Resto de España,3,3
+561,Coria del Rio,No identificada,España,Resto de España,3,1
+562,Corralejo,No identificada,España,Resto de España,3,1
+563,Corrales,No identificada,España,Resto de España,3,1
+564,Cospeito,No identificada,España,Resto de España,3,1
+565,Costa Adeje,No identificada,España,Resto de España,3,2
+566,Covarrubias,No identificada,España,Resto de España,3,2
+567,Crevillente,No identificada,España,Resto de España,3,2
+568,Cubas de la Sagra,No identificada,España,Resto de España,3,1
+569,Cubillas de Cerrato,No identificada,España,Resto de España,3,1
+570,Cue,No identificada,España,Resto de España,3,1
+571,Cuellar,No identificada,España,Resto de España,3,3
+572,Cullera,No identificada,España,Resto de España,3,3
+573,Cuntis,No identificada,España,Resto de España,3,2
+574,Daimiel,No identificada,España,Resto de España,3,1
+575,Derio,No identificada,España,Resto de España,3,1
+576,Durro,No identificada,España,Resto de España,3,2
+577,Ecija,No identificada,España,Resto de España,3,1
+578,El Alamo,No identificada,España,Resto de España,3,1
+579,El Albir,No identificada,España,Resto de España,3,3
+580,El Albujon,No identificada,España,Resto de España,3,1
+581,El Altet,No identificada,España,Resto de España,3,1
+582,El Barrigon,No identificada,España,Resto de España,3,2
+583,El Berron,No identificada,España,Resto de España,3,1
+584,El Campello,No identificada,España,Resto de España,3,1
+585,El Ejido,No identificada,España,Resto de España,3,1
+586,El Escorial,No identificada,España,Resto de España,3,3
+587,El Espinar,No identificada,España,Resto de España,3,1
+588,El Gordo,No identificada,España,Resto de España,3,1
+589,El Grao,No identificada,España,Resto de España,3,1
+590,El Hierro,No identificada,España,Resto de España,3,3
+591,El Medano,No identificada,España,Resto de España,3,2
+592,El Molar,No identificada,España,Resto de España,3,1
+593,El Palmar,No identificada,España,Resto de España,3,1
+594,El Pardo,No identificada,España,Resto de España,3,1
+595,El Paso,No identificada,España,Resto de España,3,1
+596,El Perello,No identificada,España,Resto de España,3,3
+597,El Puente de Sanabria,No identificada,España,Resto de España,3,1
+598,El Rompido,No identificada,España,Resto de España,3,1
+599,El Vendrell,No identificada,España,Resto de España,3,1
+600,Elda,No identificada,España,Resto de España,3,1
+601,Elgoibar,No identificada,España,Resto de España,3,1
+602,Elorrio,No identificada,España,Resto de España,3,2
+603,Els Hostalets de Balenya,No identificada,España,Resto de España,3,1
+604,Epila,No identificada,España,Resto de España,3,1
+605,Eriste,No identificada,España,Resto de España,3,1
+606,Ermua,No identificada,España,Resto de España,3,3
+607,Escobedo de Camargo,No identificada,España,Resto de España,3,1
+608,Esparreguera,No identificada,España,Resto de España,3,4
+609,Espinardo,No identificada,España,Resto de España,3,1
+610,Esplugues de Llobregat,No identificada,España,Resto de España,3,1
+611,Etxebarri,No identificada,España,Resto de España,3,3
+612,Fene,No identificada,España,Resto de España,3,1
+613,Figaredo Mieres,No identificada,España,Resto de España,3,2
+614,Figaro,No identificada,España,Resto de España,3,1
+615,Finestrat,No identificada,España,Resto de España,3,3
+616,Fisterra,No identificada,España,Resto de España,3,3
+617,Flix,No identificada,España,Resto de España,3,1
+618,Fondo,No identificada,España,Resto de España,3,1
+619,Formentera,No identificada,España,Resto de España,3,2
+620,Fortia,No identificada,España,Resto de España,3,2
+621,Fresno del Camino,No identificada,España,Resto de España,3,2
+622,Fuente Alamo,No identificada,España,Resto de España,3,2
+623,Fuente Palmera,No identificada,España,Resto de España,3,1
+624,Fuentelcesped,No identificada,España,Resto de España,3,2
+625,Fuentesauco,No identificada,España,Resto de España,3,1
+626,Fuentespina,No identificada,España,Resto de España,3,2
+627,Gallarta,No identificada,España,Resto de España,3,2
+628,Garayoa,No identificada,España,Resto de España,3,1
+629,Garcillan,No identificada,España,Resto de España,3,1
+630,Garganta la Olla,No identificada,España,Resto de España,3,1
+631,Garrucha,No identificada,España,Resto de España,3,1
+632,Gava,No identificada,España,Resto de España,3,3
+633,Gondomar,No identificada,España,Resto de España,3,1
+634,Gordexola,No identificada,España,Resto de España,3,2
+635,Gran Via,No identificada,España,Resto de España,3,2
+636,Grijota,No identificada,España,Resto de España,3,4
+637,Grinon,No identificada,España,Resto de España,3,1
+638,Guadalupe,No identificada,España,Resto de España,3,1
+639,Guadix,No identificada,España,Resto de España,3,1
+640,Guardamar del Segura,No identificada,España,Resto de España,3,3
+641,Guardo,No identificada,España,Resto de España,3,3
+642,Guijuelo,No identificada,España,Resto de España,3,3
+643,Guimar,No identificada,España,Resto de España,3,1
+644,Guitiriz,No identificada,España,Resto de España,3,1
+645,Hellin,No identificada,España,Resto de España,3,3
+646,Herrera de Pisuerga,No identificada,España,Resto de España,3,1
+647,Hornillos del Camino,No identificada,España,Resto de España,3,1
+648,Hoyos del Espino,No identificada,España,Resto de España,3,2
+649,Hoz de Anero,No identificada,España,Resto de España,3,1
+650,Humanes de Madrid,No identificada,España,Resto de España,3,3
+651,Ibi,No identificada,España,Resto de España,3,3
+652,Ibiza Town,No identificada,España,Resto de España,3,3
+653,Icod de los Vinos,No identificada,España,Resto de España,3,2
+654,Igollo,No identificada,España,Resto de España,3,2
+655,Igualada,No identificada,España,Resto de España,3,2
+656,Illescas,No identificada,España,Resto de España,3,2
+657,Illueca,No identificada,España,Resto de España,3,1
+658,Iscar,No identificada,España,Resto de España,3,1
+659,Isla,No identificada,España,Resto de España,3,2
+660,Isla de la Toja,No identificada,España,Resto de España,3,2
+661,Izarra,No identificada,España,Resto de España,3,1
+662,Jerte,No identificada,España,Resto de España,3,1
+663,Jimena de la Frontera,No identificada,España,Resto de España,3,1
+664,Jimenez de Jamuz,No identificada,España,Resto de España,3,1
+665,Jumilla,No identificada,España,Resto de España,3,1
+666,Jun,No identificada,España,Resto de España,3,1
+667,L'alcudia de Crespins,No identificada,España,Resto de España,3,1
+668,L'aleixar,No identificada,España,Resto de España,3,1
+669,L'alfas del Pi,No identificada,España,Resto de España,3,1
+670,L'ametlla del Valles,No identificada,España,Resto de España,3,1
+671,L'eliana,No identificada,España,Resto de España,3,3
+672,L'escala,No identificada,España,Resto de España,3,1
+673,L'esquirol,No identificada,España,Resto de España,3,1
+674,La Antilla,No identificada,España,Resto de España,3,1
+675,La Arquera,No identificada,España,Resto de España,3,1
+676,La Cabrera,No identificada,España,Resto de España,3,1
+677,La Cala de Mijas,No identificada,España,Resto de España,3,3
+678,La Campa,No identificada,España,Resto de España,3,3
+679,La Caridad,No identificada,España,Resto de España,3,3
+680,La Carlota,No identificada,España,Resto de España,3,1
+681,La Cavada,No identificada,España,Resto de España,3,1
+682,La Cisterniga,No identificada,España,Resto de España,3,2
+683,La Eliana,No identificada,España,Resto de España,3,2
+684,La Fresneda,No identificada,España,Resto de España,3,6
+685,La Garriga,No identificada,España,Resto de España,3,1
+686,La Granja de San Ildefonso,No identificada,España,Resto de España,3,1
+687,La Hermida,No identificada,España,Resto de España,3,1
+688,La Isla,No identificada,España,Resto de España,3,1
+689,La Manga del Mar Menor,No identificada,España,Resto de España,3,1
+690,La Molina,No identificada,España,Resto de España,3,1
+691,La Nucia,No identificada,España,Resto de España,3,1
+692,La Oliva,No identificada,España,Resto de España,3,1
+693,La Orotava,No identificada,España,Resto de España,3,1
+694,La Pobla de Vallbona,No identificada,España,Resto de España,3,1
+695,La Pola de Gordon,No identificada,España,Resto de España,3,1
+696,La Rinconada,No identificada,España,Resto de España,3,1
+697,La Robla,No identificada,España,Resto de España,3,1
+698,La Union,No identificada,España,Resto de España,3,1
+699,La Vall D'uixo,No identificada,España,Resto de España,3,1
+700,La Vegueta,No identificada,España,Resto de España,3,1
+701,La Vilavella,No identificada,España,Resto de España,3,1
+702,La Virgen del Camino,No identificada,España,Resto de España,3,2
+703,La Zubia,No identificada,España,Resto de España,3,2
+704,Lalin,No identificada,España,Resto de España,3,2
+705,Laracha,No identificada,España,Resto de España,3,1
+706,Lardero,No identificada,España,Resto de España,3,1
+707,Lario,No identificada,España,Resto de España,3,2
+708,Las Lagunas de Mijas,No identificada,España,Resto de España,3,4
+709,Las Navas del Marques,No identificada,España,Resto de España,3,1
+710,Las Negras,No identificada,España,Resto de España,3,1
+711,Las Torres de Cotillas,No identificada,España,Resto de España,3,1
+712,Laukiz,No identificada,España,Resto de España,3,1
+713,Laviana Municipality,No identificada,España,Resto de España,3,3
+714,Lekeitio,No identificada,España,Resto de España,3,2
+715,Lepe,No identificada,España,Resto de España,3,2
+716,Lerin,No identificada,España,Resto de España,3,1
+717,Les Franqueses del Valles,No identificada,España,Resto de España,3,2
+718,Lezama,No identificada,España,Resto de España,3,1
+719,Lezo,No identificada,España,Resto de España,3,2
+720,Liano,No identificada,España,Resto de España,3,1
+721,Linyola,No identificada,España,Resto de España,3,1
+722,Llagostera,No identificada,España,Resto de España,3,1
+723,Llica D'amunt,No identificada,España,Resto de España,3,1
+724,Llica de Vall,No identificada,España,Resto de España,3,2
+725,Llinars del Valles,No identificada,España,Resto de España,3,1
+726,Loredo,No identificada,España,Resto de España,3,1
+727,Los Corrales de Buelna,No identificada,España,Resto de España,3,2
+728,Los Palacios y Villafranca,No identificada,España,Resto de España,3,1
+729,Los Santos de Maimona,No identificada,España,Resto de España,3,1
+730,Lourenza,No identificada,España,Resto de España,3,3
+731,Lucena,No identificada,España,Resto de España,3,3
+732,Lugo Province,No identificada,España,Resto de España,3,1
+733,Madridejos,No identificada,España,Resto de España,3,1
+734,Mahon,No identificada,España,Resto de España,3,1
+735,Malagon,No identificada,España,Resto de España,3,1
+736,Malpartida de Caceres,No identificada,España,Resto de España,3,1
+737,Malpartida de Plasencia,No identificada,España,Resto de España,3,2
+738,Malpica de Bergantinos,No identificada,España,Resto de España,3,1
+739,Mancha Real,No identificada,España,Resto de España,3,1
+740,Manilva,No identificada,España,Resto de España,3,1
+741,Manlleu,No identificada,España,Resto de España,3,4
+742,Mansilla de las Mulas,No identificada,España,Resto de España,3,1
+743,Maracena,No identificada,España,Resto de España,3,2
+744,Maria,No identificada,España,Resto de España,3,1
+745,Maria de Huerva,No identificada,España,Resto de España,3,2
+746,Marratxi,No identificada,España,Resto de España,3,3
+747,Martos,No identificada,España,Resto de España,3,1
+748,Maspalomas,No identificada,España,Resto de España,3,1
+749,Massamagrell,No identificada,España,Resto de España,3,4
+750,Matadepera,No identificada,España,Resto de España,3,2
+751,Matalascanas,No identificada,España,Resto de España,3,1
+752,Meco,No identificada,España,Resto de España,3,3
+753,Medina de Rioseco,No identificada,España,Resto de España,3,2
+754,Medina-sidonia,No identificada,España,Resto de España,3,1
+755,Medio Cudeyo,No identificada,España,Resto de España,3,1
+756,Meliana,No identificada,España,Resto de España,3,1
+757,Melide,No identificada,España,Resto de España,3,2
+758,Meres,No identificada,España,Resto de España,3,3
+759,Miengo,No identificada,España,Resto de España,3,3
+760,Miguel Esteban,No identificada,España,Resto de España,3,1
+761,Miguelturra,No identificada,España,Resto de España,3,1
+762,Mijares,No identificada,España,Resto de España,3,1
+763,Mijas,No identificada,España,Resto de España,3,1
+764,Mino,No identificada,España,Resto de España,3,3
+765,Mislata,No identificada,España,Resto de España,3,3
+766,Mojacar Playa,No identificada,España,Resto de España,3,1
+767,Molins de Rei,No identificada,España,Resto de España,3,3
+768,Mollerussa,No identificada,España,Resto de España,3,1
+769,Mollet del Valles,No identificada,España,Resto de España,3,2
+770,Mombuey,No identificada,España,Resto de España,3,1
+771,Moncada,No identificada,España,Resto de España,3,1
+772,Moncofar,No identificada,España,Resto de España,3,1
+773,Mondariz,No identificada,España,Resto de España,3,2
+774,Mondonedo,No identificada,España,Resto de España,3,1
+775,Mondragon,No identificada,España,Resto de España,3,2
+776,Monserrat,No identificada,España,Resto de España,3,1
+777,Montcada i Reixac,No identificada,España,Resto de España,3,2
+778,Montejos del Camino,No identificada,España,Resto de España,3,1
+779,Montilla,No identificada,España,Resto de España,3,1
+780,Montornes del Valles,No identificada,España,Resto de España,3,1
+781,Montoro,No identificada,España,Resto de España,3,1
+782,Montserrat,No identificada,España,Resto de España,3,3
+783,Monzon de Campos,No identificada,España,Resto de España,3,1
+784,Mora,No identificada,España,Resto de España,3,1
+785,Moraleja,No identificada,España,Resto de España,3,1
+786,Morales del Rey,No identificada,España,Resto de España,3,2
+787,Moralzarzal,No identificada,España,Resto de España,3,3
+788,Morata de Tajuna,No identificada,España,Resto de España,3,1
+789,Morcuera,No identificada,España,Resto de España,3,1
+790,Moron de la Frontera,No identificada,España,Resto de España,3,1
+791,Morro del Jable,No identificada,España,Resto de España,3,1
+792,Mugardos,No identificada,España,Resto de España,3,4
+793,Mula,No identificada,España,Resto de España,3,1
+794,Municipality Of Cartagena,No identificada,España,Resto de España,3,1
+795,Murchante,No identificada,España,Resto de España,3,1
+796,Murguia,No identificada,España,Resto de España,3,1
+797,Muriedas,No identificada,España,Resto de España,3,4
+798,Muros del Nalon,No identificada,España,Resto de España,3,3
+799,Mutilva Baja,No identificada,España,Resto de España,3,1
+800,Mutriku,No identificada,España,Resto de España,3,1
+801,Najera,No identificada,España,Resto de España,3,3
+802,Nambroca,No identificada,España,Resto de España,3,1
+803,Naut Aran,No identificada,España,Resto de España,3,1
+804,Navahermosa,No identificada,España,Resto de España,3,1
+805,Navalvillar de Pela,No identificada,España,Resto de España,3,1
+806,Navarredonda,No identificada,España,Resto de España,3,2
+807,Navarres,No identificada,España,Resto de España,3,2
+808,Navarrete,No identificada,España,Resto de España,3,1
+809,Navas,No identificada,España,Resto de España,3,1
+810,Navatejera,No identificada,España,Resto de España,3,2
+811,Naves,No identificada,España,Resto de España,3,1
+812,Niao,No identificada,España,Resto de España,3,1
+813,Nigran,No identificada,España,Resto de España,3,1
+814,No identificada,No identificada,España,Resto de España,3,531
+815,Nogueira de Ramuin,No identificada,España,Resto de España,3,1
+816,Nueva Andalucia,No identificada,España,Resto de España,3,4
+817,Nules,No identificada,España,Resto de España,3,1
+818,O Covelo,No identificada,España,Resto de España,3,2
+819,O Milladoiro,No identificada,España,Resto de España,3,1
+820,O Pereiro de Aguiar,No identificada,España,Resto de España,3,2
+821,O Pindo,No identificada,España,Resto de España,3,1
+822,O Vicedo,No identificada,España,Resto de España,3,1
+823,Ocana,No identificada,España,Resto de España,3,4
+824,Ogijares,No identificada,España,Resto de España,3,1
+825,Ojen,No identificada,España,Resto de España,3,1
+826,Olakueta,No identificada,España,Resto de España,3,1
+827,Olesa de Montserrat,No identificada,España,Resto de España,3,2
+828,Olite,No identificada,España,Resto de España,3,3
+829,Oliva,No identificada,España,Resto de España,3,3
+830,Onati,No identificada,España,Resto de España,3,3
+831,Onda,No identificada,España,Resto de España,3,3
+832,Ondara,No identificada,España,Resto de España,3,1
+833,Ontinyent,No identificada,España,Resto de España,3,1
+834,Ordes,No identificada,España,Resto de España,3,4
+835,Organya,No identificada,España,Resto de España,3,1
+836,Oropesa,No identificada,España,Resto de España,3,3
+837,Oropesa del Mar,No identificada,España,Resto de España,3,1
+838,Orozko,No identificada,España,Resto de España,3,1
+839,Ortigueira,No identificada,España,Resto de España,3,1
+840,Ortuella,No identificada,España,Resto de España,3,1
+841,Osera,No identificada,España,Resto de España,3,1
+842,Overo,No identificada,España,Resto de España,3,1
+843,Oyon,No identificada,España,Resto de España,3,1
+844,Padron,No identificada,España,Resto de España,3,2
+845,Palas de Rei,No identificada,España,Resto de España,3,1
+846,Palazuelos de Eresma,No identificada,España,Resto de España,3,1
+847,Palma del Rio,No identificada,España,Resto de España,3,1
+848,Palmanyola,No identificada,España,Resto de España,3,1
+849,Palos de la Frontera,No identificada,España,Resto de España,3,3
+850,Panticosa,No identificada,España,Resto de España,3,1
+851,Paracuellos de Jarama,No identificada,España,Resto de España,3,3
+852,Parades,No identificada,España,Resto de España,3,2
+853,Parbayon,No identificada,España,Resto de España,3,1
+854,Pasaia,No identificada,España,Resto de España,3,2
+855,Pedrafita do Cebreiro,No identificada,España,Resto de España,3,1
+856,Pedrajas,No identificada,España,Resto de España,3,4
+857,Pedreguer,No identificada,España,Resto de España,3,1
+858,Pego,No identificada,España,Resto de España,3,1
+859,Penacastillo,No identificada,España,Resto de España,3,1
+860,Penaranda de Bracamonte,No identificada,España,Resto de España,3,2
+861,Peniscola,No identificada,España,Resto de España,3,3
+862,Peon,No identificada,España,Resto de España,3,3
+863,Peratallada,No identificada,España,Resto de España,3,1
+864,Perena,No identificada,España,Resto de España,3,1
+865,Perillo,No identificada,España,Resto de España,3,3
+866,Petrer,No identificada,España,Resto de España,3,2
+867,Picanya,No identificada,España,Resto de España,3,2
+868,Piedralaves,No identificada,España,Resto de España,3,1
+869,Piedramuelle,No identificada,España,Resto de España,3,2
+870,Pinilla de Jadraque,No identificada,España,Resto de España,3,1
+871,Pioz,No identificada,España,Resto de España,3,2
+872,Pla de L'ermita,No identificada,España,Resto de España,3,1
+873,Platja D'aro,No identificada,España,Resto de España,3,1
+874,Playa de las Americas,No identificada,España,Resto de España,3,1
+875,Playa del Ingles,No identificada,España,Resto de España,3,1
+876,Playas de Vera,No identificada,España,Resto de España,3,1
+877,Plentzia,No identificada,España,Resto de España,3,3
+878,Poio,No identificada,España,Resto de España,3,2
+879,Pola de Somiedo,No identificada,España,Resto de España,3,2
+880,Polinya,No identificada,España,Resto de España,3,2
+881,Pollenca,No identificada,España,Resto de España,3,1
+882,Pontejos,No identificada,España,Resto de España,3,1
+883,Porrino,No identificada,España,Resto de España,3,2
+884,Portillo,No identificada,España,Resto de España,3,1
+885,Portinatx,No identificada,España,Resto de España,3,1
+886,Porto de Espasante,No identificada,España,Resto de España,3,1
+887,Porto do Barqueiro,No identificada,España,Resto de España,3,1
+888,Portonovo,No identificada,España,Resto de España,3,2
+889,Posada de Llanes,No identificada,España,Resto de España,3,3
+890,Poyales del Hoyo,No identificada,España,Resto de España,3,1
+891,Pozoblanco,No identificada,España,Resto de España,3,1
+892,Pradollano,No identificada,España,Resto de España,3,1
+893,Premia de Dalt,No identificada,España,Resto de España,3,1
+894,Province Of Albacete,No identificada,España,Resto de España,3,1
+895,Province Of Almeria,No identificada,España,Resto de España,3,3
+896,Province Of Badajoz,No identificada,España,Resto de España,3,1
+897,Province Of Caceres,No identificada,España,Resto de España,3,4
+898,Province Of Ciudad Real,No identificada,España,Resto de España,3,2
+899,Province Of Jaen,No identificada,España,Resto de España,3,3
+900,Province Of Vizcaya,No identificada,España,Resto de España,3,2
+901,Provincia de Alicante,No identificada,España,Resto de España,3,1
+902,Provincia de Barcelona,No identificada,España,Resto de España,3,1
+903,Pruvia,No identificada,España,Resto de España,3,3
+904,Puente Genil,No identificada,España,Resto de España,3,3
+905,Puerto Lapice,No identificada,España,Resto de España,3,1
+906,Puerto Lumbreras,No identificada,España,Resto de España,3,1
+907,Puerto Real,No identificada,España,Resto de España,3,1
+908,Puerto de Mazarron,No identificada,España,Resto de España,3,3
+909,Puerto de Sagunto,No identificada,España,Resto de España,3,3
+910,Puerto de Vega,No identificada,España,Resto de España,3,2
+911,Puerto del Rosario,No identificada,España,Resto de España,3,4
+912,Puig,No identificada,España,Resto de España,3,1
+913,Puigcerda,No identificada,España,Resto de España,3,1
+914,Pumarabule,No identificada,España,Resto de España,3,1
+915,Punta Umbria,No identificada,España,Resto de España,3,1
+916,Quart de Poblet,No identificada,España,Resto de España,3,1
+917,Quijorna,No identificada,España,Resto de España,3,2
+918,Quintanaduenas,No identificada,España,Resto de España,3,1
+919,Quintanar de la Orden,No identificada,España,Resto de España,3,1
+920,Rada,No identificada,España,Resto de España,3,1
+921,Rafelbunyol,No identificada,España,Resto de España,3,3
+922,Redondela,No identificada,España,Resto de España,3,1
+923,Requejada,No identificada,España,Resto de España,3,1
+924,Requena,No identificada,España,Resto de España,3,1
+925,Rey Aurelio,No identificada,España,Resto de España,3,1
+926,Riano,No identificada,España,Resto de España,3,1
+927,Rianxo,No identificada,España,Resto de España,3,2
+928,Riaza,No identificada,España,Resto de España,3,1
+929,Ribaforada,No identificada,España,Resto de España,3,1
+930,Rincon de Soto,No identificada,España,Resto de España,3,1
+931,Rionegro del Puente,No identificada,España,Resto de España,3,2
+932,Riosa Municipality,No identificada,España,Resto de España,3,2
+933,Rioseco,No identificada,España,Resto de España,3,2
+934,Riotuerto,No identificada,España,Resto de España,3,1
+935,Robledo de Chavela,No identificada,España,Resto de España,3,1
+936,Rocafort,No identificada,España,Resto de España,3,1
+937,Rojales,No identificada,España,Resto de España,3,1
+938,Roses,No identificada,España,Resto de España,3,2
+939,Rota,No identificada,España,Resto de España,3,2
+940,Rubielos de Mora,No identificada,España,Resto de España,3,1
+941,Sabinanigo,No identificada,España,Resto de España,3,1
+942,Sada,No identificada,España,Resto de España,3,3
+943,Sahagun,No identificada,España,Resto de España,3,3
+944,Saldana,No identificada,España,Resto de España,3,1
+945,Sallent,No identificada,España,Resto de España,3,1
+946,Salobrena,No identificada,España,Resto de España,3,2
+947,Salt,No identificada,España,Resto de España,3,1
+948,Salvaterra de Mino,No identificada,España,Resto de España,3,2
+949,Samos,No identificada,España,Resto de España,3,1
+950,San Adrian,No identificada,España,Resto de España,3,1
+951,San Agustin de Guadalix,No identificada,España,Resto de España,3,2
+952,San Cibrao,No identificada,España,Resto de España,3,1
+953,San Clemente,No identificada,España,Resto de España,3,1
+954,San Cosme,No identificada,España,Resto de España,3,1
+955,San Javier,No identificada,España,Resto de España,3,1
+956,San Juan de Aznalfarache,No identificada,España,Resto de España,3,1
+957,San Julian,No identificada,España,Resto de España,3,4
+958,San Julian de Musques,No identificada,España,Resto de España,3,2
+959,San Justo,No identificada,España,Resto de España,3,3
+960,San Lorenzo,No identificada,España,Resto de España,3,52
+961,San Martin,No identificada,España,Resto de España,3,1
+962,San Martin de Trevejo,No identificada,España,Resto de España,3,1
+963,San Miguel de Abona,No identificada,España,Resto de España,3,2
+964,San Pantaleon de Aras,No identificada,España,Resto de España,3,2
+965,San Pedro de Alcantara,No identificada,España,Resto de España,3,2
+966,San Pelaio,No identificada,España,Resto de España,3,1
+967,San Roque,No identificada,España,Resto de España,3,2
+968,San Sebastian de la Gomera,No identificada,España,Resto de España,3,1
+969,San Tirso de Abres,No identificada,España,Resto de España,3,1
+970,San Vicente de la Sonsierra,No identificada,España,Resto de España,3,2
+971,Sanlucar de Barrameda,No identificada,España,Resto de España,3,4
+972,Sant Adria de Besos,No identificada,España,Resto de España,3,1
+973,Sant Andreu de Llavaneres,No identificada,España,Resto de España,3,1
+974,Sant Andreu de la Barca,No identificada,España,Resto de España,3,2
+975,Sant Antoni de Calonge,No identificada,España,Resto de España,3,1
+976,Sant Boi de Llobregat,No identificada,España,Resto de España,3,3
+977,Sant Carles de la Rapita,No identificada,España,Resto de España,3,3
+978,Sant Celoni,No identificada,España,Resto de España,3,1
+979,Sant Feliu de Guixols,No identificada,España,Resto de España,3,1
+980,Sant Joan D'alacant,No identificada,España,Resto de España,3,3
+981,Sant Joan Despi,No identificada,España,Resto de España,3,1
+982,Sant Joan de Les Abadesses,No identificada,España,Resto de España,3,1
+983,Sant Just Desvern,No identificada,España,Resto de España,3,1
+984,Sant Pere Pescador,No identificada,España,Resto de España,3,1
+985,Sant Pol de Mar,No identificada,España,Resto de España,3,2
+986,Sant Quirze del Valles,No identificada,España,Resto de España,3,1
+987,Sant Vicenc de Montalt,No identificada,España,Resto de España,3,4
+988,Santa Coloma de Gramenet,No identificada,España,Resto de España,3,3
+989,Santa Cruz de Bezana,No identificada,España,Resto de España,3,2
+990,Santa Elena,No identificada,España,Resto de España,3,1
+991,Santa Eulalia de Cabranes,No identificada,España,Resto de España,3,1
+992,Santa Eulalia de Morcin,No identificada,España,Resto de España,3,4
+993,Santa Eulalia de Roncana,No identificada,España,Resto de España,3,1
+994,Santa Eulalia del Rio,No identificada,España,Resto de España,3,2
+995,Santa Margarida de Montbui,No identificada,España,Resto de España,3,2
+996,Santa Perpetua de Mogoda,No identificada,España,Resto de España,3,1
+997,Santa Pola,No identificada,España,Resto de España,3,1
+998,Santa Ursula,No identificada,España,Resto de España,3,1
+999,Santiago de la Ribera,No identificada,España,Resto de España,3,2
+1000,Santiago del Monte,No identificada,España,Resto de España,3,1
+1001,Santillana del Mar,No identificada,España,Resto de España,3,1
+1002,Santiponce,No identificada,España,Resto de España,3,1
+1003,Saron,No identificada,España,Resto de España,3,1
+1004,Sarratella,No identificada,España,Resto de España,3,1
+1005,Sarria,No identificada,España,Resto de España,3,3
+1006,Sarriguren,No identificada,España,Resto de España,3,1
+1007,Segur de Calafell,No identificada,España,Resto de España,3,1
+1008,Sepulveda,No identificada,España,Resto de España,3,3
+1009,Sesena,No identificada,España,Resto de España,3,1
+1010,Seva,No identificada,España,Resto de España,3,1
+1011,Sierra de Guadarrama,No identificada,España,Resto de España,3,2
+1012,Silla,No identificada,España,Resto de España,3,1
+1013,Simancas,No identificada,España,Resto de España,3,1
+1014,Socuellamos,No identificada,España,Resto de España,3,2
+1015,Solarana,No identificada,España,Resto de España,3,3
+1016,Solares,No identificada,España,Resto de España,3,1
+1017,Soller,No identificada,España,Resto de España,3,1
+1018,Somado,No identificada,España,Resto de España,3,1
+1019,Somo,No identificada,España,Resto de España,3,2
+1020,Soto de Agues,No identificada,España,Resto de España,3,1
+1021,Soto de Luina,No identificada,España,Resto de España,3,1
+1022,Soto del Real,No identificada,España,Resto de España,3,3
+1023,Sotogrande,No identificada,España,Resto de España,3,3
+1024,Sotres,No identificada,España,Resto de España,3,2
+1025,Spain,No identificada,España,Resto de España,3,1
+1026,Sueca,No identificada,España,Resto de España,3,1
+1027,Suria,No identificada,España,Resto de España,3,1
+1028,Tafalla,No identificada,España,Resto de España,3,2
+1029,Tamarit de Llitera,No identificada,España,Resto de España,3,1
+1030,Tarancon,No identificada,España,Resto de España,3,3
+1031,Tarrega,No identificada,España,Resto de España,3,2
+1032,Tauste,No identificada,España,Resto de España,3,3
+1033,Tazones,No identificada,España,Resto de España,3,1
+1034,Telde,No identificada,España,Resto de España,3,2
+1035,Teo,No identificada,España,Resto de España,3,2
+1036,Tiana,No identificada,España,Resto de España,3,2
+1037,Tomares,No identificada,España,Resto de España,3,3
+1038,Tomelloso,No identificada,España,Resto de España,3,1
+1039,Tordesillas,No identificada,España,Resto de España,3,2
+1040,Toreno,No identificada,España,Resto de España,3,2
+1041,Toro,No identificada,España,Resto de España,3,1
+1042,Torre del Campo,No identificada,España,Resto de España,3,1
+1043,Torre del Mar,No identificada,España,Resto de España,3,1
+1044,Torredonjimeno,No identificada,España,Resto de España,3,2
+1045,Torrejon de la Calzada,No identificada,España,Resto de España,3,1
+1046,Torrejon del Rey,No identificada,España,Resto de España,3,1
+1047,Torrent,No identificada,España,Resto de España,3,2
+1048,Torretejera,No identificada,España,Resto de España,3,2
+1049,Torrox,No identificada,España,Resto de España,3,1
+1050,Tortosa,No identificada,España,Resto de España,3,3
+1051,Torvizcon,No identificada,España,Resto de España,3,1
+1052,Tossa de Mar,No identificada,España,Resto de España,3,1
+1053,Trapagaran,No identificada,España,Resto de España,3,1
+1054,Trebujena,No identificada,España,Resto de España,3,1
+1055,Trefacio,No identificada,España,Resto de España,3,1
+1056,Trevias,No identificada,España,Resto de España,3,1
+1057,Trubia,No identificada,España,Resto de España,3,3
+1058,Tudela Veguin,No identificada,España,Resto de España,3,3
+1059,Tui,No identificada,España,Resto de España,3,2
+1060,Tuixent,No identificada,España,Resto de España,3,1
+1061,Ugao-miraballes,No identificada,España,Resto de España,3,2
+1062,Ugena,No identificada,España,Resto de España,3,1
+1063,Unquera,No identificada,España,Resto de España,3,1
+1064,Urduliz,No identificada,España,Resto de España,3,1
+1065,Urretxu,No identificada,España,Resto de España,3,1
+1066,Uruena,No identificada,España,Resto de España,3,3
+1067,Utrera,No identificada,España,Resto de España,3,3
+1068,Valdebebas,No identificada,España,Resto de España,3,1
+1069,Valdemorillo,No identificada,España,Resto de España,3,3
+1070,Valdepenas de la Sierra,No identificada,España,Resto de España,3,1
+1071,Valderrobres,No identificada,España,Resto de España,3,4
+1072,Valdes Municipality,No identificada,España,Resto de España,3,1
+1073,Valdovino,No identificada,España,Resto de España,3,4
+1074,Valga,No identificada,España,Resto de España,3,1
+1075,Valverde del Camino,No identificada,España,Resto de España,3,2
+1076,Valverde del Majano,No identificada,España,Resto de España,3,3
+1077,Vecindario,No identificada,España,Resto de España,3,4
+1078,Vedra,No identificada,España,Resto de España,3,1
+1079,Vega de Espinareda,No identificada,España,Resto de España,3,3
+1080,Veguellina de Orbigo,No identificada,España,Resto de España,3,1
+1081,Velilla de San Antonio,No identificada,España,Resto de España,3,1
+1082,Ventosa,No identificada,España,Resto de España,3,1
+1083,Vera,No identificada,España,Resto de España,3,1
+1084,Verdicio,No identificada,España,Resto de España,3,3
+1085,Verin,No identificada,España,Resto de España,3,1
+1086,Viavelez,No identificada,España,Resto de España,3,2
+1087,Vielha,No identificada,España,Resto de España,3,1
+1088,Viella,No identificada,España,Resto de España,3,1
+1089,Vilafranca del Penedes,No identificada,España,Resto de España,3,3
+1090,Vilalba,No identificada,España,Resto de España,3,1
+1091,Vilanova de Arousa,No identificada,España,Resto de España,3,1
+1092,Vilassar de Dalt,No identificada,España,Resto de España,3,1
+1093,Villa del Rio,No identificada,España,Resto de España,3,3
+1094,Villabona,No identificada,España,Resto de España,3,1
+1095,Villadepalos,No identificada,España,Resto de España,3,1
+1096,Villafranca de los Barros,No identificada,España,Resto de España,3,2
+1097,Villafranca del Bierzo,No identificada,España,Resto de España,3,1
+1098,Villafranca del Castillo,No identificada,España,Resto de España,3,1
+1099,Villalbilla,No identificada,España,Resto de España,3,4
+1100,Villallana,No identificada,España,Resto de España,3,3
+1101,Villamartin,No identificada,España,Resto de España,3,8
+1102,Villamayor,No identificada,España,Resto de España,3,3
+1103,Villanueva de la Concepcion,No identificada,España,Resto de España,3,1
+1104,Villanueva de la Serena,No identificada,España,Resto de España,3,1
+1105,Villanueva del Ariscal,No identificada,España,Resto de España,3,4
+1106,Villanueva del Pardillo,No identificada,España,Resto de España,3,2
+1107,Villapresente,No identificada,España,Resto de España,3,3
+1108,Villarejo de Salvanes,No identificada,España,Resto de España,3,1
+1109,Villares de la Reina,No identificada,España,Resto de España,3,1
+1110,Villarreal,No identificada,España,Resto de España,3,3
+1111,Villarrobledo,No identificada,España,Resto de España,3,1
+1112,Villava,No identificada,España,Resto de España,3,1
+1113,Villaverde de Pontones,No identificada,España,Resto de España,3,2
+1114,Villaviciosa Municipality,No identificada,España,Resto de España,3,1
+1115,Villena,No identificada,España,Resto de España,3,1
+1116,Vimbodi,No identificada,España,Resto de España,3,1
+1117,Viono,No identificada,España,Resto de España,3,1
+1118,Vivar del Cid,No identificada,España,Resto de España,3,1
+1119,Xinzo de Limia,No identificada,España,Resto de España,3,1
+1120,Xove,No identificada,España,Resto de España,3,1
+1121,Zafra,No identificada,España,Resto de España,3,2
+1122,Zahara de los Atunes,No identificada,España,Resto de España,3,1
+1123,Zalla,No identificada,España,Resto de España,3,1
+1124,Zaratan,No identificada,España,Resto de España,3,1
+1125,Zarza de Granadilla,No identificada,España,Resto de España,3,1
+1126,Zeanuri,No identificada,España,Resto de España,3,2
+1127,Zestoa,No identificada,España,Resto de España,3,3
+1128,Zizur Mayor,No identificada,España,Resto de España,3,2
+1129,Zizurkil,No identificada,España,Resto de España,3,1
+1130,Zugarramurdi,No identificada,España,Resto de España,3,1
+1131,Zumaia,No identificada,España,Resto de España,3,2
+1132,Zumarraga,No identificada,España,Resto de España,3,1
+1133,Amorebieta,País Vasco,España,Resto de España,3,11
+1134,Amurrio,País Vasco,España,Resto de España,3,6
+1135,Azkoitia,País Vasco,España,Resto de España,3,5
+1136,Barakaldo,País Vasco,España,Resto de España,3,50
+1137,Basauri,País Vasco,España,Resto de España,3,6
+1138,Bermeo,País Vasco,España,Resto de España,3,8
+1139,Bilbao,País Vasco,España,Resto de España,3,523
+1140,Deba,País Vasco,España,Resto de España,3,2
+1141,Donostia-San Sebastián,País Vasco,España,Resto de España,3,148
+1142,Durango,País Vasco,España,Resto de España,3,13
+1143,Eibar,País Vasco,España,Resto de España,3,6
+1144,Erandio,País Vasco,España,Resto de España,3,6
+1145,Errenteria,País Vasco,España,Resto de España,3,3
+1146,Galdakao,País Vasco,España,Resto de España,3,9
+1147,Gernika,País Vasco,España,Resto de España,3,6
+1148,Getxo,País Vasco,España,Resto de España,3,73
+1149,Hondarribia,País Vasco,España,Resto de España,3,3
+1150,Irun,País Vasco,España,Resto de España,3,17
+1151,Lasarte-Oria,País Vasco,España,Resto de España,3,8
+1152,Leioa,País Vasco,España,Resto de España,3,11
+1153,Llodio,País Vasco,España,Resto de España,3,7
+1154,Mungia,País Vasco,España,Resto de España,3,3
+1155,Muskiz,País Vasco,España,Resto de España,3,8
+1156,No identificada,País Vasco,España,Resto de España,3,34
+1157,Oiartzun,País Vasco,España,Resto de España,3,12
+1158,Ondarroa,País Vasco,España,Resto de España,3,5
+1159,Portugalete,País Vasco,España,Resto de España,3,22
+1160,Santurtzi,País Vasco,España,Resto de España,3,20
+1161,Sestao,País Vasco,España,Resto de España,3,9
+1162,Sopela,País Vasco,España,Resto de España,3,10
+1163,Tolosa,País Vasco,España,Resto de España,3,6
+1164,Vitoria-Gasteiz,País Vasco,España,Resto de España,3,182
+1165,Zarautz,País Vasco,España,Resto de España,3,9
+1166,Alhama de Murcia,Región de Murcia,España,Resto de España,3,4
+1167,Cartagena,Región de Murcia,España,Resto de España,3,47
+1168,Lorca,Región de Murcia,España,Resto de España,3,6
+1169,Molina de Segura,Región de Murcia,España,Resto de España,3,1
+1170,Murcia,Región de Murcia,España,Resto de España,3,73
+1171,No identificada,Región de Murcia,España,Resto de España,3,17
+1172,San Pedro del Pinatar,Región de Murcia,España,Resto de España,3,6
+1173,Berlin,Extranjero,Alemania,Extranjero,4,17
+1174,Bochum,Extranjero,Alemania,Extranjero,4,1
+1175,Dossenheim,Extranjero,Alemania,Extranjero,4,1
+1176,Dusseldorf,Extranjero,Alemania,Extranjero,4,6
+1177,Frankfurt,Extranjero,Alemania,Extranjero,4,3
+1178,Freiburg Im Breisgau,Extranjero,Alemania,Extranjero,4,1
+1179,Friedrichshafen,Extranjero,Alemania,Extranjero,4,3
+1180,Garmisch-partenkirchen,Extranjero,Alemania,Extranjero,4,4
+1181,Hamburg,Extranjero,Alemania,Extranjero,4,4
+1182,Hannover,Extranjero,Alemania,Extranjero,4,4
+1183,Heidelberg,Extranjero,Alemania,Extranjero,4,2
+1184,Illingen,Extranjero,Alemania,Extranjero,4,1
+1185,Landsberg Am Lech,Extranjero,Alemania,Extranjero,4,1
+1186,Monchengladbach,Extranjero,Alemania,Extranjero,4,1
+1187,Munich,Extranjero,Alemania,Extranjero,4,8
+1188,Ober-ramstadt,Extranjero,Alemania,Extranjero,4,1
+1189,Stuttgart,Extranjero,Alemania,Extranjero,4,2
+1190,Andorra la Vella,Extranjero,Andorra,Extranjero,4,5
+1191,Encamp,Extranjero,Andorra,Extranjero,4,2
+1192,Escaldes-engordany,Extranjero,Andorra,Extranjero,4,1
+1193,No identificada,Extranjero,Andorra,Extranjero,4,1
+1194,Ordino,Extranjero,Andorra,Extranjero,4,7
+1195,Pas de la Casa,Extranjero,Andorra,Extranjero,4,1
+1196,Al Khobar,Extranjero,Arabia Saudita,Extranjero,4,1
+1197,Avellaneda,Extranjero,Argentina,Extranjero,4,1
+1198,Buenos Aires,Extranjero,Argentina,Extranjero,4,37
+1199,Capital Federal District,Extranjero,Argentina,Extranjero,4,9
+1200,Central Argentina,Extranjero,Argentina,Extranjero,4,2
+1201,Chacabuco,Extranjero,Argentina,Extranjero,4,1
+1202,Chacarrita,Extranjero,Argentina,Extranjero,4,1
+1203,City Bell,Extranjero,Argentina,Extranjero,4,1
+1204,Concordia,Extranjero,Argentina,Extranjero,4,1
+1205,Cordoba,Extranjero,Argentina,Extranjero,4,1
+1206,Distrito Capital Federal,Extranjero,Argentina,Extranjero,4,1
+1207,Mar del Plata,Extranjero,Argentina,Extranjero,4,5
+1208,Mendoza,Extranjero,Argentina,Extranjero,4,1
+1209,Monte Hermoso,Extranjero,Argentina,Extranjero,4,1
+1210,No identificada,Extranjero,Argentina,Extranjero,4,4
+1211,Parana,Extranjero,Argentina,Extranjero,4,1
+1212,Pilar,Extranjero,Argentina,Extranjero,4,3
+1213,Pinamar,Extranjero,Argentina,Extranjero,4,1
+1214,Posadas,Extranjero,Argentina,Extranjero,4,1
+1215,Province Of Buenos Aires,Extranjero,Argentina,Extranjero,4,2
+1216,Puerto Iguazu,Extranjero,Argentina,Extranjero,4,1
+1217,Quilmes,Extranjero,Argentina,Extranjero,4,2
+1218,Rosario,Extranjero,Argentina,Extranjero,4,5
+1219,Salta,Extranjero,Argentina,Extranjero,4,2
+1220,San Carlos de Bariloche,Extranjero,Argentina,Extranjero,4,2
+1221,San Fernando del Valle de Catamarca,Extranjero,Argentina,Extranjero,4,1
+1222,San Isidro,Extranjero,Argentina,Extranjero,4,1
+1223,San Miguel de Tucuman,Extranjero,Argentina,Extranjero,4,1
+1224,Tandil,Extranjero,Argentina,Extranjero,4,3
+1225,Temperley,Extranjero,Argentina,Extranjero,4,1
+1226,Villa Gesell,Extranjero,Argentina,Extranjero,4,1
+1227,Norfolk Island,Extranjero,Australia,Extranjero,4,1
+1228,No identificada,Extranjero,Barbados,Extranjero,4,2
+1229,Cochabamba,Extranjero,Bolivia,Extranjero,4,2
+1230,La Paz,Extranjero,Bolivia,Extranjero,4,4
+1231,Santa Cruz,Extranjero,Bolivia,Extranjero,4,1
+1232,No identificada,Extranjero,Brasil,Extranjero,4,1
+1233,Salvador,Extranjero,Brasil,Extranjero,4,2
+1234,Sao Paulo,Extranjero,Brasil,Extranjero,4,2
+1235,Antwerp,Extranjero,Bélgica,Extranjero,4,4
+1236,Arlon,Extranjero,Bélgica,Extranjero,4,1
+1237,Braine-l'alleud,Extranjero,Bélgica,Extranjero,4,1
+1238,Bruges,Extranjero,Bélgica,Extranjero,4,2
+1239,Brussels,Extranjero,Bélgica,Extranjero,4,43
+1240,Halle,Extranjero,Bélgica,Extranjero,4,1
+1241,Ixelles,Extranjero,Bélgica,Extranjero,4,1
+1242,No identificada,Extranjero,Bélgica,Extranjero,4,1
+1243,Ouren,Extranjero,Bélgica,Extranjero,4,1
+1244,Zaventem,Extranjero,Bélgica,Extranjero,4,1
+1245,Edmonton,Extranjero,Canadá,Extranjero,4,1
+1246,Hamilton,Extranjero,Canadá,Extranjero,4,1
+1247,Montreal,Extranjero,Canadá,Extranjero,4,1
+1248,Ontario,Extranjero,Canadá,Extranjero,4,1
+1249,Toronto,Extranjero,Canadá,Extranjero,4,1
+1250,Vancouver,Extranjero,Canadá,Extranjero,4,2
+1251,Hranice,Extranjero,Chequia,Extranjero,4,1
+1252,Krkonose National Park,Extranjero,Chequia,Extranjero,4,1
+1253,Ostrava,Extranjero,Chequia,Extranjero,4,1
+1254,Prague,Extranjero,Chequia,Extranjero,4,6
+1255,Chicureo,Extranjero,Chile,Extranjero,4,1
+1256,Pucon,Extranjero,Chile,Extranjero,4,1
+1257,Punta Arenas,Extranjero,Chile,Extranjero,4,2
+1258,Rancagua,Extranjero,Chile,Extranjero,4,1
+1259,Santiago,Extranjero,Chile,Extranjero,4,14
+1260,Santiago Metropolitan Region,Extranjero,Chile,Extranjero,4,2
+1261,Bogota,Extranjero,Colombia,Extranjero,4,3
+1262,Cali,Extranjero,Colombia,Extranjero,4,2
+1263,Medellin,Extranjero,Colombia,Extranjero,4,3
+1264,Split,Extranjero,Croacia,Extranjero,4,1
+1265,Copenhagen,Extranjero,Dinamarca,Extranjero,4,1
+1266,Kastrup,Extranjero,Dinamarca,Extranjero,4,1
+1267,Guayaquil,Extranjero,Ecuador,Extranjero,4,1
+1268,Abu Dhabi,Extranjero,Emiratos Árabes Unidos,Extranjero,4,2
+1269,Dubai,Extranjero,Emiratos Árabes Unidos,Extranjero,4,2
+1270,Bratislava,Extranjero,Eslovaquia,Extranjero,4,6
+1271,Pezinok,Extranjero,Eslovaquia,Extranjero,4,1
+1272,Zlate Moravce,Extranjero,Eslovaquia,Extranjero,4,1
+1273,Anchorage,Extranjero,Estados Unidos,Extranjero,4,1
+1274,Annapolis,Extranjero,Estados Unidos,Extranjero,4,1
+1275,Aspen,Extranjero,Estados Unidos,Extranjero,4,1
+1276,Brookline,Extranjero,Estados Unidos,Extranjero,4,1
+1277,Chappaqua,Extranjero,Estados Unidos,Extranjero,4,1
+1278,Charlotte,Extranjero,Estados Unidos,Extranjero,4,1
+1279,Detroit,Extranjero,Estados Unidos,Extranjero,4,2
+1280,Fort Worth,Extranjero,Estados Unidos,Extranjero,4,4
+1281,Hartsville,Extranjero,Estados Unidos,Extranjero,4,1
+1282,Hoboken,Extranjero,Estados Unidos,Extranjero,4,3
+1283,Houston,Extranjero,Estados Unidos,Extranjero,4,1
+1284,Los Angeles,Extranjero,Estados Unidos,Extranjero,4,1
+1285,Malaga,Extranjero,Estados Unidos,Extranjero,4,1
+1286,Maspeth,Extranjero,Estados Unidos,Extranjero,4,1
+1287,Miami,Extranjero,Estados Unidos,Extranjero,4,7
+1288,Miami Beach,Extranjero,Estados Unidos,Extranjero,4,4
+1289,Montclair,Extranjero,Estados Unidos,Extranjero,4,2
+1290,Muse,Extranjero,Estados Unidos,Extranjero,4,1
+1291,New York City,Extranjero,Estados Unidos,Extranjero,4,4
+1292,No identificada,Extranjero,Estados Unidos,Extranjero,4,4
+1293,Orlando,Extranjero,Estados Unidos,Extranjero,4,2
+1294,Salinas,Extranjero,Estados Unidos,Extranjero,4,1
+1295,San Clemente,Extranjero,Estados Unidos,Extranjero,4,1
+1296,San Diego,Extranjero,Estados Unidos,Extranjero,4,1
+1297,San Francisco,Extranjero,Estados Unidos,Extranjero,4,3
+1298,Savannah,Extranjero,Estados Unidos,Extranjero,4,5
+1299,Seabrook,Extranjero,Estados Unidos,Extranjero,4,1
+1300,Surf City,Extranjero,Estados Unidos,Extranjero,4,1
+1301,The Woodlands,Extranjero,Estados Unidos,Extranjero,4,1
+1302,Tok,Extranjero,Estados Unidos,Extranjero,4,4
+1303,Walt Disney World,Extranjero,Estados Unidos,Extranjero,4,1
+1304,West Palm Beach,Extranjero,Estados Unidos,Extranjero,4,1
+1305,Westport,Extranjero,Estados Unidos,Extranjero,4,2
+1306,White Plains,Extranjero,Estados Unidos,Extranjero,4,1
+1307,Yale,Extranjero,Estados Unidos,Extranjero,4,1
+1308,Tallinn,Extranjero,Estonia,Extranjero,4,3
+1309,Avila,Extranjero,Filipinas,Extranjero,4,1
+1310,Bolod,Extranjero,Filipinas,Extranjero,4,2
+1311,Arcachon,Extranjero,Francia,Extranjero,4,1
+1312,Biarritz,Extranjero,Francia,Extranjero,4,1
+1313,Bordeaux,Extranjero,Francia,Extranjero,4,2
+1314,Bourdeaux,Extranjero,Francia,Extranjero,4,1
+1315,Cachan,Extranjero,Francia,Extranjero,4,1
+1316,Carcassonne Center,Extranjero,Francia,Extranjero,4,2
+1317,Chalonvillars,Extranjero,Francia,Extranjero,4,1
+1318,Chatel,Extranjero,Francia,Extranjero,4,1
+1319,Chatou,Extranjero,Francia,Extranjero,4,1
+1320,Dombasle-sur-meurthe,Extranjero,Francia,Extranjero,4,3
+1321,Hendaye,Extranjero,Francia,Extranjero,4,2
+1322,Izaut-de-l'hotel,Extranjero,Francia,Extranjero,4,1
+1323,La Celle,Extranjero,Francia,Extranjero,4,1
+1324,Lille,Extranjero,Francia,Extranjero,4,1
+1325,Logron,Extranjero,Francia,Extranjero,4,1
+1326,Marseille,Extranjero,Francia,Extranjero,4,1
+1327,Narbonne,Extranjero,Francia,Extranjero,4,1
+1328,No identificada,Extranjero,Francia,Extranjero,4,1
+1329,Paris,Extranjero,Francia,Extranjero,4,10
+1330,Riedisheim,Extranjero,Francia,Extranjero,4,2
+1331,Sare,Extranjero,Francia,Extranjero,4,1
+1332,Strasbourg,Extranjero,Francia,Extranjero,4,3
+1333,Toulouse,Extranjero,Francia,Extranjero,4,1
+1334,Urrugne,Extranjero,Francia,Extranjero,4,1
+1335,Athens,Extranjero,Grecia,Extranjero,4,2
+1336,Corfu,Extranjero,Grecia,Extranjero,4,1
+1337,Crete,Extranjero,Grecia,Extranjero,4,1
+1338,No identificada,Extranjero,Grecia,Extranjero,4,5
+1339,Guatemala City,Extranjero,Guatemala,Extranjero,4,1
+1340,Tegucigalpa,Extranjero,Honduras,Extranjero,4,1
+1341,Budapest,Extranjero,Hungría,Extranjero,4,1
+1342,New Delhi,Extranjero,India,Extranjero,4,1
+1343,Canggu,Extranjero,Indonesia,Extranjero,4,1
+1344,Munduk,Extranjero,Indonesia,Extranjero,4,1
+1345,No identificada,Extranjero,Indonesia,Extranjero,4,1
+1346,Cork,Extranjero,Irlanda,Extranjero,4,1
+1347,Drogheda,Extranjero,Irlanda,Extranjero,4,1
+1348,Dublin,Extranjero,Irlanda,Extranjero,4,2
+1349,Dunshaughlin,Extranjero,Irlanda,Extranjero,4,1
+1350,Tuam,Extranjero,Irlanda,Extranjero,4,1
+1351,Westport,Extranjero,Irlanda,Extranjero,4,1
+1352,Reykjavik,Extranjero,Islandia,Extranjero,4,3
+1353,Tel Aviv,Extranjero,Israel,Extranjero,4,4
+1354,Alghero,Extranjero,Italia,Extranjero,4,1
+1355,Bergamo,Extranjero,Italia,Extranjero,4,1
+1356,Bologna,Extranjero,Italia,Extranjero,4,1
+1357,Cagliari,Extranjero,Italia,Extranjero,4,1
+1358,Caserta,Extranjero,Italia,Extranjero,4,1
+1359,Catania,Extranjero,Italia,Extranjero,4,2
+1360,Caucana Finaiti Casuzze Finaiti N.,Extranjero,Italia,Extranjero,4,16
+1361,Ferrara,Extranjero,Italia,Extranjero,4,1
+1362,Florence,Extranjero,Italia,Extranjero,4,2
+1363,Ladispoli,Extranjero,Italia,Extranjero,4,2
+1364,Manarola,Extranjero,Italia,Extranjero,4,1
+1365,Milan,Extranjero,Italia,Extranjero,4,16
+1366,Naples,Extranjero,Italia,Extranjero,4,3
+1367,Ostra,Extranjero,Italia,Extranjero,4,1
+1368,Palermo,Extranjero,Italia,Extranjero,4,1
+1369,Parma,Extranjero,Italia,Extranjero,4,1
+1370,Perugia,Extranjero,Italia,Extranjero,4,1
+1371,Rome,Extranjero,Italia,Extranjero,4,15
+1372,Sciacca,Extranjero,Italia,Extranjero,4,1
+1373,Sicily,Extranjero,Italia,Extranjero,4,1
+1374,Taranto,Extranjero,Italia,Extranjero,4,2
+1375,Treviso,Extranjero,Italia,Extranjero,4,2
+1376,Turin,Extranjero,Italia,Extranjero,4,2
+1377,Vatican City,Extranjero,Italia,Extranjero,4,2
+1378,Venice,Extranjero,Italia,Extranjero,4,1
+1379,Verona,Extranjero,Italia,Extranjero,4,4
+1380,Viareggio,Extranjero,Italia,Extranjero,4,4
+1381,Kyoto,Extranjero,Japón,Extranjero,4,4
+1382,No identificada,Extranjero,Japón,Extranjero,4,1
+1383,Osaka,Extranjero,Japón,Extranjero,4,2
+1384,Tokyo,Extranjero,Japón,Extranjero,4,25
+1385,Salmiya,Extranjero,Kuwait,Extranjero,4,3
+1386,Luxembourg City,Extranjero,Luxemburgo,Extranjero,4,3
+1387,No identificada,Extranjero,Luxemburgo,Extranjero,4,2
+1388,Island Of Malta,Extranjero,Malta,Extranjero,4,1
+1389,No identificada,Extranjero,Malta,Extranjero,4,1
+1390,Saint Julian's,Extranjero,Malta,Extranjero,4,1
+1391,Ulaanbaatar,Extranjero,Mongolia,Extranjero,4,2
+1392,Akumal,Extranjero,México,Extranjero,4,2
+1393,Brasilia,Extranjero,México,Extranjero,4,2
+1394,Cancun,Extranjero,México,Extranjero,4,1
+1395,Cuernavaca,Extranjero,México,Extranjero,4,1
+1396,Francisco I. Madero Municipality,Extranjero,México,Extranjero,4,6
+1397,Guadalajara,Extranjero,México,Extranjero,4,7
+1398,Hermosillo,Extranjero,México,Extranjero,4,1
+1399,Huixquilucan,Extranjero,México,Extranjero,4,1
+1400,Irapuato,Extranjero,México,Extranjero,4,1
+1401,Leon,Extranjero,México,Extranjero,4,2
+1402,Lerma,Extranjero,México,Extranjero,4,1
+1403,Merida,Extranjero,México,Extranjero,4,3
+1404,Mexico City,Extranjero,México,Extranjero,4,22
+1405,Monterrey,Extranjero,México,Extranjero,4,1
+1406,Playa del Carmen,Extranjero,México,Extranjero,4,1
+1407,Puebla,Extranjero,México,Extranjero,4,6
+1408,Puerto Morelos,Extranjero,México,Extranjero,4,5
+1409,Queretaro City,Extranjero,México,Extranjero,4,1
+1410,San Miguel de Allende,Extranjero,México,Extranjero,4,1
+1411,Tampico,Extranjero,México,Extranjero,4,1
+1412,Tulum,Extranjero,México,Extranjero,4,1
+1413,Villahermosa,Extranjero,México,Extranjero,4,1
+1414,Granada,Extranjero,Nicaragua,Extranjero,4,1
+1415,Bergen,Extranjero,Noruega,Extranjero,4,4
+1416,Oslo,Extranjero,Noruega,Extranjero,4,6
+1417,No identificada,Extranjero,Panamá,Extranjero,4,2
+1418,Panama City,Extranjero,Panamá,Extranjero,4,2
+1419,Amsterdam,Extranjero,Países Bajos,Extranjero,4,13
+1420,Brielle,Extranjero,Países Bajos,Extranjero,4,4
+1421,Duivendrecht,Extranjero,Países Bajos,Extranjero,4,1
+1422,Eindhoven,Extranjero,Países Bajos,Extranjero,4,1
+1423,Heerhugowaard,Extranjero,Países Bajos,Extranjero,4,3
+1424,Houten,Extranjero,Países Bajos,Extranjero,4,1
+1425,Maastricht,Extranjero,Países Bajos,Extranjero,4,4
+1426,Rotterdam,Extranjero,Países Bajos,Extranjero,4,1
+1427,Zoetermeer,Extranjero,Países Bajos,Extranjero,4,2
+1428,Chiclayo,Extranjero,Perú,Extranjero,4,1
+1429,Lima,Extranjero,Perú,Extranjero,4,4
+1430,Gdansk,Extranjero,Polonia,Extranjero,4,2
+1431,Aguas Santas,Extranjero,Portugal,Extranjero,4,1
+1432,Albufeira,Extranjero,Portugal,Extranjero,4,1
+1433,Apulia,Extranjero,Portugal,Extranjero,4,1
+1434,Aveiro,Extranjero,Portugal,Extranjero,4,1
+1435,Barao de Sao Joao,Extranjero,Portugal,Extranjero,4,1
+1436,Boliqueime,Extranjero,Portugal,Extranjero,4,1
+1437,Cascais,Extranjero,Portugal,Extranjero,4,1
+1438,Castelo Branco,Extranjero,Portugal,Extranjero,4,1
+1439,Ericeira,Extranjero,Portugal,Extranjero,4,1
+1440,Evora,Extranjero,Portugal,Extranjero,4,1
+1441,Faro,Extranjero,Portugal,Extranjero,4,1
+1442,Guimaraes,Extranjero,Portugal,Extranjero,4,2
+1443,Lagos,Extranjero,Portugal,Extranjero,4,9
+1444,Linda-a-velha,Extranjero,Portugal,Extranjero,4,1
+1445,Lisbon,Extranjero,Portugal,Extranjero,4,12
+1446,Peniche,Extranjero,Portugal,Extranjero,4,1
+1447,Porto,Extranjero,Portugal,Extranjero,4,9
+1448,Santa Maria da Feira,Extranjero,Portugal,Extranjero,4,1
+1449,Sao Mamede de Infesta,Extranjero,Portugal,Extranjero,4,1
+1450,Sao Miguel,Extranjero,Portugal,Extranjero,4,1
+1451,Vila Nova de Gaia,Extranjero,Portugal,Extranjero,4,2
+1452,San Juan,Extranjero,Puerto Rico,Extranjero,4,9
+1453,Aberdeen,Extranjero,Reino Unido,Extranjero,4,3
+1454,Altrincham,Extranjero,Reino Unido,Extranjero,4,4
+1455,Ashton-under-lyne,Extranjero,Reino Unido,Extranjero,4,1
+1456,Birmingham,Extranjero,Reino Unido,Extranjero,4,1
+1457,Bishops Stortford,Extranjero,Reino Unido,Extranjero,4,1
+1458,Brighton,Extranjero,Reino Unido,Extranjero,4,1
+1459,Bristol,Extranjero,Reino Unido,Extranjero,4,2
+1460,Edinburgh,Extranjero,Reino Unido,Extranjero,4,2
+1461,Exeter,Extranjero,Reino Unido,Extranjero,4,1
+1462,Fleet,Extranjero,Reino Unido,Extranjero,4,1
+1463,Glasgow,Extranjero,Reino Unido,Extranjero,4,1
+1464,Greater London,Extranjero,Reino Unido,Extranjero,4,1
+1465,High Wycombe,Extranjero,Reino Unido,Extranjero,4,1
+1466,Knowle,Extranjero,Reino Unido,Extranjero,4,1
+1467,London,Extranjero,Reino Unido,Extranjero,4,36
+1468,Manchester,Extranjero,Reino Unido,Extranjero,4,1
+1469,No identificada,Extranjero,Reino Unido,Extranjero,4,3
+1470,Nottingham,Extranjero,Reino Unido,Extranjero,4,1
+1471,Oxford,Extranjero,Reino Unido,Extranjero,4,2
+1472,Redhill,Extranjero,Reino Unido,Extranjero,4,1
+1473,Southampton,Extranjero,Reino Unido,Extranjero,4,1
+1474,Spalding,Extranjero,Reino Unido,Extranjero,4,1
+1475,Windermere,Extranjero,Reino Unido,Extranjero,4,1
+1476,York,Extranjero,Reino Unido,Extranjero,4,1
+1477,Mata Gorda,Extranjero,República Dominicana,Extranjero,4,9
+1478,No identificada,Extranjero,República Dominicana,Extranjero,4,3
+1479,Santo Domingo,Extranjero,República Dominicana,Extranjero,4,3
+1480,Santo Domingo Province,Extranjero,República Dominicana,Extranjero,4,3
+1481,Bucharest,Extranjero,Rumanía,Extranjero,4,1
+1482,Husi,Extranjero,Rumanía,Extranjero,4,1
+1483,Krasnodar,Extranjero,Rusia,Extranjero,4,3
+1484,Moscow,Extranjero,Rusia,Extranjero,4,1
+1485,St. Petersburg,Extranjero,Rusia,Extranjero,4,2
+1486,Novi Sad,Extranjero,Serbia,Extranjero,4,1
+1487,Singapore,Extranjero,Singapur,Extranjero,4,2
+1488,Sri Jayawardenepura,Extranjero,Sri Lanka,Extranjero,4,2
+1489,Stockholm,Extranjero,Suecia,Extranjero,4,3
+1490,Basel,Extranjero,Suiza,Extranjero,4,3
+1491,Canton Of Zurich,Extranjero,Suiza,Extranjero,4,1
+1492,Geneva,Extranjero,Suiza,Extranjero,4,3
+1493,Landschlacht,Extranjero,Suiza,Extranjero,4,1
+1494,Lausanne,Extranjero,Suiza,Extranjero,4,10
+1495,Muenchenstein,Extranjero,Suiza,Extranjero,4,1
+1496,Thun,Extranjero,Suiza,Extranjero,4,1
+1497,Zurich,Extranjero,Suiza,Extranjero,4,1
+1498,Bang Bua Thong,Extranjero,Tailandia,Extranjero,4,1
+1499,Bangkok,Extranjero,Tailandia,Extranjero,4,1
+1500,Chiang Mai,Extranjero,Tailandia,Extranjero,4,2
+1501,No identificada,Extranjero,Tailandia,Extranjero,4,4
+1502,Xinyi District,Extranjero,Taiwán,Extranjero,4,1
+1503,Istanbul,Extranjero,Turquía,Extranjero,4,4
+1504,Montevideo,Extranjero,Uruguay,Extranjero,4,4
+1505,No identificada,Extranjero,Uruguay,Extranjero,4,4
+1506,Trinidad,Extranjero,Uruguay,Extranjero,4,1
+1507,Barquisimeto,Extranjero,Venezuela,Extranjero,4,1
+1508,Caracas,Extranjero,Venezuela,Extranjero,4,4
+1509,La Guaira,Extranjero,Venezuela,Extranjero,4,1
+1510,Porlamar,Extranjero,Venezuela,Extranjero,4,1
+1511,San Antonio de los Altos,Extranjero,Venezuela,Extranjero,4,3
+1512,Hanoi,Extranjero,Vietnam,Extranjero,4,1
+1513,Lao Cai,Extranjero,Vietnam,Extranjero,4,2
+1514,No determinado,No determinado,No determinado,No determinado,5,130
+1515,Sin dato,Sin dato,Sin dato,Sin dato,6,17543
