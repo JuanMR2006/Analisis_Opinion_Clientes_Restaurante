@@ -1,0 +1,1501 @@
+﻿ID_Cliente,Edad,Genero,Ingreso,Frecuencia_Visita,Gasto_Promedio,Cocina_Preferida,Franja_Visita,Tamano_Grupo,Ocasion,Tipo_Comida,Reserva_Online,Pedido_Domicilio,Miembro_Lealtad,Tiempo_Espera_Min,Calif_Servicio,Calif_Comida,Calif_Ambiente,Alta_Satisfaccion,Calif_Promedio,Genero_ES,Tipo_Comida_ES,Alta_Satisfaccion_ES
+654,35,Male,83380,Weekly,27.8291,Chinese,Breakfast,3,Business,Takeaway,0,1,1,43.5239,2,5,4,0,3.6667,Masculino,Para llevar,No
+655,19,Male,43623,Rarely,115.4086,American,Dinner,1,Casual,Dine-in,0,0,0,57.5243,5,5,3,0,4.3333,Masculino,En el local,No
+656,41,Female,83737,Weekly,106.6938,American,Dinner,6,Celebration,Dine-in,0,1,0,48.6826,3,4,5,0,4.0,Femenino,En el local,No
+657,43,Male,96768,Rarely,43.5085,Indian,Lunch,1,Celebration,Dine-in,0,0,0,7.553,4,5,1,0,3.3333,Masculino,En el local,No
+658,55,Female,67937,Monthly,148.0846,Chinese,Breakfast,1,Business,Takeaway,0,0,1,37.789,2,3,5,0,3.3333,Femenino,Para llevar,No
+659,42,Female,28860,Monthly,111.0647,Chinese,Dinner,8,Celebration,Takeaway,0,1,1,26.8533,4,5,3,0,4.0,Femenino,Para llevar,No
+660,20,Female,131104,Weekly,120.2367,Indian,Lunch,6,Business,Dine-in,0,0,0,7.9279,5,4,1,0,3.3333,Femenino,En el local,No
+661,51,Female,137882,Weekly,160.9791,Mexican,Dinner,6,Business,Dine-in,1,1,0,56.4472,4,3,3,0,3.3333,Femenino,En el local,No
+662,27,Male,149638,Weekly,56.5586,Indian,Breakfast,5,Celebration,Takeaway,0,1,0,39.5682,2,4,5,0,3.6667,Masculino,Para llevar,No
+663,32,Female,136145,Weekly,65.7535,Italian,Lunch,9,Casual,Takeaway,0,0,0,20.7825,4,3,1,0,2.6667,Femenino,Para llevar,No
+664,21,Male,79249,Monthly,39.2354,American,Breakfast,5,Business,Takeaway,0,1,0,18.9486,1,3,2,0,2.0,Masculino,Para llevar,No
+665,59,Male,94208,Weekly,132.9949,Italian,Dinner,8,Casual,Dine-in,0,0,1,55.0455,3,3,3,0,3.0,Masculino,En el local,No
+666,32,Female,143471,Monthly,156.1308,American,Breakfast,4,Casual,Takeaway,0,1,0,4.7105,5,2,4,0,3.6667,Femenino,Para llevar,No
+667,69,Male,38433,Daily,46.1369,Italian,Dinner,4,Business,Takeaway,0,1,1,20.2434,1,4,3,0,2.6667,Masculino,Para llevar,No
+668,58,Male,64870,Monthly,88.9391,American,Lunch,2,Celebration,Dine-in,0,0,1,58.2716,2,4,2,0,2.6667,Masculino,En el local,No
+669,54,Female,135616,Rarely,112.0075,American,Lunch,2,Business,Takeaway,1,0,0,2.3284,4,4,3,0,3.6667,Femenino,Para llevar,No
+670,59,Female,123325,Weekly,63.9392,Chinese,Dinner,4,Casual,Takeaway,1,0,1,2.6736,3,5,5,1,4.3333,Femenino,Para llevar,Sí
+671,42,Male,25569,Monthly,120.3902,American,Dinner,3,Casual,Dine-in,0,0,1,54.9338,1,3,3,0,2.3333,Masculino,En el local,No
+672,26,Female,120447,Weekly,52.1103,Mexican,Dinner,1,Casual,Takeaway,1,1,1,20.7263,3,1,3,0,2.3333,Femenino,Para llevar,No
+673,58,Male,70458,Rarely,197.3705,Italian,Dinner,4,Casual,Takeaway,1,0,1,40.3744,1,2,1,0,1.3333,Masculino,Para llevar,No
+674,27,Female,41450,Weekly,14.6777,Chinese,Dinner,5,Celebration,Dine-in,0,0,0,9.8715,1,1,3,0,1.6667,Femenino,En el local,No
+675,40,Female,85259,Monthly,61.4567,Indian,Dinner,9,Business,Dine-in,0,1,1,12.8344,3,2,5,0,3.3333,Femenino,En el local,No
+676,20,Female,116507,Weekly,169.6578,Chinese,Dinner,5,Celebration,Takeaway,0,0,0,12.3288,4,4,5,0,4.3333,Femenino,Para llevar,No
+677,51,Male,40666,Weekly,54.6688,Mexican,Lunch,6,Casual,Takeaway,0,1,1,24.8552,2,2,3,0,2.3333,Masculino,Para llevar,No
+678,21,Male,62296,Weekly,161.1806,Italian,Lunch,7,Casual,Takeaway,0,1,0,34.6201,3,3,3,0,3.0,Masculino,Para llevar,No
+679,40,Female,38099,Weekly,118.8142,Chinese,Breakfast,1,Casual,Dine-in,1,1,1,20.8958,3,2,1,0,2.0,Femenino,En el local,No
+680,51,Male,105609,Rarely,12.6903,Chinese,Dinner,6,Business,Takeaway,1,0,0,24.0749,5,1,5,0,3.6667,Masculino,Para llevar,No
+681,68,Male,82470,Weekly,146.4527,American,Breakfast,1,Celebration,Dine-in,1,0,1,5.3597,2,4,1,1,2.3333,Masculino,En el local,Sí
+682,49,Female,49402,Weekly,92.1464,American,Lunch,7,Celebration,Takeaway,0,0,0,22.2153,3,1,4,0,2.6667,Femenino,Para llevar,No
+683,59,Male,72461,Rarely,153.4015,Italian,Lunch,3,Celebration,Takeaway,0,0,0,21.2469,5,3,2,0,3.3333,Masculino,Para llevar,No
+684,68,Female,87140,Weekly,140.89,Chinese,Lunch,3,Business,Dine-in,0,1,1,27.0032,3,1,1,0,1.6667,Femenino,En el local,No
+685,18,Female,25148,Weekly,173.8723,American,Lunch,3,Celebration,Takeaway,0,1,0,55.6602,3,5,5,0,4.3333,Femenino,Para llevar,No
+686,35,Male,79963,Monthly,143.7776,Mexican,Breakfast,2,Business,Dine-in,1,0,1,27.3417,3,1,3,0,2.3333,Masculino,En el local,No
+687,65,Female,92930,Rarely,144.4567,Italian,Lunch,3,Celebration,Takeaway,0,0,0,42.0053,1,2,2,0,1.6667,Femenino,Para llevar,No
+688,47,Female,50567,Daily,81.3195,Indian,Lunch,1,Business,Dine-in,0,1,1,10.8228,4,1,4,1,3.0,Femenino,En el local,Sí
+689,46,Male,84767,Weekly,11.0474,Indian,Dinner,2,Celebration,Takeaway,0,0,1,43.4799,5,2,5,0,4.0,Masculino,Para llevar,No
+690,38,Female,35769,Rarely,72.331,Italian,Lunch,1,Celebration,Dine-in,0,0,1,45.1246,5,3,5,0,4.3333,Femenino,En el local,No
+691,50,Female,52640,Monthly,113.6867,Italian,Breakfast,2,Business,Takeaway,1,0,1,12.8862,3,3,1,0,2.3333,Femenino,Para llevar,No
+692,23,Female,70427,Weekly,154.4626,Mexican,Lunch,8,Business,Dine-in,0,1,1,42.9059,5,1,2,0,2.6667,Femenino,En el local,No
+693,54,Female,126716,Monthly,170.1454,Mexican,Breakfast,1,Business,Takeaway,1,0,0,48.3889,1,2,4,0,2.3333,Femenino,Para llevar,No
+694,67,Male,70219,Monthly,114.8529,Chinese,Dinner,7,Casual,Takeaway,0,1,1,6.855,3,5,1,0,3.0,Masculino,Para llevar,No
+695,19,Male,122435,Rarely,117.0134,Indian,Breakfast,8,Casual,Takeaway,0,0,1,45.282,3,4,5,0,4.0,Masculino,Para llevar,No
+696,62,Female,131995,Rarely,140.1357,Italian,Dinner,8,Celebration,Takeaway,0,0,0,55.9271,2,4,2,0,2.6667,Femenino,Para llevar,No
+697,30,Female,21526,Daily,108.4321,Indian,Breakfast,1,Celebration,Dine-in,1,0,0,38.928,2,1,4,0,2.3333,Femenino,En el local,No
+698,50,Female,123950,Rarely,190.0271,American,Lunch,8,Celebration,Dine-in,0,1,0,30.4802,1,5,2,0,2.6667,Femenino,En el local,No
+699,28,Female,105851,Weekly,157.1916,Indian,Breakfast,5,Celebration,Takeaway,0,0,0,24.8519,5,1,3,0,3.0,Femenino,Para llevar,No
+700,38,Female,83286,Monthly,79.241,Italian,Breakfast,3,Business,Takeaway,0,0,0,23.0927,1,4,2,0,2.3333,Femenino,Para llevar,No
+701,59,Female,136805,Weekly,69.5522,American,Dinner,6,Celebration,Dine-in,0,0,0,23.5482,5,1,4,0,3.3333,Femenino,En el local,No
+702,28,Female,137669,Weekly,51.2381,Indian,Dinner,8,Celebration,Takeaway,0,0,0,57.8271,2,2,2,0,2.0,Femenino,Para llevar,No
+703,41,Female,98714,Monthly,154.4998,Indian,Breakfast,1,Business,Dine-in,1,1,1,43.3286,4,1,4,1,3.0,Femenino,En el local,Sí
+704,48,Female,106670,Weekly,196.4615,Italian,Breakfast,2,Celebration,Takeaway,1,1,0,52.0689,1,1,4,0,2.0,Femenino,Para llevar,No
+705,30,Male,39182,Daily,19.3274,Italian,Dinner,1,Casual,Dine-in,0,0,1,44.396,5,2,4,0,3.6667,Masculino,En el local,No
+706,46,Female,73317,Weekly,63.3048,Mexican,Lunch,8,Business,Dine-in,0,0,1,11.2505,2,2,2,0,2.0,Femenino,En el local,No
+707,22,Female,46093,Weekly,71.6288,Mexican,Dinner,4,Casual,Dine-in,1,0,1,17.6386,1,2,2,0,1.6667,Femenino,En el local,No
+708,36,Female,149655,Monthly,64.4436,American,Dinner,6,Celebration,Takeaway,1,0,1,5.4051,5,3,1,0,3.0,Femenino,Para llevar,No
+709,44,Female,143378,Weekly,128.0295,Italian,Breakfast,1,Business,Dine-in,0,0,1,30.9672,5,4,2,0,3.6667,Femenino,En el local,No
+710,19,Female,81440,Rarely,79.7429,Chinese,Lunch,4,Business,Takeaway,0,0,1,22.0137,3,5,4,0,4.0,Femenino,Para llevar,No
+711,64,Male,22073,Weekly,25.7007,Indian,Breakfast,3,Casual,Dine-in,0,0,0,21.5093,5,1,5,0,3.6667,Masculino,En el local,No
+712,18,Female,132427,Monthly,69.4718,Italian,Breakfast,7,Celebration,Takeaway,0,0,0,15.3139,3,2,5,0,3.3333,Femenino,Para llevar,No
+713,33,Male,95965,Monthly,23.4246,American,Breakfast,1,Celebration,Dine-in,0,0,0,44.5836,3,3,3,0,3.0,Masculino,En el local,No
+714,50,Male,35296,Weekly,127.5911,Italian,Dinner,4,Business,Dine-in,0,0,0,23.4622,3,3,5,0,3.6667,Masculino,En el local,No
+715,67,Female,45759,Monthly,159.6555,American,Lunch,6,Casual,Takeaway,0,0,1,8.9145,5,3,4,0,4.0,Femenino,Para llevar,No
+716,52,Male,103379,Monthly,186.0017,Chinese,Breakfast,1,Business,Takeaway,0,1,1,40.3785,3,4,2,0,3.0,Masculino,Para llevar,No
+717,21,Male,94550,Monthly,82.6853,Chinese,Lunch,2,Celebration,Takeaway,1,0,0,24.0607,5,5,1,0,3.6667,Masculino,Para llevar,No
+718,33,Male,113609,Monthly,47.4153,Mexican,Breakfast,8,Celebration,Takeaway,1,1,1,39.4587,1,1,1,0,1.0,Masculino,Para llevar,No
+719,46,Male,74785,Weekly,59.5409,Mexican,Lunch,2,Casual,Dine-in,1,0,0,46.7645,3,3,2,0,2.6667,Masculino,En el local,No
+720,64,Male,68238,Weekly,77.1306,Indian,Breakfast,1,Business,Takeaway,1,0,1,23.2524,2,4,4,1,3.3333,Masculino,Para llevar,Sí
+721,59,Female,75129,Monthly,135.6541,Chinese,Dinner,2,Celebration,Takeaway,0,1,0,32.2898,4,3,5,0,4.0,Femenino,Para llevar,No
+722,35,Male,33384,Monthly,92.851,Indian,Breakfast,6,Casual,Dine-in,0,0,1,17.1951,3,1,1,0,1.6667,Masculino,En el local,No
+723,56,Male,99022,Monthly,156.1175,American,Lunch,1,Business,Takeaway,1,1,0,11.5236,5,2,2,0,3.0,Masculino,Para llevar,No
+724,37,Male,129956,Weekly,169.7998,Indian,Lunch,8,Celebration,Dine-in,0,1,1,32.8428,5,5,1,1,3.6667,Masculino,En el local,Sí
+725,43,Female,60400,Monthly,110.4937,American,Breakfast,5,Casual,Dine-in,1,0,0,34.2693,3,2,3,0,2.6667,Femenino,En el local,No
+726,35,Male,109278,Monthly,171.0118,Italian,Dinner,6,Celebration,Dine-in,0,1,0,13.5073,2,3,2,0,2.3333,Masculino,En el local,No
+727,34,Male,138642,Monthly,44.2847,Italian,Dinner,4,Celebration,Takeaway,1,1,1,17.3709,3,1,5,0,3.0,Masculino,Para llevar,No
+728,55,Male,122223,Weekly,134.3595,Chinese,Dinner,3,Casual,Dine-in,0,0,1,44.534,2,5,3,0,3.3333,Masculino,En el local,No
+729,30,Female,37083,Monthly,174.6942,Indian,Breakfast,9,Celebration,Takeaway,0,1,1,35.061,1,3,5,0,3.0,Femenino,Para llevar,No
+730,53,Female,101003,Rarely,71.2685,Italian,Breakfast,1,Celebration,Dine-in,0,0,0,21.9679,1,3,3,0,2.3333,Femenino,En el local,No
+731,40,Female,33239,Monthly,169.8721,Italian,Lunch,7,Celebration,Dine-in,1,1,0,35.7501,5,4,1,0,3.3333,Femenino,En el local,No
+732,65,Male,132529,Weekly,56.6845,Indian,Dinner,3,Casual,Dine-in,0,0,1,4.7115,4,5,5,1,4.6667,Masculino,En el local,Sí
+733,42,Male,31187,Rarely,27.3961,Mexican,Lunch,9,Celebration,Takeaway,1,0,0,52.2946,2,2,4,0,2.6667,Masculino,Para llevar,No
+734,66,Female,31296,Monthly,180.7056,Chinese,Dinner,8,Casual,Dine-in,1,0,1,13.8191,4,4,1,0,3.0,Femenino,En el local,No
+735,55,Male,147219,Monthly,58.9567,Mexican,Lunch,6,Celebration,Dine-in,0,0,0,37.9588,4,3,2,0,3.0,Masculino,En el local,No
+736,31,Male,81176,Monthly,175.608,Mexican,Lunch,4,Celebration,Takeaway,1,0,0,15.9525,5,1,4,0,3.3333,Masculino,Para llevar,No
+737,35,Female,62674,Monthly,54.4991,Chinese,Breakfast,4,Casual,Takeaway,0,0,0,4.9392,5,4,4,0,4.3333,Femenino,Para llevar,No
+738,19,Female,63136,Monthly,16.5031,Chinese,Dinner,3,Casual,Takeaway,1,0,1,26.9333,2,3,5,0,3.3333,Femenino,Para llevar,No
+739,40,Female,133056,Rarely,73.1243,Mexican,Breakfast,6,Celebration,Takeaway,1,1,0,41.6962,1,2,3,0,2.0,Femenino,Para llevar,No
+740,49,Male,69311,Daily,78.8227,Chinese,Dinner,8,Celebration,Takeaway,1,1,1,27.8939,2,2,5,1,3.0,Masculino,Para llevar,Sí
+741,62,Female,109896,Monthly,198.8887,American,Lunch,7,Celebration,Takeaway,1,0,1,40.3958,3,4,1,0,2.6667,Femenino,Para llevar,No
+742,42,Female,41414,Monthly,189.3374,Indian,Dinner,4,Celebration,Takeaway,0,0,0,50.0785,5,2,4,0,3.6667,Femenino,Para llevar,No
+743,56,Female,62028,Monthly,25.4136,American,Lunch,1,Celebration,Takeaway,0,0,0,52.7811,2,3,5,0,3.3333,Femenino,Para llevar,No
+744,60,Male,30637,Monthly,171.9754,Mexican,Lunch,3,Celebration,Takeaway,1,0,0,30.75,1,2,5,0,2.6667,Masculino,Para llevar,No
+745,59,Male,108814,Weekly,63.0442,American,Dinner,2,Business,Dine-in,0,0,0,56.1589,1,4,2,0,2.3333,Masculino,En el local,No
+746,68,Male,102517,Rarely,60.2501,Italian,Dinner,7,Celebration,Takeaway,0,0,0,6.9913,1,5,2,0,2.6667,Masculino,Para llevar,No
+747,67,Male,47731,Rarely,58.0697,American,Dinner,2,Celebration,Dine-in,1,1,1,6.4283,4,4,1,1,3.0,Masculino,En el local,Sí
+748,64,Female,40967,Monthly,101.8042,Mexican,Dinner,4,Business,Takeaway,0,0,1,19.635,3,2,3,0,2.6667,Femenino,Para llevar,No
+749,20,Female,147362,Rarely,45.281,Indian,Lunch,2,Business,Dine-in,0,0,0,50.0566,4,3,4,0,3.6667,Femenino,En el local,No
+750,62,Male,30306,Monthly,128.9231,Chinese,Dinner,6,Casual,Takeaway,0,0,1,53.9195,3,5,5,0,4.3333,Masculino,Para llevar,No
+751,53,Male,99064,Weekly,46.9244,Indian,Lunch,8,Casual,Dine-in,0,1,0,7.3455,1,1,5,0,2.3333,Masculino,En el local,No
+752,28,Male,69615,Weekly,50.1298,Indian,Breakfast,8,Casual,Dine-in,0,1,1,0.7088,5,5,5,1,5.0,Masculino,En el local,Sí
+753,49,Male,97990,Weekly,96.3525,Italian,Breakfast,3,Business,Takeaway,0,1,1,48.4049,3,5,1,0,3.0,Masculino,Para llevar,No
+754,22,Female,129622,Weekly,49.3586,Italian,Lunch,1,Celebration,Takeaway,0,1,1,53.0366,2,3,5,0,3.3333,Femenino,Para llevar,No
+755,57,Female,104198,Weekly,128.5745,Italian,Lunch,6,Business,Dine-in,0,0,1,2.7995,4,3,4,0,3.6667,Femenino,En el local,No
+756,62,Male,115722,Rarely,20.8379,Mexican,Dinner,1,Casual,Dine-in,0,0,0,53.0369,2,1,3,0,2.0,Masculino,En el local,No
+757,62,Male,137673,Monthly,86.1469,Indian,Breakfast,7,Business,Takeaway,1,0,0,59.9591,1,4,4,0,3.0,Masculino,Para llevar,No
+758,46,Male,90343,Rarely,112.8649,Italian,Dinner,8,Business,Dine-in,0,0,1,39.2511,3,4,5,0,4.0,Masculino,En el local,No
+759,36,Female,23323,Monthly,187.6787,Italian,Dinner,7,Celebration,Takeaway,1,0,1,23.5499,2,5,1,0,2.6667,Femenino,Para llevar,No
+760,65,Male,76833,Weekly,119.1174,Italian,Breakfast,9,Business,Takeaway,0,1,1,50.0031,4,5,5,0,4.6667,Masculino,Para llevar,No
+761,27,Female,79161,Rarely,148.1344,Indian,Breakfast,3,Celebration,Takeaway,1,1,0,56.6508,4,4,3,0,3.6667,Femenino,Para llevar,No
+762,19,Male,144849,Weekly,56.2621,Indian,Breakfast,9,Casual,Dine-in,1,0,0,44.7659,2,2,5,0,3.0,Masculino,En el local,No
+763,31,Male,77620,Monthly,148.703,Mexican,Breakfast,3,Celebration,Dine-in,1,1,0,37.3174,1,1,4,0,2.0,Masculino,En el local,No
+764,46,Male,112626,Weekly,163.8873,Mexican,Breakfast,2,Celebration,Takeaway,0,1,1,9.4121,3,2,5,1,3.3333,Masculino,Para llevar,Sí
+765,50,Female,62418,Rarely,191.7069,Chinese,Breakfast,7,Business,Takeaway,0,1,0,35.4149,5,2,2,0,3.0,Femenino,Para llevar,No
+766,61,Male,96506,Monthly,82.7058,Chinese,Lunch,7,Business,Takeaway,0,0,1,8.3984,3,5,5,0,4.3333,Masculino,Para llevar,No
+767,26,Male,103668,Weekly,184.2531,American,Dinner,7,Business,Dine-in,1,1,1,52.9548,4,2,2,0,2.6667,Masculino,En el local,No
+768,23,Male,39932,Weekly,197.179,Mexican,Breakfast,5,Business,Dine-in,0,1,1,25.1045,4,3,5,0,4.0,Masculino,En el local,No
+769,47,Male,88700,Rarely,145.2827,Chinese,Breakfast,4,Casual,Takeaway,0,0,1,9.4464,2,4,5,0,3.6667,Masculino,Para llevar,No
+770,60,Male,92277,Rarely,165.1662,Italian,Dinner,5,Business,Takeaway,1,0,0,31.5703,1,5,3,0,3.0,Masculino,Para llevar,No
+771,66,Male,47508,Weekly,39.7354,American,Lunch,7,Casual,Dine-in,0,0,1,3.8066,1,2,2,0,1.6667,Masculino,En el local,No
+772,37,Female,66867,Monthly,11.0048,Italian,Breakfast,9,Business,Takeaway,0,0,1,17.8582,2,4,3,0,3.0,Femenino,Para llevar,No
+773,40,Female,59224,Rarely,162.5509,Chinese,Breakfast,7,Business,Takeaway,0,0,1,49.5707,4,4,3,0,3.6667,Femenino,Para llevar,No
+774,62,Female,142534,Monthly,60.866,Indian,Lunch,7,Business,Takeaway,0,1,1,14.5125,2,2,5,0,3.0,Femenino,Para llevar,No
+775,63,Female,132716,Weekly,177.6251,Mexican,Breakfast,1,Celebration,Dine-in,1,0,0,46.0918,1,5,2,0,2.6667,Femenino,En el local,No
+776,20,Female,38189,Monthly,80.613,Mexican,Dinner,1,Casual,Dine-in,1,1,0,25.9206,1,4,2,0,2.3333,Femenino,En el local,No
+777,42,Female,60474,Weekly,194.6151,Indian,Lunch,1,Business,Dine-in,0,1,0,0.0205,4,1,2,0,2.3333,Femenino,En el local,No
+778,60,Female,71105,Weekly,10.9898,Indian,Breakfast,5,Celebration,Takeaway,0,0,0,12.4617,2,5,1,0,2.6667,Femenino,Para llevar,No
+779,44,Male,38493,Rarely,11.7183,Italian,Lunch,5,Casual,Dine-in,0,1,0,26.7411,1,4,3,0,2.6667,Masculino,En el local,No
+780,23,Male,84982,Weekly,94.5382,Italian,Dinner,3,Casual,Takeaway,1,1,1,1.8883,3,4,3,1,3.3333,Masculino,Para llevar,Sí
+781,65,Female,59454,Monthly,154.5057,Italian,Dinner,4,Business,Takeaway,0,1,0,24.2655,3,5,4,0,4.0,Femenino,Para llevar,No
+782,67,Female,84121,Monthly,72.0432,Italian,Lunch,8,Casual,Takeaway,0,0,1,41.8228,2,1,4,0,2.3333,Femenino,Para llevar,No
+783,63,Female,140124,Monthly,65.0892,Chinese,Dinner,4,Celebration,Takeaway,0,0,1,17.137,4,1,2,0,2.3333,Femenino,Para llevar,No
+784,68,Female,94282,Monthly,181.8302,Mexican,Lunch,9,Celebration,Dine-in,1,0,0,39.2431,5,4,1,0,3.3333,Femenino,En el local,No
+785,24,Male,31796,Daily,54.7623,Italian,Dinner,9,Business,Takeaway,0,0,0,56.4994,3,5,5,0,4.3333,Masculino,Para llevar,No
+786,27,Male,56966,Monthly,32.9645,Italian,Breakfast,9,Celebration,Dine-in,0,0,0,58.5135,3,3,1,0,2.3333,Masculino,En el local,No
+787,50,Female,64939,Monthly,113.3418,Chinese,Lunch,4,Casual,Dine-in,0,1,0,46.4927,3,4,2,0,3.0,Femenino,En el local,No
+788,25,Male,117497,Monthly,124.6265,Chinese,Breakfast,6,Celebration,Dine-in,0,0,0,18.2773,4,2,3,0,3.0,Masculino,En el local,No
+789,30,Male,46377,Daily,19.8162,Italian,Lunch,6,Business,Dine-in,0,1,0,27.8273,1,3,2,0,2.0,Masculino,En el local,No
+790,58,Female,97030,Weekly,158.0324,American,Dinner,3,Casual,Takeaway,0,0,1,27.8575,2,5,2,0,3.0,Femenino,Para llevar,No
+791,67,Male,117452,Daily,175.3137,Indian,Lunch,4,Business,Takeaway,1,1,1,44.6275,1,5,5,1,3.6667,Masculino,Para llevar,Sí
+792,57,Female,101362,Weekly,97.5039,Mexican,Lunch,3,Celebration,Takeaway,1,0,1,25.2477,1,1,1,0,1.0,Femenino,Para llevar,No
+793,65,Male,60717,Daily,66.3595,Mexican,Breakfast,1,Casual,Dine-in,0,1,1,50.4586,2,3,2,0,2.3333,Masculino,En el local,No
+794,67,Female,52717,Rarely,72.297,Indian,Breakfast,8,Celebration,Dine-in,0,1,1,4.2542,5,2,4,1,3.6667,Femenino,En el local,Sí
+795,35,Female,78909,Rarely,31.8444,American,Dinner,6,Casual,Dine-in,1,0,1,30.1672,3,2,4,0,3.0,Femenino,En el local,No
+796,63,Male,130870,Weekly,75.6512,Indian,Dinner,7,Business,Takeaway,1,0,0,42.5012,3,4,1,0,2.6667,Masculino,Para llevar,No
+797,59,Male,149006,Weekly,156.2611,Mexican,Lunch,9,Celebration,Dine-in,0,0,0,49.3625,3,1,1,0,1.6667,Masculino,En el local,No
+798,42,Male,120750,Rarely,182.7114,American,Lunch,1,Celebration,Takeaway,1,0,0,2.0802,1,5,1,0,2.3333,Masculino,Para llevar,No
+799,39,Male,97583,Rarely,124.0976,Indian,Dinner,1,Celebration,Takeaway,0,0,0,46.3866,3,4,5,0,4.0,Masculino,Para llevar,No
+800,43,Male,32863,Monthly,181.2633,Chinese,Dinner,5,Business,Takeaway,0,1,1,50.81,3,4,1,0,2.6667,Masculino,Para llevar,No
+801,52,Male,111967,Rarely,137.7477,American,Lunch,8,Casual,Dine-in,0,1,0,20.8879,2,5,4,0,3.6667,Masculino,En el local,No
+802,52,Male,143420,Rarely,176.784,Mexican,Lunch,5,Celebration,Dine-in,0,0,1,43.65,3,3,3,0,3.0,Masculino,En el local,No
+803,66,Female,28073,Weekly,167.0863,Chinese,Dinner,3,Celebration,Takeaway,0,0,1,0.8387,5,1,1,0,2.3333,Femenino,Para llevar,No
+804,22,Female,120539,Daily,92.3424,Chinese,Lunch,9,Casual,Takeaway,0,1,1,27.2414,5,2,3,0,3.3333,Femenino,Para llevar,No
+805,34,Female,112055,Rarely,167.3439,American,Lunch,9,Casual,Dine-in,0,1,0,30.649,4,3,4,0,3.6667,Femenino,En el local,No
+806,53,Female,48489,Weekly,170.0028,Indian,Dinner,1,Casual,Takeaway,1,0,1,40.3062,2,4,3,0,3.0,Femenino,Para llevar,No
+807,57,Female,142449,Rarely,102.64,Italian,Breakfast,5,Business,Takeaway,0,0,0,42.2781,2,3,5,0,3.3333,Femenino,Para llevar,No
+808,58,Female,132047,Weekly,21.1664,American,Dinner,7,Business,Takeaway,0,0,1,14.8577,5,5,1,0,3.6667,Femenino,Para llevar,No
+809,42,Male,84666,Monthly,83.7844,Italian,Breakfast,7,Casual,Dine-in,1,0,0,22.368,2,4,2,0,2.6667,Masculino,En el local,No
+810,46,Female,109006,Rarely,52.2096,Italian,Dinner,8,Business,Takeaway,0,0,1,40.0413,3,5,1,0,3.0,Femenino,Para llevar,No
+811,59,Male,43697,Monthly,50.5754,Italian,Breakfast,6,Celebration,Dine-in,0,0,1,5.6158,1,3,4,0,2.6667,Masculino,En el local,No
+812,41,Female,132528,Weekly,164.8523,Chinese,Dinner,2,Celebration,Dine-in,0,1,0,20.4867,2,2,5,1,3.0,Femenino,En el local,Sí
+813,22,Female,90630,Monthly,10.7879,American,Lunch,4,Casual,Takeaway,1,1,0,5.3205,2,4,1,0,2.3333,Femenino,Para llevar,No
+814,25,Male,30580,Weekly,197.5204,Indian,Lunch,7,Celebration,Takeaway,0,0,1,51.5161,1,2,5,0,2.6667,Masculino,Para llevar,No
+815,30,Female,106716,Monthly,79.9706,Mexican,Breakfast,1,Celebration,Dine-in,0,0,1,59.8624,2,1,4,0,2.3333,Femenino,En el local,No
+816,23,Male,107630,Rarely,95.5428,Italian,Dinner,2,Celebration,Dine-in,0,0,0,52.3903,4,4,5,0,4.3333,Masculino,En el local,No
+817,50,Female,114661,Rarely,135.0928,American,Lunch,5,Celebration,Takeaway,0,1,1,58.7551,2,2,1,0,1.6667,Femenino,Para llevar,No
+818,38,Male,124096,Weekly,118.0773,Chinese,Breakfast,5,Business,Dine-in,0,0,1,4.8117,1,5,4,0,3.3333,Masculino,En el local,No
+819,44,Male,78605,Rarely,154.9397,Mexican,Dinner,3,Celebration,Takeaway,0,1,0,0.0014,2,3,5,0,3.3333,Masculino,Para llevar,No
+820,55,Female,25889,Monthly,36.8497,Chinese,Breakfast,9,Casual,Takeaway,0,0,0,22.999,5,1,2,0,2.6667,Femenino,Para llevar,No
+821,59,Female,66116,Rarely,52.1944,Mexican,Lunch,8,Celebration,Takeaway,1,0,0,26.0673,1,4,1,0,2.0,Femenino,Para llevar,No
+822,39,Male,81042,Monthly,114.1059,Mexican,Lunch,8,Business,Dine-in,0,1,1,51.6837,1,5,2,0,2.6667,Masculino,En el local,No
+823,40,Male,96164,Monthly,59.1404,Italian,Dinner,1,Casual,Takeaway,0,0,1,30.5337,4,4,4,0,4.0,Masculino,Para llevar,No
+824,28,Male,55083,Monthly,176.6104,Indian,Dinner,6,Casual,Takeaway,0,0,0,54.2561,5,2,4,0,3.6667,Masculino,Para llevar,No
+825,47,Male,81504,Weekly,199.9735,Mexican,Lunch,3,Celebration,Dine-in,0,0,1,6.1687,5,2,2,1,3.0,Masculino,En el local,Sí
+826,56,Female,136815,Monthly,44.9294,American,Dinner,4,Business,Dine-in,0,0,1,48.0327,2,5,1,0,2.6667,Femenino,En el local,No
+827,61,Male,105862,Weekly,45.7845,Mexican,Dinner,7,Celebration,Dine-in,1,0,0,43.7159,2,4,4,0,3.3333,Masculino,En el local,No
+828,34,Male,64756,Weekly,115.343,Mexican,Breakfast,4,Casual,Takeaway,0,1,1,50.8427,2,4,1,0,2.3333,Masculino,Para llevar,No
+829,43,Female,148425,Weekly,53.3979,Indian,Dinner,3,Business,Takeaway,0,1,0,23.5121,1,3,4,0,2.6667,Femenino,Para llevar,No
+830,18,Female,88711,Weekly,168.2906,Italian,Dinner,9,Celebration,Takeaway,1,0,1,12.757,1,5,5,1,3.6667,Femenino,Para llevar,Sí
+831,49,Female,37343,Monthly,89.2654,Chinese,Dinner,8,Casual,Dine-in,0,1,1,33.292,1,2,1,0,1.3333,Femenino,En el local,No
+832,42,Female,23262,Weekly,98.5897,Chinese,Breakfast,6,Celebration,Takeaway,0,0,0,15.928,3,5,3,0,3.6667,Femenino,Para llevar,No
+833,59,Female,138471,Weekly,13.8898,Indian,Lunch,5,Business,Dine-in,1,0,0,48.0823,4,1,2,0,2.3333,Femenino,En el local,No
+834,35,Male,69161,Rarely,161.2911,Chinese,Lunch,3,Celebration,Takeaway,0,0,1,7.5831,3,5,2,0,3.3333,Masculino,Para llevar,No
+835,57,Female,85820,Daily,79.3978,Chinese,Breakfast,5,Casual,Dine-in,0,1,1,42.8818,1,2,3,0,2.0,Femenino,En el local,No
+836,69,Male,124582,Weekly,35.9224,American,Breakfast,8,Business,Takeaway,0,0,0,27.3621,1,5,3,0,3.0,Masculino,Para llevar,No
+837,37,Male,81926,Daily,51.0828,Indian,Lunch,8,Casual,Dine-in,0,0,1,56.0442,2,5,2,0,3.0,Masculino,En el local,No
+838,52,Male,100057,Monthly,127.6622,Indian,Breakfast,7,Business,Dine-in,0,1,0,11.0847,4,3,1,0,2.6667,Masculino,En el local,No
+839,69,Female,51842,Monthly,90.8841,American,Dinner,5,Celebration,Dine-in,0,0,0,59.2739,3,5,4,0,4.0,Femenino,En el local,No
+840,23,Male,56374,Rarely,30.8357,Italian,Lunch,5,Business,Dine-in,1,1,0,51.4613,5,1,3,0,3.0,Masculino,En el local,No
+841,19,Female,59251,Monthly,123.7664,Indian,Dinner,6,Casual,Dine-in,0,1,0,20.0103,4,3,3,0,3.3333,Femenino,En el local,No
+842,65,Female,82771,Rarely,100.0456,Mexican,Breakfast,7,Celebration,Takeaway,1,0,0,33.4081,5,3,4,0,4.0,Femenino,Para llevar,No
+843,53,Male,38928,Daily,82.2612,Italian,Dinner,7,Business,Takeaway,1,1,1,17.2578,2,2,5,0,3.0,Masculino,Para llevar,No
+844,55,Female,132925,Monthly,104.9283,Indian,Breakfast,2,Business,Dine-in,0,1,0,2.3816,2,5,2,0,3.0,Femenino,En el local,No
+845,53,Female,117007,Monthly,31.3699,American,Breakfast,9,Casual,Dine-in,0,0,1,12.5099,1,2,2,0,1.6667,Femenino,En el local,No
+846,46,Female,58377,Rarely,191.1394,Chinese,Breakfast,4,Business,Dine-in,0,0,0,49.2676,4,5,5,0,4.6667,Femenino,En el local,No
+847,33,Female,37228,Weekly,16.2213,Mexican,Breakfast,2,Business,Takeaway,0,0,1,52.8855,1,5,4,0,3.3333,Femenino,Para llevar,No
+848,31,Female,33733,Rarely,24.2956,Italian,Breakfast,2,Casual,Takeaway,0,0,1,50.5375,4,4,3,0,3.6667,Femenino,Para llevar,No
+849,18,Female,26732,Daily,178.1507,Chinese,Dinner,8,Business,Takeaway,1,1,0,32.9649,4,5,1,0,3.3333,Femenino,Para llevar,No
+850,40,Male,37366,Monthly,29.8109,Chinese,Lunch,7,Casual,Takeaway,0,1,0,29.6141,3,2,4,0,3.0,Masculino,Para llevar,No
+851,28,Female,135894,Rarely,172.7752,Chinese,Breakfast,8,Business,Takeaway,0,1,0,58.992,1,2,3,0,2.0,Femenino,Para llevar,No
+852,67,Female,63976,Monthly,64.8415,American,Breakfast,4,Casual,Dine-in,0,1,0,21.6992,5,3,1,0,3.0,Femenino,En el local,No
+853,59,Male,104089,Monthly,140.7072,Italian,Breakfast,8,Business,Takeaway,0,0,0,44.7713,5,2,1,0,2.6667,Masculino,Para llevar,No
+854,65,Female,33024,Weekly,184.237,Chinese,Breakfast,4,Business,Dine-in,0,1,1,30.2588,4,2,2,0,2.6667,Femenino,En el local,No
+855,58,Male,30928,Rarely,16.0766,Italian,Dinner,2,Business,Dine-in,0,0,1,15.8111,4,5,5,0,4.6667,Masculino,En el local,No
+856,46,Male,42055,Rarely,57.2009,Chinese,Breakfast,8,Casual,Takeaway,1,0,1,35.8963,5,3,2,0,3.3333,Masculino,Para llevar,No
+857,60,Female,39596,Weekly,16.8312,Chinese,Breakfast,7,Business,Takeaway,0,0,1,22.5482,5,4,5,0,4.6667,Femenino,Para llevar,No
+858,27,Male,29233,Monthly,137.4372,American,Dinner,5,Casual,Takeaway,0,1,1,11.5707,5,2,3,0,3.3333,Masculino,Para llevar,No
+859,54,Male,114257,Monthly,126.3816,Mexican,Lunch,9,Casual,Takeaway,0,0,1,50.2455,3,1,2,0,2.0,Masculino,Para llevar,No
+860,32,Female,77834,Daily,63.5426,Chinese,Lunch,7,Celebration,Takeaway,0,1,0,5.4098,2,2,5,0,3.0,Femenino,Para llevar,No
+861,26,Male,114739,Monthly,98.5391,Chinese,Dinner,5,Casual,Dine-in,0,0,0,15.4928,5,1,4,0,3.3333,Masculino,En el local,No
+862,51,Female,103678,Daily,111.301,Chinese,Lunch,8,Celebration,Dine-in,0,1,0,13.0285,4,1,4,1,3.0,Femenino,En el local,Sí
+863,22,Female,60978,Monthly,20.5973,Chinese,Dinner,2,Celebration,Takeaway,0,0,1,31.7881,2,2,1,0,1.6667,Femenino,Para llevar,No
+864,54,Female,92219,Weekly,161.2486,Mexican,Lunch,7,Celebration,Takeaway,0,1,1,47.4138,4,3,1,0,2.6667,Femenino,Para llevar,No
+865,63,Male,73684,Monthly,149.1705,Chinese,Breakfast,5,Casual,Takeaway,0,1,0,54.0028,1,2,5,0,2.6667,Masculino,Para llevar,No
+866,37,Female,80987,Rarely,29.4586,Indian,Lunch,6,Casual,Dine-in,0,1,0,40.7098,3,3,5,0,3.6667,Femenino,En el local,No
+867,65,Male,83795,Weekly,108.7103,Chinese,Lunch,6,Celebration,Dine-in,1,0,0,12.4447,2,3,1,0,2.0,Masculino,En el local,No
+868,44,Male,121995,Weekly,107.9651,American,Breakfast,9,Casual,Dine-in,0,0,1,35.1676,4,5,2,0,3.6667,Masculino,En el local,No
+869,67,Female,40132,Monthly,137.0001,Indian,Lunch,2,Celebration,Takeaway,0,1,0,15.585,2,3,4,0,3.0,Femenino,Para llevar,No
+870,37,Male,46888,Rarely,168.9095,Indian,Breakfast,7,Business,Takeaway,0,1,0,46.6692,4,2,5,0,3.6667,Masculino,Para llevar,No
+871,58,Male,117392,Monthly,84.7684,American,Breakfast,8,Business,Dine-in,0,0,0,49.8702,2,5,2,0,3.0,Masculino,En el local,No
+872,51,Male,120651,Monthly,171.1968,Mexican,Breakfast,8,Casual,Dine-in,0,0,0,4.1195,1,3,5,0,3.0,Masculino,En el local,No
+873,61,Male,53243,Rarely,45.6234,American,Breakfast,1,Casual,Dine-in,0,0,1,57.0425,3,4,4,0,3.6667,Masculino,En el local,No
+874,25,Female,145582,Rarely,153.6377,Chinese,Breakfast,8,Business,Dine-in,1,0,1,37.8269,5,5,4,0,4.6667,Femenino,En el local,No
+875,23,Female,113128,Monthly,109.401,American,Breakfast,6,Business,Dine-in,0,0,0,4.6615,2,1,3,0,2.0,Femenino,En el local,No
+876,45,Male,81659,Rarely,28.2383,Chinese,Dinner,6,Business,Dine-in,0,1,1,30.1206,4,2,3,0,3.0,Masculino,En el local,No
+877,34,Male,71400,Rarely,33.0284,Chinese,Breakfast,4,Celebration,Dine-in,1,1,0,38.1068,4,1,1,0,2.0,Masculino,En el local,No
+878,45,Female,33354,Weekly,48.9572,Italian,Breakfast,2,Casual,Dine-in,0,0,1,7.0531,5,4,5,0,4.6667,Femenino,En el local,No
+879,40,Female,105103,Rarely,191.4118,Mexican,Breakfast,8,Celebration,Dine-in,1,0,1,53.7937,2,2,4,0,2.6667,Femenino,En el local,No
+880,28,Male,21013,Monthly,124.7912,Italian,Lunch,3,Business,Takeaway,1,0,0,49.3898,5,2,1,0,2.6667,Masculino,Para llevar,No
+881,32,Male,115561,Monthly,185.4015,Italian,Breakfast,8,Business,Takeaway,0,0,0,19.2877,4,2,4,0,3.3333,Masculino,Para llevar,No
+882,42,Female,29377,Monthly,35.9077,American,Lunch,3,Casual,Takeaway,0,0,1,26.9891,3,3,5,0,3.6667,Femenino,Para llevar,No
+883,39,Female,81856,Monthly,10.9614,American,Breakfast,1,Business,Dine-in,0,0,1,46.1673,2,4,3,0,3.0,Femenino,En el local,No
+884,59,Male,26530,Daily,155.1549,American,Lunch,6,Casual,Takeaway,0,0,1,24.6052,5,4,1,0,3.3333,Masculino,Para llevar,No
+885,22,Male,139877,Rarely,112.7259,Indian,Dinner,2,Business,Dine-in,1,1,1,19.4032,3,1,1,0,1.6667,Masculino,En el local,No
+886,68,Male,81959,Monthly,171.9354,Chinese,Lunch,9,Casual,Takeaway,0,0,1,24.1479,1,3,5,0,3.0,Masculino,Para llevar,No
+887,60,Male,87656,Monthly,141.2807,American,Breakfast,8,Business,Takeaway,1,1,0,25.8741,4,4,4,0,4.0,Masculino,Para llevar,No
+888,62,Male,91688,Weekly,104.4547,Indian,Dinner,1,Business,Takeaway,1,1,1,47.5975,2,2,4,0,2.6667,Masculino,Para llevar,No
+889,57,Female,53277,Monthly,124.1532,Chinese,Lunch,3,Business,Takeaway,0,0,1,32.0073,1,3,5,0,3.0,Femenino,Para llevar,No
+890,68,Female,82561,Monthly,48.7526,Chinese,Lunch,1,Business,Dine-in,1,0,0,7.0137,4,5,5,0,4.6667,Femenino,En el local,No
+891,65,Female,104032,Weekly,129.9635,Indian,Dinner,4,Casual,Takeaway,0,0,0,40.7851,4,5,3,0,4.0,Femenino,Para llevar,No
+892,37,Female,149658,Daily,24.9197,Chinese,Breakfast,9,Celebration,Dine-in,1,0,0,7.8466,5,4,5,1,4.6667,Femenino,En el local,Sí
+893,56,Female,78086,Daily,144.8239,Chinese,Dinner,5,Celebration,Dine-in,0,1,0,42.2535,3,1,2,0,2.0,Femenino,En el local,No
+894,24,Male,50879,Weekly,19.1726,Mexican,Breakfast,7,Casual,Dine-in,0,1,0,23.6778,1,3,5,0,3.0,Masculino,En el local,No
+895,36,Male,89941,Daily,85.4406,Chinese,Lunch,5,Business,Dine-in,0,1,0,28.5322,4,2,4,0,3.3333,Masculino,En el local,No
+896,47,Female,111573,Monthly,67.9924,Mexican,Breakfast,2,Casual,Dine-in,0,1,1,12.8313,2,3,3,0,2.6667,Femenino,En el local,No
+897,18,Male,72238,Monthly,62.1203,American,Breakfast,4,Celebration,Takeaway,1,1,1,50.7947,1,5,2,0,2.6667,Masculino,Para llevar,No
+898,66,Female,117916,Weekly,33.6781,Mexican,Dinner,2,Celebration,Dine-in,1,1,1,8.8475,2,1,1,1,1.3333,Femenino,En el local,Sí
+899,57,Male,27829,Monthly,19.1756,Mexican,Breakfast,8,Casual,Dine-in,1,1,0,49.5324,5,4,1,0,3.3333,Masculino,En el local,No
+900,37,Female,22230,Weekly,179.3578,Mexican,Dinner,6,Celebration,Dine-in,0,0,1,14.1229,2,3,5,0,3.3333,Femenino,En el local,No
+901,23,Female,77844,Weekly,113.7179,Indian,Breakfast,1,Casual,Takeaway,1,1,0,54.598,5,4,1,0,3.3333,Femenino,Para llevar,No
+902,43,Female,149118,Weekly,90.3531,Italian,Breakfast,8,Casual,Dine-in,1,1,0,38.4916,2,1,5,0,2.6667,Femenino,En el local,No
+903,40,Male,67199,Weekly,12.5099,Italian,Breakfast,2,Business,Takeaway,0,0,0,48.6279,3,4,1,0,2.6667,Masculino,Para llevar,No
+904,29,Female,86899,Weekly,176.2706,Chinese,Lunch,7,Business,Dine-in,0,0,0,27.8438,1,2,2,0,1.6667,Femenino,En el local,No
+905,36,Male,94510,Rarely,120.2709,Indian,Breakfast,7,Celebration,Takeaway,1,0,0,48.3259,2,3,2,0,2.3333,Masculino,Para llevar,No
+906,28,Male,98058,Daily,74.7105,American,Dinner,2,Business,Takeaway,0,1,1,37.7062,4,3,3,0,3.3333,Masculino,Para llevar,No
+907,18,Male,33736,Weekly,164.9575,Mexican,Breakfast,8,Celebration,Dine-in,0,1,0,9.7081,3,5,1,0,3.0,Masculino,En el local,No
+908,42,Male,124552,Weekly,131.6697,Chinese,Dinner,9,Celebration,Takeaway,0,1,1,4.8379,1,2,2,0,1.6667,Masculino,Para llevar,No
+909,45,Male,35395,Rarely,190.8844,Chinese,Dinner,4,Casual,Dine-in,0,0,0,46.5257,1,1,4,0,2.0,Masculino,En el local,No
+910,64,Female,146852,Monthly,26.717,American,Dinner,2,Casual,Dine-in,0,0,1,41.7542,1,1,3,0,1.6667,Femenino,En el local,No
+911,69,Female,71808,Weekly,140.8388,American,Breakfast,3,Business,Takeaway,0,0,1,10.1293,5,5,4,1,4.6667,Femenino,Para llevar,Sí
+912,68,Female,35185,Weekly,86.6691,Mexican,Breakfast,4,Casual,Takeaway,1,1,1,10.0794,3,5,5,1,4.3333,Femenino,Para llevar,Sí
+913,55,Female,21676,Weekly,96.7496,American,Dinner,7,Celebration,Takeaway,0,0,1,45.7341,4,1,1,0,2.0,Femenino,Para llevar,No
+914,46,Male,127276,Weekly,164.3823,American,Breakfast,3,Celebration,Dine-in,0,0,1,33.4149,4,5,1,1,3.3333,Masculino,En el local,Sí
+915,53,Male,102136,Weekly,154.7295,Indian,Lunch,4,Casual,Dine-in,0,1,0,12.7464,4,2,3,0,3.0,Masculino,En el local,No
+916,66,Female,89919,Daily,59.1687,Italian,Breakfast,1,Celebration,Dine-in,0,0,1,7.7849,4,4,1,1,3.0,Femenino,En el local,Sí
+917,27,Female,28317,Daily,56.029,Indian,Breakfast,2,Casual,Dine-in,1,1,0,11.0403,4,1,2,0,2.3333,Femenino,En el local,No
+918,68,Female,49070,Weekly,123.9753,Indian,Dinner,7,Business,Takeaway,1,0,1,22.5261,5,1,4,0,3.3333,Femenino,Para llevar,No
+919,44,Female,36731,Weekly,138.7091,Chinese,Lunch,5,Casual,Dine-in,0,0,0,49.1251,1,5,4,0,3.3333,Femenino,En el local,No
+920,69,Female,132180,Weekly,37.6623,Italian,Lunch,3,Celebration,Dine-in,1,1,0,30.1528,3,2,1,0,2.0,Femenino,En el local,No
+921,51,Male,98793,Weekly,102.849,Mexican,Lunch,8,Business,Dine-in,0,0,0,49.3405,4,4,4,0,4.0,Masculino,En el local,No
+922,66,Male,32487,Monthly,53.2807,American,Dinner,1,Celebration,Takeaway,0,1,0,14.2204,3,2,4,0,3.0,Masculino,Para llevar,No
+923,18,Female,37819,Monthly,186.808,Chinese,Dinner,7,Casual,Dine-in,0,0,0,14.207,2,4,4,0,3.3333,Femenino,En el local,No
+924,25,Male,26355,Monthly,69.627,Italian,Lunch,2,Casual,Dine-in,0,0,1,42.4171,3,1,2,0,2.0,Masculino,En el local,No
+925,54,Male,86543,Weekly,152.5076,Chinese,Breakfast,5,Business,Dine-in,0,0,0,56.5905,5,1,1,0,2.3333,Masculino,En el local,No
+926,67,Male,117648,Weekly,94.4044,Italian,Breakfast,2,Business,Dine-in,0,0,0,29.1223,1,5,3,0,3.0,Masculino,En el local,No
+927,55,Male,118250,Monthly,192.3345,Chinese,Dinner,7,Celebration,Dine-in,0,1,0,27.537,5,5,4,1,4.6667,Masculino,En el local,Sí
+928,23,Female,105464,Daily,44.1496,Mexican,Lunch,9,Celebration,Takeaway,0,0,0,40.5225,2,1,1,0,1.3333,Femenino,Para llevar,No
+929,38,Male,51873,Daily,140.1668,Italian,Lunch,7,Business,Dine-in,1,1,0,21.711,2,2,4,0,2.6667,Masculino,En el local,No
+930,53,Male,38795,Daily,119.9401,American,Lunch,3,Casual,Dine-in,1,0,0,45.6514,4,1,1,0,2.0,Masculino,En el local,No
+931,28,Male,32355,Weekly,87.7515,Chinese,Lunch,4,Casual,Dine-in,0,1,0,59.4273,5,2,2,0,3.0,Masculino,En el local,No
+932,62,Female,112173,Monthly,74.3179,American,Dinner,9,Business,Dine-in,0,1,0,10.6924,2,3,1,0,2.0,Femenino,En el local,No
+933,26,Female,63111,Rarely,142.7107,Indian,Dinner,9,Business,Dine-in,1,0,1,22.6436,4,1,2,0,2.3333,Femenino,En el local,No
+934,46,Male,20312,Daily,46.1017,American,Breakfast,4,Celebration,Dine-in,0,0,0,0.674,1,2,3,0,2.0,Masculino,En el local,No
+935,27,Male,24045,Weekly,16.3128,Mexican,Lunch,1,Celebration,Takeaway,0,0,0,57.0642,5,5,5,0,5.0,Masculino,Para llevar,No
+936,64,Female,28666,Monthly,76.3858,Mexican,Breakfast,1,Celebration,Dine-in,0,1,0,44.7368,2,2,1,0,1.6667,Femenino,En el local,No
+937,41,Female,68313,Weekly,65.1735,Indian,Breakfast,3,Casual,Takeaway,1,0,1,40.2628,2,2,4,0,2.6667,Femenino,Para llevar,No
+938,35,Male,111143,Rarely,39.7944,Mexican,Lunch,5,Business,Takeaway,0,0,0,13.5321,4,3,3,0,3.3333,Masculino,Para llevar,No
+939,62,Male,135545,Daily,32.9471,Indian,Breakfast,5,Celebration,Takeaway,0,0,0,14.5819,5,4,5,0,4.6667,Masculino,Para llevar,No
+940,68,Female,142488,Rarely,134.2541,Mexican,Breakfast,9,Celebration,Takeaway,1,0,1,6.4079,3,4,3,0,3.3333,Femenino,Para llevar,No
+941,50,Female,147673,Monthly,71.9772,Italian,Lunch,5,Celebration,Dine-in,1,0,1,37.3223,2,5,2,0,3.0,Femenino,En el local,No
+942,45,Female,21712,Monthly,116.7043,Chinese,Breakfast,4,Celebration,Takeaway,1,1,1,57.9697,2,3,4,0,3.0,Femenino,Para llevar,No
+943,45,Female,126811,Rarely,32.9998,Chinese,Dinner,8,Celebration,Dine-in,1,0,0,24.1037,2,5,5,0,4.0,Femenino,En el local,No
+944,37,Female,76586,Daily,162.8297,Chinese,Breakfast,6,Celebration,Dine-in,0,1,0,43.6796,3,4,3,0,3.3333,Femenino,En el local,No
+945,53,Male,118602,Daily,102.8277,Chinese,Dinner,4,Celebration,Dine-in,0,0,0,21.0056,1,5,5,1,3.6667,Masculino,En el local,Sí
+946,48,Male,134375,Weekly,35.6082,Indian,Dinner,3,Business,Dine-in,1,0,0,4.7712,1,3,4,0,2.6667,Masculino,En el local,No
+947,33,Female,124339,Weekly,78.2899,Italian,Lunch,2,Business,Takeaway,0,0,1,51.9913,4,1,5,0,3.3333,Femenino,Para llevar,No
+948,31,Male,75218,Daily,93.3538,Italian,Dinner,3,Celebration,Dine-in,0,0,1,47.0828,2,1,1,0,1.3333,Masculino,En el local,No
+949,56,Male,101953,Rarely,59.8725,American,Lunch,6,Celebration,Takeaway,0,0,1,4.7738,1,4,2,0,2.3333,Masculino,Para llevar,No
+950,54,Female,66418,Weekly,148.8381,Italian,Dinner,7,Business,Dine-in,0,0,1,3.4476,4,1,4,0,3.0,Femenino,En el local,No
+951,56,Male,122101,Weekly,47.1355,Mexican,Breakfast,4,Business,Takeaway,0,1,1,8.7305,4,1,1,0,2.0,Masculino,Para llevar,No
+952,32,Male,132648,Weekly,135.7285,Italian,Lunch,3,Celebration,Takeaway,0,0,1,41.466,2,1,1,0,1.3333,Masculino,Para llevar,No
+953,19,Female,45224,Weekly,12.3775,Chinese,Dinner,2,Celebration,Dine-in,0,0,0,34.8094,5,5,2,0,4.0,Femenino,En el local,No
+954,67,Female,144519,Weekly,142.1527,Italian,Breakfast,5,Casual,Takeaway,0,1,0,54.5051,5,2,3,0,3.3333,Femenino,Para llevar,No
+955,56,Male,128066,Rarely,161.582,American,Breakfast,9,Celebration,Takeaway,0,0,1,44.8439,1,1,1,0,1.0,Masculino,Para llevar,No
+956,66,Male,65207,Monthly,121.3711,Chinese,Dinner,7,Casual,Dine-in,1,1,0,50.1888,1,5,1,0,2.3333,Masculino,En el local,No
+957,19,Female,143152,Weekly,14.9309,Mexican,Dinner,5,Celebration,Takeaway,0,1,1,1.3272,5,3,4,0,4.0,Femenino,Para llevar,No
+958,51,Female,56931,Rarely,122.3958,American,Lunch,8,Celebration,Takeaway,0,1,0,10.7757,5,3,3,0,3.6667,Femenino,Para llevar,No
+959,44,Female,129502,Rarely,160.3179,Indian,Breakfast,9,Celebration,Takeaway,1,0,0,26.3367,4,2,2,0,2.6667,Femenino,Para llevar,No
+960,54,Female,48233,Weekly,31.4243,American,Lunch,5,Casual,Dine-in,0,0,0,19.326,5,2,2,0,3.0,Femenino,En el local,No
+961,69,Female,33613,Weekly,37.2942,American,Lunch,3,Casual,Takeaway,0,0,0,4.4088,4,1,5,0,3.3333,Femenino,Para llevar,No
+962,35,Female,45915,Rarely,101.0633,Italian,Breakfast,1,Celebration,Dine-in,0,0,0,15.8082,5,2,2,0,3.0,Femenino,En el local,No
+963,50,Female,85293,Rarely,162.4214,Chinese,Breakfast,2,Celebration,Takeaway,0,0,1,30.6138,4,1,3,0,2.6667,Femenino,Para llevar,No
+964,35,Male,118376,Monthly,153.1485,Mexican,Lunch,4,Business,Dine-in,0,1,0,15.2399,4,5,2,0,3.6667,Masculino,En el local,No
+965,58,Female,128387,Monthly,184.394,Italian,Lunch,1,Business,Dine-in,0,1,0,20.7082,1,1,1,0,1.0,Femenino,En el local,No
+966,26,Male,124503,Monthly,54.2515,Mexican,Lunch,3,Business,Takeaway,0,0,0,24.0286,4,2,5,0,3.6667,Masculino,Para llevar,No
+967,26,Female,88466,Weekly,180.7785,Italian,Dinner,5,Casual,Dine-in,0,0,1,31.7007,2,3,4,0,3.0,Femenino,En el local,No
+968,57,Male,78589,Monthly,134.4857,Italian,Lunch,4,Business,Dine-in,0,1,0,3.2904,5,5,5,1,5.0,Masculino,En el local,Sí
+969,19,Female,44654,Monthly,99.3913,American,Breakfast,5,Business,Dine-in,0,0,0,40.2925,2,4,2,0,2.6667,Femenino,En el local,No
+970,49,Female,52752,Monthly,60.8994,American,Breakfast,9,Celebration,Takeaway,0,0,0,53.9591,3,4,5,0,4.0,Femenino,Para llevar,No
+971,18,Male,101549,Weekly,74.7929,Italian,Dinner,3,Casual,Dine-in,1,1,1,0.2677,1,1,2,1,1.3333,Masculino,En el local,Sí
+972,64,Female,46777,Rarely,89.6351,Italian,Dinner,8,Business,Dine-in,1,1,1,27.7563,5,1,5,0,3.6667,Femenino,En el local,No
+973,23,Female,100608,Monthly,94.625,Indian,Lunch,6,Casual,Takeaway,0,0,1,48.6694,3,4,2,0,3.0,Femenino,Para llevar,No
+974,52,Female,144610,Daily,133.4563,Mexican,Lunch,8,Business,Dine-in,1,1,0,18.1135,3,1,3,0,2.3333,Femenino,En el local,No
+975,63,Male,22861,Rarely,25.7778,American,Lunch,8,Business,Takeaway,0,0,0,1.5285,5,4,5,0,4.6667,Masculino,Para llevar,No
+976,53,Male,65710,Monthly,181.9886,Mexican,Breakfast,6,Business,Takeaway,0,1,1,31.6706,1,2,5,0,2.6667,Masculino,Para llevar,No
+977,57,Male,20093,Weekly,166.1651,Italian,Breakfast,8,Casual,Takeaway,0,0,1,5.0248,3,3,3,0,3.0,Masculino,Para llevar,No
+978,41,Female,134722,Rarely,89.5692,Indian,Dinner,4,Celebration,Takeaway,0,0,0,30.2448,1,2,4,0,2.3333,Femenino,Para llevar,No
+979,28,Female,57083,Weekly,59.542,American,Lunch,8,Business,Takeaway,0,0,0,33.9285,4,3,5,0,4.0,Femenino,Para llevar,No
+980,57,Male,55138,Weekly,49.2203,Chinese,Dinner,9,Celebration,Takeaway,0,0,0,5.5587,5,3,5,0,4.3333,Masculino,Para llevar,No
+981,32,Female,96451,Weekly,134.1852,Italian,Dinner,5,Business,Takeaway,1,0,1,30.4305,3,4,2,0,3.0,Femenino,Para llevar,No
+982,55,Male,44538,Weekly,103.0673,American,Breakfast,8,Business,Dine-in,0,1,1,31.9179,4,3,4,0,3.6667,Masculino,En el local,No
+983,20,Male,57386,Monthly,114.3295,Italian,Lunch,8,Casual,Takeaway,0,1,0,36.2473,3,5,4,0,4.0,Masculino,Para llevar,No
+984,59,Female,40510,Weekly,185.9219,Mexican,Breakfast,9,Casual,Takeaway,0,0,0,50.2572,2,3,4,0,3.0,Femenino,Para llevar,No
+985,60,Male,130223,Monthly,113.4437,Italian,Lunch,2,Casual,Dine-in,1,1,1,25.116,5,4,1,1,3.3333,Masculino,En el local,Sí
+986,66,Female,35655,Weekly,168.479,American,Breakfast,7,Casual,Takeaway,0,0,1,44.2823,3,4,4,0,3.6667,Femenino,Para llevar,No
+987,32,Male,52396,Daily,12.4083,Indian,Lunch,1,Celebration,Takeaway,0,0,0,31.5831,3,1,3,0,2.3333,Masculino,Para llevar,No
+988,32,Female,78876,Weekly,169.6905,Indian,Breakfast,4,Casual,Dine-in,0,1,1,16.6325,4,5,5,1,4.6667,Femenino,En el local,Sí
+989,37,Male,57889,Weekly,143.1526,Chinese,Breakfast,5,Business,Takeaway,0,1,1,54.8439,1,2,4,0,2.3333,Masculino,Para llevar,No
+990,63,Female,86031,Rarely,77.7009,Chinese,Breakfast,4,Celebration,Takeaway,1,1,1,29.2746,4,2,4,1,3.3333,Femenino,Para llevar,Sí
+991,35,Male,54829,Weekly,118.8756,Italian,Dinner,2,Business,Dine-in,1,1,1,58.0868,5,4,2,1,3.6667,Masculino,En el local,Sí
+992,39,Female,138735,Weekly,149.7798,American,Lunch,5,Business,Takeaway,1,1,0,56.0193,3,4,1,0,2.6667,Femenino,Para llevar,No
+993,54,Male,73556,Weekly,115.2968,Indian,Lunch,2,Business,Dine-in,0,1,1,25.1452,1,3,2,0,2.0,Masculino,En el local,No
+994,32,Female,28066,Weekly,17.5791,Italian,Lunch,7,Business,Dine-in,1,1,0,28.7514,2,1,1,0,1.3333,Femenino,En el local,No
+995,42,Male,79689,Rarely,96.1168,Indian,Dinner,7,Casual,Takeaway,0,1,0,1.9697,3,3,5,0,3.6667,Masculino,Para llevar,No
+996,26,Male,30983,Rarely,177.8479,Indian,Breakfast,8,Casual,Dine-in,1,0,0,17.3972,1,1,3,0,1.6667,Masculino,En el local,No
+997,53,Male,34411,Weekly,154.4155,Italian,Lunch,6,Casual,Dine-in,0,0,0,48.8298,1,4,5,0,3.3333,Masculino,En el local,No
+998,67,Male,52525,Monthly,183.2445,American,Breakfast,2,Casual,Dine-in,0,1,0,26.8688,2,2,1,0,1.6667,Masculino,En el local,No
+999,20,Male,125831,Daily,63.6938,Mexican,Lunch,4,Casual,Takeaway,1,0,1,31.7627,1,2,2,0,1.6667,Masculino,Para llevar,No
+1000,37,Female,21182,Weekly,29.4433,Indian,Lunch,8,Casual,Takeaway,1,0,1,39.953,1,5,3,0,3.0,Femenino,Para llevar,No
+1001,40,Female,47293,Monthly,79.5986,Indian,Breakfast,9,Celebration,Takeaway,0,1,1,48.7313,3,5,5,0,4.3333,Femenino,Para llevar,No
+1002,68,Male,140366,Daily,26.8307,American,Breakfast,7,Casual,Takeaway,0,0,1,19.0029,2,3,2,0,2.3333,Masculino,Para llevar,No
+1003,45,Female,109063,Weekly,102.4119,Chinese,Dinner,6,Business,Takeaway,1,0,1,55.4996,5,1,2,0,2.6667,Femenino,Para llevar,No
+1004,57,Male,99335,Rarely,131.0891,Indian,Lunch,3,Business,Takeaway,1,0,1,12.3104,4,1,4,0,3.0,Masculino,Para llevar,No
+1005,35,Male,121002,Weekly,180.6322,Chinese,Lunch,5,Business,Takeaway,0,1,0,15.6442,4,1,1,0,2.0,Masculino,Para llevar,No
+1006,20,Female,27928,Rarely,145.2483,Italian,Dinner,2,Business,Dine-in,0,0,0,48.1098,5,3,3,0,3.6667,Femenino,En el local,No
+1007,50,Female,28016,Weekly,90.7197,Mexican,Lunch,1,Celebration,Dine-in,0,1,0,10.4879,1,3,1,0,1.6667,Femenino,En el local,No
+1008,21,Female,60804,Weekly,41.6175,Indian,Breakfast,3,Celebration,Takeaway,0,0,0,31.5009,3,4,1,0,2.6667,Femenino,Para llevar,No
+1009,43,Male,144992,Rarely,80.0714,Mexican,Dinner,7,Business,Dine-in,1,0,0,17.5906,3,3,4,0,3.3333,Masculino,En el local,No
+1010,39,Female,36544,Weekly,29.2743,American,Dinner,1,Business,Dine-in,0,0,1,58.3694,2,4,5,0,3.6667,Femenino,En el local,No
+1011,38,Male,78868,Weekly,92.7056,Mexican,Dinner,4,Business,Takeaway,0,0,1,14.2377,4,1,4,0,3.0,Masculino,Para llevar,No
+1012,58,Male,140712,Monthly,99.9142,Indian,Lunch,3,Casual,Takeaway,0,1,0,39.0664,2,5,4,0,3.6667,Masculino,Para llevar,No
+1013,45,Female,70378,Monthly,44.6092,Chinese,Lunch,9,Business,Dine-in,0,0,0,2.772,3,5,3,0,3.6667,Femenino,En el local,No
+1014,48,Female,122266,Weekly,122.523,Italian,Breakfast,4,Celebration,Dine-in,1,0,1,31.8448,1,5,1,1,2.3333,Femenino,En el local,Sí
+1015,67,Female,91273,Weekly,98.4749,Mexican,Breakfast,5,Casual,Dine-in,1,0,0,26.3096,3,3,1,0,2.3333,Femenino,En el local,No
+1016,50,Female,128686,Monthly,166.9311,American,Dinner,8,Business,Dine-in,0,0,0,56.3196,4,3,4,0,3.6667,Femenino,En el local,No
+1017,18,Female,72347,Rarely,16.4686,American,Dinner,4,Casual,Takeaway,0,1,0,54.1506,4,4,1,0,3.0,Femenino,Para llevar,No
+1018,22,Female,145965,Monthly,51.4799,American,Breakfast,5,Business,Dine-in,0,0,0,28.7306,3,4,3,0,3.3333,Femenino,En el local,No
+1019,29,Male,65074,Rarely,59.843,Indian,Breakfast,8,Casual,Takeaway,0,0,0,20.3223,5,1,5,0,3.6667,Masculino,Para llevar,No
+1020,63,Female,57362,Daily,14.7322,Italian,Dinner,2,Casual,Takeaway,0,1,0,45.8498,1,1,3,0,1.6667,Femenino,Para llevar,No
+1021,51,Female,141449,Weekly,80.4217,Chinese,Lunch,4,Business,Takeaway,1,0,0,51.2547,3,3,4,0,3.3333,Femenino,Para llevar,No
+1022,44,Male,75499,Rarely,83.0677,Italian,Lunch,2,Business,Dine-in,0,0,0,59.7595,2,1,5,0,2.6667,Masculino,En el local,No
+1023,47,Male,146044,Rarely,10.9693,Indian,Lunch,2,Casual,Dine-in,0,0,0,52.9499,3,2,5,0,3.3333,Masculino,En el local,No
+1024,38,Male,138115,Monthly,25.072,Chinese,Breakfast,9,Celebration,Dine-in,0,0,1,36.6895,2,2,2,0,2.0,Masculino,En el local,No
+1025,43,Female,116085,Weekly,77.7315,Indian,Breakfast,6,Casual,Takeaway,0,0,0,7.1188,1,1,3,0,1.6667,Femenino,Para llevar,No
+1026,18,Male,33560,Monthly,180.9216,Chinese,Lunch,7,Business,Dine-in,1,1,1,2.7467,2,1,5,0,2.6667,Masculino,En el local,No
+1027,57,Female,79448,Weekly,100.6748,Chinese,Breakfast,9,Casual,Takeaway,0,0,1,9.2565,3,4,3,0,3.3333,Femenino,Para llevar,No
+1028,34,Male,34492,Monthly,86.0173,Chinese,Breakfast,8,Casual,Takeaway,1,1,1,7.0602,1,5,1,0,2.3333,Masculino,Para llevar,No
+1029,23,Male,80653,Daily,135.0356,Mexican,Breakfast,4,Celebration,Takeaway,0,1,1,41.9458,4,5,5,1,4.6667,Masculino,Para llevar,Sí
+1030,46,Male,21547,Daily,183.5816,Indian,Dinner,9,Business,Takeaway,1,0,0,7.7058,4,2,2,0,2.6667,Masculino,Para llevar,No
+1031,41,Male,100703,Weekly,118.2529,American,Breakfast,1,Business,Takeaway,0,0,1,22.7443,1,1,2,0,1.3333,Masculino,Para llevar,No
+1032,37,Male,126751,Daily,196.5288,Indian,Breakfast,9,Business,Takeaway,0,1,1,42.6682,5,5,3,0,4.3333,Masculino,Para llevar,No
+1033,52,Male,122629,Rarely,93.2387,Italian,Lunch,5,Celebration,Takeaway,0,1,1,23.4959,3,3,1,0,2.3333,Masculino,Para llevar,No
+1034,69,Female,35930,Weekly,53.3035,Mexican,Dinner,3,Business,Dine-in,0,0,0,11.6775,1,5,3,0,3.0,Femenino,En el local,No
+1035,52,Female,27239,Rarely,111.5543,American,Breakfast,6,Business,Takeaway,0,1,1,36.2735,1,5,4,0,3.3333,Femenino,Para llevar,No
+1036,69,Female,96870,Monthly,108.8588,Chinese,Lunch,3,Business,Dine-in,0,1,0,32.809,3,1,2,0,2.0,Femenino,En el local,No
+1037,25,Female,77102,Daily,32.2884,Indian,Dinner,9,Casual,Takeaway,1,0,0,48.1808,5,1,2,0,2.6667,Femenino,Para llevar,No
+1038,57,Male,28253,Weekly,95.9371,Indian,Breakfast,6,Business,Takeaway,0,0,0,54.2169,2,1,2,0,1.6667,Masculino,Para llevar,No
+1039,36,Male,86014,Weekly,111.5138,American,Dinner,4,Business,Takeaway,0,0,1,42.3569,2,2,2,0,2.0,Masculino,Para llevar,No
+1040,30,Female,71590,Monthly,110.4682,Chinese,Dinner,5,Casual,Takeaway,0,1,1,51.8805,4,3,5,0,4.0,Femenino,Para llevar,No
+1041,48,Female,117176,Rarely,91.6169,Indian,Dinner,3,Celebration,Takeaway,0,1,0,59.7036,3,4,1,0,2.6667,Femenino,Para llevar,No
+1042,56,Female,65128,Weekly,58.5942,Chinese,Dinner,4,Celebration,Dine-in,1,0,1,53.925,4,2,1,1,2.3333,Femenino,En el local,Sí
+1043,65,Female,34010,Weekly,164.0957,Indian,Lunch,4,Celebration,Dine-in,0,0,1,8.4924,4,4,5,1,4.3333,Femenino,En el local,Sí
+1044,67,Female,102874,Monthly,22.7714,American,Dinner,7,Business,Dine-in,0,0,1,35.6032,1,2,1,0,1.3333,Femenino,En el local,No
+1045,44,Female,148592,Daily,99.5097,Italian,Lunch,2,Celebration,Takeaway,0,1,0,28.2675,3,3,1,0,2.3333,Femenino,Para llevar,No
+1046,29,Female,132507,Weekly,135.2246,Indian,Breakfast,8,Celebration,Dine-in,0,1,0,25.5185,5,4,5,1,4.6667,Femenino,En el local,Sí
+1047,22,Male,73912,Rarely,198.4449,Indian,Lunch,3,Celebration,Dine-in,0,0,1,3.2336,1,5,4,1,3.3333,Masculino,En el local,Sí
+1048,56,Female,103243,Monthly,73.4378,Italian,Dinner,3,Business,Takeaway,0,1,0,57.5391,2,2,3,0,2.3333,Femenino,Para llevar,No
+1049,26,Female,54777,Monthly,41.3217,Chinese,Breakfast,7,Business,Takeaway,0,0,1,49.9027,1,3,3,0,2.3333,Femenino,Para llevar,No
+1050,60,Female,59793,Weekly,158.6835,American,Dinner,8,Casual,Dine-in,0,0,1,8.103,1,2,4,0,2.3333,Femenino,En el local,No
+1051,34,Female,120607,Weekly,93.7172,Italian,Breakfast,2,Business,Dine-in,0,0,1,31.1629,1,5,4,0,3.3333,Femenino,En el local,No
+1052,28,Male,46146,Rarely,11.4471,American,Dinner,4,Business,Takeaway,1,0,1,52.8035,5,1,5,0,3.6667,Masculino,Para llevar,No
+1053,61,Female,63115,Monthly,81.9834,American,Breakfast,4,Business,Takeaway,1,0,1,12.8305,3,1,4,0,2.6667,Femenino,Para llevar,No
+1054,26,Female,21350,Monthly,81.7228,American,Breakfast,6,Celebration,Takeaway,1,1,1,50.6151,1,3,4,0,2.6667,Femenino,Para llevar,No
+1055,57,Male,149142,Monthly,105.2748,Mexican,Breakfast,5,Business,Takeaway,0,1,1,35.2189,5,1,4,0,3.3333,Masculino,Para llevar,No
+1056,32,Female,115387,Weekly,198.8356,Chinese,Dinner,7,Business,Dine-in,0,0,1,37.3502,1,1,1,0,1.0,Femenino,En el local,No
+1057,61,Female,69799,Weekly,67.8792,American,Dinner,5,Celebration,Dine-in,0,1,1,24.7088,3,4,2,1,3.0,Femenino,En el local,Sí
+1058,53,Male,67998,Daily,112.4595,Chinese,Lunch,9,Casual,Dine-in,1,0,0,52.3176,5,5,5,0,5.0,Masculino,En el local,No
+1059,61,Female,24362,Daily,176.9759,Chinese,Breakfast,9,Casual,Takeaway,0,0,0,57.5837,2,1,5,0,2.6667,Femenino,Para llevar,No
+1060,61,Female,130824,Daily,165.7196,American,Dinner,6,Casual,Dine-in,0,0,1,45.0819,1,5,1,0,2.3333,Femenino,En el local,No
+1061,64,Female,48237,Monthly,144.2114,Mexican,Lunch,2,Celebration,Dine-in,0,1,0,24.3774,2,3,3,0,2.6667,Femenino,En el local,No
+1062,55,Male,149421,Monthly,40.5945,Indian,Breakfast,4,Business,Takeaway,1,0,0,37.3709,1,3,1,0,1.6667,Masculino,Para llevar,No
+1063,60,Male,140380,Monthly,145.2608,American,Dinner,8,Celebration,Dine-in,1,1,0,36.3116,1,3,2,0,2.0,Masculino,En el local,No
+1064,68,Female,70712,Monthly,87.3154,Indian,Lunch,7,Celebration,Takeaway,0,1,0,34.1744,2,1,3,0,2.0,Femenino,Para llevar,No
+1065,41,Female,70691,Monthly,44.7722,American,Dinner,4,Casual,Takeaway,0,0,1,33.3308,5,1,2,0,2.6667,Femenino,Para llevar,No
+1066,47,Female,45934,Daily,38.467,Mexican,Breakfast,9,Casual,Dine-in,1,0,0,56.8131,3,4,2,0,3.0,Femenino,En el local,No
+1067,40,Female,117841,Daily,186.7693,Italian,Dinner,6,Business,Takeaway,1,0,1,56.3774,3,5,1,0,3.0,Femenino,Para llevar,No
+1068,19,Male,44314,Daily,176.1267,Indian,Lunch,8,Casual,Takeaway,0,0,1,59.6684,4,5,1,0,3.3333,Masculino,Para llevar,No
+1069,20,Male,50976,Monthly,57.4622,Mexican,Dinner,2,Celebration,Dine-in,0,0,0,12.2972,5,3,3,0,3.6667,Masculino,En el local,No
+1070,41,Male,46185,Weekly,162.4669,Italian,Lunch,4,Business,Dine-in,0,0,1,48.97,5,2,5,0,4.0,Masculino,En el local,No
+1071,68,Male,45559,Monthly,78.1011,Mexican,Dinner,3,Casual,Takeaway,0,1,1,8.8729,3,4,4,0,3.6667,Masculino,Para llevar,No
+1072,67,Female,126820,Rarely,88.726,Mexican,Breakfast,9,Casual,Takeaway,0,1,1,54.9573,1,3,1,0,1.6667,Femenino,Para llevar,No
+1073,25,Female,27880,Weekly,69.8886,American,Breakfast,2,Celebration,Takeaway,0,1,0,52.3443,5,1,1,0,2.3333,Femenino,Para llevar,No
+1074,31,Female,143444,Weekly,193.5061,Indian,Breakfast,1,Casual,Takeaway,0,1,0,28.5059,2,1,2,0,1.6667,Femenino,Para llevar,No
+1075,22,Male,80939,Rarely,160.0137,American,Lunch,4,Business,Takeaway,0,0,0,25.882,5,5,4,0,4.6667,Masculino,Para llevar,No
+1076,51,Female,41323,Rarely,49.9108,Italian,Lunch,7,Celebration,Dine-in,0,1,0,50.4977,2,4,3,0,3.0,Femenino,En el local,No
+1077,42,Male,139698,Weekly,27.2092,Italian,Lunch,4,Casual,Takeaway,1,0,0,56.918,1,1,2,0,1.3333,Masculino,Para llevar,No
+1078,62,Female,146013,Daily,134.8259,Mexican,Breakfast,6,Celebration,Dine-in,0,0,1,25.7961,4,1,4,1,3.0,Femenino,En el local,Sí
+1079,47,Female,64438,Monthly,39.8776,Italian,Breakfast,8,Business,Dine-in,0,0,0,47.9689,2,3,3,0,2.6667,Femenino,En el local,No
+1080,37,Male,71616,Daily,184.3756,Italian,Lunch,2,Celebration,Takeaway,1,0,1,36.7821,4,4,4,1,4.0,Masculino,Para llevar,Sí
+1081,45,Male,71243,Weekly,58.186,Mexican,Breakfast,7,Business,Takeaway,0,0,1,2.7019,3,1,4,0,2.6667,Masculino,Para llevar,No
+1082,57,Female,133991,Weekly,101.8546,American,Lunch,7,Casual,Takeaway,1,1,0,49.5853,3,5,2,0,3.3333,Femenino,Para llevar,No
+1083,47,Male,95530,Rarely,68.1096,Mexican,Breakfast,4,Celebration,Dine-in,0,0,0,38.3555,4,2,4,0,3.3333,Masculino,En el local,No
+1084,25,Male,94123,Weekly,127.0128,American,Breakfast,6,Celebration,Dine-in,0,1,1,10.2065,4,4,2,1,3.3333,Masculino,En el local,Sí
+1085,21,Male,65952,Weekly,100.0549,Mexican,Breakfast,4,Business,Dine-in,0,0,1,7.4128,2,5,1,0,2.6667,Masculino,En el local,No
+1086,28,Female,140284,Daily,148.495,Indian,Dinner,8,Business,Takeaway,0,1,0,0.6743,1,1,5,0,2.3333,Femenino,Para llevar,No
+1087,36,Male,145234,Monthly,189.6222,Chinese,Dinner,5,Casual,Dine-in,1,1,1,12.2212,5,5,1,1,3.6667,Masculino,En el local,Sí
+1088,31,Male,120134,Monthly,103.5921,Italian,Breakfast,1,Celebration,Takeaway,1,1,0,29.8882,3,1,2,0,2.0,Masculino,Para llevar,No
+1089,55,Male,122958,Weekly,98.1852,Chinese,Lunch,4,Business,Takeaway,0,0,0,32.2721,4,4,1,0,3.0,Masculino,Para llevar,No
+1090,42,Female,20864,Monthly,31.2681,Chinese,Lunch,5,Business,Dine-in,0,0,0,10.56,1,3,1,0,1.6667,Femenino,En el local,No
+1091,55,Male,125245,Rarely,115.4616,Chinese,Dinner,5,Casual,Takeaway,1,1,0,51.1278,5,5,4,0,4.6667,Masculino,Para llevar,No
+1092,56,Female,48734,Rarely,15.5791,Indian,Dinner,8,Casual,Dine-in,0,0,1,39.1923,5,2,5,0,4.0,Femenino,En el local,No
+1093,19,Female,133974,Weekly,153.6671,Chinese,Dinner,4,Casual,Dine-in,0,0,0,33.8453,3,1,2,0,2.0,Femenino,En el local,No
+1094,47,Female,60541,Monthly,118.1129,Chinese,Breakfast,8,Casual,Takeaway,1,1,1,19.2244,5,1,1,0,2.3333,Femenino,Para llevar,No
+1095,39,Male,41740,Rarely,152.3101,Italian,Lunch,4,Casual,Takeaway,0,1,0,12.2201,1,2,4,0,2.3333,Masculino,Para llevar,No
+1096,41,Female,20437,Monthly,96.5026,Mexican,Breakfast,2,Celebration,Takeaway,0,1,1,9.3524,1,1,1,0,1.0,Femenino,Para llevar,No
+1097,48,Female,70837,Monthly,19.2619,Mexican,Breakfast,3,Business,Dine-in,1,0,1,42.2132,5,1,2,0,2.6667,Femenino,En el local,No
+1098,58,Female,48478,Rarely,192.5075,American,Lunch,4,Celebration,Takeaway,0,1,0,52.4302,3,3,5,0,3.6667,Femenino,Para llevar,No
+1099,21,Female,90253,Monthly,32.2974,Indian,Lunch,9,Celebration,Takeaway,0,1,0,9.3644,3,1,1,0,1.6667,Femenino,Para llevar,No
+1100,39,Female,88776,Weekly,86.6796,Chinese,Breakfast,4,Casual,Dine-in,0,1,0,22.183,4,5,3,1,4.0,Femenino,En el local,Sí
+1101,45,Male,62363,Weekly,171.6512,Chinese,Breakfast,2,Business,Dine-in,0,1,1,2.131,1,3,3,0,2.3333,Masculino,En el local,No
+1102,32,Female,124333,Monthly,199.7502,Mexican,Breakfast,9,Business,Dine-in,1,1,0,11.8628,2,1,1,0,1.3333,Femenino,En el local,No
+1103,69,Male,71823,Monthly,100.32,Italian,Lunch,2,Casual,Dine-in,1,1,0,57.812,4,3,5,0,4.0,Masculino,En el local,No
+1104,36,Male,81870,Weekly,102.9341,American,Lunch,3,Business,Takeaway,1,0,1,11.2868,1,1,2,0,1.3333,Masculino,Para llevar,No
+1105,58,Female,120168,Daily,68.9294,Indian,Breakfast,5,Casual,Takeaway,1,1,1,25.9774,3,2,3,0,2.6667,Femenino,Para llevar,No
+1106,69,Female,145251,Rarely,194.9335,Indian,Dinner,9,Celebration,Dine-in,0,0,0,8.556,5,4,2,0,3.6667,Femenino,En el local,No
+1107,34,Female,144501,Weekly,183.1152,Indian,Lunch,1,Celebration,Takeaway,0,0,1,52.9152,5,2,2,0,3.0,Femenino,Para llevar,No
+1108,37,Female,28128,Weekly,35.1064,Chinese,Breakfast,7,Business,Dine-in,1,1,0,15.9749,1,5,1,0,2.3333,Femenino,En el local,No
+1109,47,Male,80952,Rarely,101.3861,Indian,Dinner,8,Casual,Dine-in,0,1,0,4.4104,3,2,3,0,2.6667,Masculino,En el local,No
+1110,44,Female,38973,Rarely,134.6425,Italian,Dinner,4,Business,Dine-in,0,0,0,45.4043,5,1,4,0,3.3333,Femenino,En el local,No
+1111,32,Male,70688,Monthly,150.5816,Mexican,Lunch,9,Celebration,Dine-in,1,1,1,1.3741,4,4,5,1,4.3333,Masculino,En el local,Sí
+1112,19,Male,35961,Rarely,184.8351,Italian,Breakfast,7,Business,Takeaway,0,0,0,38.5479,3,1,1,0,1.6667,Masculino,Para llevar,No
+1113,58,Female,24600,Monthly,136.8692,American,Dinner,8,Business,Dine-in,0,0,0,38.8961,4,5,4,0,4.3333,Femenino,En el local,No
+1114,68,Female,47270,Weekly,146.6905,Chinese,Lunch,7,Business,Dine-in,1,0,0,12.9078,4,3,1,0,2.6667,Femenino,En el local,No
+1115,37,Female,149652,Daily,178.9922,Chinese,Breakfast,4,Casual,Dine-in,0,0,1,22.4946,2,3,4,0,3.0,Femenino,En el local,No
+1116,22,Female,77107,Weekly,61.9975,Indian,Lunch,1,Casual,Dine-in,1,1,1,37.4165,5,1,5,1,3.6667,Femenino,En el local,Sí
+1117,25,Female,140159,Rarely,54.4358,Chinese,Dinner,2,Celebration,Takeaway,1,0,0,58.3866,1,2,5,0,2.6667,Femenino,Para llevar,No
+1118,52,Male,132576,Weekly,26.4971,Italian,Breakfast,8,Business,Dine-in,0,1,1,12.7869,4,4,2,0,3.3333,Masculino,En el local,No
+1119,59,Male,23400,Weekly,75.5571,Indian,Lunch,9,Business,Takeaway,1,0,1,58.5607,5,5,5,0,5.0,Masculino,Para llevar,No
+1120,52,Male,102238,Monthly,139.2965,Indian,Breakfast,8,Celebration,Dine-in,1,0,1,33.3134,3,1,2,0,2.0,Masculino,En el local,No
+1121,35,Male,144479,Monthly,66.5366,Chinese,Breakfast,7,Casual,Dine-in,0,0,1,0.0325,3,4,5,0,4.0,Masculino,En el local,No
+1122,42,Male,52609,Weekly,70.1052,Chinese,Breakfast,5,Casual,Dine-in,0,1,0,12.6877,2,4,5,0,3.6667,Masculino,En el local,No
+1123,25,Male,66790,Rarely,30.6933,Chinese,Dinner,1,Casual,Dine-in,1,1,1,9.1563,5,1,2,0,2.6667,Masculino,En el local,No
+1124,22,Male,45151,Weekly,134.892,Indian,Dinner,1,Casual,Takeaway,0,1,0,32.1949,4,2,5,0,3.6667,Masculino,Para llevar,No
+1125,53,Male,59341,Weekly,48.5176,Mexican,Dinner,7,Celebration,Takeaway,1,0,0,40.8713,5,4,4,0,4.3333,Masculino,Para llevar,No
+1126,35,Male,134469,Monthly,78.2413,Italian,Breakfast,5,Business,Dine-in,0,0,1,46.1526,4,1,2,0,2.3333,Masculino,En el local,No
+1127,68,Female,109615,Weekly,188.3333,Chinese,Lunch,6,Celebration,Takeaway,0,1,0,50.9367,3,4,1,0,2.6667,Femenino,Para llevar,No
+1128,64,Female,121256,Daily,87.155,Chinese,Dinner,2,Celebration,Dine-in,0,1,1,52.5262,2,4,5,1,3.6667,Femenino,En el local,Sí
+1129,22,Female,130829,Rarely,157.357,Mexican,Breakfast,5,Celebration,Takeaway,0,1,0,25.8541,2,3,4,0,3.0,Femenino,Para llevar,No
+1130,62,Male,84236,Weekly,165.2682,Chinese,Lunch,2,Casual,Dine-in,0,0,0,31.5628,1,3,5,0,3.0,Masculino,En el local,No
+1131,62,Male,42102,Rarely,62.2091,Chinese,Lunch,3,Casual,Takeaway,0,0,0,27.3947,2,5,2,0,3.0,Masculino,Para llevar,No
+1132,39,Male,40620,Monthly,26.9842,Mexican,Breakfast,8,Casual,Dine-in,0,0,0,47.2934,2,1,1,0,1.3333,Masculino,En el local,No
+1133,69,Female,130997,Weekly,50.9423,Indian,Breakfast,4,Business,Takeaway,1,0,1,9.378,1,1,1,0,1.0,Femenino,Para llevar,No
+1134,35,Female,29465,Weekly,119.546,Indian,Dinner,5,Celebration,Dine-in,0,0,0,34.6693,2,4,1,0,2.3333,Femenino,En el local,No
+1135,61,Male,89285,Daily,65.8134,Chinese,Lunch,5,Business,Takeaway,1,0,0,31.7636,4,1,1,0,2.0,Masculino,Para llevar,No
+1136,64,Male,111906,Monthly,142.9315,Mexican,Dinner,6,Casual,Dine-in,1,0,0,5.2025,1,5,5,0,3.6667,Masculino,En el local,No
+1137,23,Male,110100,Weekly,109.8973,Mexican,Dinner,1,Casual,Dine-in,0,0,1,48.823,3,1,2,0,2.0,Masculino,En el local,No
+1138,50,Female,83461,Weekly,168.5482,Chinese,Breakfast,5,Casual,Takeaway,0,1,1,19.542,2,5,5,0,4.0,Femenino,Para llevar,No
+1139,53,Male,112898,Monthly,34.5147,American,Dinner,9,Casual,Dine-in,1,0,0,12.2485,4,2,4,0,3.3333,Masculino,En el local,No
+1140,46,Male,85346,Daily,123.0871,American,Dinner,1,Celebration,Dine-in,0,0,1,19.7011,1,1,1,0,1.0,Masculino,En el local,No
+1141,21,Female,53483,Monthly,48.9036,Indian,Dinner,2,Celebration,Dine-in,0,1,1,16.314,2,1,1,0,1.3333,Femenino,En el local,No
+1142,23,Male,131676,Weekly,164.5876,Chinese,Lunch,2,Casual,Takeaway,1,0,1,35.3989,2,3,3,0,2.6667,Masculino,Para llevar,No
+1143,52,Male,44722,Monthly,83.9054,Mexican,Dinner,2,Casual,Dine-in,1,0,0,43.9802,4,4,5,0,4.3333,Masculino,En el local,No
+1144,64,Male,36143,Monthly,121.1377,Chinese,Breakfast,4,Casual,Dine-in,0,1,1,19.2861,3,5,4,0,4.0,Masculino,En el local,No
+1145,65,Female,45416,Weekly,119.8373,Italian,Breakfast,1,Celebration,Takeaway,1,0,0,8.7179,2,3,5,0,3.3333,Femenino,Para llevar,No
+1146,56,Male,142339,Weekly,69.7584,Indian,Dinner,9,Business,Takeaway,0,0,0,32.6762,5,3,2,0,3.3333,Masculino,Para llevar,No
+1147,40,Male,58731,Daily,33.6065,American,Dinner,7,Casual,Dine-in,0,0,0,8.244,2,4,5,0,3.6667,Masculino,En el local,No
+1148,53,Male,111904,Monthly,100.0781,Chinese,Breakfast,4,Celebration,Takeaway,1,0,1,28.214,4,4,2,1,3.3333,Masculino,Para llevar,Sí
+1149,19,Male,45917,Weekly,186.012,American,Lunch,6,Business,Takeaway,1,0,1,48.2595,1,1,2,0,1.3333,Masculino,Para llevar,No
+1150,69,Male,110795,Weekly,136.4509,Mexican,Breakfast,6,Business,Takeaway,1,0,1,35.7666,2,4,5,0,3.6667,Masculino,Para llevar,No
+1151,62,Female,129492,Monthly,106.4804,Chinese,Dinner,8,Celebration,Dine-in,0,1,0,12.0671,2,4,5,0,3.6667,Femenino,En el local,No
+1152,43,Female,125084,Weekly,47.6002,Chinese,Lunch,8,Business,Takeaway,0,1,1,29.6618,4,4,1,0,3.0,Femenino,Para llevar,No
+1153,36,Male,84825,Weekly,161.1444,Italian,Lunch,5,Business,Dine-in,1,0,0,13.9115,5,1,2,0,2.6667,Masculino,En el local,No
+1154,33,Male,132816,Monthly,113.9957,American,Lunch,3,Business,Takeaway,0,0,0,32.1143,3,2,1,0,2.0,Masculino,Para llevar,No
+1155,58,Male,56610,Weekly,182.1588,Italian,Lunch,8,Casual,Dine-in,0,0,1,15.3195,4,1,4,0,3.0,Masculino,En el local,No
+1156,53,Female,97419,Rarely,49.5106,American,Dinner,6,Business,Dine-in,0,0,0,27.7488,2,2,1,0,1.6667,Femenino,En el local,No
+1157,33,Female,105342,Weekly,178.3806,Indian,Lunch,5,Business,Takeaway,0,0,0,39.3098,4,4,5,0,4.3333,Femenino,Para llevar,No
+1158,37,Female,68262,Monthly,46.3334,Italian,Breakfast,8,Casual,Takeaway,0,0,1,31.1108,1,3,2,0,2.0,Femenino,Para llevar,No
+1159,67,Female,27263,Rarely,111.1393,Italian,Lunch,4,Business,Takeaway,0,1,1,0.0965,4,1,2,0,2.3333,Femenino,Para llevar,No
+1160,20,Male,68777,Rarely,92.4354,Chinese,Breakfast,5,Business,Dine-in,0,0,0,38.7418,1,4,4,0,3.0,Masculino,En el local,No
+1161,46,Male,54557,Weekly,143.6483,Indian,Dinner,5,Celebration,Dine-in,0,1,1,53.4017,1,1,1,0,1.0,Masculino,En el local,No
+1162,66,Female,122955,Rarely,120.6409,Indian,Dinner,7,Casual,Takeaway,0,0,1,15.7092,4,3,3,0,3.3333,Femenino,Para llevar,No
+1163,32,Female,124959,Monthly,191.2902,Mexican,Dinner,9,Casual,Takeaway,1,0,1,44.0725,5,1,5,0,3.6667,Femenino,Para llevar,No
+1164,64,Female,142155,Weekly,111.8209,Indian,Lunch,2,Business,Takeaway,0,0,0,44.91,4,2,3,0,3.0,Femenino,Para llevar,No
+1165,62,Male,68782,Rarely,66.2736,Italian,Breakfast,3,Casual,Dine-in,0,1,1,45.3626,4,4,1,0,3.0,Masculino,En el local,No
+1166,31,Female,43415,Monthly,118.0073,Chinese,Dinner,3,Business,Dine-in,1,1,1,44.2426,4,2,3,0,3.0,Femenino,En el local,No
+1167,29,Female,41415,Weekly,173.7854,Mexican,Dinner,6,Celebration,Dine-in,0,0,0,46.364,5,2,3,0,3.3333,Femenino,En el local,No
+1168,39,Male,25907,Rarely,94.6628,Italian,Breakfast,7,Business,Dine-in,1,0,1,16.0394,3,4,5,0,4.0,Masculino,En el local,No
+1169,30,Male,147370,Monthly,101.2155,Indian,Dinner,2,Business,Dine-in,0,1,0,55.7902,4,4,5,0,4.3333,Masculino,En el local,No
+1170,24,Female,24277,Monthly,19.8388,Indian,Lunch,2,Casual,Takeaway,1,0,0,40.3245,2,1,1,0,1.3333,Femenino,Para llevar,No
+1171,54,Male,114132,Weekly,116.7705,Mexican,Lunch,1,Casual,Takeaway,0,0,1,4.9678,3,1,3,0,2.3333,Masculino,Para llevar,No
+1172,69,Female,44257,Weekly,12.4426,American,Breakfast,7,Business,Takeaway,0,0,0,58.8385,1,2,1,0,1.3333,Femenino,Para llevar,No
+1173,33,Male,64919,Weekly,153.2298,Italian,Lunch,5,Celebration,Takeaway,0,1,0,0.092,5,4,2,0,3.6667,Masculino,Para llevar,No
+1174,43,Male,94500,Monthly,125.4633,Italian,Breakfast,4,Business,Dine-in,0,0,0,53.8113,4,4,2,0,3.3333,Masculino,En el local,No
+1175,63,Female,126805,Rarely,103.544,Indian,Breakfast,6,Business,Dine-in,1,0,1,53.6732,4,4,3,0,3.6667,Femenino,En el local,No
+1176,55,Female,20150,Rarely,114.7349,Mexican,Lunch,4,Celebration,Dine-in,1,0,0,40.5111,3,5,4,0,4.0,Femenino,En el local,No
+1177,61,Female,65860,Weekly,30.511,American,Breakfast,1,Business,Dine-in,0,1,1,48.4199,3,1,3,0,2.3333,Femenino,En el local,No
+1178,66,Female,47076,Weekly,45.0003,Indian,Dinner,7,Celebration,Dine-in,1,0,1,54.8598,1,5,5,0,3.6667,Femenino,En el local,No
+1179,30,Male,130655,Rarely,126.8388,American,Breakfast,5,Business,Dine-in,1,0,0,50.7191,1,4,4,0,3.0,Masculino,En el local,No
+1180,54,Female,103918,Rarely,87.4622,Italian,Breakfast,1,Celebration,Takeaway,0,1,0,24.698,4,1,2,0,2.3333,Femenino,Para llevar,No
+1181,38,Male,129523,Weekly,195.7837,Mexican,Dinner,7,Celebration,Dine-in,0,1,0,20.7882,1,1,1,0,1.0,Masculino,En el local,No
+1182,61,Male,80076,Rarely,172.6884,Italian,Breakfast,7,Celebration,Dine-in,0,0,1,51.3096,2,1,5,0,2.6667,Masculino,En el local,No
+1183,69,Male,94601,Weekly,197.3529,Chinese,Dinner,3,Casual,Takeaway,0,0,0,29.8734,1,4,3,0,2.6667,Masculino,Para llevar,No
+1184,18,Female,101889,Weekly,95.5104,American,Breakfast,7,Business,Dine-in,0,0,0,18.1946,3,3,2,0,2.6667,Femenino,En el local,No
+1185,25,Female,53943,Rarely,82.2871,Italian,Breakfast,1,Business,Dine-in,0,0,0,59.7416,4,1,3,0,2.6667,Femenino,En el local,No
+1186,37,Female,63111,Rarely,148.7339,American,Lunch,3,Casual,Dine-in,0,1,0,45.5624,1,4,2,0,2.3333,Femenino,En el local,No
+1187,32,Female,103493,Rarely,44.5503,Mexican,Dinner,2,Celebration,Takeaway,1,1,1,47.8609,2,2,2,0,2.0,Femenino,Para llevar,No
+1188,54,Female,149457,Monthly,40.097,Mexican,Lunch,2,Celebration,Dine-in,0,1,0,43.2405,5,2,1,0,2.6667,Femenino,En el local,No
+1189,18,Female,39359,Weekly,83.9182,Mexican,Breakfast,3,Business,Takeaway,0,0,0,9.53,4,3,5,0,4.0,Femenino,Para llevar,No
+1190,29,Male,98984,Weekly,97.4472,Mexican,Lunch,2,Business,Dine-in,0,0,0,40.6933,1,4,1,0,2.0,Masculino,En el local,No
+1191,49,Male,89184,Weekly,68.8688,Chinese,Breakfast,2,Business,Takeaway,0,0,1,26.2161,1,4,5,0,3.3333,Masculino,Para llevar,No
+1192,60,Female,123147,Rarely,25.0061,American,Dinner,3,Celebration,Dine-in,1,1,1,22.5626,2,3,2,0,2.3333,Femenino,En el local,No
+1193,63,Male,66271,Weekly,115.7861,Chinese,Breakfast,7,Business,Takeaway,0,1,1,36.2868,2,4,2,0,2.6667,Masculino,Para llevar,No
+1194,61,Female,26147,Monthly,174.2831,American,Dinner,5,Business,Takeaway,0,1,0,49.0028,3,5,1,0,3.0,Femenino,Para llevar,No
+1195,34,Female,51451,Daily,198.6055,Indian,Dinner,9,Business,Dine-in,0,1,0,32.208,3,1,4,0,2.6667,Femenino,En el local,No
+1196,40,Female,49732,Monthly,120.0045,American,Dinner,4,Casual,Takeaway,0,0,0,22.7936,3,3,3,0,3.0,Femenino,Para llevar,No
+1197,49,Female,66768,Weekly,63.4614,Indian,Dinner,1,Celebration,Dine-in,0,0,1,26.0464,3,3,2,0,2.6667,Femenino,En el local,No
+1198,44,Female,74120,Monthly,108.5275,Italian,Breakfast,4,Business,Takeaway,0,1,1,6.8117,3,1,4,0,2.6667,Femenino,Para llevar,No
+1199,27,Male,32654,Monthly,15.6802,Mexican,Breakfast,2,Casual,Takeaway,0,0,0,23.5702,1,5,2,0,2.6667,Masculino,Para llevar,No
+1200,38,Female,24547,Daily,34.2772,American,Dinner,1,Casual,Dine-in,0,1,1,51.0997,2,4,4,0,3.3333,Femenino,En el local,No
+1201,31,Male,92198,Weekly,193.1187,Mexican,Dinner,4,Business,Takeaway,1,1,0,37.9282,2,3,1,0,2.0,Masculino,Para llevar,No
+1202,64,Female,93229,Daily,172.3177,Italian,Breakfast,9,Business,Dine-in,0,0,0,35.6702,5,2,2,0,3.0,Femenino,En el local,No
+1203,48,Male,33065,Monthly,114.0496,Mexican,Breakfast,1,Casual,Dine-in,0,0,1,52.8616,1,5,2,0,2.6667,Masculino,En el local,No
+1204,22,Male,93822,Monthly,164.5893,Chinese,Lunch,1,Celebration,Takeaway,0,1,1,34.1872,3,5,2,0,3.3333,Masculino,Para llevar,No
+1205,66,Female,105149,Rarely,159.3212,Mexican,Lunch,3,Celebration,Takeaway,0,0,1,54.103,1,3,3,0,2.3333,Femenino,Para llevar,No
+1206,27,Female,148712,Monthly,115.9469,Indian,Breakfast,9,Business,Dine-in,0,1,0,8.055,4,4,2,0,3.3333,Femenino,En el local,No
+1207,36,Female,41417,Monthly,123.7558,Mexican,Lunch,3,Business,Dine-in,0,1,0,19.815,3,2,1,0,2.0,Femenino,En el local,No
+1208,51,Female,145401,Monthly,136.8489,Italian,Dinner,1,Casual,Dine-in,0,0,1,17.5241,5,2,5,0,4.0,Femenino,En el local,No
+1209,42,Female,78302,Rarely,61.9311,American,Dinner,9,Casual,Takeaway,0,0,1,50.2665,5,5,1,0,3.6667,Femenino,Para llevar,No
+1210,53,Female,74609,Daily,196.0594,Italian,Dinner,8,Casual,Takeaway,0,0,1,35.3608,4,5,3,0,4.0,Femenino,Para llevar,No
+1211,67,Male,113717,Monthly,94.0946,Chinese,Dinner,5,Business,Takeaway,0,0,1,6.1693,1,1,2,0,1.3333,Masculino,Para llevar,No
+1212,38,Female,41126,Monthly,126.7753,Italian,Breakfast,6,Celebration,Takeaway,1,0,0,0.3024,1,2,5,0,2.6667,Femenino,Para llevar,No
+1213,24,Female,39498,Rarely,80.8654,Mexican,Breakfast,5,Celebration,Takeaway,1,1,0,14.1278,4,4,1,0,3.0,Femenino,Para llevar,No
+1214,21,Female,140769,Weekly,21.7826,Indian,Lunch,1,Celebration,Dine-in,0,0,1,4.8164,4,3,1,0,2.6667,Femenino,En el local,No
+1215,55,Female,75552,Daily,51.118,Italian,Lunch,7,Celebration,Dine-in,1,1,1,50.9055,2,5,4,1,3.6667,Femenino,En el local,Sí
+1216,23,Male,72506,Weekly,155.9311,Italian,Dinner,2,Celebration,Dine-in,0,0,1,43.046,2,5,3,0,3.3333,Masculino,En el local,No
+1217,62,Male,116124,Weekly,127.2012,American,Lunch,9,Celebration,Dine-in,1,0,1,18.4802,3,5,5,1,4.3333,Masculino,En el local,Sí
+1218,49,Male,75161,Weekly,98.7251,Indian,Lunch,8,Business,Dine-in,1,1,1,12.0291,4,2,5,1,3.6667,Masculino,En el local,Sí
+1219,65,Female,51043,Weekly,187.9769,Mexican,Dinner,1,Casual,Dine-in,1,0,1,57.4847,5,3,4,1,4.0,Femenino,En el local,Sí
+1220,46,Male,24570,Monthly,143.4349,Chinese,Lunch,1,Celebration,Dine-in,0,1,1,23.2533,4,3,5,1,4.0,Masculino,En el local,Sí
+1221,30,Male,69733,Monthly,30.9288,Mexican,Lunch,6,Business,Takeaway,1,0,0,18.9682,5,5,1,0,3.6667,Masculino,Para llevar,No
+1222,23,Male,147385,Monthly,103.0325,Italian,Lunch,5,Business,Dine-in,0,0,0,59.7439,5,4,2,0,3.6667,Masculino,En el local,No
+1223,45,Male,36351,Rarely,31.0995,Italian,Lunch,3,Casual,Takeaway,0,0,0,51.7109,2,3,1,0,2.0,Masculino,Para llevar,No
+1224,32,Female,149728,Monthly,156.8696,Indian,Dinner,8,Casual,Takeaway,0,1,1,33.4726,2,1,1,0,1.3333,Femenino,Para llevar,No
+1225,30,Male,81899,Weekly,86.9152,American,Dinner,2,Business,Takeaway,0,1,1,28.7159,5,1,2,0,2.6667,Masculino,Para llevar,No
+1226,30,Female,99128,Rarely,68.7042,Italian,Dinner,7,Casual,Takeaway,0,0,0,14.825,3,5,4,0,4.0,Femenino,Para llevar,No
+1227,66,Male,74427,Monthly,163.9669,American,Lunch,5,Casual,Dine-in,0,0,0,30.6226,3,3,4,0,3.3333,Masculino,En el local,No
+1228,67,Male,48404,Monthly,142.9424,Mexican,Dinner,2,Casual,Takeaway,0,0,0,15.7565,5,2,3,0,3.3333,Masculino,Para llevar,No
+1229,25,Female,112333,Rarely,139.7982,American,Breakfast,5,Casual,Dine-in,1,0,1,10.5073,5,3,5,0,4.3333,Femenino,En el local,No
+1230,58,Male,79037,Monthly,144.994,Mexican,Lunch,8,Celebration,Takeaway,0,0,1,33.6125,5,3,4,0,4.0,Masculino,Para llevar,No
+1231,49,Female,120539,Weekly,189.7929,American,Breakfast,5,Celebration,Takeaway,0,1,1,43.5912,3,1,5,0,3.0,Femenino,Para llevar,No
+1232,21,Male,42065,Rarely,95.1857,American,Breakfast,2,Celebration,Dine-in,1,1,1,15.3182,4,2,1,1,2.3333,Masculino,En el local,Sí
+1233,47,Female,68945,Weekly,50.4796,Mexican,Dinner,6,Casual,Takeaway,0,0,0,10.4839,3,4,3,0,3.3333,Femenino,Para llevar,No
+1234,42,Female,143716,Daily,115.4724,Italian,Lunch,7,Business,Takeaway,0,0,1,7.6629,1,3,4,0,2.6667,Femenino,Para llevar,No
+1235,36,Male,138770,Monthly,144.6483,Mexican,Breakfast,5,Celebration,Dine-in,1,1,1,52.4443,4,1,4,1,3.0,Masculino,En el local,Sí
+1236,69,Female,24313,Weekly,192.3189,Italian,Lunch,4,Business,Takeaway,0,0,0,26.9506,1,2,4,0,2.3333,Femenino,Para llevar,No
+1237,58,Female,135183,Weekly,35.5051,Mexican,Lunch,5,Celebration,Takeaway,0,0,0,32.8894,3,3,2,0,2.6667,Femenino,Para llevar,No
+1238,31,Female,136693,Weekly,161.8452,Chinese,Breakfast,5,Business,Takeaway,0,0,0,27.6018,5,3,3,0,3.6667,Femenino,Para llevar,No
+1239,48,Female,107653,Weekly,131.7932,American,Dinner,7,Celebration,Takeaway,1,1,1,25.8205,1,5,4,1,3.3333,Femenino,Para llevar,Sí
+1240,58,Female,143279,Weekly,166.9689,Italian,Dinner,8,Celebration,Takeaway,0,1,1,3.957,4,5,2,1,3.6667,Femenino,Para llevar,Sí
+1241,61,Female,82695,Rarely,197.7769,Indian,Breakfast,6,Celebration,Takeaway,1,1,1,17.0355,3,2,4,0,3.0,Femenino,Para llevar,No
+1242,26,Female,88164,Monthly,128.3445,Mexican,Dinner,7,Casual,Takeaway,0,0,1,22.4917,4,1,5,0,3.3333,Femenino,Para llevar,No
+1243,46,Female,128569,Monthly,131.5148,American,Dinner,7,Celebration,Dine-in,1,0,1,50.2251,2,1,4,0,2.3333,Femenino,En el local,No
+1244,48,Male,139175,Weekly,145.9035,Italian,Lunch,2,Celebration,Dine-in,0,0,1,35.7314,1,3,1,0,1.6667,Masculino,En el local,No
+1245,19,Male,89300,Rarely,161.0449,Italian,Breakfast,3,Business,Takeaway,0,0,1,47.5134,2,4,3,0,3.0,Masculino,Para llevar,No
+1246,38,Female,69568,Monthly,33.3016,American,Breakfast,6,Celebration,Takeaway,0,0,0,29.7608,5,5,1,0,3.6667,Femenino,Para llevar,No
+1247,65,Female,31899,Monthly,146.1108,American,Dinner,2,Celebration,Dine-in,0,0,0,46.6884,3,2,4,0,3.0,Femenino,En el local,No
+1248,32,Female,102532,Weekly,143.8828,Italian,Dinner,3,Casual,Dine-in,0,1,1,48.3696,2,4,5,1,3.6667,Femenino,En el local,Sí
+1249,20,Female,129285,Weekly,134.6056,American,Dinner,7,Casual,Takeaway,0,0,1,54.9804,3,4,1,0,2.6667,Femenino,Para llevar,No
+1250,51,Male,132819,Weekly,164.1037,Mexican,Dinner,8,Celebration,Dine-in,0,0,1,39.9352,3,5,1,0,3.0,Masculino,En el local,No
+1251,20,Male,50299,Monthly,33.7643,Indian,Lunch,3,Celebration,Takeaway,1,1,1,10.6733,1,1,5,0,2.3333,Masculino,Para llevar,No
+1252,33,Male,36674,Weekly,23.6442,Italian,Breakfast,8,Casual,Takeaway,1,0,1,27.588,2,2,2,0,2.0,Masculino,Para llevar,No
+1253,52,Male,109245,Daily,68.7299,Indian,Breakfast,4,Celebration,Dine-in,0,1,0,49.3173,2,5,4,1,3.6667,Masculino,En el local,Sí
+1254,46,Female,144655,Rarely,136.8788,Chinese,Breakfast,2,Casual,Dine-in,1,1,1,35.8983,5,5,1,1,3.6667,Femenino,En el local,Sí
+1255,62,Female,95252,Daily,68.1879,Chinese,Breakfast,6,Business,Dine-in,0,1,0,34.7993,2,5,1,0,2.6667,Femenino,En el local,No
+1256,62,Male,130453,Weekly,185.9728,Chinese,Lunch,9,Celebration,Takeaway,0,0,0,8.9982,2,5,3,0,3.3333,Masculino,Para llevar,No
+1257,19,Female,58287,Weekly,71.4979,American,Breakfast,9,Business,Takeaway,0,1,1,13.2355,5,4,2,0,3.6667,Femenino,Para llevar,No
+1258,30,Male,54812,Weekly,79.342,Indian,Breakfast,9,Casual,Dine-in,1,1,1,29.6355,5,3,1,1,3.0,Masculino,En el local,Sí
+1259,47,Male,20731,Weekly,146.8138,Italian,Breakfast,8,Business,Dine-in,1,0,1,25.4783,4,1,3,0,2.6667,Masculino,En el local,No
+1260,48,Female,92280,Daily,76.5783,Indian,Lunch,7,Casual,Takeaway,0,1,1,46.9227,3,1,1,0,1.6667,Femenino,Para llevar,No
+1261,28,Female,84076,Weekly,18.699,Chinese,Breakfast,8,Celebration,Dine-in,1,0,1,35.7451,3,3,3,0,3.0,Femenino,En el local,No
+1262,54,Male,124840,Weekly,144.8868,Chinese,Breakfast,6,Casual,Takeaway,0,0,0,22.3572,3,3,4,0,3.3333,Masculino,Para llevar,No
+1263,41,Male,23950,Weekly,194.1653,American,Dinner,9,Celebration,Dine-in,0,1,0,56.5365,5,5,5,0,5.0,Masculino,En el local,No
+1264,52,Female,138749,Weekly,60.4589,Chinese,Lunch,4,Celebration,Dine-in,0,1,0,43.3545,5,5,1,1,3.6667,Femenino,En el local,Sí
+1265,24,Male,56212,Weekly,149.3452,Indian,Breakfast,6,Business,Dine-in,0,1,0,4.3118,5,3,3,0,3.6667,Masculino,En el local,No
+1266,69,Male,84762,Weekly,38.2411,Chinese,Dinner,7,Casual,Takeaway,0,1,0,33.0011,3,3,3,0,3.0,Masculino,Para llevar,No
+1267,64,Female,147243,Weekly,35.0502,American,Breakfast,8,Celebration,Dine-in,1,0,1,17.9883,4,1,1,0,2.0,Femenino,En el local,No
+1268,37,Female,122112,Rarely,69.3693,American,Dinner,8,Business,Dine-in,0,0,0,24.8604,2,3,2,0,2.3333,Femenino,En el local,No
+1269,22,Female,124788,Weekly,71.3646,Mexican,Breakfast,3,Celebration,Takeaway,1,0,1,53.2588,4,3,3,0,3.3333,Femenino,Para llevar,No
+1270,39,Male,145371,Monthly,116.5477,Chinese,Dinner,6,Celebration,Takeaway,0,1,0,39.3569,4,4,2,0,3.3333,Masculino,Para llevar,No
+1271,53,Female,103361,Weekly,91.2901,Italian,Dinner,7,Business,Takeaway,0,1,0,21.4963,4,3,5,0,4.0,Femenino,Para llevar,No
+1272,30,Female,81382,Rarely,66.4179,Chinese,Breakfast,8,Business,Takeaway,0,0,1,40.6605,1,1,3,0,1.6667,Femenino,Para llevar,No
+1273,30,Female,113286,Weekly,93.2441,Italian,Lunch,9,Business,Takeaway,1,1,1,8.6704,4,4,4,1,4.0,Femenino,Para llevar,Sí
+1274,27,Male,41381,Weekly,152.45,Mexican,Lunch,1,Celebration,Dine-in,0,0,1,16.6983,2,3,1,0,2.0,Masculino,En el local,No
+1275,51,Male,42975,Daily,168.7679,Mexican,Dinner,6,Business,Dine-in,1,0,1,13.8692,5,4,3,0,4.0,Masculino,En el local,No
+1276,42,Male,39943,Weekly,27.5223,Mexican,Dinner,7,Casual,Dine-in,1,1,0,44.646,1,5,5,0,3.6667,Masculino,En el local,No
+1277,36,Male,43326,Rarely,171.4097,Mexican,Breakfast,1,Casual,Dine-in,0,0,0,29.4641,3,5,1,0,3.0,Masculino,En el local,No
+1278,35,Female,55454,Weekly,129.1222,Indian,Breakfast,1,Business,Dine-in,0,1,1,58.4036,4,3,3,0,3.3333,Femenino,En el local,No
+1279,18,Male,21073,Monthly,83.19,Indian,Lunch,2,Casual,Dine-in,1,1,1,24.2349,5,1,5,1,3.6667,Masculino,En el local,Sí
+1280,64,Male,127760,Weekly,156.6065,Italian,Lunch,7,Business,Dine-in,0,1,1,25.1918,1,4,2,0,2.3333,Masculino,En el local,No
+1281,33,Male,136837,Monthly,153.0534,Mexican,Lunch,7,Celebration,Takeaway,1,0,0,40.8612,1,5,5,0,3.6667,Masculino,Para llevar,No
+1282,39,Male,147882,Monthly,143.9575,American,Breakfast,3,Casual,Takeaway,0,1,1,14.6326,2,1,5,0,2.6667,Masculino,Para llevar,No
+1283,65,Female,64898,Rarely,83.5369,Italian,Breakfast,8,Business,Dine-in,0,0,0,5.4721,4,3,2,0,3.0,Femenino,En el local,No
+1284,65,Female,39551,Rarely,71.1636,Italian,Dinner,3,Celebration,Dine-in,0,0,1,27.0751,2,5,1,0,2.6667,Femenino,En el local,No
+1285,51,Male,89947,Weekly,189.239,Chinese,Dinner,6,Celebration,Dine-in,1,0,0,7.1804,5,5,5,1,5.0,Masculino,En el local,Sí
+1286,40,Male,25034,Monthly,150.6459,Mexican,Breakfast,6,Celebration,Dine-in,0,0,1,6.358,3,2,3,0,2.6667,Masculino,En el local,No
+1287,64,Female,106131,Monthly,183.707,Indian,Dinner,6,Casual,Takeaway,0,0,1,19.5384,1,3,4,0,2.6667,Femenino,Para llevar,No
+1288,54,Female,64136,Monthly,117.1775,American,Breakfast,9,Business,Dine-in,0,0,1,16.2917,1,3,2,0,2.0,Femenino,En el local,No
+1289,52,Female,36483,Daily,59.4513,Chinese,Lunch,8,Casual,Dine-in,0,0,1,19.6289,2,5,1,0,2.6667,Femenino,En el local,No
+1290,24,Male,71235,Weekly,100.152,Chinese,Dinner,1,Casual,Takeaway,0,1,0,34.738,3,2,5,0,3.3333,Masculino,Para llevar,No
+1291,53,Female,58484,Monthly,185.0548,Indian,Lunch,4,Business,Dine-in,0,0,1,28.4181,5,2,1,0,2.6667,Femenino,En el local,No
+1292,63,Male,144991,Rarely,13.2605,American,Breakfast,3,Celebration,Dine-in,0,0,0,31.7965,5,5,3,0,4.3333,Masculino,En el local,No
+1293,69,Female,39636,Daily,128.6968,American,Breakfast,8,Casual,Takeaway,1,0,0,30.9111,4,2,4,0,3.3333,Femenino,Para llevar,No
+1294,35,Female,108289,Rarely,14.5194,Italian,Dinner,7,Celebration,Takeaway,0,0,1,59.6495,5,1,4,0,3.3333,Femenino,Para llevar,No
+1295,67,Female,52485,Rarely,171.0955,Italian,Lunch,7,Celebration,Dine-in,0,0,1,2.9741,5,3,2,0,3.3333,Femenino,En el local,No
+1296,57,Female,135768,Monthly,189.132,Italian,Lunch,7,Business,Takeaway,0,0,0,57.4336,2,2,4,0,2.6667,Femenino,Para llevar,No
+1297,49,Female,58909,Weekly,148.0514,Chinese,Breakfast,7,Casual,Takeaway,0,0,1,6.7625,2,2,5,0,3.0,Femenino,Para llevar,No
+1298,56,Male,134286,Weekly,89.0726,Chinese,Dinner,3,Casual,Takeaway,1,1,1,49.7524,5,5,5,1,5.0,Masculino,Para llevar,Sí
+1299,67,Female,75111,Weekly,132.8437,Mexican,Dinner,4,Casual,Takeaway,0,1,0,3.6634,4,4,4,1,4.0,Femenino,Para llevar,Sí
+1300,63,Male,49297,Daily,138.8524,Indian,Breakfast,7,Business,Dine-in,0,1,0,55.1995,5,3,4,0,4.0,Masculino,En el local,No
+1301,35,Female,95984,Monthly,26.1585,Indian,Breakfast,2,Celebration,Dine-in,0,1,1,27.5002,1,4,4,1,3.0,Femenino,En el local,Sí
+1302,63,Male,139580,Weekly,91.0714,American,Breakfast,8,Business,Dine-in,0,0,1,25.233,4,5,2,0,3.6667,Masculino,En el local,No
+1303,21,Male,113599,Weekly,101.2564,Indian,Lunch,8,Casual,Dine-in,0,0,1,0.0396,2,2,2,0,2.0,Masculino,En el local,No
+1304,58,Female,62444,Weekly,135.6494,American,Lunch,8,Celebration,Takeaway,0,0,1,57.0938,5,3,5,0,4.3333,Femenino,Para llevar,No
+1305,39,Female,133625,Monthly,187.9959,Chinese,Breakfast,6,Casual,Takeaway,0,0,1,22.4858,1,1,1,0,1.0,Femenino,Para llevar,No
+1306,44,Male,122923,Monthly,132.0741,Italian,Breakfast,3,Casual,Takeaway,0,0,0,10.6938,4,3,1,0,2.6667,Masculino,Para llevar,No
+1307,24,Male,148016,Rarely,145.9063,Indian,Breakfast,2,Casual,Takeaway,0,0,1,48.0441,1,3,5,0,3.0,Masculino,Para llevar,No
+1308,44,Female,40875,Daily,173.274,American,Breakfast,8,Business,Takeaway,0,1,0,26.9239,5,4,1,0,3.3333,Femenino,Para llevar,No
+1309,49,Male,78920,Monthly,101.4668,American,Breakfast,2,Celebration,Takeaway,0,0,0,28.9994,2,1,1,0,1.3333,Masculino,Para llevar,No
+1310,51,Male,74106,Rarely,65.8054,Italian,Breakfast,1,Business,Takeaway,0,0,1,16.9358,5,2,4,0,3.6667,Masculino,Para llevar,No
+1311,23,Female,24621,Daily,66.5753,Indian,Dinner,4,Casual,Takeaway,0,0,1,47.1359,1,3,5,0,3.0,Femenino,Para llevar,No
+1312,26,Male,93768,Rarely,177.4999,Chinese,Lunch,9,Casual,Takeaway,1,1,0,37.562,2,1,1,0,1.3333,Masculino,Para llevar,No
+1313,46,Female,78761,Weekly,121.6448,Mexican,Lunch,6,Celebration,Dine-in,0,0,0,13.2894,1,5,5,0,3.6667,Femenino,En el local,No
+1314,21,Female,23860,Weekly,157.1659,Mexican,Dinner,2,Business,Takeaway,0,1,0,24.8791,2,1,2,0,1.6667,Femenino,Para llevar,No
+1315,60,Male,106565,Weekly,197.5781,Mexican,Dinner,3,Casual,Dine-in,0,0,1,30.6234,5,5,4,1,4.6667,Masculino,En el local,Sí
+1316,46,Male,143417,Weekly,105.4306,Mexican,Dinner,9,Business,Dine-in,0,0,1,30.2959,2,2,4,0,2.6667,Masculino,En el local,No
+1317,54,Male,26210,Weekly,48.6569,Italian,Breakfast,5,Celebration,Takeaway,1,1,1,0.5127,3,2,3,0,2.6667,Masculino,Para llevar,No
+1318,20,Male,97382,Monthly,93.7091,Italian,Breakfast,6,Business,Dine-in,0,0,0,44.3342,2,5,3,0,3.3333,Masculino,En el local,No
+1319,33,Male,113459,Weekly,87.4881,Indian,Lunch,1,Celebration,Dine-in,1,0,0,10.7505,4,4,4,1,4.0,Masculino,En el local,Sí
+1320,36,Female,94675,Weekly,167.8902,Mexican,Dinner,9,Business,Takeaway,0,1,1,7.3316,4,4,3,0,3.6667,Femenino,Para llevar,No
+1321,55,Female,96671,Monthly,122.0302,Mexican,Lunch,3,Business,Takeaway,1,0,1,34.0181,4,1,4,0,3.0,Femenino,Para llevar,No
+1322,59,Male,103191,Weekly,17.13,American,Dinner,2,Business,Dine-in,1,1,1,18.8829,3,5,3,1,3.6667,Masculino,En el local,Sí
+1323,20,Male,91812,Weekly,70.4067,Italian,Breakfast,1,Business,Dine-in,0,0,0,0.0149,2,3,5,0,3.3333,Masculino,En el local,No
+1324,43,Male,58774,Monthly,19.9193,Mexican,Breakfast,6,Business,Dine-in,1,0,0,58.5637,1,2,1,0,1.3333,Masculino,En el local,No
+1325,41,Male,40283,Rarely,89.0568,Mexican,Lunch,9,Casual,Takeaway,0,0,0,5.7721,2,3,2,0,2.3333,Masculino,Para llevar,No
+1326,31,Female,102165,Rarely,110.4378,Chinese,Dinner,6,Celebration,Dine-in,0,1,0,15.9459,4,2,1,0,2.3333,Femenino,En el local,No
+1327,23,Male,57832,Weekly,51.8046,Mexican,Dinner,5,Business,Dine-in,0,1,1,50.5564,5,2,1,0,2.6667,Masculino,En el local,No
+1328,69,Female,101500,Weekly,40.8452,Italian,Breakfast,9,Business,Takeaway,1,0,1,8.6962,4,4,2,0,3.3333,Femenino,Para llevar,No
+1329,31,Male,60445,Weekly,195.745,Chinese,Lunch,7,Celebration,Takeaway,0,0,1,59.4895,3,1,4,0,2.6667,Masculino,Para llevar,No
+1330,39,Male,138869,Monthly,70.4117,Mexican,Dinner,3,Celebration,Dine-in,1,0,1,37.0507,1,4,1,0,2.0,Masculino,En el local,No
+1331,42,Male,102295,Monthly,81.7565,Chinese,Dinner,8,Celebration,Dine-in,0,0,0,48.218,1,1,5,0,2.3333,Masculino,En el local,No
+1332,42,Male,67826,Monthly,76.9239,Mexican,Lunch,3,Celebration,Takeaway,1,0,1,10.1837,5,3,1,0,3.0,Masculino,Para llevar,No
+1333,61,Male,127735,Weekly,114.5909,Italian,Lunch,7,Business,Dine-in,0,0,0,43.0142,4,1,5,0,3.3333,Masculino,En el local,No
+1334,33,Female,119581,Monthly,121.7334,Indian,Dinner,3,Casual,Dine-in,1,1,1,15.0119,1,4,1,1,2.0,Femenino,En el local,Sí
+1335,60,Female,70633,Daily,36.8764,American,Breakfast,7,Casual,Dine-in,0,0,0,18.5971,2,1,2,0,1.6667,Femenino,En el local,No
+1336,34,Female,37772,Monthly,141.2389,Indian,Breakfast,4,Celebration,Dine-in,0,0,1,47.7706,2,3,4,0,3.0,Femenino,En el local,No
+1337,49,Female,29371,Monthly,180.3933,Chinese,Lunch,6,Casual,Takeaway,0,1,1,41.8387,4,5,1,0,3.3333,Femenino,Para llevar,No
+1338,44,Female,116560,Weekly,64.1252,Chinese,Dinner,4,Casual,Takeaway,0,1,0,45.2966,1,4,3,0,2.6667,Femenino,Para llevar,No
+1339,56,Male,49632,Rarely,148.7365,Mexican,Dinner,2,Business,Takeaway,0,0,0,31.5555,2,5,5,0,4.0,Masculino,Para llevar,No
+1340,67,Female,41527,Weekly,55.4929,Indian,Breakfast,2,Casual,Takeaway,0,0,0,39.5772,2,4,2,0,2.6667,Femenino,Para llevar,No
+1341,33,Female,82610,Weekly,130.0822,Chinese,Dinner,8,Celebration,Takeaway,0,1,0,10.6919,5,3,4,0,4.0,Femenino,Para llevar,No
+1342,62,Female,31978,Monthly,192.2787,Mexican,Breakfast,6,Business,Dine-in,0,1,0,1.7609,1,3,2,0,2.0,Femenino,En el local,No
+1343,33,Male,109428,Monthly,144.3465,Mexican,Dinner,3,Celebration,Takeaway,0,0,1,41.9939,4,4,2,0,3.3333,Masculino,Para llevar,No
+1344,37,Female,128045,Weekly,148.0641,Indian,Dinner,3,Business,Dine-in,0,1,0,19.7757,5,2,5,1,4.0,Femenino,En el local,Sí
+1345,68,Male,50961,Monthly,99.9658,Chinese,Dinner,2,Casual,Takeaway,0,0,1,46.8511,5,3,3,0,3.6667,Masculino,Para llevar,No
+1346,27,Male,124945,Rarely,80.8474,Italian,Lunch,5,Casual,Dine-in,0,1,1,19.5942,4,1,4,0,3.0,Masculino,En el local,No
+1347,40,Male,96655,Rarely,178.587,Mexican,Breakfast,1,Celebration,Dine-in,0,0,1,47.5891,2,1,4,0,2.3333,Masculino,En el local,No
+1348,62,Female,132001,Weekly,32.4037,Italian,Lunch,4,Business,Takeaway,0,1,1,28.2963,4,5,1,0,3.3333,Femenino,Para llevar,No
+1349,60,Female,60737,Weekly,66.0458,Italian,Breakfast,6,Business,Dine-in,0,0,0,55.7529,4,5,2,0,3.6667,Femenino,En el local,No
+1350,57,Male,144002,Rarely,31.3903,Italian,Breakfast,1,Celebration,Takeaway,0,0,0,11.9726,4,2,2,0,2.6667,Masculino,Para llevar,No
+1351,43,Male,89392,Weekly,150.263,Indian,Breakfast,4,Celebration,Dine-in,0,1,0,59.9708,4,5,5,1,4.6667,Masculino,En el local,Sí
+1352,43,Female,135581,Weekly,98.3496,Mexican,Lunch,2,Business,Dine-in,0,0,1,58.778,4,4,3,0,3.6667,Femenino,En el local,No
+1353,44,Male,60172,Weekly,106.7978,Chinese,Dinner,9,Casual,Takeaway,0,1,1,51.1188,4,3,5,0,4.0,Masculino,Para llevar,No
+1354,46,Female,126264,Weekly,145.1226,Mexican,Lunch,3,Business,Dine-in,0,0,0,7.9126,5,3,3,0,3.6667,Femenino,En el local,No
+1355,44,Female,35147,Rarely,15.3016,Italian,Lunch,8,Business,Takeaway,0,1,0,41.4706,3,1,5,0,3.0,Femenino,Para llevar,No
+1356,41,Male,38506,Monthly,156.1306,Italian,Dinner,2,Business,Dine-in,0,0,0,17.4993,5,1,3,0,3.0,Masculino,En el local,No
+1357,52,Female,63957,Daily,112.8422,Indian,Dinner,6,Celebration,Takeaway,1,1,0,20.326,1,1,3,0,1.6667,Femenino,Para llevar,No
+1358,54,Female,48049,Monthly,150.0254,Italian,Dinner,9,Business,Takeaway,1,0,0,8.0192,3,1,3,0,2.3333,Femenino,Para llevar,No
+1359,40,Female,99500,Rarely,17.3954,Italian,Lunch,4,Business,Takeaway,1,1,1,57.8897,5,3,2,0,3.3333,Femenino,Para llevar,No
+1360,48,Female,32259,Weekly,115.2307,Chinese,Lunch,4,Business,Takeaway,1,1,1,51.628,4,2,4,0,3.3333,Femenino,Para llevar,No
+1361,60,Male,148431,Weekly,134.2042,Chinese,Dinner,9,Business,Takeaway,0,0,0,33.1444,3,4,3,0,3.3333,Masculino,Para llevar,No
+1362,33,Male,59583,Weekly,58.5648,Chinese,Breakfast,6,Celebration,Takeaway,0,0,1,39.4998,1,3,4,0,2.6667,Masculino,Para llevar,No
+1363,18,Female,120166,Daily,51.8454,Indian,Breakfast,7,Business,Takeaway,1,1,1,51.2561,5,3,2,0,3.3333,Femenino,Para llevar,No
+1364,58,Female,88894,Rarely,25.0494,Italian,Breakfast,2,Business,Takeaway,1,1,0,48.051,3,3,2,0,2.6667,Femenino,Para llevar,No
+1365,31,Female,37407,Weekly,157.795,Italian,Breakfast,6,Casual,Takeaway,0,0,0,53.0962,1,4,1,0,2.0,Femenino,Para llevar,No
+1366,47,Male,124637,Monthly,81.6462,Italian,Breakfast,2,Business,Takeaway,0,1,0,41.5038,5,3,5,0,4.3333,Masculino,Para llevar,No
+1367,40,Female,51442,Monthly,20.105,Indian,Dinner,9,Business,Takeaway,0,0,1,4.0467,2,4,2,0,2.6667,Femenino,Para llevar,No
+1368,57,Male,25781,Daily,40.034,Mexican,Lunch,5,Celebration,Takeaway,0,1,0,22.5061,4,2,3,0,3.0,Masculino,Para llevar,No
+1369,45,Female,37727,Weekly,90.3912,Italian,Breakfast,1,Casual,Takeaway,0,0,0,24.3945,1,5,3,0,3.0,Femenino,Para llevar,No
+1370,66,Female,113729,Weekly,20.5111,Chinese,Dinner,8,Business,Takeaway,1,1,0,37.1579,4,3,3,0,3.3333,Femenino,Para llevar,No
+1371,54,Male,98671,Rarely,66.9189,Indian,Lunch,4,Casual,Takeaway,0,0,0,50.2472,1,2,2,0,1.6667,Masculino,Para llevar,No
+1372,57,Male,70701,Rarely,132.7403,Chinese,Lunch,3,Business,Dine-in,0,1,0,41.7939,3,2,1,0,2.0,Masculino,En el local,No
+1373,21,Female,133011,Weekly,141.3243,Mexican,Lunch,5,Business,Dine-in,0,0,0,4.9358,1,1,3,0,1.6667,Femenino,En el local,No
+1374,34,Male,44396,Monthly,23.5632,Chinese,Breakfast,9,Celebration,Dine-in,0,1,0,55.7804,5,5,5,0,5.0,Masculino,En el local,No
+1375,60,Female,106932,Weekly,86.3329,Chinese,Dinner,3,Casual,Takeaway,0,1,0,31.4869,5,1,5,0,3.6667,Femenino,Para llevar,No
+1376,27,Male,84302,Monthly,40.9533,Italian,Dinner,2,Casual,Dine-in,0,0,0,7.2109,1,2,5,0,2.6667,Masculino,En el local,No
+1377,52,Male,146559,Monthly,120.3531,Italian,Lunch,5,Business,Takeaway,0,1,0,22.7846,3,3,2,0,2.6667,Masculino,Para llevar,No
+1378,25,Male,142823,Monthly,113.915,Chinese,Lunch,8,Casual,Dine-in,1,0,0,53.0456,3,2,5,0,3.3333,Masculino,En el local,No
+1379,36,Female,79019,Weekly,161.3103,Mexican,Lunch,6,Business,Takeaway,1,1,0,34.1437,1,5,4,0,3.3333,Femenino,Para llevar,No
+1380,42,Female,105448,Daily,45.023,Mexican,Lunch,1,Casual,Dine-in,0,0,1,53.9513,5,2,5,0,4.0,Femenino,En el local,No
+1381,37,Female,46304,Monthly,136.6023,Chinese,Dinner,9,Business,Dine-in,1,1,0,35.7655,4,4,5,0,4.3333,Femenino,En el local,No
+1382,64,Female,49825,Daily,118.9229,Indian,Breakfast,4,Business,Dine-in,0,1,0,38.731,3,5,5,0,4.3333,Femenino,En el local,No
+1383,60,Male,84644,Monthly,139.2777,Italian,Breakfast,1,Celebration,Takeaway,0,0,1,21.3846,2,2,2,0,2.0,Masculino,Para llevar,No
+1384,43,Female,136185,Weekly,131.6402,American,Dinner,6,Casual,Dine-in,1,0,0,14.4064,5,3,2,0,3.3333,Femenino,En el local,No
+1385,42,Male,101944,Rarely,37.3829,Mexican,Lunch,7,Casual,Takeaway,0,0,1,47.8028,3,3,1,0,2.3333,Masculino,Para llevar,No
+1386,62,Male,26014,Weekly,59.8632,Chinese,Lunch,3,Casual,Takeaway,1,0,0,32.369,3,4,5,0,4.0,Masculino,Para llevar,No
+1387,56,Female,26033,Monthly,92.0894,Mexican,Breakfast,9,Celebration,Dine-in,0,0,1,38.4293,3,1,2,0,2.0,Femenino,En el local,No
+1388,38,Male,21536,Rarely,186.6312,American,Breakfast,9,Casual,Takeaway,0,0,0,6.3404,4,4,4,0,4.0,Masculino,Para llevar,No
+1389,41,Female,53342,Weekly,94.7261,American,Dinner,2,Celebration,Takeaway,0,0,0,34.8046,5,5,5,0,5.0,Femenino,Para llevar,No
+1390,31,Male,103434,Daily,20.858,American,Dinner,6,Casual,Dine-in,1,1,1,23.1218,1,1,5,0,2.3333,Masculino,En el local,No
+1391,67,Female,94300,Weekly,76.1668,Mexican,Lunch,8,Celebration,Takeaway,1,1,0,15.7816,5,5,4,1,4.6667,Femenino,Para llevar,Sí
+1392,49,Female,55787,Weekly,35.0373,Indian,Breakfast,5,Celebration,Takeaway,0,1,0,36.6033,5,5,2,0,4.0,Femenino,Para llevar,No
+1393,61,Male,59208,Weekly,112.1108,Mexican,Dinner,4,Celebration,Dine-in,0,0,0,15.5773,5,5,1,1,3.6667,Masculino,En el local,Sí
+1394,42,Female,99528,Rarely,21.8517,Indian,Dinner,6,Celebration,Dine-in,1,1,0,31.8757,2,2,3,0,2.3333,Femenino,En el local,No
+1395,28,Female,54070,Rarely,176.5761,American,Lunch,3,Business,Takeaway,0,0,1,15.8044,1,2,1,0,1.3333,Femenino,Para llevar,No
+1396,37,Male,108559,Monthly,75.6287,Indian,Dinner,3,Casual,Takeaway,0,1,1,28.8131,3,5,2,0,3.3333,Masculino,Para llevar,No
+1397,20,Male,125213,Weekly,71.107,American,Breakfast,3,Celebration,Dine-in,0,0,0,50.911,1,2,2,0,1.6667,Masculino,En el local,No
+1398,61,Male,91475,Weekly,134.8227,Chinese,Dinner,7,Business,Takeaway,0,1,1,46.6025,4,3,4,0,3.6667,Masculino,Para llevar,No
+1399,33,Male,63797,Weekly,77.3103,Indian,Dinner,5,Casual,Takeaway,1,0,1,12.6338,1,1,1,0,1.0,Masculino,Para llevar,No
+1400,36,Male,111713,Rarely,45.6407,Italian,Lunch,4,Celebration,Takeaway,0,0,1,55.8007,3,5,3,0,3.6667,Masculino,Para llevar,No
+1401,51,Male,67850,Weekly,78.4291,Italian,Dinner,5,Business,Takeaway,0,1,1,58.5511,1,1,2,0,1.3333,Masculino,Para llevar,No
+1402,63,Male,107425,Rarely,196.0138,Italian,Breakfast,9,Business,Dine-in,0,1,1,25.0612,4,2,5,0,3.6667,Masculino,En el local,No
+1403,19,Male,35923,Daily,107.6516,Italian,Breakfast,3,Casual,Dine-in,0,0,1,41.1806,3,5,5,0,4.3333,Masculino,En el local,No
+1404,38,Male,119288,Rarely,199.9242,Mexican,Dinner,1,Casual,Takeaway,0,1,0,59.5101,5,4,1,0,3.3333,Masculino,Para llevar,No
+1405,35,Female,120153,Weekly,59.1455,Chinese,Lunch,8,Business,Dine-in,0,0,0,6.0434,4,4,5,0,4.3333,Femenino,En el local,No
+1406,38,Female,67489,Daily,81.7641,Indian,Lunch,4,Business,Dine-in,0,0,0,20.0564,1,3,3,0,2.3333,Femenino,En el local,No
+1407,55,Female,115270,Weekly,100.8541,Mexican,Lunch,2,Business,Dine-in,0,1,0,36.1998,4,3,2,0,3.0,Femenino,En el local,No
+1408,35,Female,134171,Monthly,35.0029,Chinese,Dinner,5,Casual,Dine-in,0,1,1,5.4415,2,1,3,0,2.0,Femenino,En el local,No
+1409,29,Male,68955,Monthly,175.672,Chinese,Breakfast,1,Business,Takeaway,1,1,1,55.3969,1,5,5,0,3.6667,Masculino,Para llevar,No
+1410,39,Female,110292,Weekly,65.4208,American,Lunch,8,Celebration,Dine-in,0,1,1,10.5656,2,1,3,0,2.0,Femenino,En el local,No
+1411,20,Female,141978,Weekly,85.7804,Italian,Breakfast,3,Casual,Dine-in,0,0,0,55.6968,5,3,5,0,4.3333,Femenino,En el local,No
+1412,58,Male,61799,Weekly,164.3747,Indian,Breakfast,2,Casual,Takeaway,0,0,1,19.4267,4,1,4,0,3.0,Masculino,Para llevar,No
+1413,18,Female,116054,Daily,28.8652,American,Breakfast,7,Casual,Dine-in,1,0,0,26.5116,5,1,3,0,3.0,Femenino,En el local,No
+1414,42,Female,121317,Rarely,133.3581,American,Breakfast,7,Celebration,Dine-in,0,1,0,28.3937,5,4,5,1,4.6667,Femenino,En el local,Sí
+1415,25,Male,83536,Monthly,54.6027,Mexican,Breakfast,8,Business,Dine-in,0,1,1,46.5227,2,3,4,0,3.0,Masculino,En el local,No
+1416,34,Male,28019,Monthly,178.0954,Mexican,Lunch,2,Casual,Takeaway,0,1,0,21.1622,3,3,4,0,3.3333,Masculino,Para llevar,No
+1417,52,Female,35169,Daily,111.7835,Chinese,Lunch,5,Casual,Dine-in,1,0,0,40.446,2,5,2,0,3.0,Femenino,En el local,No
+1418,51,Male,30516,Monthly,192.2401,Indian,Dinner,7,Celebration,Dine-in,1,1,0,19.5203,1,5,5,0,3.6667,Masculino,En el local,No
+1419,42,Female,45464,Weekly,28.1964,Indian,Dinner,3,Celebration,Dine-in,0,0,1,19.5636,3,2,5,0,3.3333,Femenino,En el local,No
+1420,45,Male,33765,Weekly,36.7785,Indian,Breakfast,8,Celebration,Dine-in,0,1,1,20.4549,5,1,1,0,2.3333,Masculino,En el local,No
+1421,38,Male,69705,Rarely,44.2736,Italian,Breakfast,9,Celebration,Dine-in,0,0,0,33.4316,5,5,2,0,4.0,Masculino,En el local,No
+1422,45,Female,65621,Rarely,152.5019,Italian,Breakfast,5,Casual,Takeaway,0,1,0,52.2445,3,2,3,0,2.6667,Femenino,Para llevar,No
+1423,61,Male,139407,Rarely,76.1388,Mexican,Lunch,5,Casual,Dine-in,1,0,0,47.6832,1,2,1,0,1.3333,Masculino,En el local,No
+1424,36,Male,46134,Weekly,117.2678,American,Lunch,8,Business,Dine-in,1,0,1,41.9688,1,5,4,0,3.3333,Masculino,En el local,No
+1425,61,Female,26777,Daily,100.0288,Mexican,Breakfast,4,Casual,Dine-in,0,1,0,10.9675,5,5,4,1,4.6667,Femenino,En el local,Sí
+1426,26,Male,109303,Daily,141.1864,American,Lunch,3,Business,Takeaway,0,0,0,12.2912,3,3,5,0,3.6667,Masculino,Para llevar,No
+1427,60,Male,147834,Daily,169.6933,Italian,Dinner,7,Casual,Takeaway,0,0,1,4.9069,2,1,2,0,1.6667,Masculino,Para llevar,No
+1428,69,Male,63966,Weekly,193.408,American,Lunch,1,Casual,Takeaway,0,0,0,9.3042,3,3,5,0,3.6667,Masculino,Para llevar,No
+1429,50,Male,22675,Monthly,17.7612,Italian,Dinner,1,Celebration,Dine-in,0,1,1,50.6688,5,2,3,0,3.3333,Masculino,En el local,No
+1430,24,Male,107166,Monthly,26.4923,American,Dinner,3,Casual,Takeaway,1,1,1,24.9051,4,1,4,0,3.0,Masculino,Para llevar,No
+1431,32,Female,74310,Daily,142.7857,Mexican,Lunch,7,Casual,Takeaway,0,0,0,43.8273,1,3,2,0,2.0,Femenino,Para llevar,No
+1432,26,Female,36721,Weekly,38.0122,Indian,Dinner,8,Celebration,Takeaway,0,0,1,29.8341,5,3,3,0,3.6667,Femenino,Para llevar,No
+1433,36,Male,91772,Daily,56.4321,Italian,Breakfast,7,Casual,Dine-in,1,0,1,32.1363,4,4,2,0,3.3333,Masculino,En el local,No
+1434,47,Male,98691,Weekly,84.2618,American,Breakfast,7,Casual,Dine-in,1,0,0,26.2101,4,5,3,0,4.0,Masculino,En el local,No
+1435,31,Male,110265,Rarely,82.1737,Italian,Lunch,8,Celebration,Dine-in,1,0,0,18.577,2,1,5,0,2.6667,Masculino,En el local,No
+1436,40,Male,82755,Monthly,176.5885,Italian,Lunch,7,Casual,Dine-in,0,1,1,6.6578,2,2,4,0,2.6667,Masculino,En el local,No
+1437,43,Male,48319,Weekly,47.5531,American,Breakfast,3,Celebration,Takeaway,0,0,1,7.4163,3,4,3,0,3.3333,Masculino,Para llevar,No
+1438,25,Male,32906,Weekly,176.9187,American,Lunch,6,Celebration,Takeaway,0,0,1,6.3984,2,4,1,0,2.3333,Masculino,Para llevar,No
+1439,58,Female,148438,Rarely,92.5964,Indian,Breakfast,4,Celebration,Dine-in,0,0,0,18.7205,4,1,2,0,2.3333,Femenino,En el local,No
+1440,31,Male,113230,Monthly,161.2368,Mexican,Breakfast,4,Casual,Takeaway,0,1,1,50.9113,5,4,4,0,4.3333,Masculino,Para llevar,No
+1441,25,Male,81110,Monthly,26.2349,Mexican,Breakfast,3,Casual,Takeaway,0,0,0,12.7292,2,1,3,0,2.0,Masculino,Para llevar,No
+1442,21,Female,147705,Weekly,20.6547,American,Dinner,5,Casual,Takeaway,1,0,1,11.311,2,4,1,0,2.3333,Femenino,Para llevar,No
+1443,37,Female,142450,Rarely,40.4029,Mexican,Dinner,7,Casual,Dine-in,0,0,0,27.7298,2,5,5,0,4.0,Femenino,En el local,No
+1444,60,Male,34207,Monthly,64.0544,Italian,Breakfast,7,Business,Dine-in,0,1,1,36.5357,1,3,4,0,2.6667,Masculino,En el local,No
+1445,64,Female,71395,Weekly,122.0998,American,Breakfast,3,Casual,Takeaway,0,0,1,59.7089,5,4,3,0,4.0,Femenino,Para llevar,No
+1446,21,Male,111884,Rarely,152.5819,Italian,Dinner,9,Business,Dine-in,0,1,0,22.7766,3,4,2,0,3.0,Masculino,En el local,No
+1447,19,Male,81762,Rarely,173.1934,Italian,Lunch,8,Business,Takeaway,0,1,1,9.2638,3,2,1,0,2.0,Masculino,Para llevar,No
+1448,34,Male,100198,Rarely,46.4253,Indian,Breakfast,4,Casual,Dine-in,0,0,1,51.9339,4,3,2,0,3.0,Masculino,En el local,No
+1449,60,Male,74202,Daily,54.8489,Mexican,Dinner,9,Celebration,Dine-in,0,0,0,48.0285,3,4,2,0,3.0,Masculino,En el local,No
+1450,37,Male,47879,Weekly,181.3029,Chinese,Lunch,8,Casual,Takeaway,1,1,1,15.9965,5,2,4,0,3.6667,Masculino,Para llevar,No
+1451,19,Female,101462,Monthly,11.7046,American,Lunch,4,Celebration,Dine-in,1,0,0,1.9225,5,2,4,0,3.6667,Femenino,En el local,No
+1452,40,Female,54900,Weekly,41.3966,Indian,Lunch,6,Celebration,Takeaway,0,1,1,10.9157,3,5,2,0,3.3333,Femenino,Para llevar,No
+1453,46,Male,128675,Monthly,61.7864,Italian,Dinner,9,Business,Takeaway,1,0,0,9.9277,1,1,2,0,1.3333,Masculino,Para llevar,No
+1454,44,Male,32810,Rarely,12.7612,Indian,Lunch,1,Celebration,Takeaway,0,0,0,18.092,4,5,4,0,4.3333,Masculino,Para llevar,No
+1455,62,Male,56425,Daily,70.9674,Chinese,Lunch,9,Celebration,Dine-in,0,0,1,52.6442,4,3,2,0,3.0,Masculino,En el local,No
+1456,55,Male,44155,Daily,89.6968,Italian,Dinner,4,Business,Dine-in,1,1,1,18.5151,3,2,5,1,3.3333,Masculino,En el local,Sí
+1457,34,Female,138842,Weekly,162.9549,Indian,Dinner,8,Celebration,Dine-in,1,0,1,4.2286,1,5,3,1,3.0,Femenino,En el local,Sí
+1458,41,Male,62402,Weekly,145.1363,Mexican,Dinner,9,Celebration,Takeaway,0,0,1,41.3333,5,1,5,0,3.6667,Masculino,Para llevar,No
+1459,29,Female,106781,Rarely,181.9647,Mexican,Breakfast,2,Business,Takeaway,0,1,1,27.7858,2,2,3,0,2.3333,Femenino,Para llevar,No
+1460,36,Male,27802,Monthly,109.2259,Mexican,Breakfast,3,Business,Takeaway,0,0,1,15.4581,2,2,3,0,2.3333,Masculino,Para llevar,No
+1461,41,Female,88918,Weekly,183.7552,Mexican,Dinner,9,Business,Takeaway,0,1,1,40.3012,4,5,3,0,4.0,Femenino,Para llevar,No
+1462,21,Female,84564,Rarely,176.5078,Italian,Dinner,4,Celebration,Dine-in,0,0,0,45.7409,1,2,5,0,2.6667,Femenino,En el local,No
+1463,36,Female,105520,Weekly,64.6025,Indian,Breakfast,3,Casual,Dine-in,0,0,0,43.6959,2,5,3,0,3.3333,Femenino,En el local,No
+1464,54,Female,101247,Daily,79.7997,Mexican,Lunch,1,Casual,Takeaway,0,0,0,7.7453,1,2,2,0,1.6667,Femenino,Para llevar,No
+1465,49,Female,20012,Weekly,158.6387,Italian,Dinner,5,Casual,Dine-in,0,1,1,17.1932,2,3,5,0,3.3333,Femenino,En el local,No
+1466,59,Male,31919,Monthly,16.4764,American,Breakfast,6,Casual,Dine-in,1,0,0,54.5825,4,4,5,0,4.3333,Masculino,En el local,No
+1467,19,Male,128360,Monthly,173.2426,Indian,Dinner,5,Business,Takeaway,0,0,1,10.9429,5,2,4,0,3.6667,Masculino,Para llevar,No
+1468,37,Male,56810,Weekly,173.9515,Chinese,Breakfast,2,Celebration,Takeaway,0,0,0,21.5293,5,5,4,1,4.6667,Masculino,Para llevar,Sí
+1469,34,Male,63881,Rarely,107.6832,Indian,Dinner,2,Casual,Takeaway,0,0,1,46.2939,3,1,5,0,3.0,Masculino,Para llevar,No
+1470,46,Female,127785,Monthly,197.2169,Indian,Breakfast,6,Casual,Takeaway,0,0,1,12.8257,3,1,2,0,2.0,Femenino,Para llevar,No
+1471,54,Female,134259,Daily,121.9762,Mexican,Breakfast,8,Celebration,Takeaway,1,1,1,9.5681,5,3,3,1,3.6667,Femenino,Para llevar,Sí
+1472,65,Male,138824,Rarely,110.7599,Italian,Dinner,8,Celebration,Dine-in,0,1,0,59.1766,4,3,2,0,3.0,Masculino,En el local,No
+1473,36,Female,42276,Weekly,87.9334,Mexican,Lunch,4,Business,Takeaway,1,0,0,1.6627,3,4,4,0,3.6667,Femenino,Para llevar,No
+1474,65,Male,110155,Weekly,41.3201,Chinese,Breakfast,3,Business,Dine-in,0,0,1,58.642,5,3,1,0,3.0,Masculino,En el local,No
+1475,54,Male,121292,Rarely,108.3547,Italian,Lunch,4,Casual,Takeaway,0,1,0,29.6911,2,1,2,0,1.6667,Masculino,Para llevar,No
+1476,68,Male,126601,Weekly,72.2048,American,Breakfast,4,Celebration,Dine-in,0,0,1,25.7529,2,4,4,1,3.3333,Masculino,En el local,Sí
+1477,36,Female,52458,Weekly,167.7333,Chinese,Breakfast,5,Casual,Takeaway,1,0,1,26.6788,4,2,3,0,3.0,Femenino,Para llevar,No
+1478,56,Male,123048,Rarely,119.0305,Mexican,Dinner,5,Celebration,Takeaway,0,0,0,25.6384,1,1,1,0,1.0,Masculino,Para llevar,No
+1479,36,Female,74992,Monthly,120.0227,Italian,Lunch,1,Business,Dine-in,0,0,1,21.89,3,3,5,0,3.6667,Femenino,En el local,No
+1480,36,Male,46377,Rarely,78.6762,Italian,Breakfast,9,Casual,Takeaway,0,0,1,47.8717,3,5,5,0,4.3333,Masculino,Para llevar,No
+1481,43,Female,133014,Weekly,103.5358,Chinese,Dinner,9,Celebration,Takeaway,1,1,0,49.8372,4,4,2,0,3.3333,Femenino,Para llevar,No
+1482,56,Male,114665,Monthly,135.0004,Indian,Dinner,5,Celebration,Dine-in,0,1,0,57.8519,2,4,2,0,2.6667,Masculino,En el local,No
+1483,40,Male,137658,Daily,10.3061,Indian,Breakfast,1,Celebration,Takeaway,0,0,0,21.1117,2,3,4,0,3.0,Masculino,Para llevar,No
+1484,31,Female,123053,Monthly,92.7305,Chinese,Breakfast,2,Celebration,Takeaway,0,0,1,2.4573,2,5,3,0,3.3333,Femenino,Para llevar,No
+1485,45,Male,97250,Weekly,103.3474,American,Breakfast,7,Casual,Dine-in,1,1,1,10.8825,1,5,5,1,3.6667,Masculino,En el local,Sí
+1486,19,Female,148335,Rarely,97.7915,Chinese,Lunch,4,Business,Takeaway,0,0,1,2.8861,1,3,1,0,1.6667,Femenino,Para llevar,No
+1487,24,Male,141512,Rarely,15.0387,Indian,Dinner,4,Celebration,Takeaway,0,0,0,16.7081,1,4,5,0,3.3333,Masculino,Para llevar,No
+1488,27,Male,142392,Weekly,129.8618,Italian,Breakfast,3,Business,Dine-in,1,0,0,27.3065,3,4,5,1,4.0,Masculino,En el local,Sí
+1489,25,Male,149296,Monthly,127.464,American,Dinner,5,Business,Dine-in,0,1,0,23.1463,4,4,1,0,3.0,Masculino,En el local,No
+1490,43,Female,24551,Monthly,147.3447,Mexican,Lunch,3,Casual,Dine-in,0,1,0,6.2681,2,2,5,0,3.0,Femenino,En el local,No
+1491,46,Female,78259,Weekly,86.4038,Chinese,Breakfast,4,Casual,Dine-in,0,1,1,27.6305,5,1,3,1,3.0,Femenino,En el local,Sí
+1492,65,Female,75623,Weekly,132.167,Indian,Breakfast,8,Celebration,Takeaway,1,0,1,7.652,4,5,5,1,4.6667,Femenino,Para llevar,Sí
+1493,23,Male,115806,Rarely,97.0557,Italian,Breakfast,9,Celebration,Dine-in,1,1,1,31.4322,4,4,3,1,3.6667,Masculino,En el local,Sí
+1494,19,Male,111655,Daily,112.7392,Chinese,Lunch,9,Casual,Takeaway,1,1,1,3.6717,1,4,1,0,2.0,Masculino,Para llevar,No
+1495,47,Male,76724,Monthly,43.6595,Indian,Breakfast,6,Business,Dine-in,1,1,1,25.2439,4,5,1,0,3.3333,Masculino,En el local,No
+1496,63,Female,57295,Monthly,156.2108,Mexican,Lunch,5,Celebration,Dine-in,0,0,1,31.0966,5,1,5,0,3.6667,Femenino,En el local,No
+1497,36,Female,135359,Monthly,40.1867,Mexican,Dinner,5,Casual,Dine-in,0,0,0,49.68,4,5,3,0,4.0,Femenino,En el local,No
+1498,21,Female,78400,Monthly,114.2062,Chinese,Breakfast,6,Casual,Dine-in,0,0,0,14.465,2,3,4,0,3.0,Femenino,En el local,No
+1499,61,Female,60147,Weekly,66.1707,American,Dinner,2,Celebration,Dine-in,1,1,0,9.8724,2,4,4,1,3.3333,Femenino,En el local,Sí
+1500,66,Female,35593,Monthly,48.5165,Mexican,Lunch,9,Casual,Takeaway,0,0,0,50.333,1,3,3,0,2.3333,Femenino,Para llevar,No
+1501,26,Male,109229,Monthly,177.4597,Indian,Breakfast,9,Celebration,Takeaway,0,1,0,31.1128,5,3,4,0,4.0,Masculino,Para llevar,No
+1502,37,Female,97187,Rarely,77.0076,Italian,Lunch,6,Casual,Takeaway,0,0,0,28.2408,3,4,3,0,3.3333,Femenino,Para llevar,No
+1503,61,Female,103362,Monthly,13.0196,Italian,Dinner,4,Casual,Dine-in,1,1,1,46.2066,5,3,5,0,4.3333,Femenino,En el local,No
+1504,24,Female,91710,Weekly,190.8068,American,Dinner,4,Business,Takeaway,0,0,0,26.8434,2,5,4,0,3.6667,Femenino,Para llevar,No
+1505,47,Male,122351,Monthly,94.1277,Indian,Lunch,7,Casual,Takeaway,0,1,0,10.1749,3,3,5,0,3.6667,Masculino,Para llevar,No
+1506,65,Female,54196,Monthly,188.8234,Italian,Breakfast,4,Celebration,Dine-in,0,0,0,52.9492,5,4,5,0,4.6667,Femenino,En el local,No
+1507,30,Male,107646,Weekly,23.7652,Chinese,Dinner,3,Casual,Takeaway,0,0,0,17.3535,1,5,2,0,2.6667,Masculino,Para llevar,No
+1508,46,Male,122931,Daily,112.264,American,Lunch,9,Celebration,Takeaway,0,0,1,7.1064,2,2,5,0,3.0,Masculino,Para llevar,No
+1509,26,Female,149692,Weekly,110.4486,Mexican,Dinner,5,Casual,Dine-in,0,0,1,46.0953,5,2,1,0,2.6667,Femenino,En el local,No
+1510,69,Female,49875,Daily,148.0962,Mexican,Lunch,9,Celebration,Dine-in,1,1,1,44.3545,3,3,2,0,2.6667,Femenino,En el local,No
+1511,46,Female,141448,Monthly,69.3214,American,Lunch,8,Celebration,Dine-in,0,0,1,11.0337,2,2,1,0,1.6667,Femenino,En el local,No
+1512,24,Male,37896,Weekly,92.7134,Mexican,Dinner,2,Casual,Dine-in,0,0,1,15.7578,3,4,5,0,4.0,Masculino,En el local,No
+1513,54,Female,85775,Weekly,110.7738,Mexican,Dinner,6,Casual,Dine-in,0,0,0,25.2641,2,5,1,0,2.6667,Femenino,En el local,No
+1514,39,Female,105672,Weekly,107.9991,American,Breakfast,9,Casual,Dine-in,0,0,1,28.0458,5,5,4,1,4.6667,Femenino,En el local,Sí
+1515,40,Male,149875,Weekly,116.2793,Indian,Lunch,8,Celebration,Dine-in,1,1,0,36.2723,3,4,3,0,3.3333,Masculino,En el local,No
+1516,65,Male,143137,Monthly,178.083,Chinese,Breakfast,8,Celebration,Takeaway,0,1,1,56.5722,5,5,1,0,3.6667,Masculino,Para llevar,No
+1517,54,Female,22033,Rarely,54.5819,Italian,Dinner,7,Business,Dine-in,0,0,0,0.503,4,4,4,0,4.0,Femenino,En el local,No
+1518,61,Male,21255,Weekly,185.289,Indian,Breakfast,7,Celebration,Dine-in,1,1,1,56.905,3,2,5,0,3.3333,Masculino,En el local,No
+1519,18,Female,103045,Rarely,103.1933,Mexican,Dinner,1,Celebration,Dine-in,0,0,0,58.9797,3,1,1,0,1.6667,Femenino,En el local,No
+1520,69,Male,24091,Rarely,141.9804,Mexican,Lunch,5,Business,Takeaway,0,1,1,7.0474,1,3,2,0,2.0,Masculino,Para llevar,No
+1521,44,Male,81973,Monthly,42.9769,American,Dinner,4,Business,Takeaway,1,0,0,21.4677,5,4,3,0,4.0,Masculino,Para llevar,No
+1522,57,Male,115715,Monthly,61.0083,Chinese,Dinner,1,Business,Dine-in,0,1,1,4.7186,2,1,5,0,2.6667,Masculino,En el local,No
+1523,33,Male,142639,Weekly,12.7203,Chinese,Dinner,8,Casual,Takeaway,0,0,0,10.6772,3,2,1,0,2.0,Masculino,Para llevar,No
+1524,39,Female,108463,Monthly,144.5681,Mexican,Lunch,9,Business,Dine-in,0,0,1,21.1041,3,4,2,0,3.0,Femenino,En el local,No
+1525,68,Female,119506,Weekly,144.1902,Italian,Lunch,7,Casual,Dine-in,0,1,1,59.4267,2,4,3,0,3.0,Femenino,En el local,No
+1526,28,Female,125658,Rarely,62.5492,American,Dinner,4,Business,Takeaway,0,0,1,57.623,3,5,2,0,3.3333,Femenino,Para llevar,No
+1527,35,Female,111925,Weekly,101.1093,Italian,Breakfast,3,Business,Takeaway,1,1,0,55.4848,5,3,1,0,3.0,Femenino,Para llevar,No
+1528,32,Female,135133,Monthly,43.0273,Chinese,Breakfast,2,Casual,Dine-in,1,1,0,38.8686,5,2,5,0,4.0,Femenino,En el local,No
+1529,60,Female,36751,Rarely,59.543,Mexican,Lunch,5,Celebration,Takeaway,0,0,1,57.5118,3,1,4,0,2.6667,Femenino,Para llevar,No
+1530,65,Male,141511,Weekly,28.5289,Indian,Lunch,2,Business,Dine-in,0,0,1,0.9819,2,1,4,0,2.3333,Masculino,En el local,No
+1531,24,Female,107139,Weekly,89.8356,Italian,Dinner,8,Celebration,Takeaway,0,1,0,49.9754,1,2,5,0,2.6667,Femenino,Para llevar,No
+1532,51,Male,89971,Daily,55.4901,Italian,Dinner,5,Casual,Takeaway,0,0,1,43.3452,3,4,3,0,3.3333,Masculino,Para llevar,No
+1533,25,Male,34376,Daily,184.2614,Indian,Breakfast,1,Celebration,Takeaway,0,0,1,57.5413,4,1,1,0,2.0,Masculino,Para llevar,No
+1534,66,Female,31297,Monthly,94.2707,Chinese,Dinner,3,Celebration,Takeaway,0,1,1,54.0473,2,5,2,0,3.0,Femenino,Para llevar,No
+1535,23,Female,95587,Weekly,94.8507,Mexican,Breakfast,9,Business,Takeaway,1,1,1,15.6096,5,5,1,1,3.6667,Femenino,Para llevar,Sí
+1536,61,Male,130832,Weekly,91.8596,Mexican,Lunch,8,Casual,Dine-in,0,0,1,41.6653,4,2,5,0,3.6667,Masculino,En el local,No
+1537,64,Male,25500,Weekly,198.4893,American,Breakfast,8,Business,Takeaway,1,0,0,52.721,5,1,1,0,2.3333,Masculino,Para llevar,No
+1538,56,Male,149720,Weekly,51.8886,Chinese,Dinner,9,Business,Takeaway,0,1,0,1.773,2,4,1,0,2.3333,Masculino,Para llevar,No
+1539,55,Male,22297,Weekly,114.703,American,Breakfast,7,Casual,Takeaway,0,0,0,44.8047,2,1,4,0,2.3333,Masculino,Para llevar,No
+1540,23,Male,78962,Daily,168.3382,Chinese,Lunch,1,Celebration,Takeaway,1,1,0,3.3813,2,1,1,0,1.3333,Masculino,Para llevar,No
+1541,21,Female,68501,Weekly,46.8565,Mexican,Breakfast,3,Celebration,Dine-in,1,0,0,27.6061,4,5,1,1,3.3333,Femenino,En el local,Sí
+1542,44,Male,28582,Weekly,63.8132,American,Dinner,7,Casual,Dine-in,1,1,0,26.0346,2,4,4,0,3.3333,Masculino,En el local,No
+1543,18,Male,133720,Monthly,47.8747,Mexican,Lunch,1,Casual,Takeaway,0,1,0,12.3081,1,3,3,0,2.3333,Masculino,Para llevar,No
+1544,19,Female,113705,Weekly,53.3225,Indian,Breakfast,6,Business,Dine-in,1,0,0,21.1575,5,3,1,0,3.0,Femenino,En el local,No
+1545,43,Female,38899,Weekly,111.4382,American,Breakfast,3,Business,Dine-in,1,1,1,41.8177,4,1,1,0,2.0,Femenino,En el local,No
+1546,25,Female,112619,Weekly,148.5677,American,Breakfast,6,Casual,Dine-in,0,0,0,28.3691,4,4,5,0,4.3333,Femenino,En el local,No
+1547,61,Female,68472,Weekly,118.4204,Indian,Dinner,5,Celebration,Takeaway,0,0,0,9.9288,5,3,3,0,3.6667,Femenino,Para llevar,No
+1548,63,Male,136199,Weekly,174.77,Italian,Dinner,6,Casual,Takeaway,0,0,1,26.3373,3,5,4,0,4.0,Masculino,Para llevar,No
+1549,38,Male,98194,Weekly,60.0862,Mexican,Breakfast,4,Casual,Dine-in,0,1,1,11.7326,1,4,3,1,2.6667,Masculino,En el local,Sí
+1550,56,Female,144894,Weekly,32.1068,Chinese,Breakfast,9,Business,Takeaway,0,1,1,9.9602,5,5,4,0,4.6667,Femenino,Para llevar,No
+1551,21,Female,136315,Rarely,61.363,Mexican,Breakfast,6,Celebration,Takeaway,0,1,0,26.1471,5,5,4,0,4.6667,Femenino,Para llevar,No
+1552,23,Male,21547,Weekly,110.0396,American,Dinner,5,Business,Dine-in,0,1,0,41.8933,5,2,3,0,3.3333,Masculino,En el local,No
+1553,43,Male,139813,Weekly,132.176,Italian,Dinner,3,Celebration,Dine-in,1,1,0,3.6901,2,2,2,1,2.0,Masculino,En el local,Sí
+1554,54,Male,103833,Monthly,186.1916,Chinese,Dinner,4,Business,Takeaway,1,0,0,32.0406,3,5,1,0,3.0,Masculino,Para llevar,No
+1555,19,Female,27363,Weekly,93.4641,Chinese,Lunch,7,Business,Takeaway,0,0,0,44.318,1,4,3,0,2.6667,Femenino,Para llevar,No
+1556,21,Female,118917,Rarely,39.3271,Indian,Breakfast,6,Business,Dine-in,0,1,1,30.8649,3,5,5,0,4.3333,Femenino,En el local,No
+1557,39,Male,131429,Weekly,72.4027,Chinese,Breakfast,7,Celebration,Takeaway,0,1,0,44.3839,3,2,4,0,3.0,Masculino,Para llevar,No
+1558,45,Female,45842,Monthly,14.0056,Italian,Breakfast,7,Celebration,Takeaway,1,1,1,7.8436,1,3,4,0,2.6667,Femenino,Para llevar,No
+1559,59,Male,72005,Rarely,92.7831,Italian,Breakfast,2,Celebration,Takeaway,0,1,0,0.1628,3,2,2,0,2.3333,Masculino,Para llevar,No
+1560,53,Male,48397,Weekly,121.9417,Indian,Dinner,8,Celebration,Takeaway,0,0,1,5.1156,4,2,2,0,2.6667,Masculino,Para llevar,No
+1561,18,Female,64494,Weekly,142.6644,Chinese,Lunch,9,Casual,Takeaway,0,1,1,53.1969,4,3,1,0,2.6667,Femenino,Para llevar,No
+1562,59,Female,109679,Weekly,56.6762,American,Dinner,8,Celebration,Takeaway,1,1,1,14.6328,2,3,3,0,2.6667,Femenino,Para llevar,No
+1563,69,Male,29690,Monthly,31.6006,Chinese,Breakfast,1,Casual,Dine-in,1,0,0,54.4269,4,4,2,0,3.3333,Masculino,En el local,No
+1564,45,Female,75974,Daily,160.8956,Italian,Dinner,2,Celebration,Dine-in,0,1,1,47.945,5,1,5,1,3.6667,Femenino,En el local,Sí
+1565,31,Male,61048,Weekly,154.221,Indian,Breakfast,3,Celebration,Takeaway,0,0,1,50.0253,5,5,2,0,4.0,Masculino,Para llevar,No
+1566,66,Female,104867,Weekly,96.4277,Mexican,Dinner,3,Casual,Takeaway,1,0,1,44.8546,4,4,2,0,3.3333,Femenino,Para llevar,No
+1567,33,Male,143546,Rarely,147.8786,Italian,Dinner,5,Celebration,Takeaway,0,1,0,11.9394,5,1,4,0,3.3333,Masculino,Para llevar,No
+1568,63,Male,35533,Rarely,161.7822,Chinese,Lunch,2,Casual,Dine-in,0,1,1,49.3719,4,2,3,0,3.0,Masculino,En el local,No
+1569,24,Female,21776,Weekly,121.3515,Chinese,Breakfast,8,Celebration,Dine-in,0,0,0,38.4717,2,1,5,0,2.6667,Femenino,En el local,No
+1570,19,Female,58718,Weekly,134.9392,Indian,Lunch,9,Celebration,Takeaway,1,0,0,1.9813,5,4,1,0,3.3333,Femenino,Para llevar,No
+1571,27,Male,76018,Monthly,110.7841,Indian,Lunch,2,Celebration,Dine-in,0,1,0,31.204,2,2,1,0,1.6667,Masculino,En el local,No
+1572,38,Female,140359,Weekly,84.1567,Chinese,Breakfast,5,Casual,Takeaway,0,0,0,40.7139,3,4,2,0,3.0,Femenino,Para llevar,No
+1573,59,Male,57770,Daily,12.1911,Indian,Dinner,2,Casual,Takeaway,1,1,0,49.2069,1,3,4,0,2.6667,Masculino,Para llevar,No
+1574,56,Male,147065,Rarely,100.3828,American,Lunch,5,Casual,Takeaway,0,0,0,13.5247,5,2,4,0,3.6667,Masculino,Para llevar,No
+1575,41,Female,55059,Monthly,114.7308,Indian,Lunch,6,Casual,Dine-in,0,0,0,31.8421,3,5,1,0,3.0,Femenino,En el local,No
+1576,39,Male,28573,Monthly,59.2174,Mexican,Breakfast,8,Business,Dine-in,1,0,1,13.3655,4,3,4,0,3.6667,Masculino,En el local,No
+1577,56,Male,64383,Monthly,64.5565,Chinese,Breakfast,6,Celebration,Takeaway,1,0,0,59.1204,1,1,5,0,2.3333,Masculino,Para llevar,No
+1578,57,Male,34584,Daily,127.3332,Italian,Breakfast,5,Casual,Takeaway,1,0,1,25.1259,1,1,5,0,2.3333,Masculino,Para llevar,No
+1579,43,Female,122235,Monthly,39.1771,Indian,Dinner,1,Casual,Dine-in,0,1,0,52.8497,1,1,2,0,1.3333,Femenino,En el local,No
+1580,66,Female,85042,Monthly,75.8527,Italian,Lunch,7,Celebration,Dine-in,0,1,1,7.9418,2,5,2,0,3.0,Femenino,En el local,No
+1581,28,Male,111852,Daily,28.6378,Mexican,Breakfast,3,Celebration,Takeaway,0,0,1,50.3485,5,3,5,0,4.3333,Masculino,Para llevar,No
+1582,32,Female,143434,Daily,182.8869,Chinese,Breakfast,8,Celebration,Takeaway,0,0,0,34.952,4,4,5,0,4.3333,Femenino,Para llevar,No
+1583,21,Female,143366,Weekly,170.9256,Chinese,Dinner,3,Casual,Takeaway,0,1,1,33.8572,3,2,1,0,2.0,Femenino,Para llevar,No
+1584,32,Female,102527,Weekly,119.0065,Mexican,Lunch,3,Celebration,Takeaway,0,0,0,46.8328,3,3,5,0,3.6667,Femenino,Para llevar,No
+1585,42,Female,95678,Weekly,85.5193,American,Breakfast,9,Casual,Dine-in,1,0,0,55.406,3,4,1,0,2.6667,Femenino,En el local,No
+1586,56,Female,87771,Rarely,30.5006,Chinese,Lunch,2,Celebration,Takeaway,0,0,0,20.6286,1,2,5,0,2.6667,Femenino,Para llevar,No
+1587,26,Male,128626,Daily,123.2147,Mexican,Lunch,9,Celebration,Takeaway,1,0,1,30.4582,2,3,2,0,2.3333,Masculino,Para llevar,No
+1588,67,Female,146922,Weekly,102.2687,Indian,Breakfast,6,Celebration,Dine-in,1,0,0,22.5285,2,1,5,0,2.6667,Femenino,En el local,No
+1589,65,Female,141793,Monthly,127.4515,Mexican,Breakfast,5,Celebration,Takeaway,0,0,0,43.108,3,4,4,0,3.6667,Femenino,Para llevar,No
+1590,28,Female,39440,Daily,46.0151,Mexican,Breakfast,1,Casual,Dine-in,1,1,1,2.9874,3,5,4,1,4.0,Femenino,En el local,Sí
+1591,64,Female,99384,Monthly,131.3015,Italian,Breakfast,4,Business,Takeaway,0,0,0,47.7002,5,3,1,0,3.0,Femenino,Para llevar,No
+1592,42,Male,107593,Weekly,60.4444,Mexican,Lunch,7,Business,Dine-in,1,1,1,35.8646,2,4,2,0,2.6667,Masculino,En el local,No
+1593,32,Male,24011,Rarely,76.1049,Mexican,Dinner,6,Business,Dine-in,0,1,1,40.3989,2,5,2,0,3.0,Masculino,En el local,No
+1594,50,Female,44428,Rarely,187.6458,Chinese,Lunch,4,Business,Takeaway,0,1,1,3.6827,1,2,5,0,2.6667,Femenino,Para llevar,No
+1595,45,Female,96495,Rarely,29.2064,Chinese,Lunch,5,Business,Dine-in,1,0,0,10.2031,5,5,3,0,4.3333,Femenino,En el local,No
+1596,33,Male,116304,Rarely,156.6717,Chinese,Lunch,9,Casual,Dine-in,0,0,0,17.8366,3,5,1,0,3.0,Masculino,En el local,No
+1597,28,Male,109177,Rarely,134.7802,Mexican,Dinner,2,Casual,Dine-in,0,1,0,8.1108,4,3,1,0,2.6667,Masculino,En el local,No
+1598,56,Male,135985,Weekly,144.7111,American,Lunch,6,Business,Takeaway,0,0,1,56.4033,1,1,5,0,2.3333,Masculino,Para llevar,No
+1599,26,Male,147643,Weekly,101.6696,Chinese,Lunch,5,Casual,Dine-in,1,0,1,10.4652,5,4,4,1,4.3333,Masculino,En el local,Sí
+1600,59,Female,24248,Weekly,190.3428,Italian,Lunch,5,Celebration,Dine-in,0,1,0,30.1529,4,2,1,0,2.3333,Femenino,En el local,No
+1601,65,Female,55794,Rarely,45.2866,Chinese,Lunch,8,Business,Takeaway,0,1,1,4.0168,1,5,5,0,3.6667,Femenino,Para llevar,No
+1602,66,Male,146812,Rarely,151.4117,American,Lunch,1,Celebration,Takeaway,0,1,0,41.8041,1,1,3,0,1.6667,Masculino,Para llevar,No
+1603,59,Male,69161,Weekly,184.4538,Mexican,Dinner,8,Casual,Dine-in,1,0,0,19.7336,2,2,1,0,1.6667,Masculino,En el local,No
+1604,26,Female,55076,Weekly,14.0389,Indian,Lunch,7,Casual,Dine-in,0,0,1,49.7049,4,4,2,0,3.3333,Femenino,En el local,No
+1605,67,Male,126601,Rarely,130.3316,Chinese,Breakfast,6,Celebration,Dine-in,0,0,0,5.9195,1,2,4,0,2.3333,Masculino,En el local,No
+1606,61,Female,86904,Weekly,149.7983,Indian,Lunch,4,Business,Dine-in,0,0,0,3.7176,4,2,5,0,3.6667,Femenino,En el local,No
+1607,32,Male,36001,Monthly,115.0478,Italian,Dinner,2,Celebration,Dine-in,1,1,0,35.6689,1,1,2,0,1.3333,Masculino,En el local,No
+1608,35,Female,105274,Rarely,191.3735,Italian,Breakfast,1,Business,Takeaway,0,1,1,38.4871,2,2,4,0,2.6667,Femenino,Para llevar,No
+1609,65,Female,115678,Monthly,106.234,American,Lunch,6,Casual,Takeaway,0,1,1,37.82,2,2,2,0,2.0,Femenino,Para llevar,No
+1610,68,Male,112192,Weekly,62.3003,Mexican,Lunch,8,Business,Dine-in,1,1,1,41.8198,5,5,5,1,5.0,Masculino,En el local,Sí
+1611,52,Male,53917,Daily,83.8645,Chinese,Breakfast,3,Business,Dine-in,0,1,1,53.4723,2,5,2,0,3.0,Masculino,En el local,No
+1612,32,Male,121906,Weekly,30.2577,Indian,Dinner,4,Celebration,Dine-in,0,0,0,55.7853,4,5,3,0,4.0,Masculino,En el local,No
+1613,44,Female,110830,Rarely,118.2831,Mexican,Breakfast,6,Casual,Takeaway,0,1,1,51.6931,5,3,3,0,3.6667,Femenino,Para llevar,No
+1614,41,Female,124737,Monthly,198.9715,Mexican,Lunch,9,Business,Dine-in,0,1,0,16.7895,3,5,1,0,3.0,Femenino,En el local,No
+1615,31,Female,80273,Weekly,93.383,Mexican,Dinner,5,Casual,Takeaway,0,0,1,29.5791,1,4,2,0,2.3333,Femenino,Para llevar,No
+1616,21,Female,132549,Rarely,50.7289,Chinese,Dinner,1,Casual,Dine-in,0,1,1,47.6938,1,2,3,0,2.0,Femenino,En el local,No
+1617,47,Female,74443,Weekly,185.5522,Indian,Breakfast,4,Business,Dine-in,0,0,0,44.5731,1,3,5,0,3.0,Femenino,En el local,No
+1618,34,Female,94230,Rarely,24.33,Chinese,Lunch,7,Casual,Takeaway,1,0,0,11.1654,3,1,1,0,1.6667,Femenino,Para llevar,No
+1619,19,Female,126012,Daily,105.3753,Italian,Breakfast,1,Celebration,Takeaway,0,0,0,37.7026,4,3,2,0,3.0,Femenino,Para llevar,No
+1620,57,Female,99346,Weekly,70.3483,American,Breakfast,3,Casual,Dine-in,0,1,1,14.2111,4,2,2,1,2.6667,Femenino,En el local,Sí
+1621,45,Female,23533,Weekly,144.2003,Italian,Lunch,9,Celebration,Dine-in,0,1,0,7.7959,5,2,4,0,3.6667,Femenino,En el local,No
+1622,38,Male,64091,Weekly,57.5769,Italian,Lunch,2,Celebration,Takeaway,1,1,1,27.3342,2,3,1,1,2.0,Masculino,Para llevar,Sí
+1623,39,Male,126059,Daily,20.1352,Chinese,Breakfast,8,Casual,Takeaway,0,1,0,40.7199,5,3,5,0,4.3333,Masculino,Para llevar,No
+1624,63,Female,111672,Weekly,43.9071,Indian,Lunch,1,Celebration,Dine-in,0,1,1,30.8874,2,5,4,1,3.6667,Femenino,En el local,Sí
+1625,69,Male,141562,Rarely,108.0376,Italian,Dinner,3,Celebration,Dine-in,0,1,1,42.3795,1,1,1,0,1.0,Masculino,En el local,No
+1626,34,Male,119511,Weekly,143.3849,American,Lunch,4,Casual,Takeaway,1,0,0,17.1464,1,3,2,0,2.0,Masculino,Para llevar,No
+1627,32,Male,103209,Weekly,103.9948,Italian,Breakfast,1,Celebration,Takeaway,0,1,0,5.1556,5,3,3,0,3.6667,Masculino,Para llevar,No
+1628,65,Male,49626,Monthly,168.2263,Mexican,Breakfast,2,Business,Dine-in,0,1,0,56.2181,3,5,4,0,4.0,Masculino,En el local,No
+1629,40,Male,111611,Weekly,156.6088,Mexican,Breakfast,6,Celebration,Dine-in,0,1,1,31.1028,1,4,3,0,2.6667,Masculino,En el local,No
+1630,58,Female,142324,Monthly,125.2191,Indian,Dinner,7,Celebration,Dine-in,0,1,0,57.1207,3,5,2,0,3.3333,Femenino,En el local,No
+1631,25,Female,119378,Rarely,179.0447,Chinese,Breakfast,5,Casual,Takeaway,0,1,1,4.8894,4,4,2,0,3.3333,Femenino,Para llevar,No
+1632,34,Male,20381,Weekly,12.837,Chinese,Breakfast,1,Celebration,Dine-in,1,1,1,10.87,3,1,2,0,2.0,Masculino,En el local,No
+1633,62,Male,82426,Weekly,103.1673,Indian,Breakfast,7,Casual,Takeaway,0,0,0,28.6986,2,4,4,0,3.3333,Masculino,Para llevar,No
+1634,51,Male,53853,Rarely,74.3905,Mexican,Breakfast,9,Celebration,Dine-in,0,1,0,54.3812,5,4,1,0,3.3333,Masculino,En el local,No
+1635,39,Male,148048,Weekly,96.9382,Indian,Lunch,7,Celebration,Dine-in,0,0,1,31.7685,5,4,3,0,4.0,Masculino,En el local,No
+1636,20,Male,48167,Monthly,85.4793,Mexican,Breakfast,3,Celebration,Takeaway,0,1,0,39.0849,1,2,1,0,1.3333,Masculino,Para llevar,No
+1637,58,Female,108236,Weekly,166.768,Indian,Breakfast,2,Business,Takeaway,0,0,0,48.008,3,3,3,0,3.0,Femenino,Para llevar,No
+1638,52,Male,84329,Weekly,108.9414,Mexican,Dinner,5,Casual,Takeaway,0,0,0,41.9088,3,1,1,0,1.6667,Masculino,Para llevar,No
+1639,67,Male,78267,Weekly,190.4684,Mexican,Dinner,6,Casual,Dine-in,1,0,0,45.4639,3,1,1,0,1.6667,Masculino,En el local,No
+1640,52,Male,109256,Weekly,175.546,Chinese,Breakfast,2,Casual,Takeaway,0,0,0,32.4244,5,2,4,0,3.6667,Masculino,Para llevar,No
+1641,44,Male,136833,Rarely,98.608,Chinese,Lunch,2,Casual,Dine-in,0,1,0,16.2689,5,2,5,0,4.0,Masculino,En el local,No
+1642,41,Male,101756,Rarely,99.8638,Italian,Lunch,7,Celebration,Dine-in,1,0,0,52.3008,4,1,2,0,2.3333,Masculino,En el local,No
+1643,21,Male,93295,Monthly,198.8131,Italian,Lunch,3,Casual,Takeaway,1,1,0,26.4233,1,5,2,0,2.6667,Masculino,Para llevar,No
+1644,33,Female,137035,Weekly,117.613,Mexican,Dinner,9,Business,Dine-in,1,1,0,38.5871,1,4,5,0,3.3333,Femenino,En el local,No
+1645,42,Female,60411,Daily,149.9074,Indian,Breakfast,1,Business,Dine-in,0,0,0,6.6564,3,2,1,0,2.0,Femenino,En el local,No
+1646,37,Female,54251,Weekly,143.6832,Chinese,Breakfast,7,Casual,Dine-in,0,0,0,33.9675,1,5,5,0,3.6667,Femenino,En el local,No
+1647,40,Male,97473,Weekly,78.5667,Chinese,Breakfast,3,Celebration,Dine-in,1,1,1,54.9295,4,5,2,1,3.6667,Masculino,En el local,Sí
+1648,60,Male,115060,Monthly,134.5576,Italian,Lunch,4,Celebration,Takeaway,1,1,0,37.8097,2,5,5,0,4.0,Masculino,Para llevar,No
+1649,59,Female,95332,Monthly,150.184,American,Dinner,9,Celebration,Dine-in,1,1,0,15.2221,5,4,3,1,4.0,Femenino,En el local,Sí
+1650,68,Female,62522,Monthly,67.7203,Mexican,Breakfast,2,Celebration,Takeaway,0,0,1,57.0915,2,1,1,0,1.3333,Femenino,Para llevar,No
+1651,18,Male,127069,Weekly,90.8987,Chinese,Dinner,7,Business,Dine-in,0,1,0,34.9463,2,2,3,0,2.3333,Masculino,En el local,No
+1652,20,Female,112421,Weekly,94.6095,Mexican,Dinner,1,Celebration,Takeaway,0,0,1,12.8757,3,5,4,1,4.0,Femenino,Para llevar,Sí
+1653,29,Female,40070,Daily,116.0404,Mexican,Dinner,1,Business,Dine-in,0,0,0,58.6752,1,5,5,0,3.6667,Femenino,En el local,No
+1654,57,Female,139738,Rarely,137.8329,Indian,Lunch,5,Celebration,Takeaway,0,0,1,22.1217,3,3,2,0,2.6667,Femenino,Para llevar,No
+1655,47,Female,40978,Rarely,64.0569,Mexican,Lunch,8,Celebration,Dine-in,0,1,0,13.6799,1,3,2,0,2.0,Femenino,En el local,No
+1656,20,Male,113518,Rarely,186.9232,American,Lunch,3,Business,Takeaway,0,0,0,19.3704,5,2,4,0,3.6667,Masculino,Para llevar,No
+1657,56,Female,146889,Monthly,163.0326,American,Lunch,8,Celebration,Takeaway,1,0,1,5.2756,1,3,2,0,2.0,Femenino,Para llevar,No
+1658,52,Female,119741,Rarely,106.7863,Chinese,Lunch,9,Celebration,Takeaway,0,0,1,27.6035,3,2,5,0,3.3333,Femenino,Para llevar,No
+1659,49,Female,71896,Monthly,149.853,American,Dinner,2,Casual,Dine-in,0,0,1,10.2077,2,5,2,0,3.0,Femenino,En el local,No
+1660,50,Male,22310,Weekly,57.076,Chinese,Lunch,4,Business,Dine-in,0,0,0,36.6746,4,3,1,0,2.6667,Masculino,En el local,No
+1661,50,Male,106183,Daily,156.5727,Chinese,Dinner,3,Business,Dine-in,0,1,0,51.7527,4,2,2,0,2.6667,Masculino,En el local,No
+1662,21,Female,85528,Weekly,28.6807,Mexican,Dinner,7,Casual,Dine-in,0,0,0,9.686,2,1,1,0,1.3333,Femenino,En el local,No
+1663,23,Male,141865,Rarely,51.7735,Italian,Dinner,8,Business,Dine-in,1,0,1,38.695,4,2,3,0,3.0,Masculino,En el local,No
+1664,31,Male,146678,Rarely,68.2429,Mexican,Breakfast,7,Celebration,Dine-in,1,1,1,12.0173,2,2,1,0,1.6667,Masculino,En el local,No
+1665,23,Female,130911,Weekly,29.3622,Chinese,Breakfast,6,Casual,Takeaway,0,1,0,18.8412,2,3,1,0,2.0,Femenino,Para llevar,No
+1666,38,Female,91480,Monthly,146.178,Chinese,Breakfast,8,Celebration,Takeaway,0,1,0,35.8661,4,3,1,0,2.6667,Femenino,Para llevar,No
+1667,45,Female,47391,Rarely,77.6353,American,Breakfast,6,Celebration,Dine-in,0,0,1,27.3649,5,3,4,0,4.0,Femenino,En el local,No
+1668,64,Male,85559,Weekly,92.162,Italian,Lunch,1,Business,Dine-in,0,0,0,26.7728,3,3,1,0,2.3333,Masculino,En el local,No
+1669,29,Female,53499,Monthly,62.2149,Indian,Dinner,7,Casual,Takeaway,0,1,1,6.6894,4,1,3,0,2.6667,Femenino,Para llevar,No
+1670,50,Male,119160,Weekly,49.6923,Chinese,Breakfast,1,Casual,Takeaway,0,1,0,50.661,4,1,1,0,2.0,Masculino,Para llevar,No
+1671,32,Female,62341,Monthly,168.1916,Italian,Breakfast,2,Business,Takeaway,0,0,0,16.6506,2,4,1,0,2.3333,Femenino,Para llevar,No
+1672,49,Male,25599,Daily,74.3687,Chinese,Lunch,1,Casual,Takeaway,0,0,0,57.7395,2,2,5,0,3.0,Masculino,Para llevar,No
+1673,49,Male,47125,Monthly,84.1089,American,Lunch,9,Celebration,Takeaway,1,0,1,46.8319,2,1,4,0,2.3333,Masculino,Para llevar,No
+1674,57,Male,75696,Weekly,14.4656,American,Lunch,9,Celebration,Dine-in,1,0,1,15.3814,3,3,5,0,3.6667,Masculino,En el local,No
+1675,49,Female,58354,Weekly,75.9142,Mexican,Lunch,7,Business,Dine-in,0,1,0,27.241,2,4,5,0,3.6667,Femenino,En el local,No
+1676,68,Female,122483,Weekly,67.3905,Mexican,Dinner,6,Casual,Dine-in,1,0,0,17.1964,2,4,3,0,3.0,Femenino,En el local,No
+1677,37,Male,91366,Daily,69.8954,Indian,Dinner,8,Business,Takeaway,0,0,1,14.8979,2,4,1,0,2.3333,Masculino,Para llevar,No
+1678,40,Female,119707,Weekly,29.7514,Chinese,Breakfast,3,Business,Takeaway,0,1,1,37.0591,5,2,1,0,2.6667,Femenino,Para llevar,No
+1679,23,Male,141766,Weekly,112.3956,Chinese,Dinner,1,Celebration,Takeaway,0,0,1,27.9885,4,3,2,0,3.0,Masculino,Para llevar,No
+1680,53,Male,100270,Rarely,164.0518,Mexican,Dinner,8,Casual,Takeaway,1,1,0,24.502,2,5,1,0,2.6667,Masculino,Para llevar,No
+1681,40,Female,138883,Monthly,133.4597,American,Lunch,1,Casual,Dine-in,1,0,1,18.4242,5,1,1,0,2.3333,Femenino,En el local,No
+1682,53,Male,139385,Weekly,66.5254,Mexican,Lunch,8,Celebration,Takeaway,0,0,1,22.8052,2,4,3,0,3.0,Masculino,Para llevar,No
+1683,54,Female,89908,Rarely,174.6776,Mexican,Lunch,4,Business,Dine-in,0,0,0,59.0003,5,2,4,0,3.6667,Femenino,En el local,No
+1684,18,Female,127039,Monthly,49.665,Indian,Breakfast,5,Celebration,Dine-in,0,0,0,41.5643,1,1,4,0,2.0,Femenino,En el local,No
+1685,63,Male,99163,Monthly,58.92,Chinese,Breakfast,3,Business,Dine-in,1,0,1,1.5474,3,5,2,0,3.3333,Masculino,En el local,No
+1686,39,Female,73692,Weekly,32.152,Indian,Breakfast,8,Business,Takeaway,0,0,0,30.9461,2,2,2,0,2.0,Femenino,Para llevar,No
+1687,33,Female,89413,Weekly,120.1588,Chinese,Lunch,8,Celebration,Takeaway,1,0,1,20.0041,5,5,1,1,3.6667,Femenino,Para llevar,Sí
+1688,45,Male,49734,Monthly,128.0222,American,Dinner,7,Business,Takeaway,0,1,0,0.7389,5,3,4,0,4.0,Masculino,Para llevar,No
+1689,29,Male,37774,Monthly,23.4871,Italian,Lunch,9,Celebration,Dine-in,0,0,1,28.3966,5,1,3,0,3.0,Masculino,En el local,No
+1690,23,Female,115111,Weekly,138.8861,Mexican,Lunch,8,Casual,Dine-in,0,0,0,42.1017,1,5,3,0,3.0,Femenino,En el local,No
+1691,48,Male,114505,Rarely,125.1732,Chinese,Lunch,1,Business,Takeaway,0,0,1,40.7551,3,1,1,0,1.6667,Masculino,Para llevar,No
+1692,56,Female,138573,Weekly,180.1604,American,Lunch,8,Celebration,Takeaway,0,0,0,9.304,4,5,2,0,3.6667,Femenino,Para llevar,No
+1693,34,Female,122001,Weekly,41.6338,Italian,Lunch,7,Business,Dine-in,0,1,0,16.5384,5,3,5,0,4.3333,Femenino,En el local,No
+1694,65,Male,115473,Daily,118.8236,Mexican,Breakfast,4,Business,Takeaway,0,0,1,15.9873,2,3,5,0,3.3333,Masculino,Para llevar,No
+1695,46,Female,84003,Monthly,77.799,Italian,Dinner,8,Celebration,Takeaway,0,0,0,34.541,4,5,1,0,3.3333,Femenino,Para llevar,No
+1696,31,Male,126324,Monthly,139.3343,Indian,Breakfast,2,Celebration,Dine-in,0,1,0,1.239,1,2,4,0,2.3333,Masculino,En el local,No
+1697,47,Male,114632,Monthly,126.494,American,Breakfast,9,Celebration,Dine-in,0,1,1,38.3925,2,4,1,0,2.3333,Masculino,En el local,No
+1698,19,Male,69552,Weekly,13.2132,Mexican,Breakfast,5,Business,Dine-in,0,1,1,9.8451,1,5,2,0,2.6667,Masculino,En el local,No
+1699,28,Male,40982,Weekly,38.9254,Indian,Dinner,2,Celebration,Dine-in,0,1,1,38.8215,3,3,3,0,3.0,Masculino,En el local,No
+1700,54,Female,48017,Rarely,54.8304,Mexican,Dinner,6,Celebration,Takeaway,1,1,1,26.1901,5,1,4,0,3.3333,Femenino,Para llevar,No
+1701,43,Female,22176,Daily,118.4198,Italian,Breakfast,1,Celebration,Dine-in,0,1,1,13.9864,3,5,3,1,3.6667,Femenino,En el local,Sí
+1702,40,Male,45033,Monthly,171.5211,American,Lunch,7,Celebration,Dine-in,0,0,0,17.7055,5,1,5,0,3.6667,Masculino,En el local,No
+1703,56,Female,69702,Daily,135.488,Italian,Lunch,9,Celebration,Dine-in,0,0,0,37.3945,3,3,3,0,3.0,Femenino,En el local,No
+1704,44,Female,60824,Weekly,143.3407,Mexican,Dinner,4,Celebration,Takeaway,0,1,1,43.9554,1,1,5,0,2.3333,Femenino,Para llevar,No
+1705,54,Female,68477,Monthly,70.3007,American,Dinner,8,Business,Takeaway,0,1,0,52.6049,2,4,3,0,3.0,Femenino,Para llevar,No
+1706,56,Female,142876,Rarely,136.3757,Mexican,Breakfast,8,Business,Dine-in,0,1,0,57.3182,4,1,3,0,2.6667,Femenino,En el local,No
+1707,61,Female,22836,Weekly,115.7732,Chinese,Lunch,1,Celebration,Takeaway,1,1,0,8.5905,5,3,2,0,3.3333,Femenino,Para llevar,No
+1708,59,Female,36190,Weekly,182.9125,Chinese,Lunch,7,Business,Dine-in,0,1,0,42.5397,3,5,1,0,3.0,Femenino,En el local,No
+1709,22,Female,106195,Weekly,85.9154,Mexican,Breakfast,5,Celebration,Takeaway,0,1,0,55.8809,4,3,1,0,2.6667,Femenino,Para llevar,No
+1710,31,Male,123053,Rarely,114.4886,Indian,Lunch,6,Business,Takeaway,1,0,0,25.548,3,4,3,0,3.3333,Masculino,Para llevar,No
+1711,33,Female,109280,Monthly,144.8768,Italian,Breakfast,4,Business,Dine-in,0,1,0,57.027,3,4,4,0,3.6667,Femenino,En el local,No
+1712,41,Male,21188,Weekly,40.3004,Chinese,Dinner,5,Casual,Dine-in,0,0,1,26.712,4,1,5,0,3.3333,Masculino,En el local,No
+1713,50,Female,87269,Rarely,79.2725,Indian,Dinner,2,Business,Takeaway,0,1,0,22.2112,3,5,5,0,4.3333,Femenino,Para llevar,No
+1714,36,Female,139577,Daily,169.2378,American,Lunch,7,Celebration,Takeaway,1,0,0,57.0532,3,1,2,0,2.0,Femenino,Para llevar,No
+1715,31,Male,112242,Monthly,197.7239,Indian,Dinner,9,Casual,Dine-in,1,0,0,7.5822,3,3,5,0,3.6667,Masculino,En el local,No
+1716,62,Male,137593,Weekly,89.7364,Italian,Lunch,9,Casual,Dine-in,0,0,0,27.9212,3,3,4,0,3.3333,Masculino,En el local,No
+1717,47,Female,141099,Monthly,136.1747,American,Breakfast,7,Celebration,Takeaway,0,0,1,54.4785,5,3,2,0,3.3333,Femenino,Para llevar,No
+1718,24,Male,99995,Weekly,123.4323,Indian,Breakfast,3,Business,Takeaway,0,1,0,0.4877,5,2,5,0,4.0,Masculino,Para llevar,No
+1719,37,Male,56921,Rarely,32.6361,Italian,Dinner,1,Business,Takeaway,0,1,0,6.8286,4,3,3,0,3.3333,Masculino,Para llevar,No
+1720,18,Female,126043,Weekly,140.7383,Indian,Lunch,5,Business,Takeaway,1,0,0,57.375,4,3,1,0,2.6667,Femenino,Para llevar,No
+1721,52,Female,132477,Monthly,20.9195,Italian,Breakfast,4,Casual,Dine-in,0,0,1,35.1815,2,4,1,0,2.3333,Femenino,En el local,No
+1722,48,Male,29230,Rarely,197.4496,Chinese,Breakfast,1,Celebration,Takeaway,0,0,1,31.5449,3,3,5,0,3.6667,Masculino,Para llevar,No
+1723,51,Female,47925,Monthly,140.5185,Italian,Dinner,4,Casual,Takeaway,0,0,0,12.8091,1,1,3,0,1.6667,Femenino,Para llevar,No
+1724,45,Female,125667,Monthly,102.7765,American,Breakfast,4,Casual,Takeaway,0,1,1,10.05,4,3,2,0,3.0,Femenino,Para llevar,No
+1725,29,Male,136154,Monthly,88.8325,Chinese,Lunch,9,Casual,Takeaway,0,1,1,8.3675,1,1,3,0,1.6667,Masculino,Para llevar,No
+1726,65,Female,110089,Weekly,191.3212,Italian,Dinner,2,Celebration,Dine-in,0,0,0,38.3708,3,3,3,0,3.0,Femenino,En el local,No
+1727,32,Female,97066,Monthly,110.4502,Indian,Dinner,6,Casual,Dine-in,0,0,1,36.2735,4,2,2,0,2.6667,Femenino,En el local,No
+1728,31,Male,86265,Weekly,163.0435,Italian,Lunch,1,Casual,Takeaway,1,0,0,5.5382,1,1,4,0,2.0,Masculino,Para llevar,No
+1729,34,Male,23261,Rarely,85.0674,Chinese,Dinner,2,Business,Takeaway,1,0,0,54.6127,2,2,1,0,1.6667,Masculino,Para llevar,No
+1730,56,Male,27157,Monthly,145.0245,Italian,Lunch,2,Celebration,Dine-in,0,0,0,32.8422,3,4,1,0,2.6667,Masculino,En el local,No
+1731,63,Male,114530,Weekly,29.1101,Indian,Breakfast,5,Celebration,Takeaway,0,1,1,29.8515,5,4,4,1,4.3333,Masculino,Para llevar,Sí
+1732,61,Male,133659,Monthly,188.63,Indian,Lunch,9,Business,Dine-in,0,0,0,55.3558,4,1,4,0,3.0,Masculino,En el local,No
+1733,23,Female,132550,Rarely,13.0036,Italian,Lunch,2,Celebration,Dine-in,0,0,0,15.8911,3,1,4,0,2.6667,Femenino,En el local,No
+1734,24,Male,127635,Weekly,107.4877,Italian,Breakfast,5,Business,Dine-in,0,0,0,56.3331,4,3,5,0,4.0,Masculino,En el local,No
+1735,40,Female,135702,Weekly,88.6528,American,Breakfast,9,Business,Takeaway,0,0,1,2.4361,5,1,3,0,3.0,Femenino,Para llevar,No
+1736,35,Female,45527,Monthly,144.3685,Mexican,Dinner,4,Celebration,Takeaway,0,1,1,47.3854,5,4,5,0,4.6667,Femenino,Para llevar,No
+1737,19,Male,119996,Monthly,94.3008,American,Dinner,3,Business,Dine-in,0,0,0,9.2283,2,4,5,0,3.6667,Masculino,En el local,No
+1738,56,Female,115592,Rarely,44.9384,American,Lunch,1,Celebration,Dine-in,0,1,0,20.9456,5,1,4,0,3.3333,Femenino,En el local,No
+1739,30,Female,25592,Weekly,13.0124,Italian,Breakfast,9,Business,Takeaway,0,1,1,6.5107,5,1,2,0,2.6667,Femenino,Para llevar,No
+1740,60,Male,81757,Weekly,153.9637,Chinese,Dinner,3,Celebration,Dine-in,0,0,1,11.6453,1,4,2,1,2.3333,Masculino,En el local,Sí
+1741,54,Male,25409,Weekly,179.2267,Indian,Breakfast,4,Celebration,Dine-in,1,0,1,53.0777,1,3,2,0,2.0,Masculino,En el local,No
+1742,65,Female,142871,Rarely,184.7513,American,Lunch,6,Celebration,Dine-in,0,1,0,20.7367,5,1,3,0,3.0,Femenino,En el local,No
+1743,28,Male,102872,Rarely,61.1606,Italian,Breakfast,7,Casual,Takeaway,1,0,1,33.0241,2,3,2,0,2.3333,Masculino,Para llevar,No
+1744,47,Female,110978,Daily,103.2304,Mexican,Dinner,9,Casual,Dine-in,0,1,1,40.2229,5,5,2,0,4.0,Femenino,En el local,No
+1745,57,Female,52402,Weekly,170.521,Italian,Dinner,2,Celebration,Dine-in,0,1,0,0.7901,4,5,1,1,3.3333,Femenino,En el local,Sí
+1746,18,Male,28621,Weekly,133.3345,Italian,Dinner,8,Celebration,Dine-in,0,1,0,44.5869,1,4,3,0,2.6667,Masculino,En el local,No
+1747,19,Male,103067,Weekly,127.261,Mexican,Lunch,9,Casual,Dine-in,1,1,0,13.443,2,4,2,0,2.6667,Masculino,En el local,No
+1748,47,Male,42046,Rarely,10.3733,Italian,Dinner,2,Celebration,Dine-in,0,0,0,12.8237,5,4,5,0,4.6667,Masculino,En el local,No
+1749,66,Male,142256,Weekly,108.1223,Chinese,Dinner,6,Celebration,Dine-in,0,1,0,21.8804,4,1,1,0,2.0,Masculino,En el local,No
+1750,30,Male,78221,Weekly,55.2189,Italian,Breakfast,6,Business,Dine-in,1,1,1,31.943,1,5,5,1,3.6667,Masculino,En el local,Sí
+1751,32,Male,111015,Weekly,142.3964,Italian,Breakfast,9,Casual,Dine-in,0,0,0,15.0123,5,2,2,0,3.0,Masculino,En el local,No
+1752,50,Male,146080,Rarely,12.8796,Indian,Dinner,7,Business,Dine-in,0,1,0,30.7056,5,1,2,0,2.6667,Masculino,En el local,No
+1753,22,Male,69116,Monthly,141.4975,Indian,Dinner,6,Celebration,Dine-in,1,0,1,45.3101,3,3,4,0,3.3333,Masculino,En el local,No
+1754,50,Male,38986,Daily,55.9626,Italian,Dinner,4,Celebration,Takeaway,0,0,1,20.4688,4,1,1,0,2.0,Masculino,Para llevar,No
+1755,54,Female,113052,Weekly,166.2649,Italian,Dinner,7,Casual,Takeaway,1,1,0,56.0574,1,5,1,0,2.3333,Femenino,Para llevar,No
+1756,58,Female,20670,Weekly,106.541,American,Dinner,7,Casual,Dine-in,0,0,0,46.8642,1,4,4,0,3.0,Femenino,En el local,No
+1757,35,Female,133640,Daily,48.8847,Italian,Dinner,5,Celebration,Takeaway,0,0,0,23.4082,1,1,4,0,2.0,Femenino,Para llevar,No
+1758,28,Female,67481,Rarely,152.104,Indian,Breakfast,8,Business,Dine-in,0,0,0,42.2912,3,4,1,0,2.6667,Femenino,En el local,No
+1759,22,Male,121659,Weekly,187.3695,American,Breakfast,8,Business,Dine-in,0,1,1,13.8428,4,3,5,1,4.0,Masculino,En el local,Sí
+1760,47,Male,63788,Weekly,34.3028,Italian,Lunch,8,Casual,Takeaway,0,0,1,44.7592,3,2,5,0,3.3333,Masculino,Para llevar,No
+1761,36,Male,109821,Rarely,148.7436,Indian,Lunch,2,Casual,Takeaway,0,1,0,19.5331,2,5,3,0,3.3333,Masculino,Para llevar,No
+1762,50,Female,23878,Rarely,145.1114,Chinese,Dinner,3,Business,Dine-in,0,0,0,32.5082,1,2,5,0,2.6667,Femenino,En el local,No
+1763,42,Male,107561,Monthly,53.4628,American,Lunch,1,Business,Dine-in,0,1,0,21.4024,1,5,5,0,3.6667,Masculino,En el local,No
+1764,19,Male,116077,Weekly,144.5731,Chinese,Dinner,7,Casual,Takeaway,0,0,0,43.7194,1,5,1,0,2.3333,Masculino,Para llevar,No
+1765,44,Female,37635,Weekly,66.7546,American,Lunch,3,Casual,Takeaway,0,1,0,53.4316,5,5,5,0,5.0,Femenino,Para llevar,No
+1766,49,Male,22520,Rarely,77.5604,Indian,Dinner,7,Business,Takeaway,0,0,1,41.3814,5,4,3,0,4.0,Masculino,Para llevar,No
+1767,51,Male,29246,Weekly,84.1751,Mexican,Lunch,2,Business,Dine-in,0,0,0,42.7011,2,3,1,0,2.0,Masculino,En el local,No
+1768,23,Female,69740,Daily,51.8275,Italian,Dinner,4,Business,Takeaway,1,1,0,18.704,3,5,1,0,3.0,Femenino,Para llevar,No
+1769,37,Male,148982,Daily,55.041,Chinese,Dinner,7,Business,Dine-in,0,0,1,26.3177,5,5,3,0,4.3333,Masculino,En el local,No
+1770,48,Female,73847,Daily,81.0601,Mexican,Dinner,8,Celebration,Takeaway,0,0,0,34.2178,3,1,2,0,2.0,Femenino,Para llevar,No
+1771,63,Male,98520,Rarely,188.6663,Mexican,Dinner,5,Celebration,Takeaway,0,0,0,40.0955,4,2,2,0,2.6667,Masculino,Para llevar,No
+1772,51,Female,91956,Daily,162.3817,Italian,Lunch,6,Casual,Takeaway,0,0,1,6.0899,2,4,4,0,3.3333,Femenino,Para llevar,No
+1773,63,Male,98946,Rarely,49.0454,Italian,Lunch,5,Business,Dine-in,0,1,1,1.8756,2,2,1,0,1.6667,Masculino,En el local,No
+1774,53,Male,81795,Monthly,113.5595,American,Breakfast,3,Celebration,Dine-in,0,1,1,48.5478,2,3,1,0,2.0,Masculino,En el local,No
+1775,52,Male,125636,Monthly,70.9889,American,Lunch,2,Casual,Takeaway,1,0,1,22.3138,4,5,4,1,4.3333,Masculino,Para llevar,Sí
+1776,45,Female,149856,Rarely,44.5196,Italian,Lunch,2,Casual,Dine-in,1,0,0,33.2536,5,4,3,0,4.0,Femenino,En el local,No
+1777,41,Female,101741,Rarely,59.0434,Chinese,Lunch,3,Casual,Dine-in,0,0,1,14.5492,3,3,4,0,3.3333,Femenino,En el local,No
+1778,57,Male,89008,Daily,90.0619,Mexican,Dinner,6,Celebration,Takeaway,0,0,0,42.5969,4,2,3,0,3.0,Masculino,Para llevar,No
+1779,68,Male,104486,Daily,86.7012,Chinese,Breakfast,2,Business,Dine-in,0,1,0,48.0153,2,3,3,0,2.6667,Masculino,En el local,No
+1780,36,Female,143662,Monthly,56.8388,Chinese,Lunch,4,Business,Takeaway,0,0,0,37.1544,4,3,4,0,3.6667,Femenino,Para llevar,No
+1781,48,Female,87299,Weekly,36.0168,Mexican,Breakfast,9,Casual,Dine-in,1,1,0,49.894,1,5,3,0,3.0,Femenino,En el local,No
+1782,28,Female,88464,Monthly,105.2527,Indian,Lunch,8,Celebration,Dine-in,0,0,0,49.6141,3,2,1,0,2.0,Femenino,En el local,No
+1783,42,Male,112376,Monthly,99.4739,Indian,Lunch,9,Celebration,Takeaway,0,1,1,47.6602,5,3,5,0,4.3333,Masculino,Para llevar,No
+1784,21,Male,113566,Rarely,113.2369,Mexican,Breakfast,1,Casual,Dine-in,1,0,1,50.7131,3,5,4,0,4.0,Masculino,En el local,No
+1785,52,Male,141295,Monthly,160.9981,Indian,Dinner,3,Business,Takeaway,0,0,0,38.1151,1,5,5,0,3.6667,Masculino,Para llevar,No
+1786,44,Female,41586,Daily,114.9734,Chinese,Breakfast,8,Business,Takeaway,0,0,0,13.5515,4,3,4,0,3.6667,Femenino,Para llevar,No
+1787,32,Female,49158,Rarely,182.217,Indian,Breakfast,8,Business,Takeaway,0,0,0,43.0697,5,1,1,0,2.3333,Femenino,Para llevar,No
+1788,56,Female,63004,Monthly,177.2676,Indian,Dinner,9,Business,Dine-in,1,0,0,2.4619,1,4,5,0,3.3333,Femenino,En el local,No
+1789,28,Female,103574,Monthly,127.645,American,Lunch,6,Celebration,Dine-in,1,0,0,54.3239,5,1,4,0,3.3333,Femenino,En el local,No
+1790,46,Male,116176,Weekly,81.4616,Mexican,Lunch,5,Casual,Dine-in,0,1,0,45.9982,5,5,5,0,5.0,Masculino,En el local,No
+1791,47,Female,51250,Weekly,199.7967,Chinese,Dinner,6,Business,Takeaway,0,0,1,58.6805,3,3,2,0,2.6667,Femenino,Para llevar,No
+1792,21,Male,79413,Weekly,63.7001,Italian,Lunch,6,Casual,Dine-in,0,1,0,51.117,3,1,2,0,2.0,Masculino,En el local,No
+1793,49,Female,136794,Rarely,13.0167,Indian,Lunch,8,Casual,Takeaway,0,1,0,44.6438,3,2,2,0,2.3333,Femenino,Para llevar,No
+1794,44,Male,84953,Weekly,28.5653,Mexican,Dinner,3,Celebration,Takeaway,0,1,0,49.8261,5,5,2,0,4.0,Masculino,Para llevar,No
+1795,38,Male,74170,Monthly,107.5666,Mexican,Lunch,1,Casual,Dine-in,1,0,0,23.1709,4,2,3,0,3.0,Masculino,En el local,No
+1796,39,Male,134109,Rarely,142.4085,Italian,Lunch,6,Casual,Dine-in,1,0,0,38.9364,3,1,1,0,1.6667,Masculino,En el local,No
+1797,58,Female,80882,Weekly,36.114,Italian,Breakfast,8,Business,Takeaway,0,1,1,19.3937,4,2,3,0,3.0,Femenino,Para llevar,No
+1798,60,Female,112071,Monthly,160.7719,American,Lunch,6,Casual,Takeaway,0,0,1,3.1058,5,5,3,0,4.3333,Femenino,Para llevar,No
+1799,18,Male,51238,Rarely,104.0686,American,Breakfast,8,Celebration,Dine-in,1,0,0,13.3408,5,3,4,0,4.0,Masculino,En el local,No
+1800,55,Female,122185,Weekly,136.0944,Italian,Breakfast,9,Casual,Dine-in,0,0,0,39.9701,3,5,5,0,4.3333,Femenino,En el local,No
+1801,23,Male,55478,Daily,84.9032,Chinese,Dinner,5,Casual,Dine-in,0,1,1,53.1054,5,3,3,0,3.6667,Masculino,En el local,No
+1802,59,Female,30817,Weekly,122.3698,Italian,Lunch,6,Casual,Dine-in,0,1,0,56.7926,2,1,2,0,1.6667,Femenino,En el local,No
+1803,19,Male,94387,Monthly,83.3059,Italian,Breakfast,7,Celebration,Takeaway,0,0,0,30.6537,5,1,4,0,3.3333,Masculino,Para llevar,No
+1804,30,Female,90857,Weekly,137.3525,Italian,Dinner,2,Casual,Dine-in,0,1,0,3.9622,5,3,2,0,3.3333,Femenino,En el local,No
+1805,69,Female,59848,Monthly,35.3352,Chinese,Lunch,1,Business,Takeaway,1,0,1,27.1988,3,5,5,0,4.3333,Femenino,Para llevar,No
+1806,55,Female,22813,Weekly,43.527,Indian,Lunch,3,Celebration,Dine-in,0,0,1,22.3727,2,2,2,0,2.0,Femenino,En el local,No
+1807,64,Female,28420,Monthly,100.575,Italian,Dinner,1,Celebration,Dine-in,1,0,1,15.3258,4,4,1,1,3.0,Femenino,En el local,Sí
+1808,47,Female,118882,Weekly,51.1828,Indian,Dinner,9,Business,Dine-in,0,0,1,54.2022,5,5,2,0,4.0,Femenino,En el local,No
+1809,39,Female,76116,Weekly,77.6424,American,Dinner,8,Celebration,Takeaway,0,0,1,21.9595,1,2,1,0,1.3333,Femenino,Para llevar,No
+1810,55,Male,55986,Weekly,147.8135,Italian,Lunch,2,Business,Dine-in,0,0,1,49.6554,2,4,1,0,2.3333,Masculino,En el local,No
+1811,39,Male,115484,Weekly,152.0127,Italian,Dinner,3,Casual,Dine-in,1,0,1,48.5313,3,5,3,0,3.6667,Masculino,En el local,No
+1812,69,Female,92995,Weekly,90.1949,Italian,Dinner,6,Celebration,Takeaway,1,0,0,8.1477,4,5,1,0,3.3333,Femenino,Para llevar,No
+1813,40,Female,53058,Weekly,193.7565,Italian,Breakfast,9,Casual,Takeaway,0,0,0,59.2057,4,2,3,0,3.0,Femenino,Para llevar,No
+1814,32,Male,100305,Monthly,40.8973,Indian,Lunch,9,Celebration,Takeaway,1,1,1,28.6148,4,1,1,0,2.0,Masculino,Para llevar,No
+1815,37,Male,49578,Weekly,147.3622,Chinese,Lunch,7,Business,Takeaway,1,0,0,42.3341,1,4,5,0,3.3333,Masculino,Para llevar,No
+1816,66,Male,120990,Weekly,72.8646,American,Lunch,1,Celebration,Dine-in,1,1,1,50.1991,3,5,1,1,3.0,Masculino,En el local,Sí
+1817,26,Male,141009,Weekly,159.3314,Chinese,Lunch,8,Celebration,Dine-in,1,1,1,28.1699,4,1,2,1,2.3333,Masculino,En el local,Sí
+1818,32,Female,48420,Monthly,11.6135,Indian,Lunch,7,Celebration,Takeaway,1,0,1,32.203,4,2,4,0,3.3333,Femenino,Para llevar,No
+1819,42,Male,101836,Weekly,107.2242,Italian,Breakfast,5,Business,Takeaway,0,1,1,28.6993,3,1,2,0,2.0,Masculino,Para llevar,No
+1820,52,Female,82450,Monthly,100.0548,Indian,Lunch,8,Casual,Dine-in,1,0,1,48.4382,5,1,4,0,3.3333,Femenino,En el local,No
+1821,26,Female,113498,Weekly,135.314,Indian,Breakfast,8,Business,Dine-in,0,0,0,29.1151,5,3,3,0,3.6667,Femenino,En el local,No
+1822,18,Male,40912,Monthly,118.1583,Mexican,Lunch,1,Celebration,Takeaway,0,0,0,26.2839,1,4,3,0,2.6667,Masculino,Para llevar,No
+1823,50,Male,132098,Weekly,169.6819,American,Breakfast,3,Business,Dine-in,1,0,1,37.2871,5,4,3,1,4.0,Masculino,En el local,Sí
+1824,45,Female,25596,Weekly,75.4198,Italian,Dinner,2,Business,Takeaway,0,0,1,6.7016,3,5,1,0,3.0,Femenino,Para llevar,No
+1825,61,Female,117267,Rarely,161.3607,Italian,Lunch,1,Casual,Takeaway,0,0,1,57.6019,2,1,2,0,1.6667,Femenino,Para llevar,No
+1826,69,Female,49393,Daily,122.4908,Indian,Lunch,1,Business,Takeaway,0,0,0,18.543,2,2,2,0,2.0,Femenino,Para llevar,No
+1827,21,Female,92875,Rarely,45.0052,Chinese,Lunch,6,Casual,Takeaway,1,1,1,18.7145,4,4,4,0,4.0,Femenino,Para llevar,No
+1828,54,Male,121186,Weekly,136.1097,Chinese,Breakfast,1,Casual,Takeaway,0,1,0,42.8176,5,3,1,0,3.0,Masculino,Para llevar,No
+1829,25,Female,115020,Weekly,122.7993,Indian,Dinner,3,Celebration,Dine-in,0,1,1,47.2178,5,4,5,1,4.6667,Femenino,En el local,Sí
+1830,47,Female,84915,Weekly,82.6266,Indian,Breakfast,4,Casual,Takeaway,1,0,0,36.5437,4,1,2,0,2.3333,Femenino,Para llevar,No
+1831,24,Female,132486,Rarely,197.2885,Mexican,Lunch,3,Casual,Dine-in,0,0,1,56.0456,5,1,4,0,3.3333,Femenino,En el local,No
+1832,54,Female,21979,Monthly,93.6845,Italian,Lunch,8,Business,Dine-in,0,0,0,6.627,2,1,5,0,2.6667,Femenino,En el local,No
+1833,66,Male,125916,Monthly,195.4952,American,Lunch,1,Business,Dine-in,1,0,0,10.1853,4,5,5,1,4.6667,Masculino,En el local,Sí
+1834,64,Male,121923,Weekly,31.5201,Mexican,Dinner,5,Casual,Dine-in,1,1,0,49.3616,1,4,5,0,3.3333,Masculino,En el local,No
+1835,52,Female,106697,Weekly,68.5066,Italian,Lunch,9,Celebration,Dine-in,0,0,0,53.3988,5,2,1,0,2.6667,Femenino,En el local,No
+1836,22,Female,129590,Weekly,137.4408,American,Dinner,8,Casual,Dine-in,1,0,1,36.6705,4,5,4,1,4.3333,Femenino,En el local,Sí
+1837,30,Male,135575,Weekly,136.3716,Italian,Breakfast,3,Casual,Takeaway,0,0,1,13.641,4,4,4,1,4.0,Masculino,Para llevar,Sí
+1838,18,Male,141316,Monthly,118.0507,Chinese,Dinner,5,Celebration,Takeaway,0,0,0,50.0234,2,1,3,0,2.0,Masculino,Para llevar,No
+1839,39,Female,41861,Monthly,46.7272,Mexican,Dinner,5,Casual,Takeaway,1,1,0,48.8101,5,3,2,0,3.3333,Femenino,Para llevar,No
+1840,33,Female,22926,Monthly,157.8079,American,Lunch,2,Business,Takeaway,0,0,0,45.9308,3,2,5,0,3.3333,Femenino,Para llevar,No
+1841,34,Female,133211,Monthly,136.0198,Mexican,Lunch,9,Casual,Dine-in,0,0,1,53.4305,2,5,2,0,3.0,Femenino,En el local,No
+1842,35,Male,70018,Rarely,54.4156,Chinese,Lunch,9,Business,Takeaway,1,0,1,55.5519,5,5,2,0,4.0,Masculino,Para llevar,No
+1843,66,Male,86806,Weekly,172.819,Indian,Dinner,6,Business,Dine-in,0,0,0,43.307,4,1,5,0,3.3333,Masculino,En el local,No
+1844,59,Female,77267,Rarely,124.0611,Indian,Breakfast,6,Business,Dine-in,0,0,1,4.565,5,4,5,0,4.6667,Femenino,En el local,No
+1845,54,Female,123993,Monthly,175.4541,Indian,Dinner,6,Casual,Takeaway,1,0,1,36.0304,5,5,1,0,3.6667,Femenino,Para llevar,No
+1846,39,Female,43817,Daily,189.6239,Mexican,Lunch,2,Casual,Dine-in,0,1,0,38.2764,2,3,1,0,2.0,Femenino,En el local,No
+1847,64,Male,54825,Weekly,35.454,American,Dinner,7,Business,Takeaway,0,0,1,38.0261,5,3,1,0,3.0,Masculino,Para llevar,No
+1848,34,Male,85083,Monthly,103.4217,Indian,Lunch,4,Business,Takeaway,0,1,0,16.6072,5,1,4,0,3.3333,Masculino,Para llevar,No
+1849,63,Female,45027,Monthly,130.0343,Italian,Dinner,9,Celebration,Takeaway,0,1,0,44.6528,4,3,3,0,3.3333,Femenino,Para llevar,No
+1850,54,Female,60570,Weekly,75.5935,Chinese,Lunch,4,Business,Takeaway,0,0,1,43.5277,4,2,1,0,2.3333,Femenino,Para llevar,No
+1851,30,Male,25599,Weekly,173.4418,Indian,Lunch,9,Celebration,Dine-in,1,0,0,43.6175,3,1,2,0,2.0,Masculino,En el local,No
+1852,33,Female,38473,Weekly,80.6526,Indian,Dinner,4,Casual,Takeaway,0,0,0,11.9896,3,5,5,0,4.3333,Femenino,Para llevar,No
+1853,27,Female,131036,Daily,54.3152,American,Dinner,8,Celebration,Takeaway,0,1,1,5.8343,3,3,2,0,2.6667,Femenino,Para llevar,No
+1854,27,Female,133891,Rarely,191.5995,Mexican,Lunch,3,Celebration,Takeaway,0,1,1,3.0163,1,1,2,0,1.3333,Femenino,Para llevar,No
+1855,49,Male,109746,Weekly,186.977,Mexican,Lunch,8,Business,Takeaway,0,0,1,21.7017,1,5,3,0,3.0,Masculino,Para llevar,No
+1856,52,Female,136450,Weekly,198.2813,Italian,Breakfast,1,Celebration,Takeaway,0,1,1,33.2438,2,4,3,0,3.0,Femenino,Para llevar,No
+1857,44,Male,138993,Daily,82.5638,Indian,Lunch,6,Business,Dine-in,0,1,0,8.5342,1,5,5,0,3.6667,Masculino,En el local,No
+1858,58,Male,123271,Rarely,92.4138,Chinese,Dinner,2,Business,Dine-in,0,0,1,10.8692,2,1,5,0,2.6667,Masculino,En el local,No
+1859,47,Female,87242,Rarely,144.6592,Chinese,Dinner,7,Casual,Dine-in,0,1,0,52.1451,2,2,3,0,2.3333,Femenino,En el local,No
+1860,22,Female,45774,Monthly,132.5577,Indian,Dinner,2,Celebration,Dine-in,1,0,0,1.7376,1,1,5,0,2.3333,Femenino,En el local,No
+1861,42,Female,141000,Monthly,76.8815,American,Dinner,2,Celebration,Takeaway,1,1,1,11.4857,5,2,2,1,3.0,Femenino,Para llevar,Sí
+1862,49,Male,147234,Weekly,73.6277,Chinese,Breakfast,7,Business,Dine-in,1,1,0,13.2729,1,2,4,0,2.3333,Masculino,En el local,No
+1863,56,Male,138160,Weekly,12.404,Indian,Lunch,6,Celebration,Dine-in,0,0,1,18.7806,2,3,4,0,3.0,Masculino,En el local,No
+1864,29,Female,126886,Rarely,131.6663,American,Dinner,9,Celebration,Dine-in,0,0,1,45.4983,5,4,4,0,4.3333,Femenino,En el local,No
+1865,39,Male,142877,Weekly,70.0366,Indian,Breakfast,8,Celebration,Takeaway,0,0,0,8.2037,2,5,4,0,3.6667,Masculino,Para llevar,No
+1866,47,Male,92159,Monthly,70.3647,Indian,Lunch,1,Business,Takeaway,0,0,1,31.226,5,1,4,0,3.3333,Masculino,Para llevar,No
+1867,65,Female,72466,Weekly,61.3268,Indian,Dinner,6,Business,Takeaway,1,0,0,4.1044,2,4,4,0,3.3333,Femenino,Para llevar,No
+1868,33,Female,84596,Monthly,175.4615,American,Dinner,4,Business,Takeaway,0,1,1,58.4379,5,4,2,0,3.6667,Femenino,Para llevar,No
+1869,44,Female,106597,Weekly,150.4272,Chinese,Breakfast,7,Casual,Takeaway,1,0,1,35.3694,2,1,4,0,2.3333,Femenino,Para llevar,No
+1870,36,Male,25929,Monthly,176.7198,Mexican,Lunch,5,Business,Dine-in,0,1,0,27.7138,2,3,4,0,3.0,Masculino,En el local,No
+1871,24,Male,68450,Monthly,13.9018,Italian,Breakfast,3,Casual,Takeaway,1,0,0,24.2427,4,4,2,0,3.3333,Masculino,Para llevar,No
+1872,56,Female,60299,Weekly,77.5225,Mexican,Lunch,1,Celebration,Dine-in,0,1,1,19.8341,2,1,5,1,2.6667,Femenino,En el local,Sí
+1873,18,Male,67145,Rarely,72.4276,American,Dinner,3,Casual,Takeaway,1,0,0,22.7626,4,1,2,0,2.3333,Masculino,Para llevar,No
+1874,34,Male,62133,Weekly,52.8165,Mexican,Dinner,6,Celebration,Takeaway,1,0,1,53.5414,2,4,5,0,3.6667,Masculino,Para llevar,No
+1875,66,Male,73283,Rarely,100.7391,Italian,Lunch,7,Celebration,Takeaway,0,1,0,26.8146,1,1,5,0,2.3333,Masculino,Para llevar,No
+1876,53,Female,143280,Monthly,75.8781,Italian,Breakfast,8,Business,Dine-in,0,0,1,55.3137,4,3,1,0,2.6667,Femenino,En el local,No
+1877,60,Female,146855,Rarely,81.8341,Mexican,Dinner,9,Casual,Takeaway,0,1,0,7.5235,5,3,3,0,3.6667,Femenino,Para llevar,No
+1878,55,Female,20894,Rarely,31.7155,Mexican,Dinner,2,Casual,Takeaway,0,0,0,33.4663,3,3,1,0,2.3333,Femenino,Para llevar,No
+1879,53,Female,28754,Weekly,167.7817,Chinese,Dinner,5,Celebration,Dine-in,0,1,1,43.573,1,4,5,0,3.3333,Femenino,En el local,No
+1880,23,Female,25059,Rarely,67.2608,Italian,Lunch,8,Celebration,Takeaway,0,0,0,18.1647,4,3,5,0,4.0,Femenino,Para llevar,No
+1881,48,Female,82819,Rarely,185.6979,Indian,Breakfast,4,Celebration,Takeaway,1,0,1,44.6707,4,2,2,0,2.6667,Femenino,Para llevar,No
+1882,21,Female,93082,Monthly,56.7972,Italian,Dinner,6,Celebration,Takeaway,0,0,1,38.8369,1,5,1,0,2.3333,Femenino,Para llevar,No
+1883,59,Male,123736,Rarely,69.2844,Indian,Lunch,4,Business,Dine-in,1,0,1,21.9316,4,3,3,0,3.3333,Masculino,En el local,No
+1884,66,Male,112736,Monthly,171.2935,Mexican,Dinner,4,Celebration,Takeaway,1,0,0,49.1675,4,3,4,0,3.6667,Masculino,Para llevar,No
+1885,62,Female,115951,Monthly,180.1355,Chinese,Dinner,4,Business,Dine-in,0,0,1,29.7224,3,2,4,0,3.0,Femenino,En el local,No
+1886,29,Female,40842,Weekly,175.0321,American,Dinner,2,Celebration,Dine-in,0,0,1,49.4296,4,3,4,0,3.6667,Femenino,En el local,No
+1887,65,Male,21013,Monthly,33.0527,Indian,Dinner,1,Casual,Dine-in,0,1,1,25.6489,4,3,2,0,3.0,Masculino,En el local,No
+1888,34,Female,144003,Weekly,65.1619,Chinese,Dinner,9,Business,Takeaway,1,1,0,38.4826,1,4,2,0,2.3333,Femenino,Para llevar,No
+1889,46,Female,98046,Rarely,127.6143,Chinese,Dinner,4,Casual,Dine-in,1,0,1,19.844,3,4,3,0,3.3333,Femenino,En el local,No
+1890,59,Female,136675,Weekly,114.0888,Indian,Lunch,4,Business,Takeaway,1,0,0,1.4285,4,3,3,0,3.3333,Femenino,Para llevar,No
+1891,62,Male,38724,Monthly,96.5858,American,Breakfast,9,Casual,Dine-in,0,0,1,48.0553,1,1,2,0,1.3333,Masculino,En el local,No
+1892,57,Male,57260,Rarely,97.4905,Italian,Lunch,6,Casual,Dine-in,0,1,0,38.7788,4,4,3,0,3.6667,Masculino,En el local,No
+1893,19,Male,122235,Rarely,143.0044,Italian,Breakfast,4,Celebration,Dine-in,0,0,0,53.5655,4,2,2,0,2.6667,Masculino,En el local,No
+1894,23,Female,69893,Monthly,89.303,Mexican,Lunch,8,Celebration,Takeaway,1,0,0,5.9936,1,3,3,0,2.3333,Femenino,Para llevar,No
+1895,58,Female,72090,Daily,162.9703,Indian,Breakfast,8,Celebration,Dine-in,0,0,0,49.3478,4,2,1,0,2.3333,Femenino,En el local,No
+1896,39,Male,20722,Monthly,86.2035,Mexican,Breakfast,4,Casual,Takeaway,1,0,1,4.3195,2,4,1,0,2.3333,Masculino,Para llevar,No
+1897,64,Male,99100,Monthly,23.114,Indian,Lunch,3,Celebration,Dine-in,0,0,0,54.4341,5,5,1,0,3.6667,Masculino,En el local,No
+1898,49,Male,100306,Weekly,162.5853,Italian,Dinner,7,Celebration,Takeaway,0,0,1,6.5071,5,3,1,0,3.0,Masculino,Para llevar,No
+1899,68,Male,38986,Monthly,71.6809,Chinese,Breakfast,4,Casual,Dine-in,0,1,1,26.0951,3,3,5,0,3.6667,Masculino,En el local,No
+1900,38,Male,57631,Daily,153.2079,Italian,Breakfast,9,Business,Dine-in,0,1,0,39.0079,1,4,1,0,2.0,Masculino,En el local,No
+1901,22,Female,98764,Weekly,186.8368,Italian,Lunch,8,Celebration,Dine-in,0,0,0,46.6661,3,4,2,0,3.0,Femenino,En el local,No
+1902,21,Female,131794,Weekly,161.091,Indian,Lunch,6,Celebration,Takeaway,1,1,0,51.7078,5,3,4,0,4.0,Femenino,Para llevar,No
+1903,37,Female,93951,Daily,195.8754,Mexican,Lunch,7,Business,Dine-in,0,0,1,47.9593,2,3,4,0,3.0,Femenino,En el local,No
+1904,44,Male,67956,Weekly,153.7706,Italian,Breakfast,4,Celebration,Dine-in,1,0,0,57.9172,1,5,4,1,3.3333,Masculino,En el local,Sí
+1905,56,Male,149324,Monthly,27.6222,Italian,Breakfast,5,Celebration,Dine-in,0,1,0,48.4672,1,1,5,0,2.3333,Masculino,En el local,No
+1906,47,Male,42277,Rarely,46.0806,Mexican,Lunch,4,Celebration,Takeaway,0,1,0,32.8003,5,2,4,0,3.6667,Masculino,Para llevar,No
+1907,38,Female,122086,Monthly,69.1714,American,Dinner,4,Casual,Takeaway,0,0,0,36.9037,2,3,5,0,3.3333,Femenino,Para llevar,No
+1908,22,Female,139612,Weekly,166.9226,Mexican,Lunch,5,Casual,Dine-in,0,0,0,20.6701,5,4,5,0,4.6667,Femenino,En el local,No
+1909,23,Female,92944,Monthly,28.2418,Chinese,Breakfast,9,Casual,Takeaway,0,0,0,14.7278,3,3,3,0,3.0,Femenino,Para llevar,No
+1910,57,Female,103508,Rarely,38.7995,Chinese,Breakfast,3,Celebration,Dine-in,1,0,0,10.6203,3,1,1,0,1.6667,Femenino,En el local,No
+1911,41,Female,144748,Weekly,131.1554,Mexican,Dinner,6,Celebration,Dine-in,0,0,1,45.0551,1,5,3,0,3.0,Femenino,En el local,No
+1912,56,Female,27906,Rarely,164.5632,Mexican,Breakfast,1,Casual,Dine-in,0,0,0,32.8254,4,4,3,0,3.6667,Femenino,En el local,No
+1913,27,Female,44687,Weekly,36.065,Indian,Lunch,3,Celebration,Dine-in,1,0,1,15.9694,5,5,1,1,3.6667,Femenino,En el local,Sí
+1914,61,Male,115593,Weekly,149.2716,Chinese,Dinner,4,Celebration,Takeaway,1,1,1,29.0775,1,3,4,1,2.6667,Masculino,Para llevar,Sí
+1915,18,Female,120080,Daily,123.7656,Mexican,Dinner,6,Business,Dine-in,0,1,0,50.3134,1,5,4,0,3.3333,Femenino,En el local,No
+1916,52,Male,22243,Rarely,190.9126,Italian,Dinner,3,Casual,Dine-in,1,0,1,37.0686,2,5,3,0,3.3333,Masculino,En el local,No
+1917,39,Female,53426,Rarely,133.3782,Italian,Dinner,5,Casual,Takeaway,1,0,1,37.7306,3,4,3,0,3.3333,Femenino,Para llevar,No
+1918,19,Female,39874,Rarely,126.9019,Indian,Lunch,2,Celebration,Takeaway,0,0,1,21.0353,4,4,1,0,3.0,Femenino,Para llevar,No
+1919,50,Male,28327,Monthly,192.0189,Indian,Dinner,2,Casual,Takeaway,0,0,0,35.6014,2,5,3,0,3.3333,Masculino,Para llevar,No
+1920,68,Female,144274,Rarely,154.6804,Mexican,Dinner,8,Casual,Takeaway,0,0,0,13.3621,5,5,1,0,3.6667,Femenino,Para llevar,No
+1921,20,Female,137082,Weekly,113.7273,Chinese,Lunch,7,Celebration,Dine-in,0,1,0,56.055,3,3,4,0,3.3333,Femenino,En el local,No
+1922,50,Female,98241,Weekly,109.81,American,Lunch,7,Celebration,Dine-in,0,1,1,46.9178,2,4,4,1,3.3333,Femenino,En el local,Sí
+1923,48,Female,139833,Monthly,78.2552,Italian,Lunch,6,Business,Dine-in,0,1,0,23.4603,3,1,3,0,2.3333,Femenino,En el local,No
+1924,54,Male,65705,Weekly,160.0793,Chinese,Dinner,8,Business,Takeaway,0,0,1,0.4268,5,1,5,0,3.6667,Masculino,Para llevar,No
+1925,26,Female,29768,Rarely,145.0081,Italian,Dinner,8,Casual,Dine-in,0,0,0,45.0117,5,1,1,0,2.3333,Femenino,En el local,No
+1926,31,Female,149807,Rarely,167.1844,Italian,Breakfast,8,Business,Takeaway,1,0,1,48.6213,3,4,4,0,3.6667,Femenino,Para llevar,No
+1927,55,Female,116157,Weekly,180.8342,American,Dinner,9,Casual,Takeaway,1,0,0,8.0197,5,5,2,0,4.0,Femenino,Para llevar,No
+1928,53,Male,109748,Monthly,95.3695,Mexican,Lunch,8,Casual,Dine-in,0,0,0,26.5427,5,5,3,0,4.3333,Masculino,En el local,No
+1929,51,Male,87848,Monthly,99.3201,Mexican,Breakfast,4,Casual,Dine-in,1,0,0,25.2403,4,3,5,0,4.0,Masculino,En el local,No
+1930,27,Female,107937,Weekly,123.5732,Mexican,Lunch,7,Business,Takeaway,0,0,1,16.8348,3,1,1,0,1.6667,Femenino,Para llevar,No
+1931,28,Male,119993,Rarely,92.7356,Indian,Breakfast,1,Casual,Takeaway,0,1,1,10.3644,1,4,4,0,3.0,Masculino,Para llevar,No
+1932,23,Female,67998,Daily,58.0096,Mexican,Lunch,7,Business,Takeaway,1,1,0,39.9233,5,5,1,0,3.6667,Femenino,Para llevar,No
+1933,60,Female,75810,Monthly,133.3778,Chinese,Breakfast,2,Casual,Dine-in,0,1,1,24.9872,2,3,1,0,2.0,Femenino,En el local,No
+1934,42,Male,106711,Weekly,170.2087,Italian,Lunch,5,Celebration,Takeaway,0,0,1,47.7195,1,2,1,0,1.3333,Masculino,Para llevar,No
+1935,38,Female,119070,Daily,124.2239,American,Lunch,7,Casual,Dine-in,0,1,0,24.2577,2,1,1,0,1.3333,Femenino,En el local,No
+1936,37,Male,30693,Monthly,116.902,Italian,Breakfast,7,Business,Dine-in,0,0,0,0.7077,1,4,2,0,2.3333,Masculino,En el local,No
+1937,42,Male,106329,Weekly,196.879,Mexican,Breakfast,4,Celebration,Dine-in,0,0,1,45.2165,2,2,5,0,3.0,Masculino,En el local,No
+1938,60,Male,51305,Weekly,65.6481,Indian,Breakfast,3,Celebration,Dine-in,0,0,1,39.9713,1,4,5,1,3.3333,Masculino,En el local,Sí
+1939,18,Male,102824,Monthly,65.5627,Indian,Dinner,6,Casual,Takeaway,0,0,1,43.8014,3,3,5,0,3.6667,Masculino,Para llevar,No
+1940,26,Male,41367,Monthly,86.1496,Chinese,Dinner,2,Business,Takeaway,0,0,1,36.6881,5,4,3,0,4.0,Masculino,Para llevar,No
+1941,28,Female,61785,Weekly,76.641,Chinese,Lunch,3,Business,Dine-in,1,0,0,13.2514,5,1,1,0,2.3333,Femenino,En el local,No
+1942,29,Male,67891,Weekly,135.8726,Indian,Dinner,9,Business,Dine-in,0,0,1,41.2206,5,3,5,0,4.3333,Masculino,En el local,No
+1943,36,Female,91694,Monthly,94.0351,American,Lunch,2,Casual,Dine-in,0,0,1,37.5071,5,3,4,0,4.0,Femenino,En el local,No
+1944,36,Male,26267,Rarely,79.3432,Mexican,Breakfast,1,Business,Takeaway,0,1,0,15.3283,5,1,4,0,3.3333,Masculino,Para llevar,No
+1945,27,Female,94031,Weekly,137.9174,American,Lunch,2,Business,Dine-in,0,1,1,1.905,3,4,1,1,2.6667,Femenino,En el local,Sí
+1946,30,Female,33666,Weekly,121.2578,Indian,Breakfast,4,Business,Takeaway,0,0,1,59.248,1,1,5,0,2.3333,Femenino,Para llevar,No
+1947,35,Female,122302,Daily,150.2331,Mexican,Lunch,6,Business,Dine-in,1,0,0,23.2493,5,4,4,1,4.3333,Femenino,En el local,Sí
+1948,43,Male,78833,Weekly,169.0843,Mexican,Dinner,5,Business,Takeaway,0,0,1,19.9129,4,5,3,0,4.0,Masculino,Para llevar,No
+1949,29,Male,102373,Weekly,113.0689,Chinese,Lunch,7,Casual,Takeaway,0,1,0,39.3722,2,1,4,0,2.3333,Masculino,Para llevar,No
+1950,67,Female,87167,Weekly,152.1368,Chinese,Lunch,4,Celebration,Dine-in,0,1,1,14.7227,5,5,4,1,4.6667,Femenino,En el local,Sí
+1951,20,Male,132699,Weekly,137.6518,Mexican,Lunch,1,Celebration,Dine-in,0,1,0,46.9497,5,1,4,1,3.3333,Masculino,En el local,Sí
+1952,45,Female,58964,Weekly,69.4283,Italian,Dinner,6,Casual,Dine-in,0,0,0,1.5646,4,2,4,0,3.3333,Femenino,En el local,No
+1953,28,Male,131905,Monthly,77.9817,Italian,Lunch,2,Casual,Takeaway,0,1,0,48.1646,3,2,3,0,2.6667,Masculino,Para llevar,No
+1954,58,Male,77790,Monthly,180.8991,Italian,Lunch,9,Celebration,Takeaway,0,1,1,35.1491,3,5,4,0,4.0,Masculino,Para llevar,No
+1955,24,Male,86722,Weekly,42.5287,Mexican,Lunch,9,Business,Dine-in,1,1,1,28.9198,5,3,1,0,3.0,Masculino,En el local,No
+1956,25,Female,72063,Daily,137.8927,Mexican,Breakfast,2,Celebration,Dine-in,0,0,1,16.3537,1,1,3,0,1.6667,Femenino,En el local,No
+1957,40,Male,138881,Rarely,103.3099,Chinese,Breakfast,1,Business,Dine-in,1,0,1,8.8712,4,1,2,0,2.3333,Masculino,En el local,No
+1958,67,Male,95495,Weekly,188.7589,Mexican,Breakfast,9,Celebration,Dine-in,1,1,0,59.4988,5,4,2,1,3.6667,Masculino,En el local,Sí
+1959,67,Male,70734,Weekly,99.8242,Italian,Breakfast,3,Celebration,Takeaway,0,1,0,54.1009,3,2,5,0,3.3333,Masculino,Para llevar,No
+1960,60,Female,37793,Weekly,152.8555,American,Breakfast,7,Casual,Takeaway,0,0,0,41.4814,1,3,3,0,2.3333,Femenino,Para llevar,No
+1961,20,Female,68729,Rarely,179.1864,Indian,Breakfast,2,Business,Takeaway,1,0,1,29.749,3,4,2,0,3.0,Femenino,Para llevar,No
+1962,64,Male,83708,Monthly,35.6623,Indian,Lunch,9,Celebration,Takeaway,0,0,0,17.7608,3,2,5,0,3.3333,Masculino,Para llevar,No
+1963,25,Male,137357,Rarely,133.0721,Italian,Lunch,8,Business,Dine-in,0,1,0,34.602,1,1,3,0,1.6667,Masculino,En el local,No
+1964,67,Male,75950,Weekly,42.1609,Mexican,Lunch,3,Celebration,Takeaway,1,0,1,39.9001,1,3,2,0,2.0,Masculino,Para llevar,No
+1965,49,Female,38406,Monthly,178.6481,Indian,Lunch,5,Celebration,Takeaway,1,1,1,1.3916,1,2,2,0,1.6667,Femenino,Para llevar,No
+1966,43,Female,45368,Weekly,197.6895,Indian,Breakfast,3,Celebration,Takeaway,1,0,0,51.1761,2,1,3,0,2.0,Femenino,Para llevar,No
+1967,55,Male,29288,Daily,117.551,American,Breakfast,9,Business,Dine-in,0,1,1,0.6507,1,4,5,0,3.3333,Masculino,En el local,No
+1968,48,Male,66922,Weekly,123.9614,American,Dinner,4,Business,Takeaway,0,0,0,13.1899,1,3,3,0,2.3333,Masculino,Para llevar,No
+1969,21,Female,25345,Monthly,55.8177,Italian,Breakfast,6,Celebration,Dine-in,0,0,0,27.4543,1,5,3,0,3.0,Femenino,En el local,No
+1970,22,Male,72653,Weekly,27.9992,Mexican,Dinner,7,Celebration,Takeaway,0,0,1,5.324,1,2,3,0,2.0,Masculino,Para llevar,No
+1971,23,Male,49897,Weekly,119.6756,Italian,Dinner,9,Celebration,Takeaway,1,0,1,55.528,5,4,1,0,3.3333,Masculino,Para llevar,No
+1972,57,Female,35217,Weekly,109.357,American,Breakfast,6,Celebration,Dine-in,1,0,0,38.177,1,5,4,0,3.3333,Femenino,En el local,No
+1973,25,Male,87107,Rarely,46.4713,Italian,Lunch,9,Business,Dine-in,0,1,0,11.3626,5,1,5,0,3.6667,Masculino,En el local,No
+1974,59,Male,46860,Rarely,143.761,Italian,Dinner,5,Casual,Dine-in,0,1,1,24.1968,5,5,5,0,5.0,Masculino,En el local,No
+1975,52,Male,117372,Weekly,152.7742,Mexican,Lunch,6,Business,Dine-in,1,1,1,2.5415,1,2,4,1,2.3333,Masculino,En el local,Sí
+1976,41,Female,64304,Monthly,102.4046,Mexican,Lunch,7,Celebration,Dine-in,1,0,0,36.586,5,1,1,0,2.3333,Femenino,En el local,No
+1977,61,Female,70580,Monthly,32.2496,American,Breakfast,2,Business,Dine-in,0,0,0,56.2529,4,3,2,0,3.0,Femenino,En el local,No
+1978,37,Female,79140,Monthly,193.1587,Italian,Dinner,6,Celebration,Dine-in,0,0,1,34.4789,3,2,2,0,2.3333,Femenino,En el local,No
+1979,67,Male,46110,Weekly,19.8885,American,Breakfast,1,Casual,Takeaway,0,1,1,41.5733,4,1,1,0,2.0,Masculino,Para llevar,No
+1980,67,Female,78930,Rarely,198.9603,Chinese,Dinner,1,Casual,Takeaway,0,1,0,44.2771,5,1,1,0,2.3333,Femenino,Para llevar,No
+1981,32,Female,54527,Weekly,194.8845,Mexican,Dinner,9,Business,Dine-in,1,1,1,43.1996,5,2,4,1,3.6667,Femenino,En el local,Sí
+1982,33,Male,84659,Monthly,181.648,Chinese,Dinner,1,Casual,Dine-in,0,0,1,37.9698,3,2,2,0,2.3333,Masculino,En el local,No
+1983,25,Male,36708,Weekly,173.1077,American,Dinner,5,Business,Dine-in,0,0,0,21.6259,2,4,1,0,2.3333,Masculino,En el local,No
+1984,25,Female,51223,Monthly,43.5936,Mexican,Dinner,5,Casual,Dine-in,1,0,0,20.8082,1,3,2,0,2.0,Femenino,En el local,No
+1985,64,Female,51895,Weekly,84.7791,Indian,Lunch,9,Business,Dine-in,0,0,1,0.215,5,1,2,0,2.6667,Femenino,En el local,No
+1986,52,Female,41612,Weekly,73.8785,Indian,Breakfast,1,Business,Takeaway,0,1,0,31.0074,2,5,2,0,3.0,Femenino,Para llevar,No
+1987,36,Male,97762,Rarely,108.205,Italian,Lunch,1,Celebration,Dine-in,0,0,0,37.8292,2,1,4,0,2.3333,Masculino,En el local,No
+1988,38,Male,128458,Monthly,156.3286,Italian,Dinner,2,Celebration,Takeaway,0,0,0,6.6693,4,3,2,0,3.0,Masculino,Para llevar,No
+1989,46,Male,60825,Weekly,61.7528,Italian,Dinner,4,Casual,Takeaway,0,1,1,13.859,5,4,2,1,3.6667,Masculino,Para llevar,Sí
+1990,36,Female,135764,Weekly,191.1461,Mexican,Breakfast,9,Business,Dine-in,1,1,1,40.7458,2,3,4,0,3.0,Femenino,En el local,No
+1991,36,Female,111460,Weekly,101.9278,Chinese,Dinner,2,Celebration,Takeaway,0,1,0,31.6828,4,5,4,1,4.3333,Femenino,Para llevar,Sí
+1992,55,Male,104172,Rarely,121.4673,Chinese,Lunch,3,Business,Takeaway,0,1,1,2.5698,3,4,1,0,2.6667,Masculino,Para llevar,No
+1993,21,Female,71614,Monthly,114.6696,Italian,Lunch,6,Celebration,Dine-in,0,1,0,44.5243,1,5,5,0,3.6667,Femenino,En el local,No
+1994,46,Female,120149,Rarely,97.6398,Chinese,Dinner,5,Business,Dine-in,0,0,0,20.639,3,1,3,0,2.3333,Femenino,En el local,No
+1995,36,Male,53518,Weekly,94.4071,Chinese,Dinner,2,Casual,Takeaway,0,0,1,50.8805,3,5,1,0,3.0,Masculino,Para llevar,No
+1996,18,Male,115653,Rarely,163.3334,Indian,Lunch,2,Business,Dine-in,0,0,1,36.5814,1,1,1,0,1.0,Masculino,En el local,No
+1997,24,Female,79625,Weekly,69.4797,Chinese,Dinner,5,Celebration,Dine-in,1,1,1,6.553,1,2,1,1,1.3333,Femenino,En el local,Sí
+1998,51,Male,23942,Weekly,95.5553,Chinese,Lunch,3,Casual,Dine-in,0,1,0,44.7063,2,5,1,0,2.6667,Masculino,En el local,No
+1999,40,Male,102658,Rarely,130.0025,American,Dinner,6,Casual,Takeaway,0,1,0,18.5903,3,1,1,0,1.6667,Masculino,Para llevar,No
+2000,48,Female,47019,Monthly,137.9695,American,Dinner,1,Casual,Takeaway,0,0,1,35.3046,4,1,4,0,3.0,Femenino,Para llevar,No
+2001,26,Male,143389,Monthly,24.7395,Indian,Breakfast,3,Casual,Dine-in,0,1,0,52.9495,1,1,3,0,1.6667,Masculino,En el local,No
+2002,35,Female,66650,Weekly,21.0974,Chinese,Breakfast,8,Celebration,Takeaway,1,0,0,29.9675,1,3,5,0,3.0,Femenino,Para llevar,No
+2003,60,Male,139519,Weekly,80.2104,Indian,Lunch,8,Casual,Dine-in,0,0,1,36.6397,5,5,4,0,4.6667,Masculino,En el local,No
+2004,54,Female,105133,Rarely,107.0468,Chinese,Lunch,7,Celebration,Takeaway,1,0,0,31.5017,1,2,4,0,2.3333,Femenino,Para llevar,No
+2005,52,Female,57910,Rarely,151.7269,Italian,Dinner,4,Celebration,Takeaway,0,1,1,57.248,2,3,4,0,3.0,Femenino,Para llevar,No
+2006,59,Female,144122,Rarely,98.6927,American,Lunch,6,Business,Dine-in,0,1,0,2.4765,5,3,4,0,4.0,Femenino,En el local,No
+2007,50,Female,117727,Weekly,109.3499,Mexican,Breakfast,4,Business,Dine-in,0,1,0,22.3451,4,2,3,0,3.0,Femenino,En el local,No
+2008,38,Male,48758,Weekly,124.774,Mexican,Lunch,7,Celebration,Takeaway,0,0,1,55.4181,4,5,5,0,4.6667,Masculino,Para llevar,No
+2009,46,Female,58134,Weekly,165.5532,Indian,Dinner,4,Business,Dine-in,1,0,0,26.4366,5,2,1,0,2.6667,Femenino,En el local,No
+2010,35,Female,63536,Monthly,146.3116,Indian,Breakfast,4,Casual,Dine-in,0,1,0,31.753,2,5,2,0,3.0,Femenino,En el local,No
+2011,53,Female,106476,Weekly,189.762,Indian,Lunch,3,Celebration,Dine-in,0,1,0,8.397,5,3,1,1,3.0,Femenino,En el local,Sí
+2012,66,Female,63529,Monthly,104.1948,Italian,Lunch,8,Casual,Takeaway,1,0,0,8.8336,4,2,4,0,3.3333,Femenino,Para llevar,No
+2013,22,Female,46884,Weekly,87.1135,American,Dinner,8,Celebration,Dine-in,1,1,1,4.3915,5,5,3,1,4.3333,Femenino,En el local,Sí
+2014,59,Male,144658,Rarely,189.8539,Indian,Lunch,3,Celebration,Dine-in,1,0,0,50.5117,2,1,1,0,1.3333,Masculino,En el local,No
+2015,33,Female,69243,Rarely,87.3565,American,Breakfast,6,Business,Takeaway,0,0,0,24.9054,2,5,5,0,4.0,Femenino,Para llevar,No
+2016,60,Male,93622,Weekly,128.9026,Indian,Dinner,8,Business,Takeaway,0,0,0,35.1987,2,4,4,0,3.3333,Masculino,Para llevar,No
+2017,38,Female,119380,Monthly,47.8516,Chinese,Dinner,7,Celebration,Takeaway,0,0,1,57.4024,1,5,3,0,3.0,Femenino,Para llevar,No
+2018,50,Male,82562,Monthly,160.5852,American,Lunch,1,Celebration,Takeaway,1,1,0,53.4754,3,2,3,0,2.6667,Masculino,Para llevar,No
+2019,26,Female,30427,Monthly,13.0022,Indian,Lunch,3,Celebration,Takeaway,1,1,0,44.3619,3,3,4,1,3.3333,Femenino,Para llevar,Sí
+2020,59,Male,20454,Weekly,195.269,Indian,Breakfast,5,Casual,Takeaway,1,1,1,17.0068,4,4,4,1,4.0,Masculino,Para llevar,Sí
+2021,60,Female,66039,Monthly,97.324,American,Lunch,3,Casual,Takeaway,0,0,1,6.5923,5,1,4,0,3.3333,Femenino,Para llevar,No
+2022,28,Female,63728,Weekly,59.6954,Italian,Lunch,5,Business,Dine-in,0,0,0,25.4211,1,2,3,1,2.0,Femenino,En el local,Sí
+2023,18,Male,80732,Monthly,165.9084,Italian,Dinner,2,Casual,Dine-in,1,0,0,5.0913,1,3,3,0,2.3333,Masculino,En el local,No
+2024,42,Male,117221,Rarely,126.8667,American,Dinner,5,Business,Dine-in,0,0,0,26.7496,5,4,4,0,4.3333,Masculino,En el local,No
+2025,38,Female,60491,Weekly,41.0671,Italian,Lunch,4,Business,Takeaway,1,0,1,19.0821,4,1,5,0,3.3333,Femenino,Para llevar,No
+2026,59,Male,104397,Rarely,75.5781,Italian,Lunch,5,Business,Dine-in,1,0,1,2.9234,2,2,4,1,2.6667,Masculino,En el local,Sí
+2027,47,Male,110552,Weekly,15.774,Chinese,Lunch,7,Casual,Takeaway,0,1,1,49.9573,3,3,3,0,3.0,Masculino,Para llevar,No
+2028,53,Male,74375,Daily,140.3025,Italian,Lunch,6,Business,Dine-in,0,0,1,6.2747,3,3,5,1,3.6667,Masculino,En el local,Sí
+2029,44,Female,62198,Monthly,133.5468,Chinese,Dinner,8,Business,Takeaway,1,1,1,36.0354,1,4,3,1,2.6667,Femenino,Para llevar,Sí
+2030,52,Female,108514,Monthly,155.8915,Mexican,Lunch,6,Celebration,Dine-in,0,1,1,35.9448,4,3,5,0,4.0,Femenino,En el local,No
+2031,30,Male,89071,Daily,137.3127,Italian,Dinner,6,Casual,Dine-in,0,1,1,46.1495,4,4,4,0,4.0,Masculino,En el local,No
+2032,69,Female,136645,Monthly,106.8048,Chinese,Dinner,8,Celebration,Dine-in,0,1,0,46.6852,1,3,2,1,2.0,Femenino,En el local,Sí
+2033,51,Male,109676,Weekly,172.2121,Indian,Lunch,2,Celebration,Takeaway,0,1,1,15.0251,3,5,1,1,3.0,Masculino,Para llevar,Sí
+2034,40,Female,75646,Monthly,40.4894,Chinese,Breakfast,7,Business,Takeaway,1,0,1,38.7484,5,1,5,1,3.6667,Femenino,Para llevar,Sí
+2035,19,Female,130704,Rarely,58.0217,Indian,Breakfast,9,Celebration,Dine-in,0,0,0,18.5329,4,1,1,1,2.0,Femenino,En el local,Sí
+2036,31,Female,121738,Rarely,140.8653,Italian,Dinner,6,Business,Takeaway,0,1,1,29.806,2,5,1,1,2.6667,Femenino,Para llevar,Sí
+2037,47,Male,103678,Rarely,92.0908,Italian,Breakfast,6,Celebration,Dine-in,1,0,0,20.1389,3,1,4,1,2.6667,Masculino,En el local,Sí
+2038,64,Male,39127,Weekly,57.3376,Indian,Lunch,1,Casual,Takeaway,1,0,1,41.124,3,4,3,0,3.3333,Masculino,Para llevar,No
+2039,46,Male,82286,Weekly,27.4652,Indian,Dinner,4,Celebration,Takeaway,0,0,0,29.431,4,4,4,0,4.0,Masculino,Para llevar,No
+2040,66,Female,75130,Rarely,128.3289,Indian,Dinner,2,Casual,Dine-in,0,1,0,28.7124,2,2,1,1,1.6667,Femenino,En el local,Sí
+2041,59,Female,66969,Weekly,104.7981,Mexican,Lunch,3,Casual,Dine-in,0,0,1,46.8517,5,5,5,1,5.0,Femenino,En el local,Sí
+2042,49,Female,42551,Monthly,167.8143,American,Lunch,9,Business,Takeaway,0,0,1,16.4199,3,5,2,1,3.3333,Femenino,Para llevar,Sí
+2043,40,Male,116352,Monthly,109.31,Chinese,Lunch,2,Business,Dine-in,0,0,1,14.9086,1,3,1,0,1.6667,Masculino,En el local,No
+2044,47,Male,134821,Weekly,93.9152,Italian,Lunch,1,Business,Takeaway,1,0,0,54.3915,4,5,4,1,4.3333,Masculino,Para llevar,Sí
+2045,41,Male,122715,Weekly,159.156,Indian,Breakfast,3,Casual,Takeaway,0,0,0,47.2978,4,2,5,1,3.6667,Masculino,Para llevar,Sí
+2046,68,Female,91633,Weekly,11.0012,Mexican,Breakfast,1,Business,Takeaway,0,0,0,22.7125,5,2,5,0,4.0,Femenino,Para llevar,No
+2047,69,Male,28343,Rarely,147.2097,Indian,Lunch,7,Business,Takeaway,1,0,0,52.7643,5,4,1,0,3.3333,Masculino,Para llevar,No
+2048,54,Male,85802,Weekly,36.7677,Indian,Dinner,4,Casual,Dine-in,1,0,1,40.7065,4,4,1,1,3.0,Masculino,En el local,Sí
+2049,62,Male,127875,Daily,62.2507,Mexican,Breakfast,1,Business,Takeaway,0,0,1,13.301,3,2,3,0,2.6667,Masculino,Para llevar,No
+2050,35,Male,52586,Weekly,137.4571,Italian,Dinner,8,Business,Takeaway,0,1,1,37.5698,5,2,3,0,3.3333,Masculino,Para llevar,No
+2051,59,Female,146090,Monthly,61.0502,American,Lunch,2,Celebration,Dine-in,0,1,1,11.5598,5,2,1,1,2.6667,Femenino,En el local,Sí
+2052,36,Female,48252,Weekly,86.0884,Chinese,Dinner,7,Casual,Dine-in,1,1,0,6.9616,4,4,4,1,4.0,Femenino,En el local,Sí
+2053,29,Male,88484,Weekly,161.1653,Italian,Lunch,3,Business,Takeaway,0,1,0,26.6252,1,5,5,0,3.6667,Masculino,Para llevar,No
+2054,26,Male,87899,Monthly,186.5308,American,Lunch,4,Casual,Dine-in,0,1,0,20.2127,4,4,5,0,4.3333,Masculino,En el local,No
+2055,62,Female,32640,Weekly,51.9045,Mexican,Lunch,4,Casual,Takeaway,0,0,0,5.0489,5,3,2,0,3.3333,Femenino,Para llevar,No
+2056,59,Male,120681,Monthly,182.4289,Chinese,Lunch,1,Celebration,Takeaway,0,1,1,14.47,3,2,5,1,3.3333,Masculino,Para llevar,Sí
+2057,35,Male,136005,Weekly,96.8547,Indian,Breakfast,5,Celebration,Takeaway,0,0,1,2.3102,3,4,3,1,3.3333,Masculino,Para llevar,Sí
+2058,32,Female,136388,Daily,168.9783,American,Lunch,5,Celebration,Takeaway,0,1,1,34.1211,5,4,3,0,4.0,Femenino,Para llevar,No
+2059,42,Female,77145,Daily,174.8647,Chinese,Lunch,4,Celebration,Dine-in,0,0,1,28.6044,3,2,1,0,2.0,Femenino,En el local,No
+2060,24,Female,27805,Monthly,199.1511,American,Breakfast,7,Casual,Takeaway,0,0,1,37.4337,1,4,3,0,2.6667,Femenino,Para llevar,No
+2061,50,Male,84448,Weekly,164.6442,American,Breakfast,3,Celebration,Takeaway,0,1,0,57.1451,3,2,5,0,3.3333,Masculino,Para llevar,No
+2062,62,Female,37619,Weekly,10.9823,Chinese,Dinner,3,Business,Dine-in,1,0,1,21.8882,4,4,2,0,3.3333,Femenino,En el local,No
+2063,65,Male,105938,Weekly,122.9896,Mexican,Breakfast,9,Casual,Takeaway,0,0,0,4.4539,3,5,1,1,3.0,Masculino,Para llevar,Sí
+2064,69,Male,53448,Weekly,61.5427,Indian,Breakfast,6,Celebration,Takeaway,0,0,0,2.4664,1,4,2,0,2.3333,Masculino,Para llevar,No
+2065,64,Male,39097,Rarely,97.2909,American,Dinner,1,Celebration,Takeaway,0,1,0,28.2266,4,5,2,1,3.6667,Masculino,Para llevar,Sí
+2066,37,Male,120863,Monthly,36.1876,Indian,Dinner,6,Business,Dine-in,1,0,1,32.2855,3,3,4,0,3.3333,Masculino,En el local,No
+2067,46,Female,68142,Rarely,120.4467,American,Dinner,1,Business,Dine-in,1,0,1,41.3897,5,4,2,0,3.6667,Femenino,En el local,No
+2068,30,Male,93430,Weekly,88.8028,Mexican,Dinner,7,Casual,Takeaway,0,0,1,23.011,2,3,3,0,2.6667,Masculino,Para llevar,No
+2069,21,Male,57727,Weekly,184.0282,American,Dinner,6,Business,Takeaway,1,0,1,16.5326,1,1,5,1,2.3333,Masculino,Para llevar,Sí
+2070,35,Male,102440,Weekly,97.2842,Mexican,Lunch,4,Business,Takeaway,0,0,1,34.3446,5,2,1,0,2.6667,Masculino,Para llevar,No
+2071,59,Female,131974,Weekly,34.8917,Italian,Breakfast,6,Celebration,Takeaway,1,0,0,13.6886,3,3,5,0,3.6667,Femenino,Para llevar,No
+2072,48,Male,115193,Rarely,176.4475,American,Breakfast,7,Celebration,Dine-in,0,0,0,27.1629,4,1,1,0,2.0,Masculino,En el local,No
+2073,18,Male,91737,Rarely,160.7756,Mexican,Breakfast,2,Business,Dine-in,1,0,0,58.8941,4,5,3,0,4.0,Masculino,En el local,No
+2074,63,Female,21914,Daily,153.4689,Italian,Dinner,3,Celebration,Takeaway,0,0,0,19.4442,3,4,2,0,3.0,Femenino,Para llevar,No
+2075,32,Female,111779,Monthly,57.2513,Chinese,Lunch,1,Business,Dine-in,0,0,0,12.6998,4,3,4,1,3.6667,Femenino,En el local,Sí
+2076,65,Male,35520,Monthly,81.4998,Indian,Lunch,7,Casual,Takeaway,0,1,1,14.1403,1,1,2,1,1.3333,Masculino,Para llevar,Sí
+2077,60,Male,43334,Monthly,79.901,American,Dinner,4,Business,Takeaway,0,1,1,55.9819,1,3,3,1,2.3333,Masculino,Para llevar,Sí
+2078,60,Female,116321,Daily,74.4094,Chinese,Breakfast,4,Business,Dine-in,0,1,1,13.332,1,2,3,1,2.0,Femenino,En el local,Sí
+2079,61,Female,114846,Weekly,136.3962,American,Lunch,1,Business,Dine-in,0,1,0,4.4012,1,1,4,1,2.0,Femenino,En el local,Sí
+2080,31,Female,71921,Rarely,87.8144,Mexican,Breakfast,6,Celebration,Takeaway,1,0,0,48.3186,5,2,4,1,3.6667,Femenino,Para llevar,Sí
+2081,49,Male,30057,Monthly,117.6888,Indian,Dinner,5,Business,Dine-in,0,1,1,46.2839,2,1,3,1,2.0,Masculino,En el local,Sí
+2082,62,Male,52710,Rarely,99.7228,Chinese,Breakfast,9,Casual,Dine-in,0,0,0,36.4563,3,4,5,0,4.0,Masculino,En el local,No
+2083,48,Male,61192,Weekly,90.3842,Mexican,Dinner,2,Casual,Dine-in,0,0,1,45.2063,3,5,1,1,3.0,Masculino,En el local,Sí
+2084,66,Male,46718,Monthly,106.7334,Mexican,Lunch,1,Business,Takeaway,1,0,0,43.6885,5,4,5,0,4.6667,Masculino,Para llevar,No
+2085,64,Male,115643,Monthly,32.2463,Chinese,Dinner,4,Celebration,Takeaway,0,0,1,27.5654,3,3,1,0,2.3333,Masculino,Para llevar,No
+2086,31,Male,64382,Weekly,120.9947,Chinese,Dinner,2,Celebration,Takeaway,0,0,1,20.623,5,5,4,0,4.6667,Masculino,Para llevar,No
+2087,27,Male,89716,Rarely,68.1449,American,Dinner,7,Celebration,Takeaway,0,0,1,14.7116,2,5,4,1,3.6667,Masculino,Para llevar,Sí
+2088,41,Female,50695,Monthly,155.1086,American,Lunch,5,Business,Dine-in,0,0,1,1.7872,2,3,2,0,2.3333,Femenino,En el local,No
+2089,68,Male,30288,Weekly,193.9433,American,Breakfast,5,Casual,Takeaway,0,1,0,52.3492,4,3,1,0,2.6667,Masculino,Para llevar,No
+2090,58,Female,44172,Monthly,86.5021,Chinese,Dinner,6,Casual,Dine-in,0,0,1,16.8852,5,3,5,0,4.3333,Femenino,En el local,No
+2091,39,Male,78863,Daily,186.4275,Mexican,Dinner,1,Casual,Dine-in,1,0,0,54.9011,4,1,1,0,2.0,Masculino,En el local,No
+2092,51,Female,49451,Monthly,26.5357,Chinese,Lunch,7,Casual,Dine-in,0,0,0,19.8421,2,1,2,1,1.6667,Femenino,En el local,Sí
+2093,67,Female,73148,Weekly,94.084,Mexican,Lunch,2,Business,Takeaway,0,0,1,5.1327,3,3,1,0,2.3333,Femenino,Para llevar,No
+2094,63,Female,72596,Weekly,87.8974,Indian,Breakfast,2,Celebration,Takeaway,1,0,0,5.6271,3,2,2,0,2.3333,Femenino,Para llevar,No
+2095,59,Female,117887,Weekly,190.6646,American,Dinner,4,Casual,Takeaway,1,0,0,55.4621,3,1,1,1,1.6667,Femenino,Para llevar,Sí
+2096,53,Female,136825,Monthly,79.7801,Italian,Breakfast,3,Business,Dine-in,0,0,0,29.1127,5,2,2,1,3.0,Femenino,En el local,Sí
+2097,43,Male,68283,Monthly,65.7712,Indian,Lunch,6,Celebration,Dine-in,0,0,1,10.5674,2,4,5,0,3.6667,Masculino,En el local,No
+2098,40,Female,110298,Monthly,110.1474,Indian,Breakfast,9,Casual,Dine-in,0,1,1,23.0514,4,3,2,0,3.0,Femenino,En el local,No
+2099,31,Male,30543,Rarely,149.2522,Chinese,Lunch,4,Celebration,Dine-in,0,1,0,57.4118,3,5,4,0,4.0,Masculino,En el local,No
+2100,48,Female,138169,Monthly,192.3864,Chinese,Dinner,5,Business,Dine-in,0,0,1,40.1067,5,2,2,1,3.0,Femenino,En el local,Sí
+2101,44,Female,77784,Weekly,137.1885,Italian,Dinner,7,Celebration,Dine-in,0,1,1,30.4121,5,4,2,1,3.6667,Femenino,En el local,Sí
+2102,57,Male,78537,Monthly,64.963,Italian,Lunch,3,Celebration,Dine-in,0,1,1,34.9646,1,1,5,0,2.3333,Masculino,En el local,No
+2103,33,Male,45795,Weekly,144.5786,Chinese,Breakfast,4,Business,Dine-in,1,0,1,35.3494,5,3,2,1,3.3333,Masculino,En el local,Sí
+2104,36,Male,139374,Weekly,47.1891,Italian,Dinner,7,Business,Takeaway,0,1,0,54.1584,3,1,4,1,2.6667,Masculino,Para llevar,Sí
+2105,19,Male,125939,Monthly,97.6957,Chinese,Lunch,7,Celebration,Dine-in,0,1,0,34.6654,5,2,4,0,3.6667,Masculino,En el local,No
+2106,23,Female,116387,Weekly,102.797,Indian,Dinner,6,Business,Dine-in,0,0,0,59.1924,3,4,3,0,3.3333,Femenino,En el local,No
+2107,57,Female,107329,Weekly,80.9595,Indian,Breakfast,9,Celebration,Takeaway,1,0,1,0.6908,2,3,1,1,2.0,Femenino,Para llevar,Sí
+2108,42,Male,89486,Weekly,130.9349,Italian,Dinner,2,Casual,Takeaway,1,1,0,24.3732,2,1,3,1,2.0,Masculino,Para llevar,Sí
+2109,25,Male,45567,Daily,67.6884,American,Breakfast,3,Casual,Takeaway,0,1,1,26.3035,1,2,1,0,1.3333,Masculino,Para llevar,No
+2110,29,Female,34295,Weekly,162.2555,American,Lunch,1,Celebration,Dine-in,1,1,0,49.4051,2,4,3,0,3.0,Femenino,En el local,No
+2111,57,Male,56803,Weekly,88.0393,Indian,Dinner,5,Casual,Dine-in,0,0,0,15.2592,3,3,4,0,3.3333,Masculino,En el local,No
+2112,23,Female,99317,Rarely,80.8088,Chinese,Breakfast,3,Celebration,Dine-in,1,0,1,0.7491,1,1,2,1,1.3333,Femenino,En el local,Sí
+2113,37,Female,23930,Weekly,21.063,Mexican,Lunch,6,Casual,Takeaway,1,0,0,31.821,4,4,2,1,3.3333,Femenino,Para llevar,Sí
+2114,67,Male,133474,Weekly,116.0905,Indian,Breakfast,4,Celebration,Takeaway,0,0,0,21.4697,2,1,4,0,2.3333,Masculino,Para llevar,No
+2115,62,Female,21083,Rarely,154.9855,American,Lunch,1,Business,Takeaway,0,0,0,24.6597,5,5,4,0,4.6667,Femenino,Para llevar,No
+2116,44,Female,51701,Rarely,25.1,Mexican,Lunch,6,Casual,Dine-in,0,1,1,17.1537,2,3,5,0,3.3333,Femenino,En el local,No
+2117,61,Male,110260,Monthly,60.6967,American,Lunch,5,Casual,Dine-in,0,1,1,12.3319,4,1,5,0,3.3333,Masculino,En el local,No
+2118,46,Male,98910,Monthly,168.7289,American,Breakfast,7,Casual,Dine-in,1,1,0,4.2845,4,1,1,1,2.0,Masculino,En el local,Sí
+2119,38,Female,103102,Weekly,121.3665,Chinese,Lunch,6,Celebration,Dine-in,0,0,1,10.9599,2,4,1,1,2.3333,Femenino,En el local,Sí
+2120,22,Male,123970,Monthly,119.9763,Mexican,Lunch,3,Celebration,Takeaway,1,0,0,8.0407,3,1,3,1,2.3333,Masculino,Para llevar,Sí
+2121,23,Female,50792,Weekly,191.4888,Italian,Lunch,4,Casual,Dine-in,1,0,0,18.2017,2,3,5,1,3.3333,Femenino,En el local,Sí
+2122,25,Male,47784,Monthly,140.4903,Indian,Dinner,8,Celebration,Takeaway,0,0,0,49.3887,5,2,3,0,3.3333,Masculino,Para llevar,No
+2123,39,Male,101758,Rarely,150.4746,Italian,Breakfast,4,Business,Dine-in,0,1,1,21.7939,5,4,3,0,4.0,Masculino,En el local,No
+2124,38,Male,108110,Daily,148.6314,Mexican,Lunch,4,Business,Dine-in,1,0,1,17.3487,2,5,3,1,3.3333,Masculino,En el local,Sí
+2125,50,Male,115343,Weekly,44.0295,American,Breakfast,4,Celebration,Dine-in,0,1,0,9.4846,1,4,1,0,2.0,Masculino,En el local,No
+2126,21,Male,81382,Weekly,98.2982,Indian,Breakfast,7,Casual,Dine-in,0,0,1,54.5735,1,5,2,0,2.6667,Masculino,En el local,No
+2127,53,Male,35585,Rarely,82.828,Italian,Dinner,2,Casual,Dine-in,1,1,1,45.2314,3,2,1,0,2.0,Masculino,En el local,No
+2128,37,Female,134284,Rarely,61.0555,American,Breakfast,5,Casual,Dine-in,0,0,1,10.8858,1,4,2,1,2.3333,Femenino,En el local,Sí
+2129,41,Female,58819,Rarely,192.3753,Indian,Lunch,4,Business,Dine-in,1,0,1,51.9214,4,4,5,0,4.3333,Femenino,En el local,No
+2130,25,Male,83210,Weekly,41.6092,Chinese,Dinner,6,Celebration,Takeaway,0,0,1,32.3285,4,3,3,0,3.3333,Masculino,Para llevar,No
+2131,29,Male,115079,Weekly,148.6302,American,Breakfast,8,Casual,Takeaway,1,0,0,44.385,4,4,2,1,3.3333,Masculino,Para llevar,Sí
+2132,42,Male,101871,Monthly,169.0919,Indian,Dinner,1,Casual,Takeaway,0,0,1,49.3916,5,2,1,0,2.6667,Masculino,Para llevar,No
+2133,24,Female,113426,Weekly,130.459,Chinese,Dinner,6,Business,Takeaway,0,0,1,1.9454,4,2,1,0,2.3333,Femenino,Para llevar,No
+2134,31,Male,130898,Weekly,81.665,Indian,Breakfast,5,Business,Dine-in,0,1,0,50.9491,2,3,5,1,3.3333,Masculino,En el local,Sí
+2135,21,Male,144252,Daily,86.4289,Mexican,Dinner,7,Business,Dine-in,0,1,1,22.1978,4,5,4,0,4.3333,Masculino,En el local,No
+2136,52,Male,115595,Weekly,63.1835,Chinese,Breakfast,6,Business,Dine-in,0,0,1,4.3599,4,5,5,0,4.6667,Masculino,En el local,No
+2137,31,Male,61751,Weekly,90.968,Mexican,Dinner,7,Casual,Dine-in,0,0,1,2.6735,5,2,4,0,3.6667,Masculino,En el local,No
+2138,41,Female,70528,Weekly,103.5342,Mexican,Dinner,4,Business,Takeaway,0,0,0,38.371,1,1,5,1,2.3333,Femenino,Para llevar,Sí
+2139,63,Female,142579,Rarely,86.8744,American,Lunch,5,Celebration,Dine-in,1,1,1,49.4638,2,3,3,1,2.6667,Femenino,En el local,Sí
+2140,24,Female,109032,Monthly,15.9926,Indian,Lunch,6,Business,Takeaway,0,1,1,47.8898,1,4,1,0,2.0,Femenino,Para llevar,No
+2141,47,Male,31938,Weekly,43.8491,Italian,Lunch,3,Business,Takeaway,1,1,0,59.7074,2,4,5,1,3.6667,Masculino,Para llevar,Sí
+2142,25,Female,138277,Monthly,190.0135,American,Lunch,7,Casual,Takeaway,0,0,1,51.9777,3,5,5,0,4.3333,Femenino,Para llevar,No
+2143,58,Male,36994,Weekly,125.821,Chinese,Lunch,8,Casual,Takeaway,1,1,0,3.6699,5,4,4,0,4.3333,Masculino,Para llevar,No
+2144,20,Male,106717,Rarely,105.3237,Indian,Breakfast,5,Casual,Takeaway,1,1,0,17.525,3,2,3,1,2.6667,Masculino,Para llevar,Sí
+2145,47,Male,90569,Weekly,101.3121,Indian,Lunch,9,Casual,Takeaway,0,1,0,55.7004,3,5,1,0,3.0,Masculino,Para llevar,No
+2146,20,Male,41041,Rarely,59.403,Italian,Dinner,4,Business,Dine-in,0,0,1,50.0649,2,4,2,0,2.6667,Masculino,En el local,No
+2147,62,Male,135684,Weekly,128.9431,Italian,Lunch,6,Business,Takeaway,1,1,1,24.0971,3,1,5,1,3.0,Masculino,Para llevar,Sí
+2148,25,Female,142332,Weekly,128.6268,American,Dinner,4,Business,Takeaway,1,1,1,18.1347,1,1,3,1,1.6667,Femenino,Para llevar,Sí
+2149,39,Male,114857,Monthly,163.0153,American,Lunch,2,Business,Dine-in,0,1,1,7.2063,1,2,1,0,1.3333,Masculino,En el local,No
+2150,37,Female,133506,Weekly,190.9919,Italian,Lunch,4,Casual,Takeaway,0,0,0,37.864,5,2,2,0,3.0,Femenino,Para llevar,No
+2151,46,Male,119159,Monthly,150.0886,American,Lunch,4,Casual,Dine-in,0,1,0,3.9258,3,3,3,1,3.0,Masculino,En el local,Sí
+2152,24,Male,27970,Weekly,196.3636,Italian,Dinner,6,Casual,Dine-in,1,1,0,24.228,2,2,4,1,2.6667,Masculino,En el local,Sí
+2153,51,Male,148333,Weekly,171.1195,Chinese,Breakfast,4,Casual,Dine-in,1,1,1,39.4022,4,5,4,1,4.3333,Masculino,En el local,Sí

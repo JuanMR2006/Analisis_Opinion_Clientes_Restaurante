@@ -1,0 +1,780 @@
+﻿Restaurant_ID,Nombre,Ciudad,Precio_Original,Nivel_Precio,Precio_Etiqueta,Cocinas_Original,Cocina_Principal,Num_Tipos_Cocina,Cocina_Encuesta_Original,Cocina_Encuesta_Agrupada,Rating_Promedio_TripAdvisor,Num_Resenas,Rating_Promedio_Resenas
+809345,Restaurante Ciudadela,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.0,347,4.0576
+830949,Topolino Restaurante,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,126,4.3492
+943268,El Palacio,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,209,2.6077
+985187,Casa Arturo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,102,2.4118
+985188,Casa Ataulfo,Gijon,$$$$,3,Alto,Seafood; Mediterranean,Seafood,2,Other,Other,4.0,160,3.7312
+985189,Casa Ferino,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,131,3.0687
+985194,Casa Trabanco,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,487,4.271
+985195,Restaurante Casa Zabala,Gijon,$$$$,3,Alto,Seafood; Mediterranean,Seafood,2,Other,Other,4.0,254,4.2756
+985204,Marieva Palace,Gijon,$$$$,3,Alto,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,96,4.1979
+985212,Terrazas del Pery,Gijon,$$ - $$$,2,Medio,Steakhouse; Mediterranean,Steakhouse,2,Other,Other,2.5,244,2.2377
+1001673,Torremar,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,22,2.3636
+1001674,V. Crespo,Gijon,$$$$,3,Alto,Mediterranean; European,Mediterranean,2,Other,Other,4.5,610,4.6049
+1001675,Terra Sidra,Gijon,$$ - $$$,2,Medio,Spanish; Bar,Spanish,2,Other,Other,3.5,19,3.1579
+1001679,Restaurante Vinao,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,83,3.9518
+1001685,Puente Romano,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,66,3.9545
+1001686,Pizzeria La Pergola,Gijon,$,1,Económico,Dessert; Italian,Dessert,2,Italian,Italian,4.0,133,4.2331
+1001688,Restaurante El Centenario,Gijon,$$ - $$$,2,Medio,Seafood; Mediterranean,Seafood,2,Other,Other,3.5,215,3.1907
+1001696,Ruta de la Plata,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,10,4.3
+1001703,Pizzeria Alberobello,Gijon,$,1,Económico,Italian; Pizza,Italian,2,Italian,Italian,3.0,21,3.2857
+1001705,Restaurante Trasiego,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,30,4.0333
+1001706,Rubiera,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,66,2.5758
+1001708,La Iglesiona,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,102,3.9804
+1001712,La Tabla,Gijon,$$$$,3,Alto,European; Spanish,European,2,Other,Other,4.5,74,4.5946
+1001713,La Volanta,Gijon,$$ - $$$,2,Medio,Spanish; Healthy,Spanish,2,Other,Other,3.0,57,2.9825
+1001716,Llagar de Begona,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,74,2.8108
+1001719,los Nogales,Gijon,$$$$,3,Alto,Seafood; Mediterranean,Seafood,2,Other,Other,4.5,199,4.2362
+1001721,Restaurante Auga,Gijon,$$$$,3,Alto,Mediterranean; European,Mediterranean,2,Other,Other,4.5,467,4.3512
+1001725,Fonsagrada,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,1,4.0
+1001730,Hosteleria Cafe del Instituto,Gijon,$$ - $$$,2,Medio,Cafe,Cafe,1,Other,Other,3.5,3,3.6667
+1001731,La Llorea Golf Restaurante,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,44,3.4545
+1001735,El Antiguo Parnaso S.L.,Gijon,,,Sin dato,,Sin dato,0,Other,Other,1.5,3,1.3333
+1001738,El Cartero,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,3.5,58,3.6552
+1001739,El Corte Ingles,Gijon,$$ - $$$,2,Medio,Cafe,Cafe,1,Other,Other,2.5,15,2.3333
+1001742,Restaurante Parrilla El Mancu,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,3.5,167,3.2635
+1001753,La Carbayera,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,3.5,121,3.5455
+1001756,Bar Restaurante Pension Benita,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.0,42,3.0238
+1001757,Bellavista,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.0,149,2.9597
+1001758,Hostal Restaurante Belmonte,Gijon,$$ - $$$,2,Medio,Steakhouse; Spanish,Steakhouse,2,Other,Other,3.5,23,3.8696
+1001778,A Caldeira,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.5,162,3.2963
+1023219,La Pondala,Gijon,$$$$,3,Alto,Spanish,Spanish,1,Other,Other,4.5,213,4.2723
+1115841,La Casona de Jovellanos - El Chigre,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.0,186,2.086
+1117757,Scourmont,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,30,3.8667
+1119478,El Arca de Noe,Gijon,$,1,Económico,Mediterranean,Mediterranean,1,Other,Other,4.5,196,4.6633
+1119652,Taberna Irlandesa,Gijon,$$ - $$$,2,Medio,Bar; Cafe,Bar,2,Other,Other,4.0,11,3.9091
+1640774,Sidreria El Pilu,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,4.0,7,3.5714
+1790035,Restaurante Casa Zarracina,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,3.5,98,3.3367
+1872497,Gepetto Arena,Gijon,$$ - $$$,2,Medio,Italian; Mediterranean,Italian,2,Italian,Italian,3.5,142,3.7887
+1873125,La Casa del Parque,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,112,4.3929
+1926012,Restaurante Sidreria La Galana,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.0,1199,4.0826
+1930522,Sidreria Parrilla Miravalles,Gijon,$$ - $$$,2,Medio,Spanish; Grill,Spanish,2,Other,Other,3.0,62,2.8548
+1952436,Sancho Meson Restaurante,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,4.5,231,4.2771
+2028029,Restaurante Azafran,Gijon,$$ - $$$,2,Medio,Spanish; International,Spanish,2,Other,Other,4.5,56,4.6964
+2052339,La Casa Pompeyana,Gijon,$$ - $$$,2,Medio,Italian; European,Italian,2,Italian,Italian,4.0,144,3.8611
+2089226,Restaurante Marinamar,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,4.0,77,4.0909
+2089570,La Placina de Somio,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,8,4.0
+2102796,Las Penas,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.0,57,2.9825
+2284235,Restaurante Las Delicias,Gijon,$$$$,3,Alto,European; Spanish,European,2,Other,Other,4.0,138,3.7101
+2298952,Restaurante La Farola,Gijon,$$ - $$$,2,Medio,Diner; Mediterranean,Diner,2,Other,Other,4.0,214,3.8925
+2304124,As de Picas,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.5,535,4.3963
+2306039,El Lavaderu,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,3.5,240,3.5917
+2312071,Tierra Astur Poniente,Gijon,$$ - $$$,2,Medio,Steakhouse; Mediterranean,Steakhouse,2,Other,Other,4.0,2134,4.0839
+2324689,Marisqueria Sidreria Poniente,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,33,3.3333
+2339602,Restaurante El Globo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,99,4.1414
+2340588,Entreplazas,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,155,2.5484
+2359847,Sidreria Marisqueria Corona,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,19,3.7895
+2360191,Sidreria Casa Valdorta,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,16,3.0
+2360198,La Vieja Bodega Rural,Gijon,$$$$,3,Alto,Spanish,Spanish,1,Other,Other,4.5,21,4.5238
+2361546,La Canada Real,Gijon,$$ - $$$,2,Medio,Bar; Spanish,Bar,2,Other,Other,2.5,87,2.069
+2409043,Parrilla Muno,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,3.0,199,2.7739
+2422119,Sidreria Parrilla La Costa,Gijon,$$ - $$$,2,Medio,Steakhouse; Mediterranean,Steakhouse,2,Other,Other,4.5,399,4.5163
+2649565,El Medio Lleno,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,3.5,140,3.9286
+2687285,El Planeta,Gijon,$$ - $$$,2,Medio,Seafood; Mediterranean,Seafood,2,Other,Other,3.5,263,3.3422
+2689914,Sidreria El Restallu,Gijon,$$ - $$$,2,Medio,Seafood; Mediterranean,Seafood,2,Other,Other,4.5,547,4.3163
+2696680,Meson El Museo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,50,2.92
+2701148,Sidreria Nava,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,274,4.2518
+2703324,Cocteleria Varsovia,Gijon,$$ - $$$,2,Medio,Pub,Pub,1,Other,Other,4.0,172,3.7035
+2707697,La Casa del Mar,Gijon,$$ - $$$,2,Medio,Bars & Pubs; Mediterranean,Bars & Pubs,2,Other,Other,3.5,52,3.6923
+3136265,Sidreria Simancas,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,35,3.9429
+3164394,Cafe Plaza,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,37,3.9189
+3171857,Restaurante Asador La Bolera,Gijon,$$ - $$$,2,Medio,Steakhouse; Spanish,Steakhouse,2,Other,Other,3.5,131,3.4275
+3187459,La Quinta del Ynfanzon,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,171,3.4854
+3192269,Restaurante Merendero Camping Deva,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,2.5,38,2.4474
+3220995,SIDRERIA CANDASU,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,140,3.8143
+3335496,El Quinto Restaurante,Gijon,$$ - $$$,2,Medio,Asian; Mediterranean,Asian,2,Other,Other,4.0,85,4.1529
+3410290,La Tabacalera,Gijon,$$ - $$$,2,Medio,European; Spanish,European,2,Other,Other,3.5,176,3.3011
+3410297,Al Boccalino,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,4.0,225,4.1111
+3452582,Restaurante Torrontegui,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,3.5,64,3.2031
+3452956,Big Joe Cafe,Gijon,$$ - $$$,2,Medio,American,American,1,American,American,4.0,96,3.4792
+3462698,Restaurante El Cencerro,Gijon,$$$$,3,Alto,Mediterranean; European,Mediterranean,2,Other,Other,4.5,235,4.4043
+3471681,VOR Bier & Bar,Gijon,$$ - $$$,2,Medio,Fast Food,Fast Food,1,Other,Other,4.0,43,3.7674
+3474071,EL Sueve,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,4.0,147,4.1633
+3502314,El Rinconin de Deva,Gijon,$,1,Económico,Barbecue; Spanish,Barbecue,2,Other,Other,3.0,153,2.8366
+3512687,Sidreria Casa Carmen Manso,Gijon,$$ - $$$,2,Medio,European; Spanish,European,2,Other,Other,4.5,1424,4.4424
+3544819,Pulperia La Toja,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,53,3.9623
+3671285,Sidreria Roman,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,93,3.7634
+3677495,La Terraza de Viesques,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,94,4.0532
+3684766,El Jamonar,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,194,4.134
+3725014,Abba Mia Restaurant,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,78,4.2051
+3736004,Rte Botavara Del Hotel Ac de Gijon,Gijon,,,Sin dato,Contemporary,Contemporary,1,Other,Other,3.5,2,2.0
+3736283,El Mirador de la Playa,Gijon,$,1,Económico,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,232,4.306
+3749372,El Llavianu,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,4.0,811,4.18
+3775665,Cafe restaurante De Mouzo,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,27,3.8889
+3799828,Restaurante Vinateria La Boqueria,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,71,3.1268
+3895161,Twist Vegetal,Gijon,$$ - $$$,2,Medio,European; Spanish,European,2,Other,Other,3.5,43,3.3256
+3895168,Arde Lvcvs,Gijon,$,1,Económico,Bar; Spanish,Bar,2,Other,Other,4.0,108,3.8241
+3928937,Sidreria Casa Pazos,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,8,3.625
+3940415,Madalenas de Colores,Gijon,$$ - $$$,2,Medio,Dessert,Dessert,1,Other,Other,4.5,55,4.5455
+3941744,El Feudo,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.0,173,4.1561
+3952634,La Solana Mareo,Gijon,,,Sin dato,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,7,4.0
+3961117,Restaurante Taj Mahal,Gijon,$$ - $$$,2,Medio,Indian,Indian,1,Indian,Indian,3.5,47,3.4681
+3963222,Bocateria Gyros,Gijon,$,1,Económico,Fast Food; Mediterranean,Fast Food,2,Other,Other,3.0,29,2.7931
+3971399,Sidreria Los Collacios,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,17,3.7059
+3973819,Sidreria Mayador,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,146,4.2671
+3975236,La Bimbala,Gijon,$$ - $$$,2,Medio,European; Spanish,European,2,Other,Other,4.0,68,3.5294
+3982995,Sidreria El Requexu,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,117,3.5726
+4004593,La Gitana,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,131,3.5802
+4014128,D Aldo,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,4.5,515,4.4738
+4016401,Casa Segundo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,132,4.2955
+4042977,Sidreria Riber,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,23,4.0435
+4046857,El Trasgu Farton,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,44,4.3864
+4052901,Sidreria Casa Juan,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,4,3.5
+4053551,Restaurante Sidreria El Mallu Del Infanzon,Gijon,$$ - $$$,2,Medio,Spanish; Barbecue,Spanish,2,Other,Other,3.0,52,3.2308
+4053559,meson Les Ruedes,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,101,3.7525
+4059615,Sidreria El Sauco,Gijon,$$ - $$$,2,Medio,Spanish; Grill,Spanish,2,Other,Other,4.0,212,4.0802
+4064723,Las Ballenas,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.0,66,2.697
+4107538,Pizzeria La Competencia,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,3.0,227,2.6784
+4115674,Sidreria Josben,Gijon,$,1,Económico,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,10,4.2
+4129905,Parador de Gijon,Gijon,$$ - $$$,2,Medio,Spanish; European,Spanish,2,Other,Other,3.5,47,3.4681
+4149736,Llagar Bernueces,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.0,66,3.3182
+4150303,Sidreria El Llabiegu,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,13,3.4615
+4162191,Sidreria Nuevo Cheff Fidel,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,20,3.65
+4187482,Restaurante Sidreria Tropical,Gijon,$$ - $$$,2,Medio,Bar; European,Bar,2,Other,Other,4.0,491,4.0387
+4187513,Sidreria Casa Andres,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,24,3.5833
+4283294,Casa Tirate al matu,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,3.0,74,2.6081
+4305889,Taberna La Sarten,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,41,3.7561
+4340600,Sidreria Balmes,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,16,4.0
+4356017,El Musel,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,5,2.6
+4371417,Mare Salata,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,28,3.7857
+4397851,El Secanu,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,47,3.5319
+4437273,Ocean Gijon,Gijon,$$ - $$$,2,Medio,Mediterranean; Bar,Mediterranean,2,Other,Other,3.0,100,3.08
+4496687,Casa Yoli,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,114,3.9123
+4509916,Sidreria Sobinagu,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,3.5,226,3.9115
+4567482,Casa Manuela,Gijon,$$ - $$$,2,Medio,Bars & Pubs; Spanish,Bars & Pubs,2,Other,Other,3.0,94,2.8298
+4586880,Casa Tino,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,146,4.0753
+4587236,Silken Ciudad Gijon,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,4.0,20,3.6
+4599640,Cafeteria Arosa,Gijon,$,1,Económico,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,33,3.4545
+4599643,Restaurante Bar Galicia,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,34,2.7353
+4600896,Cafe Restaurante Ebano,Gijon,$$ - $$$,2,Medio,Cafe; European,Cafe,2,Other,Other,4.0,198,3.8737
+4601620,Sidreria Restaurante San Bernardo IV,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,117,3.4872
+4606754,El Nuevo Rincon,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,29,3.5862
+4607595,Cava Baja,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,74,3.6081
+4610791,Sidreria Villa Lucia,Gijon,$$ - $$$,2,Medio,Barbecue; Spanish,Barbecue,2,Other,Other,4.0,113,4.0885
+4698937,Gilda Bar&Dinner,Gijon,$,1,Económico,American; Bar,American,2,American,American,4.0,82,3.7561
+4715015,Casa Cristina Restaurante,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,14,4.4286
+4719315,Sidreria El Otru Mallu,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.0,176,3.0284
+4723952,Aguila o Sol,Gijon,$$ - $$$,2,Medio,Mexican; Latin,Mexican,2,Mexican,Mexican,4.5,108,4.2222
+4735772,Casa Baizan,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,116,4.1552
+4740326,Restaurante Sidreria Bobes,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,45,3.7333
+4743869,Bar Ramon,Gijon,,,Sin dato,Spanish; Bar,Spanish,2,Other,Other,3.5,13,3.4615
+4748214,El Tasqueru,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,53,3.9623
+4783199,El Monje,Gijon,$$ - $$$,2,Medio,Wine Bar,Wine Bar,1,Other,Other,3.0,14,2.5714
+4788589,La Taberna Zingara Gijon,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.0,360,4.1722
+4789321,La Sastreria,Gijon,$$ - $$$,2,Medio,Spanish; Wine Bar,Spanish,2,Other,Other,3.5,51,3.6078
+4829043,Sidreria Casa Fede,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,130,3.4692
+4829297,Crocante,Gijon,$$ - $$$,2,Medio,Spanish; Asian,Spanish,2,Other,Other,4.0,148,4.0338
+4951954,Restaurante Sideria Casa Ramon,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,1,5.0
+5000196,Sidreria El Pedreru,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,4.0,118,4.2373
+5041828,Cafe Dindurra,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.0,282,2.8121
+5096726,Trespuntocero,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,42,4.0952
+5220390,La flor de Galicia II,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,41,3.9512
+5263570,Vermuteria Geli Zarracina,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,46,3.0435
+5293568,Sidreria Los Campinos,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,110,3.1455
+5486138,Mike’s Burger House,Gijon,$,1,Económico,Quick Bites; American,Quick Bites,2,American,American,4.0,73,3.7123
+5486205,El Faro Del Piles,Gijon,$$ - $$$,2,Medio,Seafood; Mediterranean,Seafood,2,Other,Other,3.5,153,3.3464
+5486252,Taberna Berciana,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,32,4.125
+5486894,Restaurante Savannah,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.5,24,3.875
+5487070,Asados Tono,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.5,2,4.0
+5487461,Parrilla Casa Julio,Gijon,$$ - $$$,2,Medio,Spanish; Grill,Spanish,2,Other,Other,3.0,61,2.9672
+5487562,Restaurante Vinao Telefono,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,12,3.6667
+5487670,Restaurante-Parrilla El Asador,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,4.0,56,4.0893
+5489463,Restaurante El Antiguo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,238,2.4538
+5489526,McDonald's,Gijon,,,Sin dato,Fast Food,Fast Food,1,Other,Other,2.0,6,1.1667
+5491076,La Taberna Del Piano,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,156,4.2115
+5493115,Restaurante Pizzeria Las Candelas,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,4.5,282,4.4539
+5511034,Kebab de Oro,Gijon,,,Sin dato,Turkish,Turkish,1,Other,Other,3.0,2,3.0
+5538469,La Entrelluxa,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,14,3.5
+5540007,Vinoteca Caprichos,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,4.0,1,5.0
+5542197,Pizza Hut,Gijon,$,1,Económico,Pizza; Fast Food,Pizza,2,Other,Other,2.0,18,2.0
+5582341,Restaurante La Galerna,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,11,3.9091
+5614354,Bar Begona,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,125,4.032
+5614396,El Nuevo Crisol,Gijon,$,1,Económico,,Sin dato,0,Other,Other,3.5,4,4.5
+5616753,A Feira Do Pulpo,Gijon,$$ - $$$,2,Medio,European; Spanish,European,2,Other,Other,4.0,254,3.9606
+5616846,Pizzeria Toscana,Gijon,$$ - $$$,2,Medio,Pizza; Italian,Pizza,2,Italian,Italian,3.0,48,3.5
+5617420,Sidreria Galastur,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,47,3.9362
+5768601,Sidreria Cabranes,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,46,4.0
+5771372,Sidreria la Caleya,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,66,4.0455
+5776203,Telepizza,Gijon,,,Sin dato,Pizza,Pizza,1,Other,Other,2.5,4,2.5
+5776222,Las Palmeras Kebab,Gijon,,,Sin dato,,Sin dato,0,Other,Other,5.0,2,5.0
+5788004,Los Pomares,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,176,3.8523
+5788047,Cabanaquinta,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,33,4.0
+5794834,Asador La Granja,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,4,4.0
+5811081,Restaurante Bar Los Molcajetes,Gijon,$$ - $$$,2,Medio,Mexican; Latin,Mexican,2,Mexican,Mexican,3.5,83,3.5542
+5811083,Parrilla Antonio,Gijon,$$ - $$$,2,Medio,Steakhouse; Bar,Steakhouse,2,Other,Other,3.0,53,2.8868
+5859977,El Escalopin de Menu,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,5,4.8
+5859978,El Cafe de Lola,Gijon,$,1,Económico,Coffee & Tea,Coffee & Tea,1,Other,Other,4.5,6,3.8333
+5859996,Lagar El Fugitivo,Gijon,$,1,Económico,Barbecue; Spanish,Barbecue,2,Other,Other,3.5,27,3.6667
+5860033,La Paralela Cafe,Gijon,,,Sin dato,Pub,Pub,1,Other,Other,5.0,8,4.625
+5860077,El Rincon de la Guia,Gijon,,,Sin dato,,Sin dato,0,Other,Other,2.5,5,2.8
+5860122,Parrilla Verdemar,Gijon,$$ - $$$,2,Medio,Steakhouse; Spanish,Steakhouse,2,Other,Other,3.0,10,2.7
+5862690,Sidreria Avenida,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,27,4.1111
+5862741,Cafe-Bar La Fragua,Gijon,$,1,Económico,Bar; Pub,Bar,2,Other,Other,4.5,8,4.375
+5862785,Ambigu Lounge de Bellavista,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,3.0,128,2.5391
+5862912,El Elefante Blanco Doner Kebab,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.5,4,3.75
+5862969,Restaurante El Tineo Gijon,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,67,4.2537
+5864443,Puzzle Bar Gijon,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.5,39,4.7692
+5864523,Cafeteria Juzgados,Gijon,$,1,Económico,Cafe; Spanish,Cafe,2,Other,Other,3.0,34,2.7353
+5864556,El Yaskaru Cafe Vinoteca Sport,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,7,3.1429
+5864810,Somio Park,Gijon,$$$$,3,Alto,Spanish; Steakhouse,Spanish,2,Other,Other,4.5,77,4.2727
+5868260,Bk Playa Gijon,Gijon,$,1,Económico,,Sin dato,0,Other,Other,1.0,5,1.0
+5870581,Pizzerialacompetenciagijon,Gijon,$,1,Económico,Pizza,Pizza,1,Other,Other,3.5,15,3.4
+5872963,Domino's Pizza Emilio Tuya,Gijon,$,1,Económico,Pizza; Fast Food,Pizza,2,Other,Other,2.5,49,2.102
+5877767,Defabula,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.5,23,3.087
+5877838,Laguinda,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,1,1.0
+5877988,Doner Kebab Poniente,Gijon,,,Sin dato,Middle Eastern,Middle Eastern,1,Other,Other,3.0,1,1.0
+5886051,Sidreria Restaurante Cuba,Gijon,,,Sin dato,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,15,4.1333
+5886072,Llagar de Cabuenes,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,159,2.5849
+5888467,Meson Casa Nano,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,4.0,12,3.8333
+5971654,Restaurante Las Rias Bajas,Gijon,$$ - $$$,2,Medio,Spanish; Wine Bar,Spanish,2,Other,Other,4.5,50,4.52
+5978585,L'utimo Chigrero,Gijon,$,1,Económico,Pizza; Bar,Pizza,2,Other,Other,3.0,20,2.95
+5979396,Cafe Mayerling,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,2.5,61,1.9344
+6124888,Cafeteria Olimpia,Gijon,,,Sin dato,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,3,5.0
+6221008,Bomarzo Restaurante,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.0,147,4.068
+6351814,Sidreria La Tonada,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,171,2.6491
+6372596,Carling Goal,Gijon,$$ - $$$,2,Medio,Bar; European,Bar,2,Other,Other,3.0,194,2.5206
+6417838,La Mejillonera,Gijon,$,1,Económico,,Sin dato,0,Other,Other,2.5,51,2.1765
+6552847,Gepetto Centro,Gijon,$$ - $$$,2,Medio,Italian; Mediterranean,Italian,2,Italian,Italian,3.5,236,3.4237
+6581139,Cafeteria Europa,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.0,72,2.9306
+6594214,Sidreria la Tropical del LLano,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,59,3.8305
+6600483,Meson Pulperia Tierras Gallegas,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,529,3.7694
+6635060,El Alvoroto,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.0,22,2.3636
+6635217,Restaurante Sidreria La Trafalaya,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,47,3.9149
+6714457,Aliter dulcia,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.5,194,3.3918
+6726790,Casa Mario,Gijon,,,Sin dato,Cafe; Barbecue,Cafe,2,Other,Other,3.0,2,3.0
+6731790,Cafeteria Vivaldi,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.5,14,4.3571
+6778523,El Carbayu,Gijon,$,1,Económico,Spanish; Steakhouse,Spanish,2,Other,Other,3.0,49,2.7551
+6785272,Go Sushi,Gijon,$$ - $$$,2,Medio,Japanese; Sushi,Japanese,2,Other,Other,4.0,115,4.0261
+6840002,Sidreria El Texu,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,39,4.1026
+6840723,Sidreria Xixon,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,1,5.0
+6846724,Casa Fernando,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,172,2.7151
+6878919,restaurante el torero,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,2.5,19,2.0526
+6889119,El Naranjo Vinateria,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.5,24,4.2917
+6896685,Sidreria Nosty,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,52,2.0769
+6947374,Casa Rober,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,165,2.6848
+6960334,La Bodega de Miguel,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,77,4.2597
+6966317,Casa Suncia,Gijon,$$ - $$$,2,Medio,Barbecue; Spanish,Barbecue,2,Other,Other,3.0,91,3.1209
+6985324,Sidreria La Corraina,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.0,29,2.8621
+7035159,El Paneru,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,31,3.6452
+7062336,Parrilla Casa Toni,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,54,4.0926
+7092948,La Huerta,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.0,75,3.0
+7094334,La Llosa,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,32,3.1875
+7128675,El Siete,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,3.0,40,2.875
+7175629,Sidreria EL Paraiso,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,10,4.2
+7180061,El Mercante,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.0,122,2.0902
+7191048,Rio Astur,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,82,4.3049
+7215958,Buguer Chopper,Gijon,$,1,Económico,Fast Food,Fast Food,1,Other,Other,5.0,9,4.8889
+7216633,La Divina Commedia,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,4.0,109,3.8899
+7226686,Bodegas Anchon,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,40,3.3
+7229805,Que No Te Lo Cuenten Gastrobar by Tlvap,Gijon,$$ - $$$,2,Medio,Mediterranean; Contemporary,Mediterranean,2,Other,Other,4.0,271,3.9631
+7243008,Chokoreto,Gijon,$$ - $$$,2,Medio,Bakeries; Cafe,Bakeries,2,Other,Other,4.0,43,3.3256
+7332449,Parrilla Lloca de la Xuanina,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,3.5,26,3.5769
+7342726,Sidreria Hermanos Blanco,Gijon,,,Sin dato,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,14,4.1429
+7345192,Punto Caramelo,Gijon,$$ - $$$,2,Medio,Coffee & Tea; European,Coffee & Tea,2,Other,Other,4.5,289,4.474
+7345514,Sidreria Nueva Uria,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.0,60,2.85
+7359513,La Bodeguita Del Medio,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,3.0,18,2.2778
+7595658,Padrino - Comida Sobre Masa,Gijon,$$ - $$$,2,Medio,Italian; Healthy,Italian,2,Italian,Italian,4.5,415,4.3518
+7621421,El Chaflan,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,62,3.6613
+7644250,La Corrada,Gijon,$,1,Económico,,Sin dato,0,Other,Other,4.0,13,3.0769
+7684781,Restaurante Sidreria El Tendido,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,65,3.3538
+7686558,La Teya,Gijon,$,1,Económico,,Sin dato,0,Other,Other,4.5,19,4.6316
+7705289,La Ostra Parrilla & Pulperia,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,42,3.8095
+7710662,Bar Casa Gabriel,Gijon,$$ - $$$,2,Medio,Seafood; Mediterranean,Seafood,2,Other,Other,4.5,223,4.2601
+7807419,PSICOTAPAS,Gijon,$$ - $$$,2,Medio,Bar; Spanish,Bar,2,Other,Other,4.5,7,4.4286
+7817816,El Cafe de Jota,Gijon,$$ - $$$,2,Medio,Cafe; Mediterranean,Cafe,2,Other,Other,4.5,9,4.8889
+7894552,Gastrocerveceria Tres,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,17,3.5294
+7914273,Bodega Moya,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.5,15,4.3333
+8011665,Sidreria Llagar del Llano,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,18,3.6111
+8011908,Restaurante El Camionero,Gijon,$$ - $$$,2,Medio,European; Spanish,European,2,Other,Other,4.5,24,4.7083
+8015604,Confiteria San Antonio,Gijon,$$ - $$$,2,Medio,Dessert; Cafe,Dessert,2,Other,Other,4.0,10,3.9
+8036169,Sidreria Asturias,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,140,3.5929
+8067527,La Casa Del Cafe,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.0,124,2.9032
+8068542,Sidreria Sporting,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,19,3.7895
+8114023,La Bocana,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,2.5,47,2.234
+8279187,Date un Capricho,Gijon,,,Sin dato,Cafe; Spanish,Cafe,2,Other,Other,4.5,1,5.0
+8286086,Los Espumeros,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,57,4.1053
+8311220,Pomme Sucre,Gijon,$$ - $$$,2,Medio,Dessert; Cafe,Dessert,2,Other,Other,3.5,31,3.2581
+8368358,Restaurante Angel,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,16,3.25
+8374202,La Fueya de Tomas,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,4.0,156,4.1603
+8384722,Restaurante sidreria El Quijote,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.5,2,3.0
+8393944,La Cuadra De Pachu,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.5,8,3.375
+8417015,Restaurante La Terraza De Porceyo,Gijon,$,1,Económico,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,49,3.551
+8420519,Rawcoco,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.5,128,3.5078
+8421034,Sidreria La Cabana,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,5,4.4
+8423292,Restaurante Los Pisones,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.0,215,3.8419
+8425490,Restaurante Los Patios,Gijon,$$ - $$$,2,Medio,Grill; Steakhouse,Grill,2,Other,Other,4.0,278,3.8633
+8427856,Turrones y Helados Coppelia,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,5.0,6,4.8333
+8434800,Restaurante - Merendero El Chabolu,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,69,3.4638
+8460025,Rincon de la Rioja,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,19,4.0
+8477066,El Calecho,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.5,14,4.2857
+8482285,Hong Kong,Gijon,$,1,Económico,Chinese; Asian,Chinese,2,Chinese,Otras,2.5,26,2.2692
+8491767,Pizzeria Venecia,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,4.0,47,4.0
+8499514,CACTUS Vermuteria & taperia,Gijon,$$ - $$$,2,Medio,International; Spanish,International,2,Other,Other,4.0,26,3.5385
+8526075,Restaurante La Cocina de Oscar Abadin,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,53,4.0755
+8545366,Merendero La Cabana,Gijon,$$ - $$$,2,Medio,Steakhouse; Spanish,Steakhouse,2,Other,Other,3.5,97,3.2062
+8548055,El Duque,Gijon,$$$$,3,Alto,Spanish,Spanish,1,Other,Other,4.5,9,4.5556
+8556009,Foster's Hollywood,Gijon,$$ - $$$,2,Medio,American,American,1,American,American,3.0,115,2.513
+8558839,Cafeteria Troya,Gijon,$,1,Económico,,Sin dato,0,Other,Other,4.0,6,4.1667
+8571059,Paradiso,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,38,3.8947
+8586344,La cocina de Lolo,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,176,4.4034
+8636391,Don Pio Cerveceria,Gijon,$,1,Económico,International; Spanish,International,2,Other,Other,4.5,13,4.6923
+8657216,My Sushi,Gijon,$$ - $$$,2,Medio,Japanese; Sushi,Japanese,2,Other,Other,4.0,60,3.9167
+8664434,Federico Verdu,Gijon,$,1,Económico,Dessert,Dessert,1,Other,Other,4.5,31,4.0645
+8665448,Sebastian Confiteria,Gijon,$$ - $$$,2,Medio,Dessert; Cafe,Dessert,2,Other,Other,3.5,21,3.7619
+8671384,Cafeteria Banus,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,2.5,21,2.1905
+8677818,Restaurante El Nuevo Parque,Gijon,$$$$,3,Alto,Spanish,Spanish,1,Other,Other,4.0,12,3.5833
+8684739,Cafe Coral,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.0,68,2.75
+8691379,Gastro Zumeria Las Mestas,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,13,3.5385
+8695913,La Casa De Estambul,Gijon,$,1,Económico,Chinese; Indian,Chinese,2,Chinese; Indian,Otras,3.5,2,3.5
+8710509,La Cocina De Laboral,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,55,3.5818
+8711422,Sidreria El Maldito,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,26,4.3846
+8720660,Confiteria La Fe,Gijon,$$ - $$$,2,Medio,Dessert,Dessert,1,Other,Other,4.0,47,4.1064
+8772423,Sidreria El Tajamar,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,8,4.0
+8786857,Tostadero Playa,Gijon,$$ - $$$,2,Medio,Pub,Pub,1,Other,Other,1.5,47,1.6809
+8821439,La Encina,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,1,4.0
+8847797,Cafeteria Deva Golf,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,5.0,4,5.0
+8864329,Restaurante Parrilla La Pampana Grill,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,80,3.2875
+9566630,Sidreria El Rincon De La Tata,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,3.5,33,3.4545
+9600715,Cafeteria Restaurante Nevada,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,15,3.4667
+9703044,Sidreria la Posada Blanca,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,77,3.8052
+9711663,El Solar De Marques,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,17,4.1765
+9720075,Burger King,Gijon,$,1,Económico,Fast Food,Fast Food,1,Other,Other,2.0,32,1.3438
+9739184,Sidreria Peon,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,3.0,8,3.25
+9747022,El Faisan Dorado,Gijon,$$ - $$$,2,Medio,International; Mediterranean,International,2,Other,Other,5.0,30,4.7667
+9768056,Munik,Gijon,$,1,Económico,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,3.0,9,2.4444
+9802783,El Cruce Restaurant,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.0,227,3.8106
+9838720,Sidreria La Tonada De La Guia,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,115,2.8087
+9876827,Coalla Gourmet Gijon,Gijon,$$ - $$$,2,Medio,Spanish; Wine Bar,Spanish,2,Other,Other,4.0,151,4.0728
+10026417,Parrilla Asador Don Pepe,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,4.0,54,3.8148
+10028014,El Refugio,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,15,3.8
+10036090,Lupita Restaurante Mexicano,Gijon,$$ - $$$,2,Medio,Mexican,Mexican,1,Mexican,Mexican,2.5,60,2.6
+10041358,Sidreria La Nueva Manzana de Xove,Gijon,$$ - $$$,2,Medio,Grill; Wine Bar,Grill,2,Other,Other,3.5,11,4.0909
+10059101,Zero5,Gijon,$,1,Económico,Bar; Spanish,Bar,2,Other,Other,4.0,26,4.1538
+10063279,Mepiachi,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.5,75,3.1333
+10084237,MORRISON Cerveceria Beer House Whiskey Bar,Gijon,$,1,Económico,Bar,Bar,1,Other,Other,4.5,19,4.5789
+10100300,Donan Castle Cerveceria,Gijon,$,1,Económico,German,German,1,Other,Other,4.5,59,4.4746
+10120529,Bar 4.70,Gijon,,,Sin dato,Pub; Spanish,Pub,2,Other,Other,2.5,16,2.375
+10132489,Cafe Camin,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,35,4.6286
+10134944,La Sidreria De Alberto,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,98,2.8571
+10140525,Bar Suenco,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,3.0,1,3.0
+10140547,Heladeria Los Dos Hermanos,Gijon,$,1,Económico,Dessert,Dessert,1,Other,Other,3.5,32,3.0938
+10147639,La Pumarada,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,26,3.4615
+10154109,Sidreria El Gallineru,Gijon,$,1,Económico,,Sin dato,0,Other,Other,4.0,11,3.7273
+10165811,Cafe Bar Mirasol,Gijon,,,Sin dato,Grill,Grill,1,Other,Other,4.0,10,4.2
+10168058,La Revoltosa Libros y Cafe,Gijon,$,1,Económico,Cafe,Cafe,1,Other,Other,5.0,28,4.8214
+10168065,Cafeteria Biarritz,Gijon,$,1,Económico,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,3.0,26,3.2308
+10168707,Casa Aurora,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.5,29,4.4138
+10174320,Sidreria El Marinan De Begona,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.0,46,2.6087
+10176605,Sidreria Restaurante La Torga,Gijon,$$ - $$$,2,Medio,Bar; Pub,Bar,2,Other,Other,4.0,1,5.0
+10193066,Pasteleria Arguelles,Gijon,$$ - $$$,2,Medio,Dessert; Cafe,Dessert,2,Other,Other,4.5,65,4.5538
+10195053,Helados La Ibense,Gijon,$$ - $$$,2,Medio,Dessert,Dessert,1,Other,Other,4.5,49,4.6531
+10228427,Restaurante merendero La Curuxa,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,106,3.9245
+10258850,Hosteleria y Eventos AleaCollado CB,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,22,3.1818
+10311423,Asador Grado,Gijon,$,1,Económico,Pizza; Steakhouse,Pizza,2,Other,Other,4.0,21,3.5714
+10321337,Sidreria El Piqueron,Gijon,$$ - $$$,2,Medio,Spanish; Bar,Spanish,2,Other,Other,4.0,31,4.0968
+10333652,Sidreria Guaniquei,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,20,4.1
+10364156,Sidreria La Tapa,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,27,4.4074
+10375153,Sidreria Boal,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,43,3.6512
+10375673,Gloria Gijon,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,3.5,491,3.7739
+10392063,Restaurante Uria,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.5,16,3.375
+10427316,Sidreria Burdeos,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,2.0,26,1.8462
+10453178,Bar Folgueira,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,20,3.95
+10455724,Raymond Cafe,Gijon,$,1,Económico,Cafe,Cafe,1,Other,Other,5.0,9,4.7778
+10459451,Pollo frito Pinky,Gijon,,,Sin dato,American,American,1,American,American,2.5,11,2.5455
+10461318,Vinos & Chacinas 2.0,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,228,4.2368
+10468225,Vermuteria La Pequena,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,54,4.6667
+10475745,Las Calacas,Gijon,$$ - $$$,2,Medio,Mexican; Latin,Mexican,2,Mexican,Mexican,4.5,411,4.4574
+10480936,La Alacena Gourmet,Gijon,,,Sin dato,American,American,1,American,American,4.5,5,4.6
+10484019,A Feira Pulperias,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,175,3.3543
+10486655,Confiteria La Real,Gijon,$,1,Económico,Dessert,Dessert,1,Other,Other,4.5,12,4.6667
+10512250,Sidreria La Serena,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.0,8,2.75
+10512534,El Indio Terraza Club,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,110,3.1818
+10535694,Confiteria Lujan,Gijon,$$ - $$$,2,Medio,Dessert; Cafe,Dessert,2,Other,Other,4.5,13,4.3846
+10539498,Cafeteria La Santina,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.0,22,2.7273
+10594595,Cafe Nuasett,Gijon,$$ - $$$,2,Medio,Cafe; Bar,Cafe,2,Other,Other,3.0,15,3.2667
+10594597,Korynto,Gijon,$,1,Económico,Cafe; Spanish,Cafe,2,Other,Other,4.0,45,3.6667
+10624439,Cafe Bar Papi Y Mami,Gijon,$,1,Económico,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,4.5,11,4.2727
+10626471,Heladeria Islandia,Gijon,$,1,Económico,Dessert; Cafe,Dessert,2,Other,Other,3.5,49,3.5714
+10642715,Sidreria Canteli,Gijon,$$ - $$$,2,Medio,Bar; Spanish,Bar,2,Other,Other,4.0,61,4.0656
+10669672,Fusi,Gijon,,,Sin dato,,Sin dato,0,Other,Other,5.0,3,5.0
+10672646,Restaurante El Filandon-Gijon,Gijon,$$ - $$$,2,Medio,Steakhouse; Mediterranean,Steakhouse,2,Other,Other,4.5,93,4.4301
+10675397,La Aduana,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.0,4,4.0
+10677402,Cafeteria Los Porches,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,5.0,2,5.0
+10691711,Cafeteria Don Pelayo,Gijon,$$ - $$$,2,Medio,Spanish; Cafe,Spanish,2,Other,Other,3.0,56,2.8214
+10719737,Del Llar,Gijon,$,1,Económico,,Sin dato,0,Other,Other,4.5,5,4.4
+10735318,Doce Mas Uno,Gijon,$$ - $$$,2,Medio,Spanish; American,Spanish,2,American,American,4.5,101,4.2673
+10735392,Meson Aurelio sidreria,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,26,3.8846
+10746750,Cafe Central,Gijon,$$ - $$$,2,Medio,Spanish; Cafe,Spanish,2,Other,Other,4.5,40,4.4
+10746804,Club Maritimo Astur Restaurante,Gijon,$$ - $$$,2,Medio,International; Mediterranean,International,2,Other,Other,4.5,44,4.3409
+10755142,Green Zone Bio,Gijon,$$ - $$$,2,Medio,Healthy; Cafe,Healthy,2,Other,Other,4.5,68,4.2647
+10760616,Marina Playa,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,10,1.4
+10771682,Sidreria Bar Casa Pepe,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,3.5,4,3.25
+10788141,Bar Ria Betanzo,Gijon,,,Sin dato,Cafe; Peruvian,Cafe,2,Other,Other,4.5,5,4.6
+10821505,Savoy Club,Gijon,$,1,Económico,Bar; American,Bar,2,American,American,4.0,29,3.8621
+10847558,Sidreria El Parque,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,27,3.6296
+10854570,Restaurante Sidreria La Nueva Iberica,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,55,3.9091
+10941552,Sidreria Parrilla La Allandesa,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,5.0,126,4.8333
+11444131,Zio Pig,Gijon,$$ - $$$,2,Medio,Italian; American,Italian,2,Italian; American,Italian; American,4.0,116,4.1983
+11488194,Vinateria Cerveceria Platero,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,30,4.0667
+11600864,Egb Gastrochenta,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,128,3.8828
+11616285,Sidreria Marinos,Gijon,$$ - $$$,2,Medio,Bar; Spanish,Bar,2,Other,Other,2.5,41,2.5854
+11650500,Sidreria La Pipa,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,73,4.1644
+11663358,Bar Siero,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.5,1,4.0
+11663733,Llagar el Trole,Gijon,$$$$,3,Alto,Grill; Seafood,Grill,2,Other,Other,4.5,43,4.3023
+11667378,El Fuero,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,11,4.4545
+11702410,Les Cabanes,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,27,3.5185
+11732211,Casa Jamino,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,18,4.3333
+11748919,Chocolateria Valor,Gijon,$$$$,3,Alto,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,2.5,57,2.4035
+11767602,Chocolateria-Cafeteria Mayca,Gijon,$,1,Económico,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,3.0,80,2.6375
+11810627,Pulperia El Pulpito,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.5,9,3.6667
+11812582,La Parrala Viesques,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.0,6,3.0
+11823954,Cafeteria Central,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,18,2.5
+11830589,Confiteria Dama,Gijon,,,Sin dato,Bakeries; Cafe,Bakeries,2,Other,Other,4.0,22,4.0
+11856322,A Cova de Morgan,Gijon,,,Sin dato,,Sin dato,0,Other,Other,2.5,1,2.0
+11893409,Casa Oscar,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,101,4.0792
+11903381,Restaurante Casa Corujo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,37,4.2432
+11938490,Platos Cocinados - Carnicera Rosi,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,5.0,7,5.0
+12003512,Primero Cafe,Gijon,$,1,Económico,Coffee & Tea; Mediterranean,Coffee & Tea,2,Other,Other,5.0,57,4.8772
+12021939,Labuenavida Fomento,Gijon,$$ - $$$,2,Medio,Cafe,Cafe,1,Other,Other,2.5,22,1.7273
+12032171,El Corsario Del Estanco De Mareo,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,11,3.0
+12048695,El Vino Del Inca,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.5,41,3.4146
+12115264,Restaurante Ume,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,230,4.1696
+12149526,Bodeguilla del Parque,Gijon,$,1,Económico,Bar; Cafe,Bar,2,Other,Other,4.5,14,4.6429
+12182653,CAFETON,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.0,125,3.112
+12229713,Mimmo by Padrino,Gijon,$$ - $$$,2,Medio,American; Barbecue,American,2,American,American,4.0,112,3.7589
+12302505,La Jaula de los 3 Grillos,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,239,4.4728
+12351125,Real Club Astur de Regatas,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,24,4.0417
+12361319,La Casa del Cafe 2,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.0,24,4.0417
+12432423,Sidreria El Alleranu de Fito,Gijon,$$ - $$$,2,Medio,Spanish; Seafood,Spanish,2,Other,Other,4.5,67,4.6269
+12444106,Restaurante La Vita,Gijon,$$ - $$$,2,Medio,Spanish; Bar,Spanish,2,Other,Other,4.0,42,4.1429
+12459732,Cafeteria el rincon de Maria,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,5.0,2,5.0
+12475216,El Roblon de Castiello,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.5,72,4.5
+12479642,Sidreria La Chicuelina,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.5,3,4.6667
+12540779,Sibuya Urban Sushi Bar Gijon,Gijon,$$ - $$$,2,Medio,Japanese; Sushi,Japanese,2,Other,Other,4.0,767,4.1812
+12572408,Parrilla Muno Poniente,Gijon,$$ - $$$,2,Medio,Steakhouse; Spanish,Steakhouse,2,Other,Other,3.0,172,2.843
+12579558,Asados el Maizal,Gijon,$$ - $$$,2,Medio,Italian; American,Italian,2,Italian; American,Italian; American,3.0,34,3.1176
+12624757,Mas Madera,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,4.5,54,4.3519
+12630071,La Terraza de Argenta,Gijon,$$ - $$$,2,Medio,Bar; Cafe,Bar,2,Other,Other,3.0,4,3.0
+12630107,La Cesteria,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.5,153,4.7059
+12633030,El Recetario de Alex Sampedro,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,4.5,319,4.2633
+12634062,La Marquesa Sidreria Parrilla,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,194,2.5515
+12652768,El Mercado Tapas,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,5.0,4,5.0
+12657283,Bella Vida Coffee Bar,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.5,29,4.3793
+12657829,Chaplin Cafeteria,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,2,4.0
+12669598,Gran Cafe Hollywood,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,3.0,6,2.6667
+12679324,Cafe Ladreda 36,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.0,6,3.0
+12702971,Cerveceria Vincer,Gijon,$,1,Económico,Brew Pub; Pub,Brew Pub,2,Other,Other,4.5,14,4.6429
+12703837,La bodega de Antonio,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,24,4.4583
+12722530,La Nueva Piedra,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,139,4.6763
+12722666,Sidreria Quirosanu,Gijon,$$ - $$$,2,Medio,Contemporary; Bar,Contemporary,2,Other,Other,4.0,43,3.814
+12729020,Cafe Mevel,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,2,3.0
+12732081,Zapi Vinos y Pica-Pica,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,17,4.1176
+12741686,Bovino Gijon,Gijon,$$ - $$$,2,Medio,Grill; Barbecue,Grill,2,Other,Other,3.5,102,3.5392
+12793445,Camarote 22,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,8,4.625
+12811312,Pura Vida Beach Club,Gijon,$$ - $$$,2,Medio,Mexican; Japanese,Mexican,2,Mexican,Mexican,3.0,244,3.1926
+12811666,Tierra Astur Espichas,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,204,4.2745
+12811669,Cafe Del Parchis,Gijon,,,Sin dato,Coffee & Tea; Bar,Coffee & Tea,2,Other,Other,2.5,8,2.125
+12811675,Noega Cafe,Gijon,,,Sin dato,Bar; Cafe,Bar,2,Other,Other,4.5,4,4.75
+12814046,Cafeteria Rogers,Gijon,$$ - $$$,2,Medio,Cafe; Spanish,Cafe,2,Other,Other,4.0,23,4.1739
+12814117,Espicha Park,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.5,18,3.3889
+12818701,Classic Restaurante,Gijon,,,Sin dato,Bar; Pub,Bar,2,Other,Other,3.5,4,3.25
+12831028,Sidreria Los Playos,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,31,3.7742
+12837523,Serendipia Bar Food&Sweet,Gijon,$,1,Económico,American; Healthy,American,2,American,American,4.5,354,4.6751
+12838979,Gota a gota,Gijon,$,1,Económico,Pub; Spanish,Pub,2,Other,Other,3.0,47,2.8298
+12843844,Vinateria La Perla,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,12,3.3333
+12852820,La Industrial,Gijon,,,Sin dato,Cafe; Spanish,Cafe,2,Other,Other,3.0,13,2.9231
+12856062,Sidreria Principado,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,2.5,13,2.5385
+12870841,Sol y Sombra,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,27,3.8519
+12874440,Subway,Gijon,$,1,Económico,Deli; American,Deli,2,American,American,3.5,13,3.5385
+12877284,Sidreria-Parrilla casa Colas,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,12,4.3333
+12880222,Taqueria Azteca,Gijon,$$ - $$$,2,Medio,Mexican,Mexican,1,Mexican,Mexican,4.5,139,4.4317
+12906262,El Retiro de La Guia,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,55,4.5636
+12910940,Casavella,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,34,3.7941
+12934085,La Dona Gastronomia Mexicana,Gijon,$$ - $$$,2,Medio,Mexican; Latin,Mexican,2,Mexican,Mexican,4.5,87,4.4598
+12950643,Restaurante El Carbayu,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,3.5,16,3.3125
+12954721,Asador La Curva,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.0,2,3.0
+12957370,Cafetal coffee and drinks,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.0,21,3.9048
+13010467,Bowies Cafe,Gijon,$,1,Económico,Spanish,Spanish,1,Other,Other,4.0,7,3.8571
+13075064,Panaderia el Pilar,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,1,5.0
+13130127,Sidreria Sella,Gijon,$$ - $$$,2,Medio,Bar; Pub,Bar,2,Other,Other,5.0,13,4.7692
+13144712,Sidreria La Falcata,Gijon,$$ - $$$,2,Medio,Steakhouse; Bar,Steakhouse,2,Other,Other,5.0,22,4.7273
+13150183,Toma 3 Gijon,Gijon,$,1,Económico,Bar; Cafe,Bar,2,Other,Other,4.0,28,4.0
+13236267,Sidreria El Cuetu,Gijon,$$ - $$$,2,Medio,Bar; Barbecue,Bar,2,Other,Other,4.0,33,3.8788
+13236905,Pulperia O Rincon Gallego,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,5,3.8
+13279869,La Marquesa del Natahoyo,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,2.5,45,2.6667
+13294365,Fonda & Tequila,Gijon,$$ - $$$,2,Medio,Mexican,Mexican,1,Mexican,Mexican,4.0,138,4.1087
+13373516,Cafe Bar La Taberna,Gijon,$,1,Económico,Cafe; Fast Food,Cafe,2,Other,Other,5.0,1,5.0
+13455744,La Canada Real Molinon,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.5,49,2.6939
+13533322,Bodega alvarin,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,19,3.9474
+13544214,Restaurante el Nuevo Carru,Gijon,$$ - $$$,2,Medio,Spanish; Caribbean,Spanish,2,Other,Other,5.0,24,4.8333
+13547745,El Rincon de Levante Arroceria,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,4.0,19,3.7368
+13951597,EL Horreo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,23,3.4348
+13952680,Tabor,Gijon,$,1,Económico,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,26,4.5385
+13966622,La Mamma,Gijon,$$ - $$$,2,Medio,Italian; European,Italian,2,Italian,Italian,4.0,42,4.1667
+13976408,Bar El Pilar,Gijon,$,1,Económico,Spanish; Steakhouse,Spanish,2,Other,Other,4.0,7,3.5714
+13997531,Mirka,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.5,17,4.5294
+13998670,Sidreria El Rincon De Celia,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,188,4.6755
+14043111,El Cafe de Macondo,Gijon,$,1,Económico,Cafe,Cafe,1,Other,Other,5.0,9,5.0
+14060674,De Penas gastrotienda,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,5.0,6,4.8333
+14065732,Bistro 21,Gijon,$$ - $$$,2,Medio,International; Mediterranean,International,2,Other,Other,4.5,253,4.6759
+14106179,Zascandil,Gijon,$$ - $$$,2,Medio,Spanish; Contemporary,Spanish,2,Other,Other,4.0,131,3.9313
+14140446,La Comtienda Fomento,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,158,4.2658
+14168036,Golfo Vermuteria & Casual Food,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,114,4.5439
+14397098,Los Jarochos,Gijon,,,Sin dato,Mexican,Mexican,1,Mexican,Mexican,4.0,14,4.0714
+14514361,Gijon Del Alma Bar,Gijon,,,Sin dato,Bar; Pub,Bar,2,Other,Other,3.5,4,3.25
+14766190,Los Mexicanos Restaurante,Gijon,$$ - $$$,2,Medio,Mexican; Latin,Mexican,2,Mexican,Mexican,4.0,71,4.0845
+14767917,Bar El Anden,Gijon,$,1,Económico,Spanish; Mediterranean,Spanish,2,Other,Other,5.0,22,4.8636
+14772032,Puerta La Villa,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,12,4.5833
+14797789,Tar d'abeu,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,98,4.449
+14864513,Sixtos,Gijon,$$ - $$$,2,Medio,Spanish; Healthy,Spanish,2,Other,Other,4.5,166,4.6265
+14934305,Nani & Co Coffee,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.0,66,2.7727
+14952402,Boccalino Capua,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,3.5,58,3.4483
+14971377,Cafeteria Bariloche,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,2.0,10,1.9
+14977716,Restaurante-Pulperia JACINTO GRANDIO,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,4,2.75
+14981094,Las Xareras,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,1,4.0
+14981116,Pan Chef,Gijon,$,1,Económico,Bakeries; Spanish,Bakeries,2,Other,Other,5.0,2,5.0
+14983310,Toto,Gijon,$$ - $$$,2,Medio,Italian,Italian,1,Italian,Italian,4.0,60,4.0833
+14998551,Cafeteria El Pinar,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,3.5,23,3.3478
+15002528,Colorado Beer & Drink's,Gijon,,,Sin dato,Brew Pub; Pub,Brew Pub,2,Other,Other,5.0,7,5.0
+15008474,Camilo de Blas,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,2.5,12,2.3333
+15026800,Papa John's Pizza,Gijon,$,1,Económico,Italian; Pizza,Italian,2,Italian,Italian,2.0,22,1.9545
+15033567,Collada,Gijon,$,1,Económico,,Sin dato,0,Other,Other,2.5,8,2.375
+15033580,Confiteria Collada Bomboneria,Gijon,$$$$,3,Alto,Dessert; Deli,Dessert,2,Other,Other,3.5,6,3.3333
+15038372,Las Brasas del Marques,Gijon,$$ - $$$,2,Medio,Barbecue; Spanish,Barbecue,2,Other,Other,2.0,90,1.9111
+15039002,Arti pizza,Gijon,$,1,Económico,Quick Bites; Italian,Quick Bites,2,Italian,Italian,5.0,150,4.8667
+15042066,La Hacienda de la Abuela,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,12,4.5833
+15042083,Llagarin de la Cabana,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,8,4.375
+15056678,Sotamar,Gijon,$$ - $$$,2,Medio,Seafood; Spanish,Seafood,2,Other,Other,2.5,50,2.38
+15058003,Parrilla Restaurante Casa Oliva,Gijon,$$ - $$$,2,Medio,Steakhouse; Barbecue,Steakhouse,2,Other,Other,4.0,73,4.1644
+15078034,Cafe Tenampa,Gijon,,,Sin dato,Cafe; Spanish,Cafe,2,Other,Other,1.5,6,1.5
+15081457,Asador de Pollos Conchi,Gijon,$,1,Económico,Steakhouse,Steakhouse,1,Other,Other,5.0,4,5.0
+15083550,El Tupper de la Guela,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,3,4.6667
+15098790,Pates Arriba,Gijon,,,Sin dato,Pub,Pub,1,Other,Other,3.0,8,3.125
+15111118,Oslo Sushi,Gijon,$$ - $$$,2,Medio,Japanese; Sushi,Japanese,2,Other,Other,4.5,115,4.6609
+15140063,La Criolla,Gijon,$,1,Económico,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,20,4.05
+15143245,Bar Mediterraneo Gijon,Gijon,,,Sin dato,Spanish; Mediterranean,Spanish,2,Other,Other,4.0,10,4.1
+15184963,La Cabana del Santu,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,28,2.8571
+15196964,Eban's,Gijon,$,1,Económico,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,106,4.5094
+15199451,Thup Thup,Gijon,$,1,Económico,Quick Bites; Fusion,Quick Bites,2,Other,Other,3.0,46,3.1739
+15321657,Santoro,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,4.5,23,4.6522
+15430340,Rumble Fish & Chips,Gijon,$,1,Económico,Brew Pub; Seafood,Brew Pub,2,Other,Other,4.5,94,4.383
+15553241,La Noche Da Hambre,Gijon,$$ - $$$,2,Medio,American,American,1,American,American,4.0,17,3.9412
+15634921,Farragua Restaurante,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,5.0,301,4.7575
+15636394,Sidreria Casa Carmen Hurle,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,134,4.5821
+15659371,Tapikin Cafe Bar,Gijon,$,1,Económico,Fast Food,Fast Food,1,Other,Other,4.5,18,4.7222
+15672632,El Capricho de Roces,Gijon,$,1,Económico,Cafe; Spanish,Cafe,2,Other,Other,4.5,5,4.4
+15677462,Okaeri,Gijon,$$ - $$$,2,Medio,Cafe,Cafe,1,Other,Other,5.0,37,4.7838
+15708453,Confiteria Imperial,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,4,4.0
+15849604,Nueva Taberna Contrueces,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,5.0,1,5.0
+15856862,Poke Kausa,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,10,3.3
+16649099,Sia Kara,Gijon,$$ - $$$,2,Medio,Caribbean; Spanish,Caribbean,2,Other,Other,4.5,13,4.4615
+16657661,La Casa del Cafe 3,Gijon,$$ - $$$,2,Medio,Cafe; Spanish,Cafe,2,Other,Other,2.5,3,2.3333
+16693467,Sidreria El Bruxu,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.5,7,4.1429
+16745881,Pulperia Camino de Santiago,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,29,3.9655
+16775148,La Mafia se Sienta a la Mesa,Gijon,$$ - $$$,2,Medio,Italian,Italian,1,Italian,Italian,3.0,81,2.8025
+16819865,Amares Gastronomia,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,95,4.7263
+16821008,Moka Confiteria,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,2.5,6,2.6667
+16826915,Sidreria Las Mareas,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,5.0,19,4.7895
+16841385,Balbona Pasteleros,Gijon,,,Sin dato,Bakeries; Cafe,Bakeries,2,Other,Other,3.0,9,2.8889
+16882049,Catlove Coffee,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.0,81,3.7037
+16907392,Nachos & Burritos,Gijon,$$ - $$$,2,Medio,Mexican; Fast Food,Mexican,2,Mexican,Mexican,2.5,5,2.4
+17143089,Casa Alegria,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,26,3.5
+17227929,Cafeteria Donato's,Gijon,,,Sin dato,Cafe; European,Cafe,2,Other,Other,5.0,1,5.0
+17234039,Le Petit Cafe gijon,Gijon,,,Sin dato,Cafe; Fast Food,Cafe,2,Other,Other,5.0,1,5.0
+17288063,Sidreria La Mona,Gijon,$$ - $$$,2,Medio,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,8,4.375
+17288208,MamaGuaja,Gijon,$$$$,3,Alto,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,278,3.9353
+17295013,Gastrobar El Pasein,Gijon,,,Sin dato,Mediterranean,Mediterranean,1,Other,Other,4.5,5,4.6
+17323969,Flow Food,Gijon,$$ - $$$,2,Medio,International; Healthy,International,2,Other,Other,5.0,47,4.8085
+17414714,Badis,Gijon,,,Sin dato,,Sin dato,0,Other,Other,1.0,2,1.0
+17416179,Bowie's Meal House,Gijon,$$ - $$$,2,Medio,International; American,International,2,American,American,3.5,25,3.72
+17444730,Vacuno,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,3.5,72,3.5694
+17450981,Meson Sidreria Pascual,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,1,5.0
+17457477,Asador de Pollos La Santina,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,4,3.75
+17478782,Mostaza y Media,Gijon,$$ - $$$,2,Medio,Healthy; Spanish,Healthy,2,Other,Other,4.5,41,4.5122
+17535799,Sidreria Restaurante Parrilla la Botella,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.5,3,4.3333
+17536316,Restaurante Kraken,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,221,4.2805
+17561904,Sidrerias el Mallu,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,74,3.4595
+17571374,La Galla Tasca Vegana,Gijon,$,1,Económico,,Sin dato,0,Other,Other,4.0,44,4.2273
+17593988,Cafe Tree,Gijon,$$ - $$$,2,Medio,Bar; Cafe,Bar,2,Other,Other,2.0,7,2.0
+17614274,Al Peso,Gijon,,,Sin dato,Bar; Spanish,Bar,2,Other,Other,4.5,3,4.3333
+17634863,El Jardin de Gloria,Gijon,$$ - $$$,2,Medio,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,4.5,33,4.4848
+17660342,Maizal Food Lovers,Gijon,$$ - $$$,2,Medio,American,American,1,American,American,4.0,89,4.0674
+17689136,Sidreria Santi,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,5.0,1,5.0
+17700662,Baffi Gentlebar,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,5.0,1,5.0
+17701140,Merendero El Peregrin,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,3,3.6667
+17709914,Bar Restaurante O'rison,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,29,2.8621
+17751498,Heladeria Los Dos Hermanos,Gijon,,,Sin dato,Dessert; Cafe,Dessert,2,Other,Other,4.5,6,5.0
+17839364,Cafe Art Noir,Gijon,,,Sin dato,Cafe; Spanish,Cafe,2,Other,Other,2.5,2,2.5
+17839653,El menir,Gijon,,,Sin dato,,Sin dato,0,Other,Other,5.0,2,5.0
+17839665,Sidreria Danny's,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,4,5.0
+18153702,Wabisabi Ramen Bar,Gijon,$$ - $$$,2,Medio,Japanese; Asian,Japanese,2,Other,Other,4.5,107,4.3925
+18154406,Cafe Bar Plaza Doze,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.0,4,2.75
+18206608,El Cafe De La Arena,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,3.0,1,3.0
+18322082,Acicorbo,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,2,4.0
+18457056,Churreria La Gloria,Gijon,$$ - $$$,2,Medio,,Sin dato,0,Other,Other,4.0,7,4.0
+18546219,Bocaditos de Poniente,Gijon,$,1,Económico,,Sin dato,0,Other,Other,2.0,6,2.1667
+18717233,Ice Wave,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,2,4.0
+18718398,Enol Cafeteria,Gijon,,,Sin dato,,Sin dato,0,Other,Other,2.0,5,2.0
+18758035,El Almacen,Gijon,$,1,Económico,Spanish; Mediterranean,Spanish,2,Other,Other,4.5,34,4.2647
+18895871,A Feira (La Arena),Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,5,3.2
+18940852,Robi,Gijon,$,1,Económico,,Sin dato,0,Other,Other,3.5,26,3.4615
+18978394,Le menhir,Gijon,$$ - $$$,2,Medio,French,French,1,Other,Other,4.5,66,4.6667
+19062420,Cafe La Molina,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,4.0,1,4.0
+19067783,Pasteleria Praline,Gijon,,,Sin dato,Bakeries; Cafe,Bakeries,2,Other,Other,4.5,15,4.5333
+19173531,El Borne By Galan De Alejandro,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,143,4.3007
+19262025,A Tu Gusto,Gijon,,,Sin dato,,Sin dato,0,Other,Other,5.0,1,5.0
+19272585,Sidreria El Chisqueru de la Algodonera,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,14,3.5714
+19410526,Cafeteria Grupo,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,1,3.0
+19510657,Parrilla Avelino Eugenio,Gijon,,,Sin dato,Steakhouse,Steakhouse,1,Other,Other,3.0,16,2.9375
+19519554,Arana,Gijon,$$ - $$$,2,Medio,Spanish; European,Spanish,2,Other,Other,3.5,12,3.5
+19568114,Baltico,Gijon,$,1,Económico,,Sin dato,0,Other,Other,5.0,3,5.0
+19604552,Gran Taberna Del Tio,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.0,2,3.0
+19609372,Pizzastur,Gijon,,,Sin dato,Pizza,Pizza,1,Other,Other,2.5,3,2.3333
+19620388,Cafe Bar Alambique,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.5,2,4.5
+19631029,Fartukatexixon,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,2,4.5
+19632615,Lia Restaurant,Gijon,$$ - $$$,2,Medio,Brazilian; Mediterranean,Brazilian,2,Other,Other,4.5,73,4.2603
+19652431,Fartukate,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,2.5,3,2.3333
+19856508,La'rrecha Arepabar,Gijon,$,1,Económico,Caribbean; Latin,Caribbean,2,Other,Other,4.5,43,4.4651
+19865840,La Cacharreria,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.5,270,4.7185
+19879160,Cafe Guiana 1986,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,5.0,3,5.0
+20000599,La Cuchara de Mario,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,38,3.6053
+20060213,Al Peso,Gijon,$$ - $$$,2,Medio,Mediterranean; European,Mediterranean,2,Other,Other,3.0,9,3.2222
+20128961,El prao del Sol,Gijon,,,Sin dato,Bar; Cafe,Bar,2,Other,Other,2.5,35,2.4
+20174759,Santagloria,Gijon,$,1,Económico,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,2.5,21,2.6667
+20206154,Peces De Madera,Gijon,$$ - $$$,2,Medio,Spanish; Seafood,Spanish,2,Other,Other,4.0,51,3.7647
+20291839,Snooper,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,2,3.5
+20880578,Cafe Goya,Gijon,,,Sin dato,Cafe,Cafe,1,Other,Other,5.0,1,5.0
+20934342,Aroma Pizza Artesana,Gijon,$,1,Económico,Pizza; Cafe,Pizza,2,Other,Other,5.0,38,4.9737
+21059030,Bertys Burger,Gijon,$$ - $$$,2,Medio,American; Fast Food,American,2,American,American,3.0,206,3.1068
+21077841,Pizzeria La Competencia,Gijon,,,Sin dato,,Sin dato,0,Other,Other,2.0,12,1.6667
+21094743,Cafeteria Agora,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,2.0,1,3.0
+21096201,Machete Gijon,Gijon,$$ - $$$,2,Medio,Spanish; Diner,Spanish,2,Other,Other,3.5,16,3.4375
+21127799,La Taberna Asturiana,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,124,3.8629
+21139170,Truman,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,4,4.0
+21139497,La Piccola Stanza,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,5.0,98,4.7857
+21141123,Mi Paisano,Gijon,$$ - $$$,2,Medio,Chinese,Chinese,1,Chinese,Otras,4.0,21,3.9048
+21172518,El Cafe,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,4.0,1,4.0
+21178778,La Cesteria Cimavilla,Gijon,,,Sin dato,Italian; American,Italian,2,Italian; American,Italian; American,5.0,5,5.0
+21184389,Camelia Food and Art,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,78,3.8205
+21198517,Sancho la Merced,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.5,36,3.3611
+21198542,Lugar Del Vino Gijon,Gijon,,,Sin dato,Spanish; Wine Bar,Spanish,2,Other,Other,5.0,8,4.875
+21205533,Sidreria El Campanu,Gijon,$$ - $$$,2,Medio,Spanish,Spanish,1,Other,Other,3.5,28,3.4286
+21209232,Bar Las Calas,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,4,3.75
+21235327,Cafeteria La Fragata,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,4,3.75
+21275628,La Botelluka,Gijon,,,Sin dato,Bar; Pub,Bar,2,Other,Other,5.0,1,5.0
+21291156,Ginos El Molinon,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.0,20,3.05
+21299702,Kamado Asian Food Gijon,Gijon,$$ - $$$,2,Medio,Asian; Thai,Asian,2,Other,Other,4.0,150,4.1067
+21377234,Valentino Chocolatier Asturias,Gijon,$$ - $$$,2,Medio,Belgian; European,Belgian,2,Other,Other,5.0,2,5.0
+21380069,El Beyusco,Gijon,,,Sin dato,,Sin dato,0,Other,Other,1.0,1,1.0
+21510680,KFC,Gijon,,,Sin dato,,Sin dato,0,Other,Other,1.0,2,1.0
+22906473,Burger King,Gijon,,,Sin dato,,Sin dato,0,Other,Other,1.0,2,1.0
+22908408,Alberobello,Gijon,,,Sin dato,Italian,Italian,1,Italian,Italian,1.0,1,1.0
+23039295,Seis Estaciones,Gijon,$$ - $$$,2,Medio,Spanish; Steakhouse,Spanish,2,Other,Other,4.0,9,3.8889
+23045160,La Nueva Zamorana,Gijon,$$$$,3,Alto,Steakhouse; Seafood,Steakhouse,2,Other,Other,4.0,69,4.2319
+23095725,Recuerdame,Gijon,$$ - $$$,2,Medio,Mexican; Venezuelan,Mexican,2,Mexican,Mexican,4.5,34,4.2941
+23097690,Las Tortillas De Europa,Gijon,$$ - $$$,2,Medio,Barbecue; Spanish,Barbecue,2,Other,Other,3.0,31,3.0645
+23112712,Daio,Gijon,$$ - $$$,2,Medio,International; Healthy,International,2,Other,Other,5.0,14,5.0
+23150301,Gastrochigre,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.5,19,4.5789
+23215699,La Excusa Perfecta,Gijon,$$ - $$$,2,Medio,Spanish; Fusion,Spanish,2,Other,Other,4.5,95,4.5053
+23256727,Lupulo La Estrella Del Molinon,Gijon,$$ - $$$,2,Medio,Grill; Beer restaurants,Grill,2,Other,Other,3.5,49,3.5918
+23294214,Al Peso Viesques,Gijon,$$ - $$$,2,Medio,Spanish; Bar,Spanish,2,Other,Other,2.0,25,1.92
+23329153,La Piccola Stanza Arena,Gijon,$$ - $$$,2,Medio,Italian; Pizza,Italian,2,Italian,Italian,4.5,75,4.72
+23401945,Suiza Pizzeria Bibio,Gijon,,,Sin dato,Pizza; Cafe,Pizza,2,Other,Other,3.0,4,3.0
+23445979,Vendetta Rock&Beer,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.5,29,4.5862
+23449910,Cafe Bar Niord,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,7,3.1429
+23510596,Zion Cafe Restaurante En Gijon,Gijon,,,Sin dato,Steakhouse; Pizza,Steakhouse,2,Other,Other,3.5,4,3.25
+23528659,Pinocchio Gijon,Gijon,,,Sin dato,Italian,Italian,1,Italian,Italian,4.0,33,4.0606
+23547454,Chibiski Gijon,Gijon,$$ - $$$,2,Medio,Mexican,Mexican,1,Mexican,Mexican,4.5,430,4.5512
+23548636,Asador Casa Pio,Gijon,,,Sin dato,Spanish; Grill,Spanish,2,Other,Other,5.0,1,5.0
+23560014,Asgaya Sidra y Mas,Gijon,,,Sin dato,Mediterranean; Spanish,Mediterranean,2,Other,Other,3.5,27,3.6667
+23589024,Restaurante El Veleru,Gijon,$$ - $$$,2,Medio,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,79,4.1392
+23615357,Palacio De La Concepcion,Gijon,,,Sin dato,European,European,1,Other,Other,4.0,1,4.0
+23629274,Bar Orensana,Gijon,$,1,Económico,Bar; Cafe,Bar,2,Other,Other,4.5,7,4.4286
+23632113,Parrilla Asador Pinzales,Gijon,,,Sin dato,Steakhouse; Bar,Steakhouse,2,Other,Other,5.0,2,5.0
+23634393,Sybaris Gastro Deleite,Gijon,,,Sin dato,Italian; Pizza,Italian,2,Italian,Italian,5.0,12,4.75
+23650338,Pikiti Burguer,Gijon,,,Sin dato,American; Venezuelan,American,2,American,American,5.0,11,4.8182
+23652638,Restaurante Tandoori Cocina India en Gijon,Gijon,,,Sin dato,Indian; Middle Eastern,Indian,2,Indian,Indian,4.5,78,4.2051
+23652646,Kebab Centro,Gijon,,,Sin dato,European; Asian,European,2,Other,Other,5.0,2,5.0
+23681092,Restaurante Marisqueria El Cotaron,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,13,4.0
+23687328,Handicap Cafe,Gijon,,,Sin dato,Bar; Cafe,Bar,2,Other,Other,4.0,3,4.0
+23691472,Cafeteria Nudos,Gijon,,,Sin dato,Bar; Cafe,Bar,2,Other,Other,3.5,2,3.5
+23699615,Sirkan Gastrobar,Gijon,,,Sin dato,Cafe; Seafood,Cafe,2,Other,Other,5.0,4,5.0
+23717893,La Rula Gijon,Gijon,,,Sin dato,Seafood; Contemporary,Seafood,2,Other,Other,4.5,37,4.4865
+23748265,Boal Sidreria De Roncal,Gijon,,,Sin dato,European; Spanish,European,2,Other,Other,5.0,1,5.0
+23780641,Mi Huarique,Gijon,,,Sin dato,Peruvian; South American,Peruvian,2,American,American,4.5,15,4.6
+23928926,El Paralelo,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,5,4.0
+23963386,Ali Baba Y Las 40 Tapas,Gijon,,,Sin dato,Assyrian,Assyrian,1,Other,Other,4.0,1,4.0
+23977147,Kausa Taberna,Gijon,,,Sin dato,Peruvian; South American,Peruvian,2,American,American,3.5,35,3.6
+23981267,Parrilla Montelueno Gijon,Gijon,,,Sin dato,Steakhouse; Spanish,Steakhouse,2,Other,Other,4.5,13,4.4615
+23990258,Cafeteria San Rafael,Gijon,,,Sin dato,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,5.0,1,5.0
+24056331,Casa Marisa,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,13,3.8462
+24089237,Ambrosia,Gijon,,,Sin dato,Dessert; Spanish,Dessert,2,Other,Other,4.5,10,4.4
+24097658,Casa Pali Tierra Iberica,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,1,4.0
+24097660,Kfe Saionm,Gijon,,,Sin dato,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,4.0,1,4.0
+24101568,Restaurante Sidreria El Conde,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,2,4.0
+24102222,La Negra 1980,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,2,4.5
+24111548,Cafeteria Del Sur,Gijon,,,Sin dato,Coffee & Tea,Coffee & Tea,1,Other,Other,3.0,1,3.0
+24111560,Bar Tao Snack Bar,Gijon,,,Sin dato,Quick Bites; Spanish,Quick Bites,2,Other,Other,2.5,2,2.5
+24111598,Happy Donuts,Gijon,,,Sin dato,Dessert,Dessert,1,Other,Other,3.0,1,3.0
+24111807,Pizzeria Dolcevita Gijon,Gijon,,,Sin dato,Italian; Southern-Italian,Italian,2,Italian,Italian,4.0,8,3.875
+24116280,Restaurante El Pecado,Gijon,,,Sin dato,Steakhouse,Steakhouse,1,Other,Other,5.0,24,4.7917
+24155811,Restaurante Sidreria La Cabila,Gijon,,,Sin dato,Steakhouse; Seafood,Steakhouse,2,Other,Other,4.5,16,4.5625
+24165648,Torna Per Tutti,Gijon,,,Sin dato,Italian; Argentinean,Italian,2,Italian,Italian,5.0,13,5.0
+24176486,El Olivo,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,2,4.0
+24176573,La Pera Loca,Gijon,,,Sin dato,Quick Bites; Cafe,Quick Bites,2,Other,Other,4.0,1,4.0
+24186958,Blanca Arena,Gijon,,,Sin dato,Dessert,Dessert,1,Other,Other,5.0,2,5.0
+24777233,Cafe Vega Granda,Gijon,,,Sin dato,Barbecue; Grill,Barbecue,2,Other,Other,5.0,4,4.75
+24849172,Cremela,Gijon,$,1,Económico,Dessert,Dessert,1,Other,Other,5.0,1,5.0
+24871326,La Plattea De Gijón,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,7,3.2857
+24882587,Pns Jamoneria/ Vinateria,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,1,3.0
+24889091,Confiteria Los Molinos,Gijon,,,Sin dato,Bakeries,Bakeries,1,Other,Other,5.0,1,5.0
+24920248,Hierbas Dulces Gourmet,Gijon,,,Sin dato,Healthy,Healthy,1,Other,Other,5.0,1,5.0
+24950534,La Tinta Del Mar,Gijon,,,Sin dato,Coffee & Tea,Coffee & Tea,1,Other,Other,5.0,1,5.0
+24968935,Toro Sushi Gijon,Gijon,,,Sin dato,Japanese,Japanese,1,Other,Other,3.5,19,3.4737
+24980606,La Mas Canalla,Gijon,,,Sin dato,,Sin dato,0,Other,Other,4.0,6,3.8333
+25035319,BODE Pasteleria Gijon,Gijon,,,Sin dato,Bakeries; French,Bakeries,2,Other,Other,5.0,2,5.0
+25077851,Tasty Poke Bar,Gijon,$,1,Económico,Hawaiian,Hawaiian,1,Other,Other,5.0,1,5.0
+25087083,Marcos,Gijon,$$$$,3,Alto,Spanish,Spanish,1,Other,Other,5.0,7,5.0
+25153438,Casa Dorada,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,2.5,4,2.5
+25194432,Urbies 7 Mas 2,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.5,3,3.6667
+25198186,Carbone,Gijon,,,Sin dato,Italian,Italian,1,Italian,Italian,3.5,21,3.381
+25206266,Merendero Las Terrazas De Castiello,Gijon,,,Sin dato,Mediterranean,Mediterranean,1,Other,Other,4.0,3,4.0
+25207320,Soul Coffee,Gijon,,,Sin dato,Coffee & Tea,Coffee & Tea,1,Other,Other,3.0,2,3.0
+25213256,Pedro Pimienta Cafe & Coctel,Gijon,,,Sin dato,Mediterranean,Mediterranean,1,Other,Other,4.5,3,4.3333
+25223309,Los Caracoles Viavelez,Gijon,,,Sin dato,Seafood; Mediterranean,Seafood,2,Other,Other,4.5,15,3.6667
+25230389,Aceitunas Olibher Gijon,Gijon,,,Sin dato,Quick Bites; Mediterranean,Quick Bites,2,Other,Other,4.0,1,4.0
+25230396,El Portalon De La Ruta,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,2.0,1,2.0
+25246090,Alalunga Taberna Marinera,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.5,13,4.6154
+25257324,Cervezeria Betanzos,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,1,5.0
+25267771,La Solana De Somio,Gijon,,,Sin dato,European; Spanish,European,2,Other,Other,5.0,5,5.0
+25268128,Koa Poke Gijon,Gijon,,,Sin dato,Hawaiian; Japanese,Hawaiian,2,Other,Other,4.5,3,4.6667
+25299473,Elementos Wine Bar,Gijon,,,Sin dato,Mediterranean; Dining bars,Mediterranean,2,Other,Other,5.0,2,5.0
+25305173,Alle Mann,Gijon,,,Sin dato,German,German,1,Other,Other,3.0,6,2.8333
+25318160,California Street Food,Gijon,,,Sin dato,American,American,1,American,American,5.0,3,5.0
+25333724,Rustik Urban Kitchen Gijon,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,2,3.5
+25335284,Confiteria La Playa,Gijon,,,Sin dato,Bakeries,Bakeries,1,Other,Other,5.0,14,5.0
+25343135,Le Poulet Roti II,Gijon,,,Sin dato,Delivery Only; Spanish,Delivery Only,2,Other,Other,4.0,1,4.0
+25345254,Abarike,Gijon,$$$$,3,Alto,Seafood; Contemporary,Seafood,2,Other,Other,4.5,48,4.7083
+25353361,Emma Cafe,Gijon,,,Sin dato,Coffee & Tea; Mediterranean,Coffee & Tea,2,Other,Other,5.0,6,5.0
+25359966,Cafe de Mel,Gijon,,,Sin dato,Coffee & Tea; Cafe,Coffee & Tea,2,Other,Other,5.0,1,5.0
+25363188,Camila Gastrobar,Gijon,$$ - $$$,2,Medio,Mexican; Latin,Mexican,2,Mexican,Mexican,5.0,6,4.8333
+25388718,EL PORTALON DE AGUADO,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.5,4,3.25
+25391375,CAFE CON PAN,Gijon,,,Sin dato,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,4.0,1,4.0
+25417828,Gastrobar la fuente,Gijon,,,Sin dato,Coffee & Tea; Spanish,Coffee & Tea,2,Other,Other,2.0,1,2.0
+25420274,VINOTECA MALAUVA,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,1,4.0
+25432184,Les Cigarreres,Gijon,,,Sin dato,Brew Pub; Spanish,Brew Pub,2,Other,Other,5.0,2,5.0
+25432215,BLU COFFEE & BEERS,Gijon,,,Sin dato,,Sin dato,0,Other,Other,3.5,9,3.4444
+25434377,Cafe Vermuteria Entre Latas,Gijon,,,Sin dato,Bar; Cafe,Bar,2,Other,Other,5.0,1,5.0
+25439812,Restaurante Marisqueria Sidreria Dakar,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,2,5.0
+25573991,Sidreria La Maniega,Gijon,,,Sin dato,Mediterranean; Spanish,Mediterranean,2,Other,Other,4.0,7,4.0
+25691235,Merendero La Casina,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,4,4.0
+26015614,Shanti Coffee,Gijon,,,Sin dato,Specialty Food Market,Specialty Food Market,1,Other,Other,5.0,3,5.0
+26153295,El Cayor,Gijon,,,Sin dato,African,African,1,Other,Other,4.5,3,4.6667
+26208980,Sidreria La Roca,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,3.0,2,3.0
+26226392,La Vaca Asustada,Gijon,,,Sin dato,Steakhouse; Grill,Steakhouse,2,Other,Other,4.0,12,4.0833
+26242951,Centro cultural de Leorio,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,5.0,2,5.0
+26266318,Sidreria Alberto Brasa y Mar,Gijon,,,Sin dato,,Sin dato,0,Other,Other,5.0,1,5.0
+26435066,Pizzeria Coruxera,Gijon,,,Sin dato,Italian,Italian,1,Italian,Italian,3.0,1,3.0
+26447861,Sidreria gijon,Gijon,,,Sin dato,Spanish,Spanish,1,Other,Other,4.0,1,4.0
+26524023,Toro Burguer Lounge,Gijon,,,Sin dato,American,American,1,American,American,5.0,1,5.0
+26551529,Vesta Restobar,Gijon,,,Sin dato,Steakhouse; Bar,Steakhouse,2,Other,Other,5.0,1,5.0

@@ -1,0 +1,412 @@
+{
+  "metricas": {
+    "encuesta_filas_leidas": 1500,
+    "encuesta_filas_validas": 1500,
+    "encuesta_filas_rechazadas": 0,
+    "encuesta_promedio_calif_comida": 2.997333333333333,
+    "encuesta_pct_alta_satisfaccion": 0.134,
+    "resenas_filas_leidas": 53382,
+    "resenas_filas_validas": 53382,
+    "resenas_filas_rechazadas": 0,
+    "resenas_a_investigar": 26,
+    "resenas_rating_promedio": 3.8682140047206923,
+    "resenas_restaurantes": 779,
+    "resenas_periodo": [
+      "2017-01-01",
+      "2023-09-05"
+    ],
+    "resenas_por_tipo_origen": {
+      "Extranjero": 918,
+      "Gijón (local)": 13902,
+      "No determinado": 130,
+      "Resto de Asturias": 5367,
+      "Resto de España": 15522,
+      "Sin dato": 17543
+    },
+    "filas_Fact_Encuesta": 1500,
+    "filas_Dim_Cocina_Preferida": 5,
+    "filas_Dim_Ocasion": 3,
+    "filas_Dim_Franja_Visita": 3,
+    "filas_Dim_Frecuencia_Visita": 4,
+    "filas_Fact_Resenas": 53382,
+    "filas_Dim_Restaurante": 779,
+    "filas_Dim_Fecha": 2556,
+    "filas_Dim_Origen_Cliente": 1515,
+    "filas_Fact_Palabras": 448687,
+    "manifiesto": {
+      "dataset_raw.csv": "41e250ded9fe79b357e59bc21c83a0739e9738eb059a8510bba816b72415abd1",
+      "gijon_resenas_es_2017_2023.csv": "db9b1e39f31c64340c09a5aaeac69414497cde6b6eaf2028aa82f4d7365917cb",
+      "gijon_ubicacion_clientes.csv": "58e1c4c1feb907a8322d77a0f73e4443047ab961e114729082ec9f101765ec27"
+    }
+  },
+  "reglas": [
+    {
+      "fuente": "Encuesta",
+      "codigo": "E00",
+      "dimension": "Validez",
+      "regla": "Normalización: celdas con espacios sobrantes recortadas",
+      "accion": "Transformar",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E01",
+      "dimension": "Completitud",
+      "regla": "Columnas con > 20% de nulos (se evalúan, no se borran)",
+      "accion": "Evaluar",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E02",
+      "dimension": "Completitud",
+      "regla": "ID_Cliente nulo",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E03",
+      "dimension": "Validez",
+      "regla": "ID_Cliente no es un entero positivo",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E04",
+      "dimension": "Unicidad",
+      "regla": "Fila duplicada exacta (se conserva la primera)",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E05",
+      "dimension": "Unicidad",
+      "regla": "ID_Cliente repetido con respuestas distintas - A INVESTIGAR",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E06",
+      "dimension": "Completitud",
+      "regla": "Alguna respuesta obligatoria nula (no se imputa)",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E07",
+      "dimension": "Validez",
+      "regla": "Valor no numérico o decimal donde se espera un entero",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E08",
+      "dimension": "Validez",
+      "regla": "Edad fuera de 18-100 años",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E09",
+      "dimension": "Validez",
+      "regla": "Ingreso <= 0 o > 1.000.000",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E10",
+      "dimension": "Validez",
+      "regla": "Gasto promedio <= 0 o > 1.000",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E11",
+      "dimension": "Validez",
+      "regla": "Tiempo de espera fuera de 0-240 min",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E12",
+      "dimension": "Validez",
+      "regla": "Tamaño de grupo fuera de 1-30 personas",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E13",
+      "dimension": "Validez",
+      "regla": "Calificación fuera de la escala 1-5",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E14",
+      "dimension": "Validez",
+      "regla": "Bandera binaria distinta de 0/1",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E15",
+      "dimension": "Validez",
+      "regla": "Categoría fuera del conjunto permitido",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Encuesta",
+      "codigo": "E16",
+      "dimension": "Consistencia",
+      "regla": "Derivadas: Calif_Promedio (media de 3 calificaciones) y etiquetas en español",
+      "accion": "Derivar",
+      "filas": 1500
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R00",
+      "dimension": "Validez",
+      "regla": "Normalización: trim + marcas de nulo ('', NA, ?, -) en columnas estructuradas (texto libre solo ''); nulos resultantes",
+      "accion": "Transformar",
+      "filas": 2246
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R01",
+      "dimension": "Completitud",
+      "regla": "Columnas con > 20% de nulos (se evalúan, no se borran)",
+      "accion": "Evaluar",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R02",
+      "dimension": "Completitud",
+      "regla": "review_id nulo",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R03",
+      "dimension": "Validez",
+      "regla": "review_id no es un entero positivo",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R04",
+      "dimension": "Unicidad",
+      "regla": "Reseña duplicada exacta (se conserva la primera)",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R05",
+      "dimension": "Unicidad",
+      "regla": "review_id repetido con contenido distinto - A INVESTIGAR",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R06",
+      "dimension": "Completitud",
+      "regla": "Campo obligatorio nulo (id restaurante, fecha, rating, texto...)",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R07",
+      "dimension": "Validez",
+      "regla": "restaurant_id no es un entero positivo",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R08",
+      "dimension": "Validez",
+      "regla": "review_date no cumple el formato AAAA-MM-DD",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R09",
+      "dimension": "Consistencia",
+      "regla": "year_month no coincide con review_date",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R10",
+      "dimension": "Validez",
+      "regla": "Fecha fuera del periodo 2017-2023",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R11",
+      "dimension": "Validez",
+      "regla": "rating no numérico o con decimales (la escala es entera)",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R12",
+      "dimension": "Validez",
+      "regla": "rating fuera de 1-5",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R13",
+      "dimension": "Validez",
+      "regla": "restaurant_avg_rating fuera de 1-5 o no múltiplo de 0,5",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R14",
+      "dimension": "Validez",
+      "regla": "Idioma distinto de 'es'",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R15",
+      "dimension": "Validez",
+      "regla": "Ciudad distinta de Gijon",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R16",
+      "dimension": "Validez",
+      "regla": "price_interval fuera de {$, $$ - $$$, $$$$}",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R17",
+      "dimension": "Validez",
+      "regla": "cuisine_match_encuesta fuera de las 8 categorías conocidas",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R18",
+      "dimension": "Consistencia",
+      "regla": "Restaurante con atributos contradictorios entre reseñas - A INVESTIGAR",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R19",
+      "dimension": "Completitud",
+      "regla": "price_interval nulo -> se conserva con Nivel_Precio 'Sin dato'",
+      "accion": "Conservar y marcar",
+      "filas": 1462
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R20",
+      "dimension": "Completitud",
+      "regla": "cuisine_types nulo -> se conserva con Cocina_Principal 'Sin dato'",
+      "accion": "Conservar y marcar",
+      "filas": 784
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R21",
+      "dimension": "Unicidad",
+      "regla": "Texto repetido en reseñas distintas -> se marca Texto_Repetido='Sí' y se lista en rechazados/resenas_a_investigar.csv (no se borra)",
+      "accion": "Marcar",
+      "filas": 26
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R22",
+      "dimension": "Validez",
+      "regla": "Texto con caracteres corruptos de codificación",
+      "accion": "Eliminar (cuarentena)",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R24",
+      "dimension": "Completitud",
+      "regla": "Reseña sin fila en el archivo de ubicaciones -> se conserva con Tipo_Origen 'Sin dato'",
+      "accion": "Conservar y marcar",
+      "filas": 0
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R25",
+      "dimension": "Completitud",
+      "regla": "Ubicación vacía en el perfil -> Tipo_Origen 'Sin dato' (no se imputa)",
+      "accion": "Conservar y marcar",
+      "filas": 17543
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R26",
+      "dimension": "Validez",
+      "regla": "Ubicación que no permite saber el país ('World', 'Europe'...) -> 'No determinado'",
+      "accion": "Conservar y marcar",
+      "filas": 130
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R27",
+      "dimension": "Consistencia",
+      "regla": "Lugar de España fuera del catálogo de etl/ubicaciones.py -> Region_Cliente 'No identificada' (la ciudad se conserva como viene)",
+      "accion": "Conservar y marcar",
+      "filas": 1900
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R23",
+      "dimension": "Consistencia",
+      "regla": "cuisine_match_encuesta con < 100 reseñas agrupadas en 'Otras': ['Chinese', 'Chinese; Indian'] (reseñas afectadas)",
+      "accion": "Derivar columna aparte",
+      "filas": 49
+    },
+    {
+      "fuente": "Resenas",
+      "codigo": "R28",
+      "dimension": "Validez",
+      "regla": "Palabras clave: texto en minúsculas, solo letras, >= 3 letras, sin palabras vacías (etl/palabras_vacias.py); se guardan las 200 presentes en más reseñas de 50,082 distintas (filas de Fact_Palabras)",
+      "accion": "Derivar tabla",
+      "filas": 448687
+    }
+  ]
+}

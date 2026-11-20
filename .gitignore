@@ -1,6 +1,5 @@
-# Salidas generadas por el ETL (se regeneran con python etl/etl_main.py)
-datos_limpios/
-rechazados/
+# Las salidas del ETL (datos_limpios/, base_datos/, rechazados/) SÍ se suben para que se puedan revisar;
+# igual se regeneran con: python etl/etl_main.py
 __pycache__/
 *.pyc
 .venv/
