@@ -1,12 +1,12 @@
-"""Pipeline 2: reseñas de TripAdvisor (Gijón, español, 2017-2023) -> modelo estrella.
+"""Pipeline 2: reseñas de TripAdvisor (Gijón, 2017-2023) -> modelo estrella.
 
-    Fact_Resenas        una fila por reseña (grano: review_id)
-    Dim_Restaurante     una fila por restaurante (grano: restaurant_id)
-    Dim_Fecha           calendario continuo 2017-01-01 .. 2023-12-31 (una fila por día)
-    Dim_Origen_Cliente  una fila por origen normalizado del autor (ciudad, región, país, tipo de origen)
-    Fact_Palabras       una fila por (reseña, palabra clave) para las palabras clave más frecuentes
+    Fact_Resenas        una fila por reseña
+    Dim_Restaurante     una fila por restaurante
+    Dim_Fecha           un día por fila (2017-2023)
+    Dim_Origen_Cliente  un origen del autor por fila
+    Fact_Palabras       una fila por (reseña, palabra clave)
 
-Reglas R01..R28. Igual que en la encuesta: lo inválido se ELIMINA a cuarentena con su motivo, nada se imputa.
+Reglas R01..R28. Lo inválido va a cuarentena con su motivo; no se imputa nada.
 """
 import re
 import unicodedata
@@ -26,7 +26,7 @@ def procesar(bit, cua):
     print(f"\n== {FUENTE}: {config.ARCHIVO_RESENAS.name}")
 
     # ---------------------------------------------------------------- EXTRACT
-    crudo = leer_csv_texto(config.ARCHIVO_RESENAS)     # falla aquí si el archivo no es UTF-8 válido
+    crudo = leer_csv_texto(config.ARCHIVO_RESENAS)     # falla si no es UTF-8
     exigir_columnas(crudo, config.COLUMNAS_RESENAS, FUENTE)
     leidas = len(crudo)
     bit.metrica("resenas_filas_leidas", leidas)
@@ -44,25 +44,24 @@ def procesar(bit, cua):
         nonlocal df
         df = cua.rechazar(df, mascara, crudo, FUENTE, codigo, regla, dimension, bit)
 
-    # R01 Completitud: perfil de nulos (price_interval ~2,7 % y cuisine_types ~1,5 %: bajo el umbral)
+    # R01 Perfil de nulos por columna
     altas = perfil_nulos(df, df.columns, FUENTE, "R01", bit)
     if altas:
         bit.decision(FUENTE, f"Columnas con > 20 % de nulos: {altas}")
 
-    # R02-R03 Completitud/Validez del identificador (grano de la tabla de hechos)
+    # R02-R03 review_id presente y entero positivo
     rechazar(df["review_id"].isna(), "R02", "review_id nulo", "Completitud")
     rid = a_numero(df["review_id"])
     rechazar(no_es_numero(df["review_id"], rid) | no_es_entero(rid) | (rid <= 0),
              "R03", "review_id no es un entero positivo", "Validez")
 
-    # R04 Unicidad: duplicado exacto -> se conserva la primera aparición
+    # R04 Duplicado exacto: se queda la primera
     rechazar(df.duplicated(keep="first"), "R04", "Reseña duplicada exacta (se conserva la primera)", "Unicidad")
-    # R05 Unicidad: mismo review_id con contenido distinto -> todas las versiones A INVESTIGAR
+    # R05 Mismo review_id con contenido distinto: todas a investigar
     rechazar(df["review_id"].duplicated(keep=False), "R05",
              "review_id repetido con contenido distinto - A INVESTIGAR", "Unicidad")
 
-    # R06 Completitud: campos obligatorios. price_interval y cuisine_types NO son obligatorios
-    # (son atributos del restaurante, no de la reseña; ver R19-R20). title tampoco (la opinión está en text).
+    # R06 Campos obligatorios (precio, cocina y título no lo son)
     obligatorias = ["restaurant_id", "restaurant_name", "city", "cuisine_match_encuesta", "restaurant_avg_rating",
                     "review_date", "year_month", "rating", "text", "language"]
     rechazar(df[obligatorias].isna().any(axis=1), "R06",
@@ -72,7 +71,7 @@ def procesar(bit, cua):
     rechazar(no_es_numero(df["restaurant_id"], rest) | no_es_entero(rest) | (rest <= 0),
              "R07", "restaurant_id no es un entero positivo", "Validez")
 
-    # R08-R10 Fechas: formato EXPLÍCITO (nunca adivinar día/mes), coherencia con year_month y periodo
+    # R08-R10 Fecha: formato explícito, coincide con year_month y dentro del periodo
     fecha = pd.to_datetime(df["review_date"], format=config.FORMATO_FECHA, errors="coerce")
     rechazar(fecha.isna(), "R08", "review_date no cumple el formato AAAA-MM-DD", "Validez")
     fecha = fecha.loc[df.index]
@@ -82,50 +81,46 @@ def procesar(bit, cua):
     rechazar((fecha.dt.year < config.ANIO_INICIO) | (fecha.dt.year > config.ANIO_FIN), "R10",
              f"Fecha fuera del periodo {config.ANIO_INICIO}-{config.ANIO_FIN}", "Validez")
 
-    # R11-R12 rating: viene como '5.0' (decimal) pero la escala es entera 1-5
+    # R11-R12 rating entero de 1 a 5
     rating = a_numero(df["rating"])
     rechazar(no_es_numero(df["rating"], rating) | no_es_entero(rating), "R11",
              "rating no numérico o con decimales (la escala es entera)", "Validez")
     rechazar(fuera_de(a_numero(df["rating"]), config.RANGO_RATING), "R12", "rating fuera de 1-5", "Validez")
 
-    # R13 promedio del restaurante en TripAdvisor: 1-5 en pasos de 0,5
+    # R13 Promedio TripAdvisor: 1-5 en pasos de 0,5
     prom = a_numero(df["restaurant_avg_rating"])
     rechazar(prom.isna() | fuera_de(prom, config.RANGO_RATING_RESTAURANTE) | ((prom * 2) % 1 != 0),
              "R13", "restaurant_avg_rating fuera de 1-5 o no múltiplo de 0,5", "Validez")
 
-    # R14-R15 Alcance del dataset: solo español y solo Gijón
+    # R14-R15 Solo español y solo Gijón
     rechazar(df["language"] != config.IDIOMA_ESPERADO, "R14", "Idioma distinto de 'es'", "Validez")
     rechazar(df["city"] != config.CIUDAD_ESPERADA, "R15", "Ciudad distinta de Gijon", "Validez")
 
-    # R16-R17 Categorías contra conjunto permitido (los nulos de price_interval se tratan en R19)
+    # R16-R17 Categorías permitidas
     rechazar(df["price_interval"].notna() & ~df["price_interval"].isin(config.NIVEL_PRECIO), "R16",
              "price_interval fuera de {$, $$ - $$$, $$$$}", "Validez")
     rechazar(~df["cuisine_match_encuesta"].isin(config.CATEGORIAS_COCINA_ENCUESTA), "R17",
              "cuisine_match_encuesta fuera de las 8 categorías conocidas", "Validez")
 
-    # R18 Consistencia: un restaurante debe tener los MISMOS atributos en todas sus reseñas; si no,
-    # Dim_Restaurante no tendría una sola fila por restaurante. Esas reseñas quedan A INVESTIGAR.
+    # R18 Un restaurante debe tener los mismos atributos en todas sus reseñas
     atributos = ["restaurant_name", "price_interval", "cuisine_types", "cuisine_match_encuesta", "restaurant_avg_rating"]
     variantes = df[["restaurant_id"] + atributos].fillna("<nulo>").groupby("restaurant_id").nunique()
     conflicto = variantes[(variantes > 1).any(axis=1)].index
     rechazar(df["restaurant_id"].isin(conflicto), "R18",
              "Restaurante con atributos contradictorios entre reseñas - A INVESTIGAR", "Consistencia")
 
-    # R19-R20 Nulos de atributos del restaurante: se CONSERVAN como "Sin dato" (no se imputan ni se borran).
-    # Razón: la reseña (rating, texto, fecha) es válida; el precio/cocina faltan en la ficha del restaurante.
-    # Borrarlas sesgaría el análisis de sentimiento contra esos restaurantes. En Power BI se filtran si hace falta.
+    # R19-R20 Precio/cocina nulos: se conservan como "Sin dato" (la reseña sigue siendo válida)
     bit.registrar(FUENTE, "R19", "Completitud", "price_interval nulo -> se conserva con Nivel_Precio 'Sin dato'",
                   "Conservar y marcar", df["price_interval"].isna().sum())
     bit.registrar(FUENTE, "R20", "Completitud", "cuisine_types nulo -> se conserva con Cocina_Principal 'Sin dato'",
                   "Conservar y marcar", df["cuisine_types"].isna().sum())
 
-    # R21 Unicidad (a investigar, NO se borra): mismo texto en reseñas con review_id distinto.
-    # Pueden ser copias/spam o reseñas cortas que coinciden; sin evidencia no se borran, se marcan.
+    # R21 Texto repetido en reseñas distintas: se marca, no se borra
     repetido = df["text"].duplicated(keep=False)
     bit.registrar(FUENTE, "R21", "Unicidad", "Texto repetido en reseñas distintas -> se marca Texto_Repetido='Sí' "
                   "y se lista en rechazados/resenas_a_investigar.csv (no se borra)", "Marcar", repetido.sum())
 
-    # R22 Validez de codificación: caracteres de reemplazo (U+FFFD) o mojibake típico de UTF-8 leído como Latin-1
+    # R22 Caracteres corruptos de codificación
     raro = (df["text"].str.contains("�|Ã[\u0080-¿]", regex=True, na=False)
             | df["title"].str.contains("�|Ã[\u0080-¿]", regex=True, na=False))
     rechazar(raro, "R22", "Texto con caracteres corruptos de codificación", "Validez")
@@ -162,7 +157,7 @@ def procesar(bit, cua):
         "Longitud_Texto": df["text"].str.len().astype("int64"),
         "Texto_Repetido": df["Texto_Repetido"],
         "Idioma": df["language"].astype(str),
-        # al final a propósito: si se agregara en medio, las consultas de Power BI ya creadas se desplazarían
+        # al final para no desplazar las columnas en Power BI
         "Origen_ID": pd.Series(origen_id, index=df.index).astype("int64"),
     }).sort_values(["Fecha", "Review_ID"]).reset_index(drop=True)
 
@@ -191,7 +186,7 @@ def procesar(bit, cua):
 
 # ==================================================================================== PALABRAS CLAVE (R28)
 def palabras_de(texto, patron):
-    """Palabras distintas de una reseña: minúsculas, solo letras, largo mínimo, sin palabras vacías."""
+    """Palabras distintas de una reseña, sin palabras vacías."""
     salida = set()
     for p in patron.findall(texto.lower()):
         p = palabras_vacias.VARIANTES.get(p, p)
@@ -201,12 +196,9 @@ def palabras_de(texto, patron):
 
 
 def construir_fact_palabras(fact, bit):
-    """Una fila por (Review_ID, Palabra) para las TOP_PALABRAS presentes en más reseñas.
+    """Una fila por (Review_ID, Palabra) para las palabras más frecuentes.
 
-    Se cuenta cada palabra UNA vez por reseña (presencia, no repeticiones): así la medida
-    COUNTROWS(Fact_Palabras) = "número de reseñas que mencionan la palabra" y una reseña larga que repite
-    "comida" cinco veces no pesa más que otra. Como se relaciona con Fact_Resenas por Review_ID, en Power BI se
-    filtra por sentimiento, año, restaurante u origen sin hacer nada más."""
+    Cada palabra cuenta una vez por reseña, así COUNTROWS = reseñas que la mencionan."""
     patron = re.compile(config.PATRON_PALABRA)
     por_resena = fact[["Review_ID", "Texto"]].assign(Palabra=fact["Texto"].map(lambda t: sorted(palabras_de(t, patron))))
     larga = por_resena[["Review_ID", "Palabra"]].explode("Palabra").dropna(subset=["Palabra"])
@@ -223,7 +215,7 @@ def construir_fact_palabras(fact, bit):
 
 # ==================================================================================== ORIGEN DEL CLIENTE
 def normalizar_lugar(texto):
-    """Minúsculas, sin tildes y espacios simples: 'Gijón ' -> 'gijon'. Solo para BUSCAR en el catálogo."""
+    """'Gijón ' -> 'gijon' (para buscar en el catálogo)."""
     texto = unicodedata.normalize("NFKD", str(texto))
     texto = "".join(c for c in texto if not unicodedata.combining(c))
     return re.sub(r"\s+", " ", texto.lower()).strip()
@@ -233,17 +225,15 @@ _MINUSCULAS = {"de", "del", "la", "las", "los", "el", "y", "i", "da", "do", "dos
 
 
 def nombre_visible(clave):
-    """Para lugares que NO están en el catálogo: 'pola de siero' -> 'Pola de Siero' (sin tildes: no se adivinan)."""
+    """'pola de siero' -> 'Pola de Siero' (lugares fuera del catálogo)."""
     palabras = clave.split(" ")
     return " ".join(p if (i and p in _MINUSCULAS) else p[:1].upper() + p[1:] for i, p in enumerate(palabras))
 
 
 def interpretar_ubicacion(texto):
-    """Texto libre del perfil -> (ciudad, región, país, tipo_origen, regla_aplicada).
-
-    regla_aplicada es None si se identificó todo, o el código de la regla que explica por qué no (R25-R27)."""
+    """Ubicación libre -> (ciudad, región, país, tipo_origen, regla). regla es None o R25-R27."""
     sd, nd, ni = config.ETIQUETA_SIN_DATO, config.ETIQUETA_NO_DETERMINADO, config.ETIQUETA_NO_IDENTIFICADA
-    # Los paréntesis también separan: "Toledo (España)" -> "Toledo, España"
+    # "Toledo (España)" -> "Toledo, España"
     partes = [normalizar_lugar(p) for p in re.split(r"[,()]", str(texto))]
     partes = [p for p in partes if p]
     if not partes:
@@ -258,14 +248,14 @@ def interpretar_ubicacion(texto):
         pais, lugares = cat.SUBDIVISIONES_EXTRANJERAS[ultima], partes[:-1]
     elif ultima in cat.LUGARES_ESPANA:                       # "gijon", "madrid, comunidad de madrid"
         pais, lugares = cat.ESPANA, partes
-    else:                                                     # "World", "Europe", o algo irreconocible
+    else:                                                     # "World", "Europe"...
         return nd, nd, nd, "No determinado", "R26"
 
     if pais != cat.ESPANA:
         ciudad = nombre_visible(lugares[0]) if lugares else ni
         return ciudad, config.REGION_EXTRANJERO, pais, "Extranjero", None
 
-    # España: primera parte que sea ciudad del catálogo; si solo hay región/provincia, ciudad "No identificada"
+    # España: primera ciudad del catálogo; si solo hay región, ciudad "No identificada"
     ciudad, region = None, None
     for lugar in lugares:
         if lugar in cat.LUGARES_ESPANA:
@@ -275,7 +265,7 @@ def interpretar_ubicacion(texto):
                 ciudad, region = c, r
                 break
     regla = None
-    if ciudad is None and region is None:                     # ciudad española fuera del catálogo, o solo "Spain"
+    if ciudad is None and region is None:                     # fuera del catálogo o solo "Spain"
         ciudad = nombre_visible(lugares[0]) if lugares else ni
         region, regla = ni, "R27"
     elif ciudad is None:
@@ -290,8 +280,7 @@ def interpretar_ubicacion(texto):
 
 
 def asignar_origen(df, bit):
-    """Une la ubicación del autor (archivo aparte) y la normaliza. Nada se borra: lo que no se puede saber se
-    etiqueta ('Sin dato', 'No determinado', 'No identificada') y se cuenta en la bitácora."""
+    """Une y normaliza la ubicación del autor. No borra nada: lo desconocido se etiqueta."""
     ub = leer_csv_texto(config.ARCHIVO_UBICACION)
     exigir_columnas(ub, config.COLUMNAS_UBICACION, "Ubicacion")
     ub["review_id"] = ub["review_id"].str.strip()
@@ -321,7 +310,7 @@ def asignar_origen(df, bit):
 
 
 def construir_dim_origen(df):
-    """Una fila por combinación tipo de origen + país + región + ciudad."""
+    """Una fila por tipo + país + región + ciudad."""
     claves = ["Tipo_Origen", "Pais_Cliente", "Region_Cliente", "Ciudad_Cliente"]
     dim = df.groupby(claves).size().rename("Num_Resenas").reset_index()
     dim["Tipo_Origen_Orden"] = dim["Tipo_Origen"].map(config.TIPO_ORIGEN).astype("int64")
@@ -332,24 +321,23 @@ def construir_dim_origen(df):
 
 
 def construir_dim_restaurante(df, fact, bit):
-    """Una fila por restaurante. Conserva los valores ORIGINALES y añade columnas normalizadas."""
+    """Una fila por restaurante: valores originales + columnas normalizadas."""
     r = (df.drop_duplicates("restaurant_id")
            [["restaurant_id", "restaurant_name", "city", "price_interval", "cuisine_types",
              "cuisine_match_encuesta", "restaurant_avg_rating"]].copy())
     r["Restaurant_ID"] = a_numero(r["restaurant_id"]).astype("int64")
 
-    # Precio: nivel ordenado 1-3 (nulo se queda nulo, con etiqueta "Sin dato" para los filtros)
+    # Precio: nivel 1-3 (nulo -> "Sin dato")
     r["Nivel_Precio"] = r["price_interval"].map(lambda v: config.NIVEL_PRECIO[v][0] if pd.notna(v) else None).astype("Int64")
     r["Precio_Etiqueta"] = r["price_interval"].map(
         lambda v: config.NIVEL_PRECIO[v][1] if pd.notna(v) else config.ETIQUETA_SIN_DATO)
 
-    # Cocina: lista en texto "Mediterranean; Spanish" -> tipo principal (el primero) y cuántos tipos hay
+    # Cocina: la primera es la principal + número de tipos
     lista = r["cuisine_types"].str.split(config.SEPARADOR_COCINAS)
     r["Cocina_Principal"] = lista.str[0].str.strip().fillna(config.ETIQUETA_SIN_DATO)
     r["Num_Tipos_Cocina"] = lista.map(lambda x: len(x) if isinstance(x, list) else 0).astype("int64")
 
-    # cuisine_match_encuesta (derivada por un compañero, NO viene de TripAdvisor): se conserva tal cual y,
-    # aparte, se agrupan las categorías con < 100 reseñas en "Otras" para que los gráficos sean legibles
+    # Categorías con pocas reseñas se agrupan en "Otras"
     por_cat = df["cuisine_match_encuesta"].value_counts()
     pequenas = set(por_cat[por_cat < config.MIN_RESENAS_CATEGORIA].index)
     r["Cocina_Encuesta_Agrupada"] = r["cuisine_match_encuesta"].where(~r["cuisine_match_encuesta"].isin(pequenas), "Otras")
@@ -358,7 +346,7 @@ def construir_dim_restaurante(df, fact, bit):
                   f"{sorted(pequenas)} (reseñas afectadas)", "Derivar columna aparte",
                   int(por_cat[list(pequenas)].sum()) if pequenas else 0)
 
-    # Agregados calculados desde NUESTRAS reseñas (distinto del promedio global que publica TripAdvisor)
+    # Conteo y promedio calculados con nuestras reseñas
     agg = fact.groupby("Restaurant_ID").agg(Num_Resenas=("Review_ID", "size"),
                                             Rating_Promedio_Resenas=("Rating", "mean")).reset_index()
     agg["Rating_Promedio_Resenas"] = agg["Rating_Promedio_Resenas"].round(4)
@@ -374,7 +362,7 @@ def construir_dim_restaurante(df, fact, bit):
 
 
 def construir_dim_fecha():
-    """Calendario CONTINUO de años completos (requisito de la inteligencia de tiempo de Power BI)."""
+    """Calendario continuo de años completos (lo exige Power BI)."""
     f = pd.date_range(f"{config.ANIO_INICIO}-01-01", f"{config.ANIO_FIN}-12-31", freq="D")
     return pd.DataFrame({
         "Fecha": f,
